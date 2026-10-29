@@ -1,0 +1,742 @@
+[
+ {
+  "sid": "12-001",
+  "arxiv": "2403.04132",
+  "title": "Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference",
+  "subtopic": "能力评测",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "众包成对比较与统计排序的开放评测平台，代表基于人类偏好的评测方法。"
+ },
+ {
+  "sid": "12-002",
+  "arxiv": "2311.12022",
+  "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+  "subtopic": "能力评测",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "专家编写、难以检索的研究生级问答基准，代表高难度知识推理评测。"
+ },
+ {
+  "sid": "12-003",
+  "arxiv": "2501.14249",
+  "title": "Humanity's Last Exam",
+  "subtopic": "能力评测",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "多学科前沿专家题目构成的封闭式难题基准，代表应对基准饱和的新评测。"
+ },
+ {
+  "sid": "12-004",
+  "arxiv": "2406.01574",
+  "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+  "subtopic": "能力评测",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "增加选项与推理题、降低提示敏感性的 MMLU 升级版。"
+ },
+ {
+  "sid": "12-005",
+  "arxiv": "2406.19314",
+  "title": "LiveBench: A Challenging, Contamination-Limited LLM Benchmark",
+  "subtopic": "能力评测",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "持续更新题目、客观自动评分以限制污染的基准。",
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "设计动机涉及数据污染，但主体是评测基准。"
+ },
+ {
+  "sid": "12-006",
+  "arxiv": "2311.07911",
+  "title": "Instruction-Following Evaluation for Large Language Models",
+  "subtopic": "能力评测",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以可自动验证的指令约束评估指令遵循能力（IFEval）。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "03 已将 IFEval 作为指令遵循评测认领；与本类能力评测交叉。"
+ },
+ {
+  "sid": "12-007",
+  "arxiv": "2411.15594",
+  "title": "A Survey on LLM-as-a-Judge",
+  "subtopic": "能力评测",
+  "type": "综述",
+  "priority": "高",
+  "reason": "系统梳理以 LLM 作评审的方法、可靠性与偏差，作为评测方法学综述。"
+ },
+ {
+  "sid": "12-008",
+  "arxiv": "2406.04127",
+  "title": "Are We Done with MMLU?",
+  "subtopic": "能力评测",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "人工审查 MMLU 标注错误并给出修订子集，揭示基准自身质量问题。"
+ },
+ {
+  "sid": "12-009",
+  "arxiv": "2211.09110",
+  "title": "Holistic Evaluation of Language Models",
+  "subtopic": "能力评测",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "多场景多指标的整体评测框架（HELM）。",
+  "old_reason": "HELM 确立了多场景、多指标（准确、校准、鲁棒、公平、效率）整体评测的范式，近年评测方法学工作普遍以其为参照，不可替代。"
+ },
+ {
+  "sid": "12-010",
+  "arxiv": "2411.00640",
+  "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations",
+  "subtopic": "可复现性",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "将评测视为抽样实验，给出置信区间与显著性分析的统计方法。"
+ },
+ {
+  "sid": "12-011",
+  "arxiv": "2405.14782",
+  "title": "Lessons from the Trenches on Reproducible Evaluation of Language Models",
+  "subtopic": "可复现性",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "总结 LLM 评测可复现性的常见陷阱与 lm-eval-harness 的实践。"
+ },
+ {
+  "sid": "12-012",
+  "arxiv": "2504.20879",
+  "title": "The Leaderboard Illusion",
+  "subtopic": "可复现性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分析排行榜中私下测试与数据访问不对称导致的系统性偏差。"
+ },
+ {
+  "sid": "12-013",
+  "arxiv": "2508.13144",
+  "title": "Signal and Noise: A Framework for Reducing Uncertainty in Language Model Evaluation",
+  "subtopic": "可复现性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以信噪比刻画基准可靠性并提出降低评测噪声的做法。"
+ },
+ {
+  "sid": "12-014",
+  "arxiv": "2401.00595",
+  "title": "State of What Art? A Call for Multi-Prompt LLM Evaluation",
+  "subtopic": "鲁棒性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "揭示单一提示评测结论对提示改写的敏感性并倡导多提示评测。"
+ },
+ {
+  "sid": "12-015",
+  "arxiv": "2311.05232",
+  "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+  "subtopic": "幻觉",
+  "type": "综述",
+  "priority": "高",
+  "reason": "LLM 幻觉的分类、成因、检测与缓解综述。"
+ },
+ {
+  "sid": "12-016",
+  "arxiv": "2411.04368",
+  "title": "Measuring short-form factuality in large language models",
+  "subtopic": "幻觉",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "短答事实性基准 SimpleQA，用于度量幻觉与校准。"
+ },
+ {
+  "sid": "12-017",
+  "arxiv": "2403.18802",
+  "title": "Long-form factuality in large language models",
+  "subtopic": "幻觉",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "长文本事实性基准与基于检索的自动评估（SAFE）。"
+ },
+ {
+  "sid": "12-018",
+  "arxiv": "2509.04664",
+  "title": "Why Language Models Hallucinate",
+  "subtopic": "幻觉",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "从训练与评测激励的统计视角解释幻觉成因。"
+ },
+ {
+  "sid": "12-019",
+  "arxiv": "2406.15927",
+  "title": "Semantic Entropy Probes: Robust and Cheap Hallucination Detection in LLMs",
+  "subtopic": "幻觉",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "用隐藏状态探针近似语义熵以低成本检测幻觉。"
+ },
+ {
+  "sid": "12-020",
+  "arxiv": "2404.18930",
+  "title": "Hallucination of Multimodal Large Language Models: A Survey",
+  "subtopic": "幻觉",
+  "type": "综述",
+  "priority": "中",
+  "reason": "多模态大模型幻觉的成因、评测与缓解综述。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "对象为多模态大模型；按约定多模态幻觉主分类归 12。"
+ },
+ {
+  "sid": "12-021",
+  "arxiv": "2311.07397",
+  "title": "AMBER: An LLM-free Multi-dimensional Benchmark for MLLMs Hallucination Evaluation",
+  "subtopic": "幻觉",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "无需 LLM 评分的多维多模态幻觉评测基准。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "多模态大模型幻觉评测，按约定主分类归 12。"
+ },
+ {
+  "sid": "12-022",
+  "arxiv": "2207.05221",
+  "title": "Language Models (Mostly) Know What They Know",
+  "subtopic": "不确定性",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "研究语言模型自我评估答案正确性的校准能力（P(True)）。",
+  "old_reason": "首个系统研究 LLM 自我知识与校准的工作，P(True)/P(IK) 是后续不确定性与幻觉检测研究的标准基线，不可替代。"
+ },
+ {
+  "sid": "12-023",
+  "arxiv": "2405.20003",
+  "title": "Kernel Language Entropy: Fine-grained Uncertainty Quantification for LLMs from Semantic Similarities",
+  "subtopic": "不确定性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "基于语义相似核的细粒度不确定性度量。"
+ },
+ {
+  "sid": "12-024",
+  "arxiv": "2406.08391",
+  "title": "Large Language Models Must Be Taught to Know What They Don't Know",
+  "subtopic": "不确定性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究通过少量微调获得校准的不确定性估计。"
+ },
+ {
+  "sid": "12-025",
+  "arxiv": "2402.10978",
+  "title": "Language Models with Conformal Factuality Guarantees",
+  "subtopic": "不确定性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以保形预测为 LLM 输出提供事实性的统计保证。"
+ },
+ {
+  "sid": "12-026",
+  "arxiv": "2503.15850",
+  "title": "Uncertainty Quantification and Confidence Calibration in Large Language Models: A Survey",
+  "subtopic": "不确定性",
+  "type": "综述",
+  "priority": "中",
+  "reason": "LLM 不确定性量化与置信度校准方法综述。"
+ },
+ {
+  "sid": "12-027",
+  "arxiv": "2406.04093",
+  "title": "Scaling and evaluating sparse autoencoders",
+  "subtopic": "可解释性",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "大规模训练与评估稀疏自编码器以提取可解释特征。"
+ },
+ {
+  "sid": "12-028",
+  "arxiv": "2408.05147",
+  "title": "Gemma Scope: Open Sparse Autoencoders Everywhere All At Once on Gemma 2",
+  "subtopic": "可解释性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在开放模型所有层上发布的 SAE 套件，支撑可复现的可解释性研究。"
+ },
+ {
+  "sid": "12-029",
+  "arxiv": "2406.11717",
+  "title": "Refusal in Language Models Is Mediated by a Single Direction",
+  "subtopic": "可解释性",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "发现拒答行为由残差流中单一方向介导，连接可解释性与安全。"
+ },
+ {
+  "sid": "12-030",
+  "arxiv": "2403.19647",
+  "title": "Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models",
+  "subtopic": "可解释性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "基于 SAE 特征的因果电路发现与编辑。"
+ },
+ {
+  "sid": "12-031",
+  "arxiv": "2501.16496",
+  "title": "Open Problems in Mechanistic Interpretability",
+  "subtopic": "可解释性",
+  "type": "综述",
+  "priority": "高",
+  "reason": "机制可解释性领域的开放问题综述。"
+ },
+ {
+  "sid": "12-032",
+  "arxiv": "2312.06681",
+  "title": "Steering Llama 2 via Contrastive Activation Addition",
+  "subtopic": "可解释性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以对比激活差向量引导模型行为的表示干预方法。"
+ },
+ {
+  "sid": "12-033",
+  "arxiv": "2505.05410",
+  "title": "Reasoning Models Don't Always Say What They Think",
+  "subtopic": "可解释性",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "评估推理模型思维链对其实际依据的忠实度。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "对象为推理模型，但研究问题是思维链忠实性与可监控性。"
+ },
+ {
+  "sid": "12-034",
+  "arxiv": "2507.21509",
+  "title": "Persona Vectors: Monitoring and Controlling Character Traits in Language Models",
+  "subtopic": "可解释性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "提取人格特质方向用于监测与控制模型行为。"
+ },
+ {
+  "sid": "12-035",
+  "arxiv": "2307.15043",
+  "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "基于梯度的通用可迁移越狱后缀攻击（GCG）。",
+  "old_reason": "GCG 是自动化越狱攻击的奠基工作，HarmBench 等近年基准与防御均以其为标准攻击基线，不可替代。"
+ },
+ {
+  "sid": "12-036",
+  "arxiv": "2402.04249",
+  "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "自动化红队与拒答鲁棒性的标准化评测框架。"
+ },
+ {
+  "sid": "12-037",
+  "arxiv": "2404.01318",
+  "title": "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "越狱攻击与防御的开放可复现基准。"
+ },
+ {
+  "sid": "12-038",
+  "arxiv": "2401.05566",
+  "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "研究植入后门的欺骗行为能否在安全训练后持续存在。"
+ },
+ {
+  "sid": "12-039",
+  "arxiv": "2412.14093",
+  "title": "Alignment faking in large language models",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "实证研究模型在训练情境中选择性服从以保持原有偏好的现象。"
+ },
+ {
+  "sid": "12-040",
+  "arxiv": "2501.18837",
+  "title": "Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以宪法规则合成数据训练输入/输出分类器防御通用越狱。"
+ },
+ {
+  "sid": "12-041",
+  "arxiv": "2406.04313",
+  "title": "Improving Alignment and Robustness with Circuit Breakers",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "通过表示重定向中断有害输出的防御方法。"
+ },
+ {
+  "sid": "12-042",
+  "arxiv": "2412.04984",
+  "title": "Frontier Models are Capable of In-context Scheming",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "评估前沿模型在给定目标下的情境内策划/欺骗能力。"
+ },
+ {
+  "sid": "12-043",
+  "arxiv": "2502.17424",
+  "title": "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "发现窄域微调（不安全代码）可引发广泛的失对齐行为。"
+ },
+ {
+  "sid": "12-044",
+  "arxiv": "2403.03218",
+  "title": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "危险知识代理评测基准及基于遗忘的风险降低方法。"
+ },
+ {
+  "sid": "12-045",
+  "arxiv": "2507.11473",
+  "title": "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "论证思维链可监控性对安全的价值及其脆弱性。"
+ },
+ {
+  "sid": "12-046",
+  "arxiv": "2410.05229",
+  "title": "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
+  "subtopic": "鲁棒性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以符号模板生成题目变体评估数学推理对扰动的鲁棒性。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "04 已将其作为数学推理评测认领；其扰动鲁棒性分析与本类鲁棒性交叉。",
+  "cross_only": true
+ },
+ {
+  "sid": "12-047",
+  "arxiv": "2412.03556",
+  "title": "Best-of-N Jailbreaking",
+  "subtopic": "鲁棒性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以随机增强重复采样的黑盒越狱，揭示跨模态输入扰动下的脆弱性。"
+ },
+ {
+  "sid": "12-048",
+  "arxiv": "2404.02151",
+  "title": "Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks",
+  "subtopic": "鲁棒性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "自适应攻击评估安全对齐模型的对抗鲁棒性。"
+ },
+ {
+  "sid": "12-049",
+  "arxiv": "2503.18813",
+  "title": "Defeating Prompt Injections by Design",
+  "subtopic": "鲁棒性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以控制流/数据流隔离从系统设计上防御提示注入（CaMeL）。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "应用场景为工具调用智能体，但贡献是安全防御设计。"
+ },
+ {
+  "sid": "12-050",
+  "arxiv": "2311.17035",
+  "title": "Scalable Extraction of Training Data from (Production) Language Models",
+  "subtopic": "隐私",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "从开源与生产模型中大规模提取记忆的训练数据。"
+ },
+ {
+  "sid": "12-051",
+  "arxiv": "2402.07841",
+  "title": "Do Membership Inference Attacks Work on Large Language Models?",
+  "subtopic": "隐私",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "系统评估成员推断攻击在预训练 LLM 上的有效性。",
+  "cross_only": true,
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "02 已将其作为预训练数据成员检测/污染检测相关工作认领；其隐私攻击评估与本类隐私方向交叉。"
+ },
+ {
+  "sid": "12-052",
+  "arxiv": "2403.06634",
+  "title": "Stealing Part of a Production Language Model",
+  "subtopic": "隐私",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "通过 API 恢复生产模型嵌入投影层的模型窃取攻击。"
+ },
+ {
+  "sid": "12-053",
+  "arxiv": "2401.06121",
+  "title": "TOFU: A Task of Fictitious Unlearning for LLMs",
+  "subtopic": "隐私",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "基于虚构作者数据的 LLM 遗忘评测任务。"
+ },
+ {
+  "sid": "12-054",
+  "arxiv": "2407.06460",
+  "title": "MUSE: Machine Unlearning Six-Way Evaluation for Language Models",
+  "subtopic": "隐私",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "从六个维度评估 LLM 遗忘方法。"
+ },
+ {
+  "sid": "12-055",
+  "arxiv": "2501.18914",
+  "title": "Scaling Laws for Differentially Private Language Models",
+  "subtopic": "隐私",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "差分隐私训练下语言模型的规模定律。"
+ },
+ {
+  "sid": "12-056",
+  "arxiv": "2403.00742",
+  "title": "Dialect prejudice predicts AI decisions about people's character, employability, and criminality",
+  "subtopic": "偏见",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "揭示模型对方言（AAE）的隐性偏见及其对决策的影响。"
+ },
+ {
+  "sid": "12-057",
+  "arxiv": "2402.04105",
+  "title": "Measuring Implicit Bias in Explicitly Unbiased Large Language Models",
+  "subtopic": "偏见",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "借鉴内隐联想测验度量表面无偏模型的隐性偏见。"
+ },
+ {
+  "sid": "12-058",
+  "arxiv": "2311.04892",
+  "title": "Bias Runs Deep: Implicit Reasoning Biases in Persona-Assigned LLMs",
+  "subtopic": "偏见",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究赋予人设后模型推理能力中的隐性偏见。"
+ },
+ {
+  "sid": "12-059",
+  "arxiv": "2312.03689",
+  "title": "Evaluating and Mitigating Discrimination in Language Model Decisions",
+  "subtopic": "偏见",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在模拟决策场景中评估人口属性歧视及提示层缓解。"
+ },
+ {
+  "sid": "12-060",
+  "arxiv": "2404.13076",
+  "title": "LLM Evaluators Recognize and Favor Their Own Generations",
+  "subtopic": "偏见",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究 LLM 评审的自我偏好偏差及其与自我识别的关系。"
+ },
+ {
+  "sid": "12-061",
+  "arxiv": "2406.11939",
+  "title": "From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline",
+  "subtopic": "能力评测",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "从众包数据自动构建高区分度基准。",
+  "reserve": true
+ },
+ {
+  "sid": "12-062",
+  "arxiv": "2406.08446",
+  "title": "OLMES: A Standard for Language Model Evaluations",
+  "subtopic": "可复现性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "可复现评测的标准化设定。",
+  "reserve": true
+ },
+ {
+  "sid": "12-063",
+  "arxiv": "2504.07086",
+  "title": "A Sober Look at Progress in Language Model Reasoning: Pitfalls and Paths to Reproducibility",
+  "subtopic": "可复现性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "推理评测中随机性与设置导致的不可复现问题。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "对象为推理评测，研究问题是可复现性。",
+  "reserve": true
+ },
+ {
+  "sid": "12-064",
+  "arxiv": "2311.14648",
+  "title": "Calibrated Language Models Must Hallucinate",
+  "subtopic": "幻觉",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "证明校准的语言模型对某些事实必然产生幻觉的理论下界。",
+  "reserve": true
+ },
+ {
+  "sid": "12-065",
+  "arxiv": "2402.03744",
+  "title": "INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection",
+  "subtopic": "幻觉",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "基于内部表示特征值的幻觉检测。",
+  "reserve": true
+ },
+ {
+  "sid": "12-066",
+  "arxiv": "2311.16922",
+  "title": "Mitigating Object Hallucinations in Large Vision-Language Models through Visual Contrastive Decoding",
+  "subtopic": "幻觉",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "视觉对比解码缓解多模态物体幻觉。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "多模态幻觉，按约定主分类归 12。",
+  "reserve": true
+ },
+ {
+  "sid": "12-067",
+  "arxiv": "2311.07383",
+  "title": "LM-Polygraph: Uncertainty Estimation for Language Models",
+  "subtopic": "不确定性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "LLM 不确定性估计方法的统一工具与基准。",
+  "reserve": true
+ },
+ {
+  "sid": "12-068",
+  "arxiv": "2501.17148",
+  "title": "AxBench: Steering LLMs? Even Simple Baselines Outperform Sparse Autoencoders",
+  "subtopic": "可解释性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "比较表示引导与 SAE 方法的基准。",
+  "reserve": true
+ },
+ {
+  "sid": "12-069",
+  "arxiv": "2312.06674",
+  "title": "Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "基于 LLM 的输入输出安全分类器。",
+  "reserve": true
+ },
+ {
+  "sid": "12-070",
+  "arxiv": "2406.05946",
+  "title": "Safety Alignment Should Be Made More Than Just a Few Tokens Deep",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分析安全对齐仅作用于前几个 token 的浅层性。",
+  "reserve": true
+ },
+ {
+  "sid": "12-071",
+  "arxiv": "2503.03750",
+  "title": "The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "区分诚实与准确性的评测基准。",
+  "reserve": true
+ },
+ {
+  "sid": "12-072",
+  "arxiv": "2402.06363",
+  "title": "StruQ: Defending Against Prompt Injection with Structured Queries",
+  "subtopic": "鲁棒性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以结构化查询分离指令与数据防御提示注入。",
+  "reserve": true
+ },
+ {
+  "sid": "12-073",
+  "arxiv": "2311.05608",
+  "title": "FigStep: Jailbreaking Large Vision-language Models via Typographic Visual Prompts",
+  "subtopic": "鲁棒性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以排版图像绕过视觉语言模型安全对齐。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "对象为视觉语言模型，贡献是安全攻击评测。",
+  "reserve": true
+ },
+ {
+  "sid": "12-074",
+  "arxiv": "2402.19361",
+  "title": "Watermark Stealing in Large Language Models",
+  "subtopic": "隐私",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "对 LLM 水印的窃取与伪造攻击。",
+  "reserve": true
+ },
+ {
+  "sid": "12-075",
+  "arxiv": "2402.01789",
+  "title": "The Political Preferences of LLMs",
+  "subtopic": "偏见",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以多种政治倾向测试评估 LLM 的政治偏好。",
+  "reserve": true
+ }
+]

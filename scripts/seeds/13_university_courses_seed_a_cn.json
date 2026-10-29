@@ -1,0 +1,378 @@
+[
+ {
+  "sid": "13-A01",
+  "kind": "course",
+  "university": "Stanford University",
+  "course_code": "CS224N",
+  "course_title": "Natural Language Processing with Deep Learning",
+  "term": "Winter 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Diyi Yang",
+   "Yejin Choi"
+  ],
+  "official_url": "https://web.stanford.edu/class/cs224n/",
+  "schedule_url": "https://web.stanford.edu/class/cs224n/#schedule",
+  "verification_basis": "课程主页标题“CS224N: Natural Language Processing with Deep Learning, Stanford / Winter 2026”、Instructors 栏 Diyi Yang / Yejin Choi 及日程表见 https://web.stanford.edu/class/cs224n/",
+  "dir_name": "Stanford_CS224N_2026Winter_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture01-intro.pdf",
+    "name": "cs224n-2026-lecture01-intro_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1a Intro (Jan 6)"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture01-history.pdf",
+    "name": "cs224n-2026-lecture01-history_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1b History of NLP (Jan 6)"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture02-wordvecs.pdf",
+    "name": "cs224n-2026-lecture02-wordvecs_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Word Vectors"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture03-neuralnets.pdf",
+    "name": "cs224n-2026-lecture03-neuralnets_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Backpropagation and Neural Network Basics"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture04-rnnlm.pdf",
+    "name": "cs224n-2026-lecture04-rnnlm_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Language Models and RNNs"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture05-transformers.pdf",
+    "name": "cs224n-2026-lecture05-transformers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Transformers"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture06-final-project.pdf",
+    "name": "cs224n-2026-lecture06-final-project_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 Final Projects; Practical Tips"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture07-pretraining.pdf",
+    "name": "cs224n-2026-lecture07-pretraining_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Pretraining (Scaling, Systems, Data)"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture08-posttraining.pdf",
+    "name": "cs224n-2026-lecture08-posttraining_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Post-training (RLHF, SFT, DPO)"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture09-peft.pdf",
+    "name": "cs224n-2026-lecture09-peft_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Efficient Adaptation (Prompting + PEFT)"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture10-rag-agents.pdf",
+    "name": "cs224n-2026-lecture10-rag-agents_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 Agents, Tool Use, and RAG"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture11-evaluation.pdf",
+    "name": "cs224n-2026-lecture11-evaluation_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Benchmarking and Evaluation"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture12-reasoning-part1.pdf",
+    "name": "cs224n-2026-lecture12-reasoning-part1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Reasoning 1"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture13-reasoning-part2.pdf",
+    "name": "cs224n-2026-lecture13-reasoning-part2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Reasoning 2"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture14-guest-julie-tokenization-multilinguality.pdf",
+    "name": "cs224n-2026-lecture14-guest-julie-tokenization-multilinguality_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 Guest: Tokenization and Multilinguality"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture16-impact-on-humanity.pdf",
+    "name": "cs224n-2026-lecture16-impact-on-humanity_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 Social and Broader Impacts of NLP"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w26/cs224n-2026-lecture19-open-questions.pdf",
+    "name": "cs224n-2026-lecture19-open-questions_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 Open Questions in NLP 2026"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/slides_w25/2024%20CS224N%20Python%20Review%20Session%20Slides.pptx.pdf",
+    "name": "session_python_review_en.pdf",
+    "kind": "pdf",
+    "label": "Python Review Session (Jan 9)",
+    "aux": true
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224n/materials/hf_transformers_tutorial.pdf",
+    "name": "session_hf_transformers_tutorial_en.pdf",
+    "kind": "pdf",
+    "label": "Hugging Face Transformers Tutorial Session (Feb 6)",
+    "aux": true
+   }
+  ],
+  "expected_items": 16,
+  "completeness_note": "官方日程共 19 讲（含 4 次嘉宾讲座），其中 16 讲官方发布了幻灯片（第 1 讲分 intro/history 两份，共 17 个讲义 PDF），全部下载；Been Kim（可解释性）、Luke Zettlemoyer（多模态）、John Schulman（Tinker/LoRA）三次嘉宾讲座官方未发布幻灯片（Been Kim 一行的幻灯片链接在源码中被注释掉）。另附 Python 复习与 Hugging Face 教程两次习题课幻灯片（aux）。",
+  "prereq": "Python 熟练；大学微积分与线性代数；概率统计基础；机器学习基础（如 CS221/CS229）",
+  "coverage": "从词向量、反向传播、RNN 语言模型到 Transformer、预训练、后训练（SFT/RLHF/DPO）、PEFT、RAG 与智能体、评测、推理与分词/多语言",
+  "stage": "初学",
+  "language": "en",
+  "reason": "斯坦福经典 NLP 入门课的 2026 版，已全面改为以大语言模型为主线（预训练/后训练/推理/智能体），适合作为 LLM 学习的第一门系统课程。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "03"
+  ]
+ },
+ {
+  "sid": "13-A02",
+  "kind": "course",
+  "university": "Stanford University",
+  "course_code": "CS336",
+  "course_title": "Language Modeling from Scratch",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Tatsunori Hashimoto",
+   "Percy Liang"
+  ],
+  "official_url": "https://cs336.stanford.edu/",
+  "schedule_url": "https://cs336.stanford.edu/#schedule",
+  "verification_basis": "课程主页“CS336: Language Modeling from Scratch, Stanford / Spring 2026”、Course Staff 中 Instructor 为 Tatsunori Hashimoto 与 Percy Liang，日程表讲义链接指向官方 GitHub 组织 stanford-cs336 的 lectures 仓库，见 https://cs336.stanford.edu/",
+  "dir_name": "Stanford_CS336_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_01.py",
+    "name": "lecture_01_en.py",
+    "kind": "text",
+    "label": "Lecture 1 Overview, tokenization (executable lecture)"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_02.py",
+    "name": "lecture_02_en.py",
+    "kind": "text",
+    "label": "Lecture 2 PyTorch (einops), resource accounting (executable lecture)"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_03.pdf",
+    "name": "lecture_03_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Architectures, hyperparameters"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_04.pdf",
+    "name": "lecture_04_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Attention alternatives and mixture of experts"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_05.pdf",
+    "name": "lecture_05_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 GPUs, TPUs"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_06.py",
+    "name": "lecture_06_en.py",
+    "kind": "text",
+    "label": "Lecture 6 Kernels, Triton (executable lecture)"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_07.py",
+    "name": "lecture_07_en.py",
+    "kind": "text",
+    "label": "Lecture 7 Parallelism (executable lecture)"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_08.pdf",
+    "name": "lecture_08_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Parallelism"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_09.pdf",
+    "name": "lecture_09_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Scaling laws"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_10.py",
+    "name": "lecture_10_en.py",
+    "kind": "text",
+    "label": "Lecture 10 Inference (executable lecture)"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_11.pdf",
+    "name": "lecture_11_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Scaling laws"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_12.py",
+    "name": "lecture_12_en.py",
+    "kind": "text",
+    "label": "Lecture 12 Evaluation (executable lecture)"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_13.py",
+    "name": "lecture_13_en.py",
+    "kind": "text",
+    "label": "Lecture 13 Data (sources, datasets) (executable lecture)"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_14.py",
+    "name": "lecture_14_en.py",
+    "kind": "text",
+    "label": "Lecture 14 Data (filtering, deduplication, mixing, synthetic data) (executable lecture)"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_15.pdf",
+    "name": "lecture_15_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 Mid/post-training (SFT/RLHF)"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_16.pdf",
+    "name": "lecture_16_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 Post-training - RLVR"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/lecture_17.py",
+    "name": "lecture_17_en.py",
+    "kind": "text",
+    "label": "Lecture 17 Alignment - multimodality (executable lecture)"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/stanford-cs336/lectures/main/README.md",
+    "name": "README_lectures_repo_en.md",
+    "kind": "text",
+    "label": "Lecture repo README (how to render executable lectures)",
+    "aux": true
+   }
+  ],
+  "expected_items": 17,
+  "completeness_note": "官方日程共 19 讲，其中 17 讲有讲义：8 讲为幻灯片 PDF，9 讲为官方“可执行讲义”Python 源文件（lecture_XX.py，网页 cs336.stanford.edu/lectures 渲染的即是这些文件），全部从官方仓库 stanford-cs336/lectures 下载；第 18、19 讲为嘉宾讲座（Daniel Selsam、Dan Fu），官方未发布讲义。",
+  "prereq": "Python 熟练（大量从零编写代码）；深度学习与系统优化经验；大学微积分、线性代数、概率统计；机器学习基础（CS221/CS229）",
+  "coverage": "从零构建语言模型全流程：分词、PyTorch 资源核算、架构与超参数、MoE、GPU/内核/Triton、并行训练、规模规律、推理、评测、数据处理与后训练（SFT/RLHF/RLVR）",
+  "stage": "工程实践",
+  "language": "en",
+  "reason": "以“自己动手从零训练语言模型”为主线，覆盖预训练系统、规模规律、数据与对齐全链条，是目前最系统的 LLM 工程课程之一；选最新的 2026 春季学期。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "02",
+   "11"
+  ]
+ },
+ {
+  "sid": "13-A03",
+  "kind": "course",
+  "university": "Stanford University",
+  "course_code": "CME 295",
+  "course_title": "Transformers & Large Language Models",
+  "term": "Autumn 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Afshine Amidi",
+   "Shervine Amidi"
+  ],
+  "official_url": "https://cme295.stanford.edu/",
+  "schedule_url": "https://cme295.stanford.edu/syllabus/2025/",
+  "verification_basis": "课程主页“CME 295 - Transformers & Large Language Models”，Instructors 为 Afshine Amidi 与 Shervine Amidi（https://cme295.stanford.edu/）；2025 学年日程（2025-09-26 至 2025-12-10）及讲义链接见 https://cme295.stanford.edu/syllabus/2025/",
+  "dir_name": "Stanford_CME295_2025Autumn_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://cme295.stanford.edu/slides/fall25-cme295-lecture1.pdf",
+    "name": "fall25-cme295-lecture1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1: Transformer"
+   },
+   {
+    "url": "https://cme295.stanford.edu/slides/fall25-cme295-lecture2.pdf",
+    "name": "fall25-cme295-lecture2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2: Transformer-based models & tricks"
+   },
+   {
+    "url": "https://cme295.stanford.edu/slides/fall25-cme295-lecture3.pdf",
+    "name": "fall25-cme295-lecture3_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3: Large Language Models"
+   },
+   {
+    "url": "https://cme295.stanford.edu/slides/fall25-cme295-lecture4.pdf",
+    "name": "fall25-cme295-lecture4_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4: LLM training"
+   },
+   {
+    "url": "https://cme295.stanford.edu/slides/fall25-cme295-lecture5.pdf",
+    "name": "fall25-cme295-lecture5_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5: LLM tuning (preference tuning, RLHF, DPO)"
+   },
+   {
+    "url": "https://cme295.stanford.edu/slides/fall25-cme295-lecture6.pdf",
+    "name": "fall25-cme295-lecture6_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6: LLM reasoning"
+   },
+   {
+    "url": "https://cme295.stanford.edu/slides/fall25-cme295-lecture7.pdf",
+    "name": "fall25-cme295-lecture7_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7: Agentic LLMs"
+   },
+   {
+    "url": "https://cme295.stanford.edu/slides/fall25-cme295-lecture8.pdf",
+    "name": "fall25-cme295-lecture8_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8: LLM evaluation"
+   },
+   {
+    "url": "https://cme295.stanford.edu/slides/fall25-cme295-lecture9.pdf",
+    "name": "fall25-cme295-lecture9_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9: Current trends"
+   }
+  ],
+  "expected_items": 9,
+  "completeness_note": "2025 秋季官方日程 9 讲均发布幻灯片，全部下载（期中/期末试卷不计入讲义）。选 2025 秋而非进行中的 2026 秋（后者截至 2026-10-29 仅发布 4 讲）。",
+  "prereq": "微积分、线性代数与基础机器学习概念（官方主页所写）",
+  "coverage": "Transformer 原理与变体（注意力近似、MHA/MQA/GQA、位置编码）、LLM 架构与 MoE、训练与量化、偏好调优（RLHF/DPO）、推理模型（GRPO）、RAG 与智能体、LLM 评测",
+  "stage": "初学",
+  "language": "en",
+  "reason": "斯坦福面向 Transformer 与 LLM 的短课，九讲结构紧凑、插图精炼，适合快速建立 LLM 整体知识框架。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "03"
+  ]
+ }
+]

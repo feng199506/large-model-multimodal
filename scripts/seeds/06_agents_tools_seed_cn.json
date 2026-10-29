@@ -1,0 +1,806 @@
+[
+ {
+  "sid": "06-001",
+  "arxiv": "2302.04761",
+  "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以自监督方式让模型学会何时、如何调用 API 并利用结果，是 LLM 工具学习的开创工作",
+  "old_reason": "首次公开于 2023-02；自监督学习工具调用的范式由其提出，后续函数调用数据合成与工具强化学习都以其为起点，无近期替代"
+ },
+ {
+  "sid": "06-002",
+  "arxiv": "2210.03629",
+  "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+  "subtopic": "规划",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "交替生成推理轨迹与行动，是 LLM 智能体“思考-行动-观察”循环的奠基工作",
+  "old_reason": "首次公开于 2022-10；“推理-行动交替”循环是几乎所有现代智能体框架与工具调用格式的默认骨架，必须作为经典补充"
+ },
+ {
+  "sid": "06-003",
+  "arxiv": "2502.12110",
+  "title": "A-MEM: Agentic Memory for LLM Agents",
+  "subtopic": "记忆",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "借鉴 Zettelkasten 卡片笔记法，动态组织、链接与演化智能体记忆"
+ },
+ {
+  "sid": "06-004",
+  "arxiv": "2308.08155",
+  "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+  "subtopic": "多智能体",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以可对话智能体与对话编程构建多智能体应用的通用框架",
+  "old_reason": "首次公开于 2023-08；多智能体对话编程框架的代表，Magentic-One 等近期系统直接构建于其上，是多智能体方向的基础参照"
+ },
+ {
+  "sid": "06-005",
+  "arxiv": "2401.13919",
+  "title": "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "基于多模态大模型在真实网站上端到端完成任务的网页智能体及评测",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "使用多模态模型"
+ },
+ {
+  "sid": "06-006",
+  "arxiv": "2307.13854",
+  "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "构建可自托管的真实网站环境与功能性正确性评测，是网页智能体的标准基准",
+  "old_reason": "首次公开于 2023-07；可复现的真实网页环境基准，VisualWebArena、WebRL、TheAgentCompany 等近期工作沿用其环境与评测，不可替代"
+ },
+ {
+  "sid": "06-007",
+  "arxiv": "2402.01030",
+  "title": "Executable Code Actions Elicit Better LLM Agents",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "CodeAct：以可执行 Python 代码统一智能体动作空间，替代 JSON/文本格式的工具调用"
+ },
+ {
+  "sid": "06-008",
+  "arxiv": "2402.01622",
+  "title": "TravelPlanner: A Benchmark for Real-World Planning with Language Agents",
+  "subtopic": "规划",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以旅行规划为场景评测多约束长程规划与工具使用"
+ },
+ {
+  "sid": "06-009",
+  "arxiv": "2504.19413",
+  "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+  "subtopic": "记忆",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "面向生产的可扩展长期记忆架构，动态抽取、整合与检索对话要点（含图记忆变体）"
+ },
+ {
+  "sid": "06-010",
+  "arxiv": "2503.13657",
+  "title": "Why Do Multi-Agent LLM Systems Fail?",
+  "subtopic": "多智能体",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "基于大量执行轨迹建立多智能体系统失败模式分类（MAST）"
+ },
+ {
+  "sid": "06-011",
+  "arxiv": "2312.08914",
+  "title": "CogAgent: A Visual Language Model for GUI Agents",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "高分辨率视觉语言模型专用于 GUI 理解与操作",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "视觉语言模型"
+ },
+ {
+  "sid": "06-012",
+  "arxiv": "2310.06770",
+  "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以真实 GitHub 问题与单元测试评估仓库级软件修复，是代码智能体的核心基准",
+  "old_reason": "首次公开于 2023-10-10，略早于窗口；SWE-agent、SWE-RL、SWE-smith 等均以其为主要评测，是代码智能体领域的事实标准"
+ },
+ {
+  "sid": "06-013",
+  "arxiv": "2409.00920",
+  "title": "ToolACE: Winning the Points of LLM Function Calling",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "自演化合成大规模 API 池与多智能体对话数据，训练函数调用模型",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "合成数据用于指令微调"
+ },
+ {
+  "sid": "06-014",
+  "arxiv": "2402.01817",
+  "title": "LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks",
+  "subtopic": "规划",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "论证 LLM 难以独立规划并提出 LLM 与外部验证器结合的 LLM-Modulo 框架"
+ },
+ {
+  "sid": "06-015",
+  "arxiv": "2402.17753",
+  "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+  "subtopic": "记忆",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "LoCoMo：构建超长多会话对话数据集评估智能体长期记忆",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "长上下文使用与检索"
+ },
+ {
+  "sid": "06-016",
+  "arxiv": "2406.04692",
+  "title": "Mixture-of-Agents Enhances Large Language Model Capabilities",
+  "subtopic": "多智能体",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分层组织多个 LLM，后层聚合前层输出以提升生成质量"
+ },
+ {
+  "sid": "06-017",
+  "arxiv": "2401.10935",
+  "title": "SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "提出 GUI 定位预训练与 ScreenSpot 基准，仅依赖截图完成操作",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "视觉定位"
+ },
+ {
+  "sid": "06-018",
+  "arxiv": "2311.12983",
+  "title": "GAIA: a benchmark for General AI Assistants",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以对人简单、对 AI 困难的真实问题评测通用助手的推理、多模态与工具使用能力"
+ },
+ {
+  "sid": "06-019",
+  "arxiv": "2406.18518",
+  "title": "APIGen: Automated Pipeline for Generating Verifiable and Diverse Function-Calling Datasets",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "用格式、执行与语义三级校验自动生成可验证的函数调用数据集",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "微调数据合成"
+ },
+ {
+  "sid": "06-020",
+  "arxiv": "2408.07199",
+  "title": "Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents",
+  "subtopic": "规划",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "结合蒙特卡洛树搜索、自我批判与离线偏好优化训练网页智能体的多步决策",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "树搜索与偏好优化"
+ },
+ {
+  "sid": "06-021",
+  "arxiv": "2410.10813",
+  "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+  "subtopic": "记忆",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "评估聊天助手在信息抽取、多会话推理、时间推理、知识更新与拒答五项长期记忆能力",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "长上下文与检索"
+ },
+ {
+  "sid": "06-022",
+  "arxiv": "2402.01680",
+  "title": "Large Language Model based Multi-Agents: A Survey of Progress and Challenges",
+  "subtopic": "多智能体",
+  "type": "综述",
+  "priority": "中",
+  "reason": "综述 LLM 多智能体的环境、角色画像、通信与能力获取"
+ },
+ {
+  "sid": "06-023",
+  "arxiv": "2410.23218",
+  "title": "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "构建跨平台大规模 GUI 定位数据，训练通用 GUI 动作基础模型",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "视觉语言模型"
+ },
+ {
+  "sid": "06-024",
+  "arxiv": "2404.07972",
+  "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "在真实操作系统中以执行式评测检验多模态智能体的开放式电脑任务",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "多模态智能体"
+ },
+ {
+  "sid": "06-025",
+  "arxiv": "2504.13958",
+  "title": "ToolRL: Reward is All Tool Learning Needs",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "系统研究工具使用强化学习中的奖励设计（类型、粒度、时间动态）",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "强化学习训练"
+ },
+ {
+  "sid": "06-026",
+  "arxiv": "2402.19446",
+  "title": "ArCHer: Training Language Model Agents via Hierarchical Multi-Turn RL",
+  "subtopic": "规划",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "层次化离策略强化学习框架，解决多轮智能体任务中的长程信用分配"
+ },
+ {
+  "sid": "06-027",
+  "arxiv": "2404.13501",
+  "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+  "subtopic": "记忆",
+  "type": "综述",
+  "priority": "中",
+  "reason": "综述智能体记忆的来源、形式、操作与评测"
+ },
+ {
+  "sid": "06-028",
+  "arxiv": "2406.07155",
+  "title": "Scaling Large-Language-Model-based Multi-Agent Collaboration",
+  "subtopic": "多智能体",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "MacNet：以有向无环图组织上千智能体协作，研究协作规模扩展"
+ },
+ {
+  "sid": "06-029",
+  "arxiv": "2501.12326",
+  "title": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "端到端原生 GUI 智能体模型，融合感知、统一动作空间、系统化推理与反思式在线轨迹学习",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "视觉语言模型"
+ },
+ {
+  "sid": "06-030",
+  "arxiv": "2406.12045",
+  "title": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "模拟用户与领域 API、政策约束的动态对话，评测智能体可靠性（pass^k）"
+ },
+ {
+  "sid": "06-031",
+  "arxiv": "2504.11536",
+  "title": "ReTool: Reinforcement Learning for Strategic Tool Use in LLMs",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在长链推理中交错代码解释器执行，并用结果驱动的强化学习学会何时调用工具",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "面向数学推理的强化学习"
+ },
+ {
+  "sid": "06-032",
+  "arxiv": "2406.04151",
+  "title": "AgentGym: Evolving Large Language Model-based Agents across Diverse Environments",
+  "subtopic": "规划",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "提供多环境交互平台与轨迹集，研究通用智能体的自我演化训练"
+ },
+ {
+  "sid": "06-033",
+  "arxiv": "2409.07429",
+  "title": "Agent Workflow Memory",
+  "subtopic": "记忆",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "从过往轨迹归纳可复用工作流并作为记忆指导后续网页任务"
+ },
+ {
+  "sid": "06-034",
+  "arxiv": "2402.16823",
+  "title": "GPTSwarm: Language Agents as Optimizable Graphs",
+  "subtopic": "多智能体",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "把智能体系统表示为可优化计算图，自动优化节点提示与连接"
+ },
+ {
+  "sid": "06-035",
+  "arxiv": "2508.09123",
+  "title": "OpenCUA: Open Foundations for Computer-Use Agents",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "开源计算机操作智能体的标注工具、大规模任务数据集与模型"
+ },
+ {
+  "sid": "06-036",
+  "arxiv": "2506.07982",
+  "title": "τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "引入用户与智能体共同操作环境的双控制设定，评测协作式问题解决"
+ },
+ {
+  "sid": "06-037",
+  "arxiv": "2405.17935",
+  "title": "Tool Learning with Large Language Models: A Survey",
+  "subtopic": "工具调用",
+  "type": "综述",
+  "priority": "中",
+  "reason": "按任务规划、工具选择、调用与响应生成四阶段综述工具学习"
+ },
+ {
+  "sid": "06-038",
+  "arxiv": "2504.20073",
+  "title": "RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning",
+  "subtopic": "规划",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "提出多轮轨迹级强化学习框架 StarPO，分析智能体强化学习中的不稳定与回声陷阱",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "强化学习"
+ },
+ {
+  "sid": "06-039",
+  "arxiv": "2506.15841",
+  "title": "MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents",
+  "subtopic": "记忆",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "用强化学习让智能体在每步维护紧凑内部状态，实现长程任务中的常量记忆"
+ },
+ {
+  "sid": "06-040",
+  "arxiv": "2410.10762",
+  "title": "AFlow: Automating Agentic Workflow Generation",
+  "subtopic": "多智能体",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以代码表示工作流并用蒙特卡洛树搜索自动生成与优化智能体工作流"
+ },
+ {
+  "sid": "06-041",
+  "arxiv": "2411.02337",
+  "title": "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以自演化在线课程强化学习训练开源模型网页智能体"
+ },
+ {
+  "sid": "06-042",
+  "arxiv": "2412.14161",
+  "title": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "模拟软件公司环境，评测智能体完成真实职场任务的能力"
+ },
+ {
+  "sid": "06-043",
+  "arxiv": "2408.04682",
+  "title": "ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "引入有状态工具执行、用户模拟器与过程里程碑评估，弥补无状态工具调用评测"
+ },
+ {
+  "sid": "06-044",
+  "arxiv": "2509.02547",
+  "title": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey",
+  "subtopic": "规划",
+  "type": "综述",
+  "priority": "中",
+  "reason": "综述把 LLM 作为序列决策智能体进行强化学习的能力维度、环境与框架",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "强化学习"
+ },
+ {
+  "sid": "06-045",
+  "arxiv": "2509.25140",
+  "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+  "subtopic": "记忆",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "从成功与失败经验中提炼可泛化推理策略作为记忆，并研究记忆驱动的测试时扩展"
+ },
+ {
+  "sid": "06-046",
+  "arxiv": "2408.08435",
+  "title": "Automated Design of Agentic Systems",
+  "subtopic": "多智能体",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "ADAS：由元智能体在代码空间中迭代设计新的智能体系统"
+ },
+ {
+  "sid": "06-047",
+  "arxiv": "2405.15793",
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "提出智能体-计算机接口（ACI）概念，让语言模型智能体在仓库中浏览、编辑与测试代码"
+ },
+ {
+  "sid": "06-048",
+  "arxiv": "2503.14499",
+  "title": "Measuring AI Ability to Complete Long Tasks",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "提出“50% 任务完成时间跨度”指标度量智能体可完成任务的长度及其随时间的变化",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "评测方法学"
+ },
+ {
+  "sid": "06-049",
+  "arxiv": "2508.14704",
+  "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "基于真实 MCP 服务器构建工具使用评测，覆盖导航、仓库管理、金融分析等领域"
+ },
+ {
+  "sid": "06-050",
+  "arxiv": "2508.03680",
+  "title": "Agent Lightning: Train ANY AI Agents with Reinforcement Learning",
+  "subtopic": "规划",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "将智能体执行与强化学习训练解耦，使任意现有智能体可接入强化学习优化"
+ },
+ {
+  "sid": "06-051",
+  "arxiv": "2507.05257",
+  "title": "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
+  "subtopic": "记忆",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "MemoryAgentBench：把长上下文数据改造成增量多轮交互，评估记忆智能体四项核心能力"
+ },
+ {
+  "sid": "06-052",
+  "arxiv": "2411.04468",
+  "title": "Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks",
+  "subtopic": "多智能体",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "由编排者领导网页、文件、代码等专长智能体的通用多智能体系统"
+ },
+ {
+  "sid": "06-053",
+  "arxiv": "2407.16741",
+  "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "开源的软件开发智能体平台，提供沙箱、代码执行与浏览器交互"
+ },
+ {
+  "sid": "06-054",
+  "arxiv": "2504.12516",
+  "title": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "难以检索但易于验证的问题集，评测浏览智能体的持续深度搜索能力",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "检索"
+ },
+ {
+  "sid": "06-055",
+  "arxiv": "2508.20453",
+  "title": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "连接多领域 MCP 服务器，评估跨工具协调、参数控制与规划的复杂任务"
+ },
+ {
+  "sid": "06-056",
+  "arxiv": "2502.18864",
+  "title": "Towards an AI co-scientist",
+  "subtopic": "多智能体",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "基于多智能体生成-辩论-演化机制辅助科学假设生成"
+ },
+ {
+  "sid": "06-057",
+  "arxiv": "2502.18449",
+  "title": "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "利用开源软件演化数据与基于规则的奖励进行强化学习，提升软件工程智能体",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "强化学习"
+ },
+ {
+  "sid": "06-058",
+  "arxiv": "2601.11868",
+  "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在容器化终端环境中以人工验证的困难任务评测命令行智能体（2026 新工作）"
+ },
+ {
+  "sid": "06-059",
+  "arxiv": "2502.11271",
+  "title": "OctoTools: An Agentic Framework with Extensible Tools for Complex Reasoning",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以标准化工具卡、规划器与执行器构成免训练的可扩展工具智能体框架"
+ },
+ {
+  "sid": "06-060",
+  "arxiv": "2507.02592",
+  "title": "WebSailor: Navigating Super-human Reasoning for Web Agent",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "合成高不确定性网页检索任务并结合强化学习训练深度信息搜寻智能体",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "检索增强/搜索"
+ },
+ {
+  "sid": "06-061",
+  "arxiv": "2606.29537",
+  "title": "OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "面向长程真实工作流的计算机操作评测，与 OSWorld 的开放式单任务评测互补（2026 新工作）",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "多模态智能体"
+ },
+ {
+  "sid": "06-062",
+  "arxiv": "2510.24701",
+  "title": "Tongyi DeepResearch Technical Report",
+  "subtopic": "计算机操作",
+  "type": "技术报告",
+  "priority": "中",
+  "reason": "端到端训练的深度研究智能体技术报告，覆盖智能体中训练、后训练与合成数据管线",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "深度检索与信息综合"
+ },
+ {
+  "sid": "06-063",
+  "arxiv": "2510.04374",
+  "title": "GDPval: Evaluating AI Model Performance on Real-World Economically Valuable Tasks",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以多职业专家设计的真实工作产出任务评测模型的经济价值相关能力",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "评测方法学"
+ },
+ {
+  "sid": "06-064",
+  "arxiv": "2512.24565",
+  "title": "MCPAgentBench: A Real-world Task Benchmark for Evaluating LLM Agent MCP Tool Use",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "基于真实 MCP 工具定义并混入干扰工具，评测工具选择与辨别能力",
+  "reserve": true
+ },
+ {
+  "sid": "06-065",
+  "arxiv": "2403.07714",
+  "title": "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models",
+  "subtopic": "工具调用",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以虚拟 API 服务器与缓存解决真实 API 不稳定导致的工具评测波动",
+  "reserve": true
+ },
+ {
+  "sid": "06-066",
+  "arxiv": "2402.02716",
+  "title": "Understanding the planning of LLM agents: A survey",
+  "subtopic": "规划",
+  "type": "综述",
+  "priority": "低",
+  "reason": "把智能体规划方法归为任务分解、计划选择、外部模块、反思与记忆五类的综述",
+  "reserve": true
+ },
+ {
+  "sid": "06-067",
+  "arxiv": "2508.19828",
+  "title": "Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning",
+  "subtopic": "记忆",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "用强化学习训练记忆管理与记忆利用两个智能体",
+  "reserve": true
+ },
+ {
+  "sid": "06-068",
+  "arxiv": "2501.13956",
+  "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory",
+  "subtopic": "记忆",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以时间感知知识图谱作为智能体记忆层",
+  "reserve": true
+ },
+ {
+  "sid": "06-069",
+  "arxiv": "2503.01935",
+  "title": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents",
+  "subtopic": "多智能体",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "评测多智能体在协作与竞争场景下的任务完成与协调质量",
+  "reserve": true
+ },
+ {
+  "sid": "06-070",
+  "arxiv": "2508.13167",
+  "title": "Chain-of-Agents: End-to-End Agent Foundation Models via Multi-Agent Distillation and Agentic RL",
+  "subtopic": "多智能体",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "把多智能体系统蒸馏进单个模型并用智能体强化学习训练",
+  "reserve": true
+ },
+ {
+  "sid": "06-071",
+  "arxiv": "2401.01614",
+  "title": "GPT-4V(ision) is a Generalist Web Agent, if Grounded",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "SeeAct：研究多模态模型作为网页智能体时的动作定位瓶颈",
+  "reserve": true
+ },
+ {
+  "sid": "06-072",
+  "arxiv": "2410.08164",
+  "title": "Agent S: An Open Agentic Framework that Uses Computers Like a Human",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "结合经验增强的层次规划与智能体-计算机接口的开放计算机操作框架",
+  "reserve": true
+ },
+ {
+  "sid": "06-073",
+  "arxiv": "2410.05243",
+  "title": "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "UGround：大规模合成数据训练纯视觉 GUI 定位模型",
+  "reserve": true
+ },
+ {
+  "sid": "06-074",
+  "arxiv": "2407.01489",
+  "title": "Agentless: Demystifying LLM-based Software Engineering Agents",
+  "subtopic": "计算机操作",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以定位-修复-验证的固定流程替代复杂智能体解决软件问题",
+  "reserve": true
+ },
+ {
+  "sid": "06-075",
+  "arxiv": "2405.14573",
+  "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "提供可参数化任务与奖励信号的安卓真实环境评测",
+  "reserve": true
+ },
+ {
+  "sid": "06-076",
+  "arxiv": "2410.07095",
+  "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以 Kaggle 竞赛评测智能体的机器学习工程能力",
+  "reserve": true
+ },
+ {
+  "sid": "06-077",
+  "arxiv": "2602.07962",
+  "title": "LOCA-bench: Benchmarking Language Agents Under Controllable and Extreme Context Growth",
+  "subtopic": "任务评测",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "在可控的上下文增长下评测语言智能体及上下文管理策略",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "长上下文使用",
+  "reserve": true
+ }
+]

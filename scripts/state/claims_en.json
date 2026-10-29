@@ -1,0 +1,26 @@
+{
+ "arxiv:2407.21783": {
+  "cat": "01",
+  "sid": "01-001",
+  "state": "verified",
+  "file": "papers/2024_Grattafiori_Llama3HerdModels_en.pdf"
+ },
+ "arxiv:2104.09864": {
+  "cat": "01",
+  "sid": "01-002",
+  "state": "verified",
+  "file": "papers/2021_Su_RoFormer_en.pdf"
+ },
+ "arxiv:2312.00752": {
+  "cat": "01",
+  "sid": "01-003",
+  "state": "verified",
+  "file": "papers/2023_Gu_Mamba_en.pdf"
+ },
+ "arxiv:2501.09223": {
+  "cat": "14",
+  "sid": "14-001",
+  "state": "verified",
+  "file": "books/Xiao_FoundationsOfLargeLanguageModels_v4_en.pdf"
+ }
+}

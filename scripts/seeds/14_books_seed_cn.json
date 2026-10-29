@@ -1,0 +1,1492 @@
+[
+ {
+  "title": "Foundations of Large Language Models",
+  "authors": [
+   "Tong Xiao",
+   "Jingbo Zhu"
+  ],
+  "publisher": "arXiv（作者公开的专著，NiuTrans/东北大学）",
+  "arxiv": "2501.09223",
+  "edition": "arXiv v4",
+  "orig_year": 2025,
+  "edition_year": 2026,
+  "landing_url": "https://arxiv.org/abs/2501.09223",
+  "coverage": "预训练、生成式模型、提示、对齐、推理（解码与测试时）",
+  "prereq": "机器学习与深度学习基础",
+  "stage": "初学→进阶",
+  "reason": "2025 年起持续修订的大模型专著，系统覆盖预训练、提示、对齐与推理，适合作为大模型主教材。",
+  "priority": "高",
+  "cross": [
+   "01",
+   "03",
+   "04"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "sid": "14-001",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2501.09223v4",
+    "name": "Xiao_FoundationsOfLargeLanguageModels_v4_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Xiao_FoundationsOfLargeLanguageModels_v4_en"
+ },
+ {
+  "title": "Speech and Language Processing",
+  "authors": [
+   "Daniel Jurafsky",
+   "James H. Martin"
+  ],
+  "publisher": "作者官网（斯坦福大学）公开的第 3 版草稿",
+  "edition": "3rd edition draft",
+  "orig_year": 2000,
+  "edition_year": null,
+  "landing_url": "https://web.stanford.edu/~jurafsky/slp3/",
+  "coverage": "词向量、神经网络、Transformer、大语言模型、后训练、RAG、语音识别与合成等",
+  "prereq": "编程与概率基础",
+  "stage": "初学",
+  "reason": "NLP 与语音领域标准教材，第 3 版草稿持续加入 Transformer、大模型、对齐与语音章节。",
+  "priority": "高",
+  "cross": [
+   "01",
+   "09"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "sid": "14-002",
+  "files": [
+   {
+    "url": "https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf",
+    "name": "Jurafsky_SpeechAndLanguageProcessing_3rdEdDraft_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Jurafsky_SpeechAndLanguageProcessing_3rdEdDraft_en"
+ },
+ {
+  "title": "Natural Language Processing: Neural Networks and Large Language Models",
+  "authors": [
+   "Tong Xiao",
+   "Jingbo Zhu"
+  ],
+  "publisher": "NiuTrans 开源（作者官网）",
+  "edition": "2025 版",
+  "orig_year": 2025,
+  "edition_year": 2025,
+  "landing_url": "https://opensource.niutrans.com/nlpbook",
+  "coverage": "NLP 基础、神经网络、Transformer、预训练、生成模型、提示、对齐、推理",
+  "prereq": "线性代数、概率与编程",
+  "stage": "初学→进阶",
+  "reason": "从 NLP 基础一直讲到大模型预训练、对齐与推理的完整教材，作者官方提供完整 PDF。",
+  "cross": [
+   "01"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-003",
+  "files": [
+   {
+    "url": "https://opensource.niutrans.com/chapters/nlp-book.pdf",
+    "name": "Xiao_NLPNeuralNetworksAndLLMs_2025_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Xiao_NLPNeuralNetworksAndLLMs_2025_en"
+ },
+ {
+  "title": "Natural Language Processing and Large Language Models",
+  "authors": [
+   "Chengqing Zong",
+   "Yang Zhao",
+   "Yanjun Ma"
+  ],
+  "publisher": "Springer（开放获取）",
+  "doi": "10.1007/978-981-92-0682-7",
+  "edition": "第 1 版",
+  "orig_year": 2026,
+  "edition_year": 2026,
+  "landing_url": "https://doi.org/10.1007/978-981-92-0682-7",
+  "coverage": "统计 NLP、神经网络、预训练大模型、配套代码与案例",
+  "prereq": "编程与机器学习基础",
+  "stage": "初学→工程实践",
+  "reason": "2026 年 Springer 开放获取教材，兼顾理论、代码与案例，覆盖从经典 NLP 到大模型。",
+  "cross": [
+   "01"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-004",
+  "files": [
+   {
+    "url": "https://link.springer.com/content/pdf/10.1007/978-981-92-0682-7.pdf",
+    "name": "Zong_NLPAndLargeLanguageModels_2026_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Zong_NLPAndLargeLanguageModels_2026_en"
+ },
+ {
+  "title": "Foundation Models for Natural Language Processing",
+  "authors": [
+   "Gerhard Paaß",
+   "Sven Giesselbach"
+  ],
+  "publisher": "Springer（开放获取，Artificial Intelligence: Foundations, Theory, and Algorithms）",
+  "doi": "10.1007/978-3-031-23190-2",
+  "edition": "第 1 版",
+  "orig_year": 2023,
+  "edition_year": 2023,
+  "landing_url": "https://doi.org/10.1007/978-3-031-23190-2",
+  "coverage": "预训练语言模型、知识获取、文本生成、多媒体（图像、视频、语音）基础模型",
+  "prereq": "深度学习基础",
+  "stage": "进阶",
+  "reason": "开放获取专著，系统讲解预训练语言模型并专章讨论整合图像、视频与语音的基础模型。",
+  "cross": [
+   "07"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-005",
+  "files": [
+   {
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-23190-2.pdf",
+    "name": "Paass_FoundationModelsForNLP_2023_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Paass_FoundationModelsForNLP_2023_en"
+ },
+ {
+  "title": "Representation Learning for Natural Language Processing",
+  "authors": [
+   "Zhiyuan Liu",
+   "Yankai Lin",
+   "Maosong Sun"
+  ],
+  "publisher": "Springer（开放获取）",
+  "doi": "10.1007/978-981-99-1600-9",
+  "edition": "第 2 版",
+  "orig_year": 2020,
+  "edition_year": 2023,
+  "landing_url": "https://doi.org/10.1007/978-981-99-1600-9",
+  "coverage": "词/句/文档表示、预训练模型、知识表示、跨模态表示、大模型",
+  "prereq": "深度学习基础",
+  "stage": "进阶",
+  "reason": "清华团队开放获取专著第 2 版（2023），覆盖预训练模型与跨模态表示学习。",
+  "cross": [
+   "01",
+   "07"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-006",
+  "files": [
+   {
+    "url": "https://link.springer.com/content/pdf/10.1007/978-981-99-1600-9.pdf",
+    "name": "Liu_RepresentationLearningForNLP_2ndEd_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Liu_RepresentationLearningForNLP_2ndEd_en"
+ },
+ {
+  "title": "大语言模型",
+  "authors": [
+   "赵鑫",
+   "李军毅",
+   "周昆",
+   "唐天一",
+   "文继荣"
+  ],
+  "publisher": "中国人民大学团队公开（LLMBook-zh，纸质版由高等教育出版社出版）",
+  "edition": "网络公开版",
+  "orig_year": 2024,
+  "edition_year": null,
+  "language": "zh",
+  "landing_url": "https://llmbook-zh.github.io/",
+  "coverage": "预训练、数据、架构、指令微调、对齐、解码、评测、应用",
+  "prereq": "深度学习基础",
+  "stage": "初学→进阶",
+  "reason": "基于大模型综述扩展的中文教材，结构完整，作者团队官方公开全文。",
+  "priority": "高",
+  "cross": [
+   "01",
+   "02",
+   "03"
+  ],
+  "kind": "book",
+  "format": "PDF",
+  "min_pages": 100,
+  "sid": "14-007",
+  "files": [
+   {
+    "url": "https://llmbook-zh.github.io/LLMBook.pdf",
+    "name": "Zhao_DaYuYanMoXing_LLMBook_cn.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Zhao_DaYuYanMoXing_LLMBook_cn"
+ },
+ {
+  "title": "大规模语言模型：从理论到实践",
+  "authors": [
+   "张奇",
+   "桂韬",
+   "郑锐",
+   "黄萱菁"
+  ],
+  "publisher": "复旦大学团队公开（纸质版由电子工业出版社出版）",
+  "edition": "第二版",
+  "orig_year": 2023,
+  "edition_year": null,
+  "language": "zh",
+  "landing_url": "https://intro-llm.github.io/",
+  "coverage": "预训练、分布式训练、指令微调、强化学习对齐、多模态、智能体、评测",
+  "prereq": "深度学习基础",
+  "stage": "进阶→工程实践",
+  "reason": "复旦 NLP 团队教材第二版完整版，含分布式训练、RLHF、多模态与智能体等工程内容。",
+  "cross": [
+   "03",
+   "11"
+  ],
+  "kind": "book",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-008",
+  "files": [
+   {
+    "url": "https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf",
+    "name": "Zhang_DaGuiMoYuYanMoXing_2ndEd_cn.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Zhang_DaGuiMoYuYanMoXing_2ndEd_cn"
+ },
+ {
+  "title": "大模型基础",
+  "authors": [
+   "毛玉仁",
+   "高云君",
+   "杨洋",
+   "王则可",
+   "王禹杭"
+  ],
+  "publisher": "浙江大学团队公开（ZJU-LLMs GitHub）",
+  "edition": "完整版",
+  "orig_year": 2025,
+  "edition_year": null,
+  "language": "zh",
+  "landing_url": "https://github.com/ZJU-LLMs/Foundations-of-LLMs",
+  "coverage": "语言模型基础、大模型架构、提示工程、参数高效微调、模型编辑、检索增强生成",
+  "prereq": "机器学习基础",
+  "stage": "初学",
+  "reason": "浙江大学团队开源中文教材，篇幅适中，覆盖微调、模型编辑与 RAG 等核心专题。",
+  "cross": [
+   "03",
+   "05"
+  ],
+  "kind": "book",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-009",
+  "files": [
+   {
+    "url": "https://github.com/ZJU-LLMs/Foundations-of-LLMs/raw/main/%E3%80%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80%E3%80%8B%E6%95%99%E6%9D%90/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80%20%E5%AE%8C%E6%95%B4%E7%89%88.pdf",
+    "name": "Mao_DaMoXingJiChu_FullEdition_cn.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Mao_DaMoXingJiChu_FullEdition_cn"
+ },
+ {
+  "title": "Reinforcement Learning from Human Feedback",
+  "authors": [
+   "Nathan Lambert"
+  ],
+  "publisher": "arXiv（作者公开；Manning 出版纸质版）",
+  "arxiv": "2504.12501",
+  "edition": "arXiv v12",
+  "orig_year": 2025,
+  "edition_year": 2026,
+  "landing_url": "https://arxiv.org/abs/2504.12501",
+  "coverage": "偏好数据、奖励模型、PPO/DPO 等策略优化、拒绝采样、宪法 AI、可验证奖励与推理训练",
+  "prereq": "深度学习与强化学习基础",
+  "stage": "进阶",
+  "reason": "RLHF 专著，持续更新至 2026 年，覆盖奖励建模、直接对齐算法与推理强化学习。",
+  "priority": "高",
+  "cross": [
+   "03",
+   "04"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "sid": "14-010",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2504.12501v12",
+    "name": "Lambert_ReinforcementLearningFromHumanFeedback_v12_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Lambert_ReinforcementLearningFromHumanFeedback_v12_en"
+ },
+ {
+  "title": "Machine Learning from Human Preferences",
+  "authors": [
+   "Sang T. Truong",
+   "Sanmi Koyejo"
+  ],
+  "publisher": "斯坦福大学（CS329H 配套书，作者官网）",
+  "edition": "网络版",
+  "orig_year": 2025,
+  "edition_year": null,
+  "landing_url": "https://mlhp.stanford.edu/",
+  "coverage": "人类偏好建模、选择模型、奖励学习、偏好引导与对齐",
+  "prereq": "机器学习与概率",
+  "stage": "进阶",
+  "reason": "斯坦福人类偏好学习课程配套书，为偏好优化与 RLHF 提供建模基础。",
+  "cross": [
+   "03"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-011",
+  "files": [
+   {
+    "url": "https://mlhp.stanford.edu/Machine-Learning-from-Human-Preferences.pdf",
+    "name": "Truong_MachineLearningFromHumanPreferences_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Truong_MachineLearningFromHumanPreferences_en"
+ },
+ {
+  "title": "Reinforcement Learning: An Overview",
+  "authors": [
+   "Kevin Murphy"
+  ],
+  "publisher": "arXiv（作者公开专著）",
+  "arxiv": "2412.05265",
+  "edition": "arXiv v5",
+  "orig_year": 2024,
+  "edition_year": 2025,
+  "landing_url": "https://arxiv.org/abs/2412.05265",
+  "coverage": "价值/策略方法、基于模型的 RL、多智能体、LLM 与 RL 的结合",
+  "prereq": "概率机器学习基础",
+  "stage": "进阶",
+  "reason": "现代强化学习全景专著，含 LLM 相关的 RL 章节，是对齐与推理 RL 的理论背景。",
+  "cross": [
+   "03",
+   "04"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-012",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2412.05265v5",
+    "name": "Murphy_ReinforcementLearningAnOverview_v5_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Murphy_ReinforcementLearningAnOverview_v5_en"
+ },
+ {
+  "title": "Reinforcement Learning: An Introduction",
+  "authors": [
+   "Richard S. Sutton",
+   "Andrew G. Barto"
+  ],
+  "publisher": "MIT Press（作者官网公开全文）",
+  "edition": "第 2 版",
+  "orig_year": 1998,
+  "edition_year": 2018,
+  "landing_url": "http://incompleteideas.net/book/the-book-2nd.html",
+  "coverage": "MDP、动态规划、TD、策略梯度",
+  "prereq": "概率与微积分",
+  "stage": "初学",
+  "general_ml_reason": "一般基础补充：RLHF 与推理强化学习中的策略梯度、价值函数等概念都以此为标准参考。",
+  "year_exception_reason": "强化学习经典教材，持续教学价值，第 2 版仍为最新版。",
+  "cross": [
+   "03",
+   "04"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-013",
+  "files": [
+   {
+    "url": "http://incompleteideas.net/book/RLbook2020.pdf",
+    "name": "Sutton_ReinforcementLearningAnIntroduction_2ndEd_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Sutton_ReinforcementLearningAnIntroduction_2ndEd_en"
+ },
+ {
+  "title": "Agentic Large Language Models",
+  "authors": [
+   "Max van Duijn",
+   "Michiel van der Meer",
+   "Aske Plaat",
+   "Niki van Stein"
+  ],
+  "publisher": "arXiv（莱顿大学 LIACS，CC0）",
+  "arxiv": "2610.13455",
+  "edition": "arXiv v1",
+  "orig_year": 2026,
+  "edition_year": 2026,
+  "landing_url": "https://arxiv.org/abs/2610.13455",
+  "coverage": "推理、行动（工具与环境）、交互（多智能体）三部分",
+  "prereq": "LLM 基础",
+  "stage": "进阶",
+  "reason": "2026 年莱顿大学研究生课程用智能体大模型教材（472 页），系统组织推理、行动与交互。",
+  "priority": "高",
+  "cross": [
+   "06",
+   "04"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "sid": "14-014",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2610.13455v1",
+    "name": "vanDuijn_AgenticLargeLanguageModels_2026_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "vanDuijn_AgenticLargeLanguageModels_2026_en"
+ },
+ {
+  "title": "Foundations of Vector Retrieval",
+  "authors": [
+   "Sebastian Bruch"
+  ],
+  "publisher": "arXiv（作者公开；Springer 出版）",
+  "arxiv": "2401.09350",
+  "edition": "arXiv v1",
+  "orig_year": 2024,
+  "edition_year": 2024,
+  "landing_url": "https://arxiv.org/abs/2401.09350",
+  "coverage": "最大内积/近邻检索、聚类与图索引、量化与草图",
+  "prereq": "线性代数与算法",
+  "stage": "进阶→工程实践",
+  "reason": "向量检索的系统专著，是 RAG 中稠密检索与向量数据库的算法基础。",
+  "cross": [
+   "05",
+   "11"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-015",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2401.09350v1",
+    "name": "Bruch_FoundationsOfVectorRetrieval_2024_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Bruch_FoundationsOfVectorRetrieval_2024_en"
+ },
+ {
+  "title": "Pretrained Transformers for Text Ranking: BERT and Beyond",
+  "authors": [
+   "Jimmy Lin",
+   "Rodrigo Nogueira",
+   "Andrew Yates"
+  ],
+  "publisher": "arXiv（作者公开；Morgan & Claypool Synthesis Lectures）",
+  "arxiv": "2010.06467",
+  "edition": "arXiv v3（出版前终稿）",
+  "orig_year": 2020,
+  "edition_year": 2021,
+  "landing_url": "https://arxiv.org/abs/2010.06467",
+  "coverage": "多阶段重排、稠密检索、查询/文档扩展",
+  "prereq": "IR 与深度学习基础",
+  "stage": "进阶",
+  "year_exception_reason": "神经检索与重排的经典专著，现代 RAG 检索器与重排器的基础，尚无更新版本。",
+  "cross": [
+   "05"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-016",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2010.06467v3",
+    "name": "Lin_PretrainedTransformersForTextRanking_v3_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Lin_PretrainedTransformersForTextRanking_v3_en"
+ },
+ {
+  "title": "Neural Approaches to Conversational Information Retrieval",
+  "authors": [
+   "Jianfeng Gao",
+   "Chenyan Xiong",
+   "Paul Bennett",
+   "Nick Craswell"
+  ],
+  "publisher": "arXiv（作者公开书稿；Springer 出版）",
+  "arxiv": "2201.05176",
+  "edition": "arXiv v1 书稿",
+  "orig_year": 2022,
+  "edition_year": 2022,
+  "landing_url": "https://arxiv.org/abs/2201.05176",
+  "coverage": "对话式搜索、查询改写、段落检索与问答、对话式推荐",
+  "prereq": "IR 与 NLP 基础",
+  "stage": "进阶",
+  "year_exception_reason": "对话式检索系统的专著，为检索增强对话与智能体搜索提供系统背景。",
+  "cross": [
+   "05",
+   "06"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-017",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2201.05176v1",
+    "name": "Gao_NeuralApproachesToConversationalIR_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Gao_NeuralApproachesToConversationalIR_en"
+ },
+ {
+  "title": "Multimodal Foundation Models: From Specialists to General-Purpose Assistants",
+  "authors": [
+   "Chunyuan Li",
+   "Zhe Gan",
+   "Zhengyuan Yang",
+   "Jianwei Yang",
+   "Linjie Li",
+   "Lijuan Wang",
+   "Jianfeng Gao"
+  ],
+  "publisher": "arXiv（作者公开；Foundations and Trends in Computer Graphics and Vision）",
+  "arxiv": "2309.10020",
+  "edition": "arXiv v1",
+  "orig_year": 2023,
+  "edition_year": 2023,
+  "landing_url": "https://arxiv.org/abs/2309.10020",
+  "coverage": "视觉理解与生成基础模型、统一视觉模型、多模态大模型、多模态智能体",
+  "prereq": "深度学习与视觉基础",
+  "stage": "进阶",
+  "reason": "多模态基础模型专著（119 页），从专用模型讲到通用视觉助手，是多模态路线的核心读物。",
+  "priority": "高",
+  "cross": [
+   "07",
+   "08",
+   "06"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "sid": "14-018",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2309.10020v1",
+    "name": "Li_MultimodalFoundationModels_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Li_MultimodalFoundationModels_en"
+ },
+ {
+  "title": "Vision-Language Pre-training: Basics, Recent Advances, and Future Trends",
+  "authors": [
+   "Zhe Gan",
+   "Linjie Li",
+   "Chunyuan Li",
+   "Lijuan Wang",
+   "Zicheng Liu",
+   "Jianfeng Gao"
+  ],
+  "publisher": "arXiv（作者公开；Foundations and Trends in Computer Graphics and Vision）",
+  "arxiv": "2210.09263",
+  "edition": "arXiv v1",
+  "orig_year": 2022,
+  "edition_year": 2022,
+  "landing_url": "https://arxiv.org/abs/2210.09263",
+  "coverage": "图文 VQA/描述、图文检索、核心视觉任务与视频-文本预训练",
+  "prereq": "深度学习与视觉基础",
+  "stage": "进阶",
+  "year_exception_reason": "视觉-语言预训练的系统性专著（102 页），是理解当代视觉语言模型来源的经典。",
+  "cross": [
+   "07",
+   "10"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-019",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2210.09263v1",
+    "name": "Gan_VisionLanguagePretraining_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Gan_VisionLanguagePretraining_en"
+ },
+ {
+  "title": "Multimodal Deep Learning",
+  "authors": [
+   "Cem Akkus",
+   "Luyang Chu",
+   "Vladana Djakovic"
+  ],
+  "publisher": "arXiv（慕尼黑大学 LMU 研讨课成书）",
+  "arxiv": "2301.04856",
+  "edition": "arXiv v1",
+  "orig_year": 2023,
+  "edition_year": 2023,
+  "landing_url": "https://arxiv.org/abs/2301.04856",
+  "coverage": "图文表示、图文生成、多模态预训练架构、多目的模型",
+  "prereq": "深度学习基础",
+  "stage": "初学",
+  "year_exception_reason": "2023 年 1 月成书，略早于窗口；面向初学者的多模态深度学习入门书，补充基础。",
+  "cross": [
+   "07",
+   "08"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-020",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2301.04856v1",
+    "name": "Akkus_MultimodalDeepLearning_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Akkus_MultimodalDeepLearning_en"
+ },
+ {
+  "title": "The Principles of Diffusion Models",
+  "authors": [
+   "Chieh-Hsin Lai",
+   "Yang Song",
+   "Dongjun Kim",
+   "Yuki Mitsufuji",
+   "Stefano Ermon"
+  ],
+  "publisher": "arXiv（作者公开专著）",
+  "arxiv": "2510.21890",
+  "edition": "arXiv v3",
+  "orig_year": 2025,
+  "edition_year": 2026,
+  "landing_url": "https://arxiv.org/abs/2510.21890",
+  "coverage": "变分、得分、流三种视角，采样加速，蒸馏与一致性模型",
+  "prereq": "概率与深度学习",
+  "stage": "进阶研究",
+  "reason": "2025 年扩散模型专著，统一变分/得分/流匹配视角，是图像视频生成方向的主教材。",
+  "priority": "高",
+  "cross": [
+   "08"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "sid": "14-021",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2510.21890v3",
+    "name": "Lai_PrinciplesOfDiffusionModels_v3_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Lai_PrinciplesOfDiffusionModels_v3_en"
+ },
+ {
+  "title": "Tutorial on Diffusion Models for Imaging and Vision",
+  "authors": [
+   "Stanley H. Chan"
+  ],
+  "publisher": "arXiv（作者公开；Foundations and Trends in Computer Graphics and Vision）",
+  "arxiv": "2403.18103",
+  "edition": "arXiv v3",
+  "orig_year": 2024,
+  "edition_year": 2025,
+  "landing_url": "https://arxiv.org/abs/2403.18103",
+  "min_pages": 60,
+  "coverage": "VAE、DDPM、得分匹配、SDE 的推导",
+  "prereq": "概率与微积分",
+  "stage": "初学",
+  "reason": "面向成像与视觉的扩散模型教程型专著，推导细致，适合扩散入门。",
+  "cross": [
+   "08"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "priority": "中",
+  "sid": "14-022",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2403.18103v3",
+    "name": "Chan_TutorialOnDiffusionModels_v3_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Chan_TutorialOnDiffusionModels_v3_en"
+ },
+ {
+  "title": "Understanding Deep Learning",
+  "authors": [
+   "Simon J. D. Prince"
+  ],
+  "publisher": "MIT Press（作者官网/GitHub 公开 PDF）",
+  "edition": "v5.0.3 PDF（2026-02-09 版）",
+  "orig_year": 2023,
+  "edition_year": 2026,
+  "landing_url": "https://udlbook.github.io/udlbook/",
+  "coverage": "网络基础、Transformer、GAN、流、VAE、扩散、强化学习、可解释与伦理",
+  "prereq": "线性代数与概率",
+  "stage": "初学",
+  "general_ml_reason": "一般基础补充：讲 Transformer 与扩散等生成模型的现代深度学习教材，作为大模型与生成方向的前置。",
+  "priority": "高",
+  "cross": [
+   "01",
+   "08"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "sid": "14-023",
+  "files": [
+   {
+    "url": "https://github.com/udlbook/udlbook/releases/download/v5.0.3/UnderstandingDeepLearning_02_09_26_C.pdf",
+    "name": "Prince_UnderstandingDeepLearning_v5.0.3_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Prince_UnderstandingDeepLearning_v5.0.3_en"
+ },
+ {
+  "title": "Dive into Deep Learning",
+  "authors": [
+   "Aston Zhang",
+   "Zachary C. Lipton",
+   "Mu Li",
+   "Alexander J. Smola"
+  ],
+  "publisher": "Cambridge University Press（d2l.ai 公开全文）",
+  "edition": "英文版（d2l.ai 当前 PDF）",
+  "orig_year": 2019,
+  "edition_year": 2023,
+  "landing_url": "https://d2l.ai/",
+  "coverage": "基础网络、注意力与 Transformer、预训练（BERT/GPT）、优化与计算性能",
+  "prereq": "编程与线性代数",
+  "stage": "初学→工程实践",
+  "general_ml_reason": "一般基础补充：可运行代码的深度学习教材，含注意力、Transformer 与大规模预训练章节。",
+  "cross": [
+   "01"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-024",
+  "files": [
+   {
+    "url": "https://d2l.ai/d2l-en.pdf",
+    "name": "Zhang_DiveIntoDeepLearning_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Zhang_DiveIntoDeepLearning_en"
+ },
+ {
+  "title": "The Little Book of Deep Learning",
+  "authors": [
+   "François Fleuret"
+  ],
+  "publisher": "作者官网（日内瓦大学）",
+  "edition": "当前 PDF 版",
+  "orig_year": 2023,
+  "edition_year": 2023,
+  "landing_url": "https://fleuret.org/francois/lbdl.html",
+  "min_pages": 100,
+  "coverage": "训练、深度模型组件、Transformer、生成模型（简明）",
+  "prereq": "线性代数与概率",
+  "stage": "初学",
+  "general_ml_reason": "一般基础补充：约 170 页的口袋书，为初学者快速建立 Transformer 与生成模型的概念。",
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "priority": "中",
+  "cross": [],
+  "sid": "14-025",
+  "files": [
+   {
+    "url": "https://fleuret.org/public/lbdl.pdf",
+    "name": "Fleuret_LittleBookOfDeepLearning_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Fleuret_LittleBookOfDeepLearning_en"
+ },
+ {
+  "title": "Alice's Adventures in a Differentiable Wonderland",
+  "authors": [
+   "Simone Scardapane"
+  ],
+  "publisher": "arXiv（作者公开）",
+  "arxiv": "2404.17625",
+  "edition": "arXiv v3",
+  "orig_year": 2024,
+  "edition_year": 2025,
+  "landing_url": "https://arxiv.org/abs/2404.17625",
+  "coverage": "可微编程、卷积、Transformer、图模型、状态空间模型",
+  "prereq": "线性代数与微积分",
+  "stage": "初学",
+  "general_ml_reason": "一般基础补充：2024 年的现代神经网络入门书，含 Transformer 与状态空间模型章节。",
+  "cross": [
+   "01"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-026",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2404.17625v3",
+    "name": "Scardapane_AlicesAdventuresDifferentiableWonderland_v3_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Scardapane_AlicesAdventuresDifferentiableWonderland_v3_en"
+ },
+ {
+  "title": "Probabilistic Machine Learning: Advanced Topics",
+  "authors": [
+   "Kevin P. Murphy"
+  ],
+  "publisher": "MIT Press（作者公开 PDF 草稿）",
+  "edition": "作者公开版（GitHub release）",
+  "orig_year": 2023,
+  "edition_year": 2023,
+  "landing_url": "https://probml.github.io/pml-book/book2.html",
+  "coverage": "推断、生成模型（VAE、自回归、流、扩散、GAN）、不确定性、因果与决策",
+  "prereq": "概率机器学习",
+  "stage": "进阶研究",
+  "general_ml_reason": "一般基础补充：生成模型与不确定性的权威参考，支撑生成方向与可信性方向。",
+  "cross": [
+   "08",
+   "12"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-027",
+  "files": [
+   {
+    "url": "https://github.com/probml/pml2-book/releases/latest/download/book2.pdf",
+    "name": "Murphy_ProbabilisticMLAdvancedTopics_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Murphy_ProbabilisticMLAdvancedTopics_en"
+ },
+ {
+  "title": "Machine Learning Systems",
+  "authors": [
+   "Vijay Janapa Reddi"
+  ],
+  "publisher": "哈佛大学（mlsysbook.ai，GitHub release）",
+  "edition": "Vol.1 v0.8.0 + Vol.2 v0.3.0",
+  "orig_year": 2024,
+  "edition_year": null,
+  "landing_url": "https://mlsysbook.ai/",
+  "files": [
+   {
+    "url": "https://github.com/harvard-edge/cs249r_book/releases/download/vol1-v0.8.0/Machine-Learning-Systems-Vol1.pdf",
+    "name": "JanapaReddi_MachineLearningSystems_Vol1_v0.8.0_en.pdf",
+    "kind": "pdf",
+    "main": true
+   },
+   {
+    "url": "https://github.com/harvard-edge/cs249r_book/releases/download/vol2-v0.3.0/Machine-Learning-Systems-Vol2.pdf",
+    "name": "JanapaReddi_MachineLearningSystems_Vol2_v0.3.0_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "JanapaReddi_MachineLearningSystems_2vol_en",
+  "coverage": "ML 系统工程、训练与推理优化、硬件加速、部署、可靠性与可持续性",
+  "prereq": "编程与 ML 基础",
+  "stage": "工程实践",
+  "reason": "哈佛 CS249r 配套开源教材，系统讲解训练/推理系统与部署，对应高效训练与部署方向。",
+  "cross": [
+   "11"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-028"
+ },
+ {
+  "title": "How to Scale Your Model",
+  "authors": [
+   "Jacob Austin",
+   "Sholto Douglas",
+   "Roy Frostig",
+   "Anselm Levskaya",
+   "Charlie Chen",
+   "Sharad Vikram",
+   "Federico Lebron",
+   "Peter Choy",
+   "Vinay Ramasesh",
+   "Albert Webson",
+   "Reiner Pope"
+  ],
+  "publisher": "Google DeepMind（官方公开的 HTML 书）",
+  "format": "HTML（离线镜像）",
+  "edition": "网页版",
+  "orig_year": 2025,
+  "edition_year": 2025,
+  "landing_url": "https://jax-ml.github.io/scaling-book/",
+  "files": [],
+  "mirror": {
+   "name": "scaling-book_site",
+   "start": [
+    "https://jax-ml.github.io/scaling-book/",
+    "https://jax-ml.github.io/scaling-book/index",
+    "https://jax-ml.github.io/scaling-book/roofline",
+    "https://jax-ml.github.io/scaling-book/tpus",
+    "https://jax-ml.github.io/scaling-book/sharding",
+    "https://jax-ml.github.io/scaling-book/transformers",
+    "https://jax-ml.github.io/scaling-book/training",
+    "https://jax-ml.github.io/scaling-book/applied-training",
+    "https://jax-ml.github.io/scaling-book/inference",
+    "https://jax-ml.github.io/scaling-book/applied-inference",
+    "https://jax-ml.github.io/scaling-book/profiling",
+    "https://jax-ml.github.io/scaling-book/jax-stuff",
+    "https://jax-ml.github.io/scaling-book/conclusion",
+    "https://jax-ml.github.io/scaling-book/gpus"
+   ],
+   "min_pages": 14,
+   "must_contain": [
+    [
+     "scaling-book/roofline.html",
+     "roofline"
+    ],
+    [
+     "scaling-book/sharding.html",
+     "sharded"
+    ],
+    [
+     "scaling-book/inference.html",
+     "KV cache"
+    ],
+    [
+     "scaling-book/gpus.html",
+     "GPU"
+    ]
+   ]
+  },
+  "dir_name": "Austin_HowToScaleYourModel_2025_html_en",
+  "coverage": "Roofline 分析、TPU/GPU、张量/数据/流水并行、Transformer 训练与推理的扩展计算",
+  "prereq": "深度学习与线代",
+  "stage": "工程实践",
+  "reason": "官方完整 HTML 书，系统讲解大模型训练与推理的并行与扩展计算，填补高效训练部署教材。",
+  "cross": [
+   "11"
+  ],
+  "kind": "book",
+  "language": "en",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-029"
+ },
+ {
+  "title": "Introduction to AI Safety, Ethics, and Society",
+  "authors": [
+   "Dan Hendrycks"
+  ],
+  "publisher": "arXiv（作者公开；Taylor & Francis 出版）",
+  "arxiv": "2411.01042",
+  "edition": "arXiv v2",
+  "orig_year": 2024,
+  "edition_year": 2024,
+  "landing_url": "https://arxiv.org/abs/2411.01042",
+  "coverage": "AI 风险、单个系统安全（鲁棒性、监控、对齐）、复杂系统、伦理与治理",
+  "prereq": "无严格先修",
+  "stage": "初学",
+  "reason": "AI 安全教科书（603 页），为评测与可信性方向提供安全与治理的系统框架。",
+  "cross": [
+   "12"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-030",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2411.01042v2",
+    "name": "Hendrycks_IntroductionToAISafetyEthicsSociety_v2_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Hendrycks_IntroductionToAISafetyEthicsSociety_v2_en"
+ },
+ {
+  "title": "Fairness and Machine Learning: Limitations and Opportunities",
+  "authors": [
+   "Solon Barocas",
+   "Moritz Hardt",
+   "Arvind Narayanan"
+  ],
+  "publisher": "MIT Press（fairmlbook.org 公开全文）",
+  "edition": "MIT Press 2023 版",
+  "orig_year": 2019,
+  "edition_year": 2023,
+  "landing_url": "https://fairmlbook.org/",
+  "coverage": "公平性定义、因果、测量、数据集与基准问题",
+  "prereq": "机器学习基础",
+  "stage": "进阶",
+  "reason": "机器学习公平性的标准教材，为大模型偏见评测提供概念与测量基础。",
+  "cross": [
+   "12"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-031",
+  "files": [
+   {
+    "url": "https://fairmlbook.org/pdf/fairmlbook.pdf",
+    "name": "Barocas_FairnessAndMachineLearning_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Barocas_FairnessAndMachineLearning_en"
+ },
+ {
+  "title": "Trustworthy Machine Learning",
+  "authors": [
+   "Kush R. Varshney"
+  ],
+  "publisher": "作者自出版（trustworthymachinelearning.com）",
+  "edition": "2022 版",
+  "orig_year": 2022,
+  "edition_year": 2022,
+  "landing_url": "http://www.trustworthymachinelearning.com/",
+  "coverage": "数据偏差、不确定性、分布偏移、公平、对抗鲁棒、可解释、透明与价值对齐",
+  "prereq": "机器学习基础",
+  "stage": "进阶",
+  "year_exception_reason": "可信机器学习的系统教材，覆盖不确定性、鲁棒性、可解释性，概念对大模型仍适用。",
+  "cross": [
+   "12"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-032",
+  "files": [
+   {
+    "url": "http://www.trustworthymachinelearning.com/trustworthymachinelearning.pdf",
+    "name": "Varshney_TrustworthyMachineLearning_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Varshney_TrustworthyMachineLearning_en"
+ },
+ {
+  "title": "The Algorithmic Foundations of Differential Privacy",
+  "authors": [
+   "Cynthia Dwork",
+   "Aaron Roth"
+  ],
+  "publisher": "Foundations and Trends in TCS（作者公开 PDF）",
+  "edition": "2014",
+  "orig_year": 2014,
+  "edition_year": 2014,
+  "landing_url": "https://www.cis.upenn.edu/~aaroth/privacybook.html",
+  "coverage": "差分隐私定义、基本机制、组合定理",
+  "prereq": "概率",
+  "stage": "进阶研究",
+  "year_exception_reason": "差分隐私的标准参考书；大模型隐私训练（DP-SGD 等）的理论基础。",
+  "cross": [
+   "12"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-033",
+  "files": [
+   {
+    "url": "https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf",
+    "name": "Dwork_AlgorithmicFoundationsOfDifferentialPrivacy_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Dwork_AlgorithmicFoundationsOfDifferentialPrivacy_en"
+ },
+ {
+  "title": "Large Language Models in Cybersecurity: Threats, Exposure and Mitigation",
+  "authors": [
+   "Andrei Kucharavy",
+   "Octave Plancherel",
+   "Valentin Mulder",
+   "Alain Mermoud",
+   "Vincent Lenders"
+  ],
+  "publisher": "Springer（开放获取）",
+  "doi": "10.1007/978-3-031-54827-7",
+  "edition": "第 1 版",
+  "orig_year": 2024,
+  "edition_year": 2024,
+  "landing_url": "https://doi.org/10.1007/978-3-031-54827-7",
+  "coverage": "LLM 原理、滥用威胁、隐私泄露、越狱与防护、治理",
+  "prereq": "LLM 基础",
+  "stage": "进阶",
+  "reason": "开放获取的 LLM 安全专著（2024），聚焦大模型滥用、隐私与防护。",
+  "cross": [
+   "12"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-034",
+  "files": [
+   {
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-54827-7.pdf",
+    "name": "Kucharavy_LargeLanguageModelsInCybersecurity_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Kucharavy_LargeLanguageModelsInCybersecurity_en"
+ },
+ {
+  "title": "Foundations of Computer Vision",
+  "authors": [
+   "Antonio Torralba",
+   "Phillip Isola",
+   "William T. Freeman"
+  ],
+  "publisher": "MIT Press（visionbook.mit.edu 官方公开 HTML）",
+  "format": "HTML（离线镜像）",
+  "edition": "网页版",
+  "orig_year": 2024,
+  "edition_year": 2024,
+  "landing_url": "https://visionbook.mit.edu/",
+  "files": [],
+  "mirror": {
+   "name": "visionbook_site",
+   "start": [
+    "https://visionbook.mit.edu/index.html"
+   ],
+   "recursive": true,
+   "level": 1,
+   "min_pages": 60,
+   "reject_regex": "\\?|twitter|linkedin|facebook",
+   "must_contain": [
+    [
+     "transformers.html",
+     "Transformer"
+    ],
+    [
+     "diffusion_models.html",
+     "diffusion"
+    ],
+    [
+     "simplesystem.html",
+     "vision"
+    ]
+   ]
+  },
+  "dir_name": "Torralba_FoundationsOfComputerVision_2024_html_en",
+  "coverage": "图像形成、信号处理、表示学习、Transformer、生成模型（含扩散）、视觉与语言",
+  "prereq": "线代与概率",
+  "stage": "初学→进阶",
+  "general_ml_reason": "视觉基础补充：MIT 2024 年新教材，含 Transformer、扩散与视觉-语言章节，是多模态理解与生成的视觉前置。",
+  "cross": [
+   "07",
+   "08"
+  ],
+  "kind": "book",
+  "language": "en",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-035"
+ },
+ {
+  "title": "Introduction to Transformers: an NLP Perspective",
+  "authors": [
+   "Tong Xiao",
+   "Jingbo Zhu"
+  ],
+  "publisher": "arXiv（作者公开的书稿式教程）",
+  "arxiv": "2311.17633",
+  "edition": "arXiv v2",
+  "orig_year": 2023,
+  "edition_year": 2026,
+  "landing_url": "https://arxiv.org/abs/2311.17633",
+  "min_pages": 80,
+  "coverage": "Transformer 基本结构、注意力与位置编码的改进、高效 Transformer、应用",
+  "prereq": "深度学习基础",
+  "stage": "初学→进阶",
+  "reason": "面向 NLP 的 Transformer 专题教程书稿，系统整理架构与效率改进。",
+  "cross": [
+   "01",
+   "11"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "priority": "中",
+  "sid": "14-036",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2311.17633v2",
+    "name": "Xiao_IntroductionToTransformers_v2_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Xiao_IntroductionToTransformers_v2_en"
+ },
+ {
+  "title": "Happy-LLM：从零开始的大语言模型原理与实践教程",
+  "authors": [
+   "Datawhale"
+  ],
+  "publisher": "Datawhale 开源社区（GitHub release）",
+  "edition": "v1.0.2 PDF",
+  "orig_year": 2025,
+  "edition_year": 2025,
+  "language": "zh",
+  "landing_url": "https://github.com/datawhalechina/happy-llm",
+  "coverage": "NLP 基础、Transformer、预训练模型、从零搭建与训练 LLM、RAG 与智能体实践",
+  "prereq": "Python 与 PyTorch",
+  "stage": "初学→工程实践",
+  "reason": "中文开源实践教程书，侧重从零实现与训练小型 LLM，补充工程实践视角（社区出版，优先级低）。",
+  "priority": "低",
+  "cross": [
+   "06"
+  ],
+  "kind": "book",
+  "format": "PDF",
+  "min_pages": 100,
+  "sid": "14-037",
+  "files": [
+   {
+    "url": "https://github.com/datawhalechina/happy-llm/releases/download/v1.0.2/Happy-LLM-0727.pdf",
+    "name": "Datawhale_HappyLLM_v1.0.2_cn.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Datawhale_HappyLLM_v1.0.2_cn"
+ },
+ {
+  "title": "Modern Robotics: Mechanics, Planning, and Control",
+  "authors": [
+   "Kevin M. Lynch",
+   "Frank C. Park"
+  ],
+  "publisher": "Cambridge University Press（作者公开预印版）",
+  "edition": "2017 预印版",
+  "orig_year": 2017,
+  "edition_year": 2017,
+  "landing_url": "http://hades.mech.northwestern.edu/index.php/Modern_Robotics",
+  "coverage": "刚体运动、运动学、动力学、轨迹生成、运动规划与控制",
+  "prereq": "线代与力学",
+  "stage": "初学",
+  "general_ml_reason": "具身方向必要基础补充：VLA 与机器人学习论文默认的运动学/控制概念。",
+  "year_exception_reason": "机器人学经典教材，无更新版本。",
+  "cross": [
+   "10"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-038",
+  "files": [
+   {
+    "url": "http://hades.mech.northwestern.edu/images/2/25/MR-v2.pdf",
+    "name": "Lynch_ModernRobotics_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Lynch_ModernRobotics_en"
+ },
+ {
+  "title": "Robot Learning: A Tutorial",
+  "authors": [
+   "Francesco Capuano",
+   "Caroline Pascal",
+   "Adil Zouitine"
+  ],
+  "publisher": "arXiv（Hugging Face LeRobot 团队与牛津大学，作者公开）",
+  "arxiv": "2510.12403",
+  "edition": "arXiv v1",
+  "orig_year": 2025,
+  "edition_year": 2025,
+  "landing_url": "https://arxiv.org/abs/2510.12403",
+  "min_pages": 60,
+  "coverage": "经典机器人学到强化学习、模仿学习、生成式策略与视觉语言动作模型",
+  "prereq": "深度学习基础",
+  "stage": "初学→工程实践",
+  "reason": "2025 年书稿式机器人学习教程，从基础一直讲到 VLA，补齐具身方向教材。",
+  "cross": [
+   "10"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "priority": "中",
+  "sid": "14-039",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2510.12403v1",
+    "name": "Capuano_RobotLearningATutorial_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Capuano_RobotLearningATutorial_en"
+ },
+ {
+  "title": "Introduction to Information Retrieval",
+  "authors": [
+   "Christopher D. Manning",
+   "Prabhakar Raghavan",
+   "Hinrich Schütze"
+  ],
+  "publisher": "Cambridge University Press（斯坦福 NLP 组公开全文）",
+  "edition": "2008 在线版",
+  "orig_year": 2008,
+  "edition_year": 2009,
+  "landing_url": "https://nlp.stanford.edu/IR-book/",
+  "coverage": "倒排索引、评分与向量空间、评测、链接分析",
+  "prereq": "算法基础",
+  "stage": "初学",
+  "year_exception_reason": "信息检索标准教材，RAG 的检索与评测概念（召回、BM25、评测指标）以此为基础。",
+  "cross": [
+   "05"
+  ],
+  "kind": "book",
+  "language": "en",
+  "format": "PDF",
+  "min_pages": 100,
+  "priority": "中",
+  "sid": "14-040",
+  "files": [
+   {
+    "url": "https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf",
+    "name": "Manning_IntroductionToInformationRetrieval_en.pdf",
+    "kind": "pdf",
+    "main": true
+   }
+  ],
+  "dir_name": "Manning_IntroductionToInformationRetrieval_en"
+ }
+]

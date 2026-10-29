@@ -1,0 +1,780 @@
+[
+ {
+  "sid": "05-001",
+  "arxiv": "2310.11511",
+  "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "用反思标记让模型自主决定何时检索并评判检索与生成质量，是自适应 RAG 的代表方法",
+  "old_reason": "首次公开于 2023-10-17，略早于窗口；其“按需检索+自我批判”范式被后续 CRAG、Adaptive-RAG 等直接继承，是自适应 RAG 不可替代的起点"
+ },
+ {
+  "sid": "05-002",
+  "arxiv": "2401.15884",
+  "title": "Corrective Retrieval Augmented Generation",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "引入检索质量评估器并在检索失败时触发纠正动作（网页检索、知识精炼），代表 RAG 的鲁棒性改进路线"
+ },
+ {
+  "sid": "05-003",
+  "arxiv": "2312.05934",
+  "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs",
+  "subtopic": "知识更新",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "系统比较无监督微调与 RAG 在注入新知识与已有知识上的效果，是知识注入路线选择的基础研究"
+ },
+ {
+  "sid": "05-004",
+  "arxiv": "2403.18802",
+  "title": "Long-form factuality in large language models",
+  "subtopic": "事实性",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "提出 LongFact 与基于搜索的 SAFE 自动评估长文本事实性，并给出 F1@K 指标",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "主分类在 12（12-017，长文本事实性度量/评测）；本类作为事实性评测交叉标签",
+  "cross_only": true
+ },
+ {
+  "sid": "05-005",
+  "arxiv": "2305.14627",
+  "title": "Enabling Large Language Models to Generate Text with Citations",
+  "subtopic": "引用",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "ALCE：首个系统评估 LLM 带引用生成的基准，定义流畅性、正确性与引用质量指标",
+  "old_reason": "首次公开于 2023-05；带引用生成的标准基准与引用召回/精确率指标源于此，后续引用工作普遍沿用，无可替代"
+ },
+ {
+  "sid": "05-006",
+  "arxiv": "2202.05262",
+  "title": "Locating and Editing Factual Associations in GPT",
+  "subtopic": "知识编辑",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "ROME：用因果追踪定位中层 MLP 中的事实关联并以秩一更新编辑，是定位-编辑范式的起点",
+  "old_reason": "首次公开于 2022-02；因果追踪与秩一编辑奠定了定位-编辑范式，AlphaEdit 等近期方法均以其为基线与理论出发点"
+ },
+ {
+  "sid": "05-007",
+  "arxiv": "2307.03172",
+  "title": "Lost in the Middle: How Language Models Use Long Contexts",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "发现相关信息位于长上下文中部时模型性能显著下降，揭示长上下文利用的位置偏差",
+  "old_reason": "首次公开于 2023-07；“中间丢失”现象是长上下文利用研究的标准参照，后续 Found in the Middle、IN2 训练等直接以此为问题定义"
+ },
+ {
+  "sid": "05-008",
+  "arxiv": "2404.16130",
+  "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "用 LLM 构建实体知识图谱与社区摘要以回答全局性问题，是 GraphRAG 方向的代表工作"
+ },
+ {
+  "sid": "05-009",
+  "arxiv": "2410.05779",
+  "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以图结构索引结合双层检索降低 GraphRAG 的构建与更新成本，代表轻量图检索增强"
+ },
+ {
+  "sid": "05-010",
+  "arxiv": "2405.05904",
+  "title": "Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?",
+  "subtopic": "知识更新",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "控制微调数据中未知知识比例，研究微调引入新知识与幻觉倾向的关系",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "涉及幻觉成因"
+ },
+ {
+  "sid": "05-011",
+  "arxiv": "2311.08401",
+  "title": "Fine-tuning Language Models for Factuality",
+  "subtopic": "事实性",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "利用自动事实性评分构造偏好对，用 DPO 微调提升长文本事实性",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "使用偏好优化"
+ },
+ {
+  "sid": "05-012",
+  "arxiv": "2402.04315",
+  "title": "Training Language Models to Generate Text with Citations via Fine-grained Rewards",
+  "subtopic": "引用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以细粒度的正确性与引用奖励结合拒绝采样和强化学习训练带引用生成"
+ },
+ {
+  "sid": "05-013",
+  "arxiv": "2401.01286",
+  "title": "A Comprehensive Study of Knowledge Editing for Large Language Models",
+  "subtopic": "知识编辑",
+  "type": "综述",
+  "priority": "高",
+  "reason": "系统归类知识编辑方法并提出 KnowEdit 基准进行统一评测"
+ },
+ {
+  "sid": "05-014",
+  "arxiv": "2404.06654",
+  "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以可配置合成任务评估模型的有效上下文长度，超越简单大海捞针",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "评测基准"
+ },
+ {
+  "sid": "05-015",
+  "arxiv": "2405.14831",
+  "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "借鉴海马体索引理论，用知识图谱与个性化 PageRank 实现多跳检索，代表检索作为长期记忆的思路"
+ },
+ {
+  "sid": "05-016",
+  "arxiv": "2403.14403",
+  "title": "Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "按问题复杂度在不检索、单步检索与多步检索之间路由，代表按需检索策略"
+ },
+ {
+  "sid": "05-017",
+  "arxiv": "2406.11813",
+  "title": "How Do Large Language Models Acquire Factual Knowledge During Pretraining?",
+  "subtopic": "知识更新",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在预训练中注入新知识并跟踪其习得与遗忘动态，研究事实知识获取机制",
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "研究对象为预训练过程"
+ },
+ {
+  "sid": "05-018",
+  "arxiv": "2411.04368",
+  "title": "Measuring short-form factuality in large language models",
+  "subtopic": "事实性",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "SimpleQA：对抗式收集的短答案事实问答基准，同时评估模型校准",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "主分类在 12（12-016，短答案事实性度量基准）；本类作为事实性评测交叉标签",
+  "cross_only": true
+ },
+ {
+  "sid": "05-019",
+  "arxiv": "2409.02897",
+  "title": "LongCite: Enabling LLMs to Generate Fine-grained Citations in Long-context QA",
+  "subtopic": "引用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "构建长上下文句子级引用评测与自动数据管线，训练模型在长文档问答中给出细粒度引用"
+ },
+ {
+  "sid": "05-020",
+  "arxiv": "2410.02355",
+  "title": "AlphaEdit: Null-Space Constrained Knowledge Editing for Language Models",
+  "subtopic": "知识编辑",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "把编辑更新投影到保留知识的零空间以减少对已有知识的破坏"
+ },
+ {
+  "sid": "05-021",
+  "arxiv": "2412.15204",
+  "title": "LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "构建需要深度理解与推理的真实长上下文多任务基准"
+ },
+ {
+  "sid": "05-022",
+  "arxiv": "2403.10131",
+  "title": "RAFT: Adapting Language Model to Domain Specific RAG",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在训练中混入干扰文档并要求引用原文推理，研究领域 RAG 的微调方法",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "方法属于面向 RAG 的监督微调"
+ },
+ {
+  "sid": "05-023",
+  "arxiv": "2503.09516",
+  "title": "Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "用结果奖励强化学习训练模型在推理中多轮调用搜索引擎，是检索增强推理的代表",
+  "cross": [
+   "04",
+   "06"
+  ],
+  "cross_reason": "方法为推理强化学习，且检索器作为工具被调用"
+ },
+ {
+  "sid": "05-024",
+  "arxiv": "2409.07431",
+  "title": "Synthetic continued pretraining",
+  "subtopic": "知识更新",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "从小规模领域语料合成多样实体关系文本再继续预训练，研究高效知识吸收",
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "主分类在 02（02-039，合成数据用于继续预训练）；本类作为知识注入/知识更新交叉标签",
+  "cross_only": true
+ },
+ {
+  "sid": "05-025",
+  "arxiv": "2501.03200",
+  "title": "The FACTS Grounding Leaderboard: Benchmarking LLMs' Ability to Ground Responses to Long-Form Input",
+  "subtopic": "事实性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "评估模型依据长文档作答时的忠实依据能力，采用多评审模型自动打分"
+ },
+ {
+  "sid": "05-026",
+  "arxiv": "2311.09533",
+  "title": "Effective Large Language Model Adaptation for Improved Grounding and Citation Generation",
+  "subtopic": "引用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "AGREE：微调模型自我依据其回答并引用检索文档，测试时迭代检索补全依据"
+ },
+ {
+  "sid": "05-027",
+  "arxiv": "2405.14768",
+  "title": "WISE: Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models",
+  "subtopic": "知识编辑",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "引入旁路记忆与路由机制以兼顾终身编辑的可靠性、泛化与局部性"
+ },
+ {
+  "sid": "05-028",
+  "arxiv": "2410.02694",
+  "title": "HELMET: How to Evaluate Long-Context Language Models Effectively and Thoroughly",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "整合多类应用任务与可控长度，分析合成任务与下游表现的相关性"
+ },
+ {
+  "sid": "05-029",
+  "arxiv": "2501.05366",
+  "title": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在大推理模型的长思维链中插入智能体式检索与文档精炼模块，研究推理模型的知识不足问题",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "面向大推理模型"
+ },
+ {
+  "sid": "05-030",
+  "arxiv": "2501.14342",
+  "title": "Chain-of-Retrieval Augmented Generation",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "训练模型逐步检索与改写查询形成检索链，并研究测试时检索计算的扩展",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "涉及测试时计算扩展"
+ },
+ {
+  "sid": "05-031",
+  "arxiv": "2506.10943",
+  "title": "Self-Adapting Language Models",
+  "subtopic": "知识更新",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "SEAL：模型生成自我编辑数据与更新指令并经强化学习优化，实现持续吸收新知识",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "通过自生成数据进行权重更新"
+ },
+ {
+  "sid": "05-032",
+  "arxiv": "2406.19276",
+  "title": "VERISCORE: Evaluating the factuality of verifiable claims in long-form text generation",
+  "subtopic": "事实性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "只抽取可验证主张进行检索核查，改进长文本事实性评测的适用范围"
+ },
+ {
+  "sid": "05-033",
+  "arxiv": "2502.09604",
+  "title": "SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models",
+  "subtopic": "引用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "通过上下文消融计算引用必要性与充分性作为自监督奖励，提升句子级引用质量"
+ },
+ {
+  "sid": "05-034",
+  "arxiv": "2401.07453",
+  "title": "Model Editing at Scale leads to Gradual and Catastrophic Forgetting",
+  "subtopic": "知识编辑",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "揭示大规模连续编辑导致的渐进与灾难性遗忘"
+ },
+ {
+  "sid": "05-035",
+  "arxiv": "2502.05167",
+  "title": "NoLiMa: Long-Context Evaluation Beyond Literal Matching",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "去除问题与针之间的字面重叠，检验长上下文中的潜在关联推理"
+ },
+ {
+  "sid": "05-036",
+  "arxiv": "2312.10997",
+  "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+  "subtopic": "检索增强生成",
+  "type": "综述",
+  "priority": "高",
+  "reason": "系统梳理朴素、高级与模块化 RAG 及其检索、生成、增强与评测环节，是本方向入门综述"
+ },
+ {
+  "sid": "05-037",
+  "arxiv": "2501.09136",
+  "title": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
+  "subtopic": "检索增强生成",
+  "type": "综述",
+  "priority": "中",
+  "reason": "综述把规划、反思、工具使用等智能体模式引入 RAG 的系统与分类",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "涉及智能体工作流"
+ },
+ {
+  "sid": "05-038",
+  "arxiv": "2504.09522",
+  "title": "How new data permeates LLM knowledge and how to dilute it",
+  "subtopic": "知识更新",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究学习新事实时对无关知识的“启动”外溢效应及其预测与缓解方法"
+ },
+ {
+  "sid": "05-039",
+  "arxiv": "2402.02420",
+  "title": "Factuality of Large Language Models: A Survey",
+  "subtopic": "事实性",
+  "type": "综述",
+  "priority": "中",
+  "reason": "综述 LLM 事实性的定义、评测、成因与改进手段（含检索增强与解码）"
+ },
+ {
+  "sid": "05-040",
+  "arxiv": "2409.00729",
+  "title": "ContextCite: Attributing Model Generation to Context",
+  "subtopic": "引用",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "用线性代理模型估计上下文各部分对生成内容的贡献，实现事后上下文归因",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "可用于可解释性与验证"
+ },
+ {
+  "sid": "05-041",
+  "arxiv": "2502.05628",
+  "title": "AnyEdit: Edit Any Knowledge Encoded in Language Models",
+  "subtopic": "知识编辑",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以自回归分块编辑支持长文本、多格式知识编辑"
+ },
+ {
+  "sid": "05-042",
+  "arxiv": "2406.13121",
+  "title": "Can Long-Context Language Models Replace Retrieval, Retrieval-Augmented Generation, SQL, and More?",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "LOFT 基准评估长上下文模型直接在上下文中完成检索、RAG 与 SQL 类任务的能力"
+ },
+ {
+  "sid": "05-043",
+  "arxiv": "2401.00368",
+  "title": "Improving Text Embeddings with Large Language Models",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "用 LLM 合成多语言检索训练数据并以解码器模型做文本嵌入，代表 LLM 化检索器"
+ },
+ {
+  "sid": "05-044",
+  "arxiv": "2407.12883",
+  "title": "BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "构建需要深度推理才能判断相关性的检索基准，揭示关键词/语义检索的不足"
+ },
+ {
+  "sid": "05-045",
+  "arxiv": "2403.08319",
+  "title": "Knowledge Conflicts for LLMs: A Survey",
+  "subtopic": "知识更新",
+  "type": "综述",
+  "priority": "中",
+  "reason": "综述上下文-记忆冲突、上下文间冲突和记忆内部冲突三类知识冲突的成因与对策"
+ },
+ {
+  "sid": "05-046",
+  "arxiv": "2508.05618",
+  "title": "Learning to Reason for Factuality",
+  "subtopic": "事实性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究推理模型在长文本事实性上的退化并设计兼顾事实精度、细节与相关性的在线强化学习奖励",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "针对推理模型的强化学习"
+ },
+ {
+  "sid": "05-047",
+  "arxiv": "2411.14199",
+  "title": "OpenScholar: Synthesizing Scientific Literature with Retrieval-augmented LMs",
+  "subtopic": "引用",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "面向科研文献的检索增强模型，基于大规模论文库生成带引用的综合回答并构建 ScholarQABench"
+ },
+ {
+  "sid": "05-048",
+  "arxiv": "2502.11177",
+  "title": "The Mirage of Model Editing: Revisiting Evaluation in the Wild",
+  "subtopic": "知识编辑",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "指出常用编辑评测中的教师强制等设定高估效果，提出贴近真实使用的评测",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "评测方法学"
+ },
+ {
+  "sid": "05-049",
+  "arxiv": "2404.15574",
+  "title": "Retrieval Head Mechanistically Explains Long-Context Factuality",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "发现少量“检索头”负责从长上下文中取回信息，解释长上下文事实性",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "机制可解释性"
+ },
+ {
+  "sid": "05-050",
+  "arxiv": "2504.20595",
+  "title": "ReasonIR: Training Retrievers for Reasoning Tasks",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "合成推理密集型查询训练检索器，面向推理任务的 RAG 检索端"
+ },
+ {
+  "sid": "05-051",
+  "arxiv": "2407.01449",
+  "title": "ColPali: Efficient Document Retrieval with Vision Language Models",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "直接对文档页面图像做多向量检索，代表免 OCR 的多模态文档检索",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "基于视觉语言模型处理文档图像"
+ },
+ {
+  "sid": "05-052",
+  "arxiv": "2404.10198",
+  "title": "ClashEval: Quantifying the tug-of-war between an LLM's internal prior and external evidence",
+  "subtopic": "知识更新",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "通过扰动检索文档量化模型在内部先验与外部证据冲突时的取舍"
+ },
+ {
+  "sid": "05-053",
+  "arxiv": "2503.05212",
+  "title": "Knowledge Updating? No More Model Editing! Just Selective Contextual Reasoning",
+  "subtopic": "知识编辑",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "比较参数编辑与基于检索上下文推理的知识更新，提出选择性上下文推理方案"
+ },
+ {
+  "sid": "05-054",
+  "arxiv": "2404.16811",
+  "title": "Make Your LLM Fully Utilize the Context",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "提出信息密集训练（IN2）以缓解中间丢失，提升长上下文利用",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "基于合成数据的训练方法"
+ },
+ {
+  "sid": "05-055",
+  "arxiv": "2406.04744",
+  "title": "CRAG -- Comprehensive RAG Benchmark",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "覆盖多领域、多问题类型与动态事实的 RAG 问答基准，含模拟网页与知识图谱检索接口"
+ },
+ {
+  "sid": "05-056",
+  "arxiv": "2409.12941",
+  "title": "Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "FRAMES 基准，统一评估事实性、检索与多跳推理三方面的端到端 RAG 能力"
+ },
+ {
+  "sid": "05-057",
+  "arxiv": "2505.14679",
+  "title": "UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Large Language Models",
+  "subtopic": "知识编辑",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "无需训练、主体定位或外部记忆的终身编辑方法，以终身归一化维持大规模连续编辑"
+ },
+ {
+  "sid": "05-058",
+  "arxiv": "2410.05983",
+  "title": "Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分析检索段落增多时性能先升后降的“困难负例”问题并提出重排与训练对策"
+ },
+ {
+  "sid": "05-059",
+  "arxiv": "2411.06037",
+  "title": "Sufficient Context: A New Lens on Retrieval Augmented Generation Systems",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "提出“上下文是否充分”的判别视角，分析 RAG 中错误回答与拒答的来源"
+ },
+ {
+  "sid": "05-060",
+  "arxiv": "2601.11888",
+  "title": "Agentic-R: Learning to Retrieve for Agentic Search",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "面向多轮智能体搜索训练检索器，结合局部相关性与最终答案正确性并与搜索智能体迭代优化（2026 新工作）",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "检索器服务于搜索智能体"
+ },
+ {
+  "sid": "05-061",
+  "arxiv": "2601.02872",
+  "title": "LongBench Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以自然长文本构建中英双语长上下文评测，考察声称长度与有效长度差距（2026 新工作）"
+ },
+ {
+  "sid": "05-062",
+  "arxiv": "2401.18059",
+  "title": "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以递归聚类与摘要构建树状索引，支持不同抽象层级的检索，代表层次化索引方向",
+  "reserve": true
+ },
+ {
+  "sid": "05-063",
+  "arxiv": "2407.02485",
+  "title": "RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "用同一个指令微调模型同时完成上下文重排与生成，代表重排与生成一体化",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "核心手段为指令微调",
+  "reserve": true
+ },
+ {
+  "sid": "05-064",
+  "arxiv": "2503.05592",
+  "title": "R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "两阶段基于结果的强化学习激发模型自主调用外部检索，代表 R1 式检索训练",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "使用推理导向的强化学习",
+  "reserve": true
+ },
+ {
+  "sid": "05-065",
+  "arxiv": "2410.07176",
+  "title": "Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models",
+  "subtopic": "知识更新",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "自适应融合内部知识与外部检索并解决冲突，应对不完美检索"
+ },
+ {
+  "sid": "05-066",
+  "arxiv": "2405.01525",
+  "title": "FLAME: Factuality-Aware Alignment for Large Language Models",
+  "subtopic": "事实性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分析常规对齐流程为何损害事实性，提出事实性感知的 SFT 与 DPO",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "对齐流程改进"
+ },
+ {
+  "sid": "05-067",
+  "arxiv": "2409.11242",
+  "title": "Measuring and Enhancing Trustworthiness of LLMs in RAG through Grounded Attributions and Learning to Refuse",
+  "subtopic": "引用",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "提出 Trust-Score 评估 RAG 中的依据归因与拒答能力，并以对齐方法提升",
+  "reserve": true
+ },
+ {
+  "sid": "05-068",
+  "arxiv": "2402.13718",
+  "title": "∞Bench: Extending Long Context Evaluation Beyond 100K Tokens",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "首个平均长度超过 10 万 token 的长上下文评测基准",
+  "reserve": true
+ },
+ {
+  "sid": "05-069",
+  "arxiv": "2410.04343",
+  "title": "Inference Scaling for Long-Context Retrieval Augmented Generation",
+  "subtopic": "长上下文",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究长上下文 RAG 的推理计算扩展规律并给出最优配置预测",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "测试时计算扩展",
+  "reserve": true
+ },
+ {
+  "sid": "05-070",
+  "arxiv": "2505.04588",
+  "title": "ZeroSearch: Incentivize the Search Capability of LLMs without Searching",
+  "subtopic": "检索增强生成",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "用模拟搜索引擎替代真实搜索进行强化学习，降低检索训练成本",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "强化学习训练",
+  "reserve": true
+ },
+ {
+  "sid": "05-071",
+  "arxiv": "2403.17104",
+  "title": "Attribute First, then Generate: Locally-attributable Grounded Text Generation",
+  "subtopic": "引用",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "先选取支持片段再生成，实现局部可归因的文本生成",
+  "reserve": true
+ },
+ {
+  "sid": "05-072",
+  "arxiv": "2405.03279",
+  "title": "Lifelong Knowledge Editing for LLMs with Retrieval-Augmented Continuous Prompt Learning",
+  "subtopic": "知识编辑",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "RECIPE：以检索增强的连续提示实现终身知识编辑",
+  "reserve": true
+ },
+ {
+  "sid": "05-073",
+  "arxiv": "2509.23765",
+  "title": "Knowledge-Level Consistency Reinforcement Learning: Dual-Fact Alignment for Long-Form Factuality",
+  "subtopic": "事实性",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以事实清单与轻量真实性奖励模型做知识一致性强化学习，提升长文本事实性",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "强化学习训练"
+ }
+]

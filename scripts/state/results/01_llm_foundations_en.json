@@ -1,0 +1,100 @@
+{
+ "01-001": {
+  "key": "arxiv:2407.21783",
+  "title": "The Llama 3 Herd of Models",
+  "source_url": "https://arxiv.org/pdf/2407.21783v3",
+  "landing": "https://arxiv.org/abs/2407.21783v3",
+  "version": "arXiv 2407.21783v3",
+  "version_date": "2024-11-23",
+  "time": "2026-10-29 14:17:57",
+  "origin": "downloaded_this_round",
+  "http_status": 200,
+  "final_url": "https://arxiv.org/pdf/2407.21783v3",
+  "content_type": "application/pdf",
+  "bytes": 9833173,
+  "verification": {
+   "ok_hard": true,
+   "status": "verified",
+   "notes": [],
+   "pages": 92,
+   "chars_extracted": 356444,
+   "pages_extracted": 92,
+   "title_match": 1.0,
+   "author_check": "later_pages",
+   "references_heading": true,
+   "supplement_like": false,
+   "urls_first_pages": []
+  },
+  "status": "verified",
+  "notes": [],
+  "sha256": "481f1599468f95a07d05e97fafe55bbe786dc1624c6f881bcb4c7d14c933d083",
+  "local_path": "papers/2024_Grattafiori_Llama3HerdModels_en.pdf"
+ },
+ "01-002": {
+  "key": "arxiv:2104.09864",
+  "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+  "source_url": "https://arxiv.org/pdf/2104.09864v5",
+  "landing": "https://arxiv.org/abs/2104.09864v5",
+  "version": "arXiv 2104.09864v5",
+  "version_date": "2023-11-08",
+  "time": "2026-10-29 14:18:02",
+  "origin": "downloaded_this_round",
+  "http_status": 200,
+  "final_url": "https://arxiv.org/pdf/2104.09864v5",
+  "content_type": "application/pdf",
+  "bytes": 599289,
+  "verification": {
+   "ok_hard": true,
+   "status": "verified",
+   "notes": [],
+   "pages": 14,
+   "chars_extracted": 44828,
+   "pages_extracted": 14,
+   "title_match": 1.0,
+   "author_check": "first_pages",
+   "references_heading": true,
+   "supplement_like": false,
+   "urls_first_pages": [
+    "https://github.com/ZhuiyiTechnology/roformer",
+    "https://huggingface.co/docs/transformers/model_doc/roformer"
+   ]
+  },
+  "status": "verified",
+  "notes": [],
+  "sha256": "e9a481fbe1c8a20b7b1fa566b13102a1896c7829fa9a8b4c80528452a5ddaf79",
+  "local_path": "papers/2021_Su_RoFormer_en.pdf"
+ },
+ "01-003": {
+  "key": "arxiv:2312.00752",
+  "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+  "source_url": "https://arxiv.org/pdf/2312.00752v2",
+  "landing": "https://arxiv.org/abs/2312.00752v2",
+  "version": "arXiv 2312.00752v2",
+  "version_date": "2024-05-31",
+  "time": "2026-10-29 14:18:03",
+  "origin": "downloaded_this_round",
+  "http_status": 200,
+  "final_url": "https://arxiv.org/pdf/2312.00752v2",
+  "content_type": "application/pdf",
+  "bytes": 1168615,
+  "verification": {
+   "ok_hard": true,
+   "status": "verified",
+   "notes": [],
+   "pages": 36,
+   "chars_extracted": 156520,
+   "pages_extracted": 36,
+   "title_match": 1.0,
+   "author_check": "first_pages",
+   "references_heading": true,
+   "supplement_like": false,
+   "urls_first_pages": [
+    "https://github.com/state-spaces/mamba"
+   ]
+  },
+  "status": "verified",
+  "notes": [],
+  "sha256": "adf70ed1803c85b1899dec3e21f3af0b124411439e8654b840ea65f7b9f52b2e",
+  "local_path": "papers/2023_Gu_Mamba_en.pdf"
+ }
+}

@@ -1,0 +1,719 @@
+[
+ {
+  "sid": "11-001",
+  "arxiv": "2402.15627",
+  "title": "MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "万卡规模 LLM 训练系统的全栈设计与故障容错实践，代表生产级分布式训练工程。"
+ },
+ {
+  "sid": "11-002",
+  "arxiv": "2401.10241",
+  "title": "Zero Bubble Pipeline Parallelism",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "通过拆分反向计算调度消除流水线并行气泡，代表流水线并行调度方法。"
+ },
+ {
+  "sid": "11-003",
+  "arxiv": "2311.08105",
+  "title": "DiLoCo: Distributed Low-Communication Training of Language Models",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "低通信频率的跨集群分布式训练方法，代表弱互联条件下的数据并行变体。"
+ },
+ {
+  "sid": "11-004",
+  "arxiv": "2503.09799",
+  "title": "Communication-Efficient Language Model Training Scales Reliably and Robustly: Scaling Laws for DiLoCo",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究低通信训练（DiLoCo）随模型规模变化的规律，补充其可扩展性证据。"
+ },
+ {
+  "sid": "11-005",
+  "arxiv": "2412.01152",
+  "title": "INTELLECT-1 Technical Report",
+  "subtopic": "分布式训练",
+  "type": "技术报告",
+  "priority": "中",
+  "reason": "跨地域去中心化协作训练 10B 级模型的技术报告，代表去中心化训练实践。"
+ },
+ {
+  "sid": "11-006",
+  "arxiv": "2410.06511",
+  "title": "TorchTitan: One-stop PyTorch native solution for production ready LLM pre-training",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "PyTorch 原生的多维并行（FSDP/TP/PP/CP）预训练系统，代表可组合并行框架。"
+ },
+ {
+  "sid": "11-007",
+  "arxiv": "2403.03507",
+  "title": "GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以梯度低秩投影降低优化器状态显存的全参数训练方法，代表训练显存优化。",
+  "cross_only": true,
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "GaLore 已由 03 作为参数/显存高效微调方法认领；其全参数训练显存优化与本类交叉。"
+ },
+ {
+  "sid": "11-008",
+  "arxiv": "1910.02054",
+  "title": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "提出分片数据并行（ZeRO），是 FSDP/DeepSpeed 等后续系统的基础。",
+  "old_reason": "ZeRO 分片思想是当前几乎所有大模型分布式训练框架（FSDP、DeepSpeed）的共同基础，近年工作普遍以其为前提，无法用新作替代。"
+ },
+ {
+  "sid": "11-009",
+  "arxiv": "2401.06066",
+  "title": "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+  "subtopic": "混合专家",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "细粒度专家切分与共享专家设计，代表 MoE 专家专门化方向。"
+ },
+ {
+  "sid": "11-010",
+  "arxiv": "2408.15664",
+  "title": "Auxiliary-Loss-Free Load Balancing Strategy for Mixture-of-Experts",
+  "subtopic": "混合专家",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以偏置调节替代辅助损失实现专家负载均衡，代表 MoE 路由均衡方法。"
+ },
+ {
+  "sid": "11-011",
+  "arxiv": "2409.02060",
+  "title": "OLMoE: Open Mixture-of-Experts Language Models",
+  "subtopic": "混合专家",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "完全开放的 MoE 语言模型及其设计消融，便于复现 MoE 训练选择。",
+  "cross": [
+   "01"
+  ],
+  "cross_reason": "同时是开放模型发布，但主体是 MoE 设计与训练分析。"
+ },
+ {
+  "sid": "11-012",
+  "arxiv": "2502.19811",
+  "title": "Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts",
+  "subtopic": "混合专家",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "MoE 专家并行中计算与通信的细粒度重叠，代表 MoE 训练系统优化。"
+ },
+ {
+  "sid": "11-013",
+  "arxiv": "2504.02263",
+  "title": "MegaScale-Infer: Serving Mixture-of-Experts at Scale with Disaggregated Expert Parallelism",
+  "subtopic": "混合专家",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "将注意力与专家模块解耦部署的 MoE 推理服务系统，代表 MoE 推理部署。"
+ },
+ {
+  "sid": "11-014",
+  "arxiv": "2407.06204",
+  "title": "A Survey on Mixture of Experts in Large Language Models",
+  "subtopic": "混合专家",
+  "type": "综述",
+  "priority": "高",
+  "reason": "系统梳理 LLM 中 MoE 的算法、系统与应用，作为本子方向入门综述。"
+ },
+ {
+  "sid": "11-015",
+  "arxiv": "2409.12517",
+  "title": "Scaling FP8 training to trillion-token LLMs",
+  "subtopic": "低精度",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "在万亿 token 规模上分析 FP8 训练的不稳定来源及对策，代表 FP8 训练。"
+ },
+ {
+  "sid": "11-016",
+  "arxiv": "2502.20586",
+  "title": "Training LLMs with MXFP4",
+  "subtopic": "低精度",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究以 MXFP4 微缩放格式进行 LLM 训练的方法，代表 4 比特训练。"
+ },
+ {
+  "sid": "11-017",
+  "arxiv": "2505.14669",
+  "title": "Quartet: Native FP4 Training Can Be Optimal for Large Language Models",
+  "subtopic": "低精度",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "原生 FP4 全流程训练算法及其精度-效率权衡分析。"
+ },
+ {
+  "sid": "11-018",
+  "arxiv": "2509.25149",
+  "title": "Pretraining Large Language Models with NVFP4",
+  "subtopic": "低精度",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以 NVFP4 格式进行大规模预训练的方案，代表最新 4 比特预训练实践。"
+ },
+ {
+  "sid": "11-019",
+  "arxiv": "2411.04330",
+  "title": "Scaling Laws for Precision",
+  "subtopic": "低精度",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "把训练/推理精度纳入规模定律，量化低精度对损失的影响。",
+  "cross": [
+   "01"
+  ],
+  "cross_reason": "规模定律按约定归 01；其研究变量为数值精度，与本类低精度方向交叉。",
+  "cross_only": true
+ },
+ {
+  "sid": "11-020",
+  "arxiv": "2402.17764",
+  "title": "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits",
+  "subtopic": "低精度",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "三值权重（1.58 比特）从头训练的 LLM，代表极低比特训练路线。"
+ },
+ {
+  "sid": "11-021",
+  "arxiv": "2210.17323",
+  "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+  "subtopic": "量化",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "基于近似二阶信息的逐层权重后训练量化，是 LLM 量化的标准基线。",
+  "old_reason": "GPTQ 是几乎所有近年 LLM 权重量化工作的对比基线与实现基础（各推理框架内置），不可替代。"
+ },
+ {
+  "sid": "11-022",
+  "arxiv": "2404.00456",
+  "title": "QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs",
+  "subtopic": "量化",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以正交旋转消除激活离群值，实现权重/激活/KV 全 4 比特推理。"
+ },
+ {
+  "sid": "11-023",
+  "arxiv": "2405.16406",
+  "title": "SpinQuant: LLM quantization with learned rotations",
+  "subtopic": "量化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "学习旋转矩阵以改善量化，代表旋转类量化的可学习化。"
+ },
+ {
+  "sid": "11-024",
+  "arxiv": "2401.06118",
+  "title": "Extreme Compression of Large Language Models via Additive Quantization",
+  "subtopic": "量化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "加性（多码本）向量量化用于 2 比特级权重压缩（AQLM）。"
+ },
+ {
+  "sid": "11-025",
+  "arxiv": "2402.02750",
+  "title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache",
+  "subtopic": "量化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "按通道/按 token 非对称的 KV 缓存 2 比特量化，代表 KV 缓存量化。"
+ },
+ {
+  "sid": "11-026",
+  "arxiv": "2405.04532",
+  "title": "QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving",
+  "subtopic": "量化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "量化算法与服务系统内核协同设计，代表量化在服务端的落地。"
+ },
+ {
+  "sid": "11-027",
+  "arxiv": "2502.02631",
+  "title": "ParetoQ: Scaling Laws in Extremely Low-bit LLM Quantization",
+  "subtopic": "量化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "统一比较 1–4 比特量化训练方案，给出极低比特量化的规律。"
+ },
+ {
+  "sid": "11-028",
+  "arxiv": "2411.05007",
+  "title": "SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models",
+  "subtopic": "量化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以低秩分支吸收离群值实现扩散模型 4 比特量化，覆盖生成模型部署。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "对象是图像扩散模型，但贡献是量化方法与推理引擎。"
+ },
+ {
+  "sid": "11-029",
+  "arxiv": "2401.15024",
+  "title": "SliceGPT: Compress Large Language Models by Deleting Rows and Columns",
+  "subtopic": "剪枝",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "利用计算不变性删除权重矩阵行列的结构化剪枝。"
+ },
+ {
+  "sid": "11-030",
+  "arxiv": "2403.03853",
+  "title": "ShortGPT: Layers in Large Language Models are More Redundant Than You Expect",
+  "subtopic": "剪枝",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "基于层重要性指标直接删除冗余层，代表层级剪枝。"
+ },
+ {
+  "sid": "11-031",
+  "arxiv": "2407.14679",
+  "title": "Compact Language Models via Pruning and Knowledge Distillation",
+  "subtopic": "剪枝",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "剪枝结合蒸馏从大模型得到小模型（Minitron），代表压缩再训练流程。"
+ },
+ {
+  "sid": "11-032",
+  "arxiv": "2409.17481",
+  "title": "MaskLLM: Learnable Semi-Structured Sparsity for Large Language Models",
+  "subtopic": "剪枝",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "端到端学习 2:4 半结构化稀疏掩码，代表硬件友好剪枝。"
+ },
+ {
+  "sid": "11-033",
+  "arxiv": "2408.14690",
+  "title": "Training-Free Activation Sparsity in Large Language Models",
+  "subtopic": "剪枝",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "无需训练的激活稀疏化（TEAL）以加速解码，代表动态稀疏。"
+ },
+ {
+  "sid": "11-034",
+  "arxiv": "2402.03898",
+  "title": "DistiLLM: Towards Streamlined Distillation for Large Language Models",
+  "subtopic": "蒸馏",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "偏斜 KL 散度与自适应离策略生成的 LLM 蒸馏方法。"
+ },
+ {
+  "sid": "11-035",
+  "arxiv": "2402.13116",
+  "title": "A Survey on Knowledge Distillation of Large Language Models",
+  "subtopic": "蒸馏",
+  "type": "综述",
+  "priority": "高",
+  "reason": "梳理 LLM 知识蒸馏的算法、技能与垂直应用，作为本子方向综述。"
+ },
+ {
+  "sid": "11-036",
+  "arxiv": "2502.08606",
+  "title": "Distillation Scaling Laws",
+  "subtopic": "蒸馏",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "给出教师/学生算力分配下蒸馏效果的规模定律。"
+ },
+ {
+  "sid": "11-037",
+  "arxiv": "2410.17215",
+  "title": "MiniPLM: Knowledge Distillation for Pre-Training Language Models",
+  "subtopic": "蒸馏",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "将知识蒸馏用于预训练阶段（离线教师推理改写数据分布）。",
+  "cross": [
+   "02"
+  ],
+  "cross_reason": "作用于预训练数据分布，但方法本质是蒸馏。"
+ },
+ {
+  "sid": "11-038",
+  "arxiv": "2211.17192",
+  "title": "Fast Inference from Transformers via Speculative Decoding",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "提出投机解码：小模型起草、大模型并行验证且保持输出分布不变。",
+  "old_reason": "投机解码的奠基工作，近年 Medusa/EAGLE 等全部以其无损验证框架为基础，不可替代。"
+ },
+ {
+  "sid": "11-039",
+  "arxiv": "2401.10774",
+  "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以多个解码头与树形注意力实现无草稿模型的投机解码。"
+ },
+ {
+  "sid": "11-040",
+  "arxiv": "2401.15077",
+  "title": "EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "在特征层自回归起草的投机采样方法。"
+ },
+ {
+  "sid": "11-041",
+  "arxiv": "2503.01840",
+  "title": "EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "去除特征预测约束、融合多层特征以使草稿模型随数据扩展。"
+ },
+ {
+  "sid": "11-042",
+  "arxiv": "2401.07851",
+  "title": "Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding",
+  "subtopic": "推理加速",
+  "type": "综述",
+  "priority": "中",
+  "reason": "投机解码的系统综述与分类。"
+ },
+ {
+  "sid": "11-043",
+  "arxiv": "2404.14294",
+  "title": "A Survey on Efficient Inference for Large Language Models",
+  "subtopic": "推理加速",
+  "type": "综述",
+  "priority": "高",
+  "reason": "从数据、模型、系统三个层面梳理 LLM 高效推理方法。"
+ },
+ {
+  "sid": "11-044",
+  "arxiv": "2307.08691",
+  "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "IO 感知精确注意力内核的改进并行划分，训练与推理通用。",
+  "old_reason": "FlashAttention-2 是当前训练与推理框架的默认注意力内核，FA3/FlashInfer 等新作均以其为基础与基线。"
+ },
+ {
+  "sid": "11-045",
+  "arxiv": "2407.08608",
+  "title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "利用 Hopper 异步与 FP8 的注意力内核。"
+ },
+ {
+  "sid": "11-046",
+  "arxiv": "2410.02367",
+  "title": "SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "8 比特注意力计算的即插即用加速方法。"
+ },
+ {
+  "sid": "11-047",
+  "arxiv": "2404.14469",
+  "title": "SnapKV: LLM Knows What You are Looking for Before Generation",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "基于观察窗口注意力选择保留 KV 的缓存压缩方法。"
+ },
+ {
+  "sid": "11-048",
+  "arxiv": "2407.02490",
+  "title": "MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "长上下文预填充阶段的动态稀疏注意力加速。",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "服务长上下文场景，但贡献是推理加速。"
+ },
+ {
+  "sid": "11-049",
+  "arxiv": "2502.11089",
+  "title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "硬件对齐且可原生训练的稀疏注意力，兼顾训练与推理效率。",
+  "cross": [
+   "01"
+  ],
+  "cross_reason": "原生稀疏注意力属注意力架构，主分类归 01；其训练/推理效率贡献在本类作交叉标签。",
+  "cross_only": true
+ },
+ {
+  "sid": "11-050",
+  "arxiv": "2505.23416",
+  "title": "KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以上下文重建为目标的与查询无关 KV 缓存压缩，代表近期 KV 压缩。"
+ },
+ {
+  "sid": "11-051",
+  "arxiv": "2309.06180",
+  "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "分页式 KV 缓存管理（vLLM），是 LLM 服务显存管理的基础。",
+  "old_reason": "PagedAttention/vLLM 是当今开源 LLM 服务系统的事实标准，后续服务论文普遍以其为基线，不可替代。"
+ },
+ {
+  "sid": "11-052",
+  "arxiv": "2312.07104",
+  "title": "SGLang: Efficient Execution of Structured Language Model Programs",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "RadixAttention 前缀缓存与结构化生成的服务运行时。"
+ },
+ {
+  "sid": "11-053",
+  "arxiv": "2401.09670",
+  "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "预填充与解码分离部署以优化有效吞吐，代表 PD 分离。"
+ },
+ {
+  "sid": "11-054",
+  "arxiv": "2403.02310",
+  "title": "Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分块预填充与无停顿调度平衡吞吐与时延。"
+ },
+ {
+  "sid": "11-055",
+  "arxiv": "2407.00079",
+  "title": "Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以 KV 缓存为中心的分离式生产服务架构。"
+ },
+ {
+  "sid": "11-056",
+  "arxiv": "2501.01005",
+  "title": "FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "面向服务的可定制注意力引擎（块稀疏格式与 JIT）。"
+ },
+ {
+  "sid": "11-057",
+  "arxiv": "2408.00741",
+  "title": "DynamoLLM: Designing LLM Inference Clusters for Performance and Energy Efficiency",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "推理集群的能耗感知动态资源配置。"
+ },
+ {
+  "sid": "11-058",
+  "arxiv": "2505.09343",
+  "title": "Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "从模型-硬件协同角度总结大规模训练与推理的硬件瓶颈。"
+ },
+ {
+  "sid": "11-059",
+  "arxiv": "2505.06371",
+  "title": "The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "生成式模型推理能耗测量与优化基准，代表能耗/资源评估。"
+ },
+ {
+  "sid": "11-060",
+  "arxiv": "2502.21231",
+  "title": "ByteScale: Efficient Scaling of LLM Training with a 2048K Context Length on More Than 12,000 GPUs",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "超长上下文训练的数据/上下文混合并行系统。",
+  "reserve": true
+ },
+ {
+  "sid": "11-061",
+  "arxiv": "2405.07719",
+  "title": "USP: A Unified Sequence Parallelism Approach for Long Context Generative AI",
+  "subtopic": "分布式训练",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "统一 Ulysses 与 Ring 的序列并行方法。",
+  "reserve": true
+ },
+ {
+  "sid": "11-062",
+  "arxiv": "2404.02258",
+  "title": "Mixture-of-Depths: Dynamically allocating compute in transformer-based language models",
+  "subtopic": "混合专家",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "按 token 动态跳层的条件计算，与 MoE 互补。",
+  "reserve": true
+ },
+ {
+  "sid": "11-063",
+  "arxiv": "2402.07871",
+  "title": "Scaling Laws for Fine-Grained Mixture of Experts",
+  "subtopic": "混合专家",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "引入专家粒度变量的 MoE 规模定律。",
+  "reserve": true
+ },
+ {
+  "sid": "11-064",
+  "arxiv": "2503.05139",
+  "title": "Every FLOP Counts: Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs",
+  "subtopic": "混合专家",
+  "type": "技术报告",
+  "priority": "中",
+  "reason": "在非高端加速卡上训练 300B MoE 的工程报告。",
+  "reserve": true
+ },
+ {
+  "sid": "11-065",
+  "arxiv": "2410.19313",
+  "title": "COAT: Compressing Optimizer States and Activation for Memory-Efficient FP8 Training",
+  "subtopic": "低精度",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "压缩优化器状态与激活的 FP8 训练。",
+  "reserve": true
+ },
+ {
+  "sid": "11-066",
+  "arxiv": "2402.04396",
+  "title": "QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks",
+  "subtopic": "量化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "Hadamard 非相干处理与格码本的 2 比特权重量化。",
+  "reserve": true
+ },
+ {
+  "sid": "11-067",
+  "arxiv": "2401.18079",
+  "title": "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization",
+  "subtopic": "量化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "面向超长上下文的 KV 缓存量化。",
+  "reserve": true
+ },
+ {
+  "sid": "11-068",
+  "arxiv": "2403.17887",
+  "title": "The Unreasonable Ineffectiveness of the Deeper Layers",
+  "subtopic": "剪枝",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "深层可大量删除的层剪枝实证。",
+  "reserve": true
+ },
+ {
+  "sid": "11-069",
+  "arxiv": "2402.12030",
+  "title": "Towards Cross-Tokenizer Distillation: the Universal Logit Distillation Loss for LLMs",
+  "subtopic": "蒸馏",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "跨分词器的 logit 蒸馏损失。",
+  "reserve": true
+ },
+ {
+  "sid": "11-070",
+  "arxiv": "2408.15237",
+  "title": "The Mamba in the Llama: Distilling and Accelerating Hybrid Models",
+  "subtopic": "蒸馏",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "将 Transformer 蒸馏为混合线性 RNN 以加速推理。",
+  "reserve": true
+ },
+ {
+  "sid": "11-071",
+  "arxiv": "2402.02057",
+  "title": "Break the Sequential Dependency of LLM Inference Using Lookahead Decoding",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "基于 Jacobi 迭代的无草稿模型并行解码。",
+  "reserve": true
+ },
+ {
+  "sid": "11-072",
+  "arxiv": "2406.10774",
+  "title": "Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "按查询选择 KV 页的长上下文稀疏解码。",
+  "reserve": true
+ },
+ {
+  "sid": "11-073",
+  "arxiv": "2311.18677",
+  "title": "Splitwise: Efficient generative LLM inference using phase splitting",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "按阶段拆分到异构机器的推理部署。",
+  "reserve": true
+ },
+ {
+  "sid": "11-074",
+  "arxiv": "2311.03285",
+  "title": "S-LoRA: Serving Thousands of Concurrent LoRA Adapters",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "大量 LoRA 适配器并发服务的显存与调度设计。",
+  "reserve": true
+ }
+]

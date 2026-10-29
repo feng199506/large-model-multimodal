@@ -1,0 +1,772 @@
+[
+ {
+  "sid": "03-001",
+  "arxiv": "2312.15685",
+  "title": "What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "系统研究指令微调数据的复杂度/质量/多样性度量与自动选择（Deita）。"
+ },
+ {
+  "sid": "03-002",
+  "arxiv": "2106.09685",
+  "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "低秩适配器是参数高效微调的基础方法。",
+  "old_reason": "几乎所有近期 PEFT 方法（DoRA、PiSSA、LoRA+ 等）均以其为基线与出发点，不可替代。"
+ },
+ {
+  "sid": "03-003",
+  "arxiv": "2305.18290",
+  "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "将 RLHF 目标改写为对偏好对的分类损失，开启直接偏好优化方法族。",
+  "old_reason": "离线偏好优化的奠基工作，KTO/SimPO/IPO 等近期方法均以其为直接基线，不可替代。"
+ },
+ {
+  "sid": "03-004",
+  "arxiv": "2203.02155",
+  "title": "Training language models to follow instructions with human feedback",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "SFT+奖励模型+PPO 的 RLHF 三阶段范式（InstructGPT）。",
+  "old_reason": "现代 RLHF 流程的定义性工作，近期对齐论文普遍以其为参照，不可替代。"
+ },
+ {
+  "sid": "03-005",
+  "arxiv": "2402.04833",
+  "title": "Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以回复长度为选择准则的指令数据筛选基线，检验数据选择方法的有效性。"
+ },
+ {
+  "sid": "03-006",
+  "arxiv": "2305.14314",
+  "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "4-bit 量化基座上训练 LoRA，使单卡微调大模型成为可能。",
+  "old_reason": "量化+LoRA 微调的标准做法，近期低资源微调工作普遍依赖，不可替代。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "涉及 4-bit 量化与显存优化。"
+ },
+ {
+  "sid": "03-007",
+  "arxiv": "2402.01306",
+  "title": "KTO: Model Alignment as Prospect Theoretic Optimization",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "基于前景理论只需二元好/坏信号的对齐目标。"
+ },
+ {
+  "sid": "03-008",
+  "arxiv": "2212.08073",
+  "title": "Constitutional AI: Harmlessness from AI Feedback",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以成文原则驱动模型自我批评与 AI 偏好反馈（RLAIF）。",
+  "old_reason": "AI 反馈替代人类标注的开创性工作，后续 RLAIF/自我奖励研究均溯源于此。",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "目标为无害性对齐。"
+ },
+ {
+  "sid": "03-009",
+  "arxiv": "2402.04333",
+  "title": "LESS: Selecting Influential Data for Targeted Instruction Tuning",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "基于梯度相似的影响力估计，为目标能力选择指令微调数据子集。"
+ },
+ {
+  "sid": "03-010",
+  "arxiv": "2402.09353",
+  "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "将权重分解为幅值与方向，仅对方向做低秩更新以逼近全参微调。"
+ },
+ {
+  "sid": "03-011",
+  "arxiv": "2403.07691",
+  "title": "ORPO: Monolithic Preference Optimization without Reference Model",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "将赔率比偏好项并入 SFT 损失，无需参考模型的单阶段对齐。"
+ },
+ {
+  "sid": "03-012",
+  "arxiv": "2401.10020",
+  "title": "Self-Rewarding Language Models",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "模型以 LLM-as-a-Judge 为自身打分并迭代 DPO 训练。"
+ },
+ {
+  "sid": "03-013",
+  "arxiv": "2406.08464",
+  "title": "Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "仅用对齐模型的对话模板前缀自生成大规模指令数据，代表合成数据用于指令微调。"
+ },
+ {
+  "sid": "03-014",
+  "arxiv": "2402.12354",
+  "title": "LoRA+: Efficient Low Rank Adaptation of Large Models",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "从宽网络理论分析为 LoRA 的 A、B 矩阵设置不同学习率。"
+ },
+ {
+  "sid": "03-015",
+  "arxiv": "2405.14734",
+  "title": "SimPO: Simple Preference Optimization with a Reference-Free Reward",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以长度归一化的平均对数概率作为隐式奖励并加目标间隔。"
+ },
+ {
+  "sid": "03-016",
+  "arxiv": "2408.02666",
+  "title": "Self-Taught Evaluators",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "无需人工偏好标注、用合成对比数据迭代训练评估模型。"
+ },
+ {
+  "sid": "03-017",
+  "arxiv": "2312.01552",
+  "title": "The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context Learning",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分析对齐前后 token 分布差异并提出免调参的上下文对齐（URIAL），检验表层对齐假设。"
+ },
+ {
+  "sid": "03-018",
+  "arxiv": "2403.03507",
+  "title": "GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "对梯度做低秩投影以降低优化器显存，同时保持全参数学习。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "属于显存高效训练方法。"
+ },
+ {
+  "sid": "03-019",
+  "arxiv": "2401.01335",
+  "title": "Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "自博弈区分人类数据与模型生成（SPIN），无需额外偏好标注。"
+ },
+ {
+  "sid": "03-020",
+  "arxiv": "2403.13787",
+  "title": "RewardBench: Evaluating Reward Models for Language Modeling",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "首个系统评测奖励模型的基准与工具。",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "属于评测基准。"
+ },
+ {
+  "sid": "03-021",
+  "arxiv": "2411.15124",
+  "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+  "subtopic": "指令微调",
+  "type": "技术报告",
+  "priority": "高",
+  "reason": "完整开放的后训练配方（SFT、DPO、可验证奖励 RL）及数据与评测体系。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "提出可验证奖励强化学习（RLVR）阶段，与推理 RL 相关。"
+ },
+ {
+  "sid": "03-022",
+  "arxiv": "2404.02948",
+  "title": "PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以主奇异分量初始化适配器、冻结残差，改进 LoRA 收敛。"
+ },
+ {
+  "sid": "03-023",
+  "arxiv": "2312.00886",
+  "title": "Nash Learning from Human Feedback",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以成对偏好模型和纳什均衡替代标量奖励的对齐框架。"
+ },
+ {
+  "sid": "03-024",
+  "arxiv": "2507.01352",
+  "title": "Skywork-Reward-V2: Scaling Preference Data Curation via Human-AI Synergy",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "人机协同的大规模偏好数据整理流程及奖励模型系列。"
+ },
+ {
+  "sid": "03-025",
+  "arxiv": "2406.20094",
+  "title": "Scaling Synthetic Data Creation with 1,000,000,000 Personas",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以海量人设驱动多样化合成数据生成，用于指令与数学等数据构造。"
+ },
+ {
+  "sid": "03-026",
+  "arxiv": "2405.09673",
+  "title": "LoRA Learns Less and Forgets Less",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "在代码与数学领域系统比较 LoRA 与全参微调的学习量与遗忘。"
+ },
+ {
+  "sid": "03-027",
+  "arxiv": "2404.03715",
+  "title": "Direct Nash Optimization: Teaching Language Models to Self-Improve with General Preferences",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "面向一般偏好的可扩展回归式自我改进算法（DNO）。"
+ },
+ {
+  "sid": "03-028",
+  "arxiv": "2406.08673",
+  "title": "HelpSteer2: Open-source dataset for training top-performing reward models",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "高质量、许可宽松的人类多属性标注数据集用于训练奖励模型。"
+ },
+ {
+  "sid": "03-029",
+  "arxiv": "2407.10490",
+  "title": "Learning Dynamics of LLM Fine-tuning",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "从逐步学习动态分解分析 SFT 与偏好微调中概率的迁移与“挤压效应”。"
+ },
+ {
+  "sid": "03-030",
+  "arxiv": "2404.03592",
+  "title": "ReFT: Representation Finetuning for Language Models",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "在冻结模型的隐藏表示上学习干预，而非修改权重的新型高效微调范式。"
+ },
+ {
+  "sid": "03-031",
+  "arxiv": "2402.14740",
+  "title": "Back to Basics: Revisiting REINFORCE Style Optimization for Learning from Human Feedback in LLMs",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "论证 PPO 组件在 RLHF 中多余，提出 REINFORCE/RLOO 简化方案。"
+ },
+ {
+  "sid": "03-032",
+  "arxiv": "2406.12845",
+  "title": "Interpretable Preferences via Multi-Objective Reward Modeling and Mixture-of-Experts",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "多目标可解释奖励模型加门控混合（ArmoRM）。"
+ },
+ {
+  "sid": "03-033",
+  "arxiv": "2501.17161",
+  "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "对比 SFT 与 RL 后训练在文本与视觉规则变体上的泛化与记忆。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "比较 RL 后训练对推理任务泛化的影响。"
+ },
+ {
+  "sid": "03-034",
+  "arxiv": "2403.14608",
+  "title": "Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey",
+  "subtopic": "参数高效微调",
+  "type": "综述",
+  "priority": "中",
+  "reason": "大模型参数高效微调方法的系统综述。"
+ },
+ {
+  "sid": "03-035",
+  "arxiv": "2404.10719",
+  "title": "Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "理论与实验比较 DPO 与 PPO，总结 PPO 的关键实现因素。"
+ },
+ {
+  "sid": "03-036",
+  "arxiv": "2401.12187",
+  "title": "WARM: On the Benefits of Weight Averaged Reward Models",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "对多个奖励模型做权重平均以缓解奖励黑客与分布偏移。"
+ },
+ {
+  "sid": "03-037",
+  "arxiv": "2508.05629",
+  "title": "On the Generalization of SFT: A Reinforcement Learning Perspective with Reward Rectification",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "从强化学习视角解释 SFT 梯度隐含的奖励问题并提出动态微调（DFT）。"
+ },
+ {
+  "sid": "03-038",
+  "arxiv": "2410.21228",
+  "title": "LoRA vs Full Fine-tuning: An Illusion of Equivalence",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "从权重谱结构（侵入维度）分析 LoRA 与全参微调解的差异。"
+ },
+ {
+  "sid": "03-039",
+  "arxiv": "2404.14367",
+  "title": "Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分析在线采样与负梯度在偏好微调中的作用。"
+ },
+ {
+  "sid": "03-040",
+  "arxiv": "2404.16019",
+  "title": "The PRISM Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "来自多国参与者的个体化人类反馈数据集，研究主观与多元文化对齐。"
+ },
+ {
+  "sid": "03-041",
+  "arxiv": "2311.07911",
+  "title": "Instruction-Following Evaluation for Large Language Models",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以可自动验证的指令约束评测指令遵循能力（IFEval），被后训练广泛采用。",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "属于评测基准构建。"
+ },
+ {
+  "sid": "03-042",
+  "arxiv": "2506.06105",
+  "title": "Text-to-LoRA: Instant Transformer Adaption",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "用超网络根据任务文本描述直接生成 LoRA 适配器。"
+ },
+ {
+  "sid": "03-043",
+  "arxiv": "2404.12358",
+  "title": "From r to Q*: Your Language Model is Secretly a Q-Function",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在 token 级 MDP 中重新推导 DPO，解释其信用分配性质。"
+ },
+ {
+  "sid": "03-044",
+  "arxiv": "2504.02495",
+  "title": "Inference-Time Scaling for Generalist Reward Modeling",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "生成式通用奖励模型及其推理时扩展（自生成原则与批评）。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "涉及奖励模型的测试时计算扩展。"
+ },
+ {
+  "sid": "03-045",
+  "arxiv": "2507.02833",
+  "title": "Generalizing Verifiable Instruction Following",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "提出新的精确指令遵循基准并用可验证奖励训练提升约束泛化（IFBench）。"
+ },
+ {
+  "sid": "03-046",
+  "arxiv": "2402.04792",
+  "title": "Direct Language Model Alignment from Online AI Feedback",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "用 LLM 标注器在线提供偏好，使直接对齐算法在线化（OAIF）。"
+ },
+ {
+  "sid": "03-047",
+  "arxiv": "2505.02387",
+  "title": "RM-R1: Reward Modeling as Reasoning",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "把奖励建模表述为推理任务，先生成评分准则再判断。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "以推理 RL 训练奖励模型。"
+ },
+ {
+  "sid": "03-048",
+  "arxiv": "2406.02900",
+  "title": "Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究直接对齐算法中的过度优化现象与规模规律。"
+ },
+ {
+  "sid": "03-049",
+  "arxiv": "2507.17746",
+  "title": "Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以结构化评分准则作为奖励信号，将 RL 拓展到不可验证领域。"
+ },
+ {
+  "sid": "03-050",
+  "arxiv": "2409.02795",
+  "title": "Towards a Unified View of Preference Learning for Large Language Models: A Survey",
+  "subtopic": "偏好优化",
+  "type": "综述",
+  "priority": "中",
+  "reason": "以统一框架梳理 LLM 偏好学习方法的综述。"
+ },
+ {
+  "sid": "03-051",
+  "arxiv": "2407.00215",
+  "title": "LLM Critics Help Catch LLM Bugs",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "训练批评模型辅助人类标注者发现代码错误（CriticGPT），属可扩展监督。"
+ },
+ {
+  "sid": "03-052",
+  "arxiv": "2312.09390",
+  "title": "Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以弱模型监督强模型，类比人类监督超人模型的对齐问题。",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "属于超级对齐/安全研究。"
+ },
+ {
+  "sid": "03-053",
+  "arxiv": "2504.12501",
+  "title": "Reinforcement Learning from Human Feedback",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "学术教程",
+  "priority": "高",
+  "reason": "系统介绍 RLHF 各环节的学术教程型专著。"
+ },
+ {
+  "sid": "03-054",
+  "arxiv": "2312.14925",
+  "title": "A Survey of Reinforcement Learning from Human Feedback",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "综述",
+  "priority": "中",
+  "reason": "RLHF 的系统综述，涵盖反馈类型、奖励建模与策略学习。"
+ },
+ {
+  "sid": "03-055",
+  "arxiv": "2507.18624",
+  "title": "Checklists Are Better Than Reward Models For Aligning Language Models",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "由指令派生检查清单并由评判模型打分作为反馈信号（RLCF）。"
+ },
+ {
+  "sid": "03-056",
+  "arxiv": "2409.14254",
+  "title": "Instruction Following without Instruction Tuning",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "发现仅训练回复或窄域数据也能产生隐式指令遵循，探讨指令微调的作用机制。",
+  "reserve": true
+ },
+ {
+  "sid": "03-057",
+  "arxiv": "2402.13669",
+  "title": "Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "用模型自身改写的回复进行微调以缓解分布偏移与能力遗忘。",
+  "reserve": true
+ },
+ {
+  "sid": "03-058",
+  "arxiv": "2405.12130",
+  "title": "MoRA: High-Rank Updating for Parameter-Efficient Fine-Tuning",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "用方阵实现同参数量下的高秩更新，针对 LoRA 低秩限制。",
+  "reserve": true
+ },
+ {
+  "sid": "03-059",
+  "arxiv": "2403.17919",
+  "title": "LISA: Layerwise Importance Sampling for Memory-Efficient Large Language Model Fine-Tuning",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "依据层权重范数分布随机冻结层，实现低显存微调。",
+  "reserve": true
+ },
+ {
+  "sid": "03-060",
+  "arxiv": "2312.03732",
+  "title": "A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "分析 LoRA 缩放因子并提出秩稳定缩放（rsLoRA）。",
+  "reserve": true
+ },
+ {
+  "sid": "03-061",
+  "arxiv": "2312.11456",
+  "title": "Iterative Preference Learning from Human Feedback: Bridging Theory and Practice for RLHF under KL-Constraint",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "KL 约束 RLHF 的理论分析与迭代 DPO 实践算法。",
+  "reserve": true
+ },
+ {
+  "sid": "03-062",
+  "arxiv": "2405.21046",
+  "title": "Exploratory Preference Optimization: Harnessing Implicit Q*-Approximation for Sample-Efficient RLHF",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "在 DPO 目标上加入探索项以提高在线 RLHF 样本效率（XPO）。",
+  "reserve": true
+ },
+ {
+  "sid": "03-063",
+  "arxiv": "2410.18252",
+  "title": "Asynchronous RLHF: Faster and More Efficient Off-Policy RL for Language Models",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "生成与训练异步分离的离策略 RLHF 及其稳定性分析。",
+  "reserve": true
+ },
+ {
+  "sid": "03-064",
+  "arxiv": "2407.19594",
+  "title": "Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在自我奖励中加入元评判以同时改进判断能力。",
+  "reserve": true
+ },
+ {
+  "sid": "03-065",
+  "arxiv": "2408.10075",
+  "title": "Personalizing Reinforcement Learning from Human Feedback with Variational Preference Learning",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以隐变量建模用户差异，实现多元/个性化 RLHF。",
+  "reserve": true
+ },
+ {
+  "sid": "03-066",
+  "arxiv": "2410.09335",
+  "title": "Rethinking Data Selection at Scale: Random Selection is Almost All You Need",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "在大规模数据上检验指令数据选择方法与随机选择的差距。",
+  "reserve": true
+ },
+ {
+  "sid": "03-067",
+  "arxiv": "2405.14394",
+  "title": "Instruction Tuning With Loss Over Instructions",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "研究在指令部分也计算损失对指令微调的影响。",
+  "reserve": true
+ },
+ {
+  "sid": "03-068",
+  "arxiv": "2410.03717",
+  "title": "Revisiting the Superficial Alignment Hypothesis",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "用后训练数据规模缩放实验重新审视表层对齐假设。",
+  "reserve": true
+ },
+ {
+  "sid": "03-069",
+  "arxiv": "2407.05000",
+  "title": "LoRA-GA: Low-Rank Adaptation with Gradient Approximation",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以梯度近似初始化 LoRA 以加速收敛。",
+  "reserve": true
+ },
+ {
+  "sid": "03-070",
+  "arxiv": "2404.19245",
+  "title": "HydraLoRA: An Asymmetric LoRA Architecture for Efficient Fine-Tuning",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "共享 A 矩阵、多个 B 矩阵的非对称 LoRA 结构。",
+  "reserve": true
+ },
+ {
+  "sid": "03-071",
+  "arxiv": "2506.16406",
+  "title": "Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "由提示直接生成任务特定 LoRA 权重的参数生成器。",
+  "reserve": true
+ },
+ {
+  "sid": "03-072",
+  "arxiv": "2403.19159",
+  "title": "Disentangling Length from Quality in Direct Preference Optimization",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "分析并正则化 DPO 中的长度利用问题。",
+  "reserve": true
+ },
+ {
+  "sid": "03-073",
+  "arxiv": "2405.00675",
+  "title": "Self-Play Preference Optimization for Language Model Alignment",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "将对齐视为常和博弈，迭代逼近纳什均衡（SPPO）。",
+  "reserve": true
+ },
+ {
+  "sid": "03-074",
+  "arxiv": "2502.01237",
+  "title": "The Differences Between Direct Alignment Algorithms are a Blur",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "统一比较各直接对齐算法，区分成对与逐点目标的影响。",
+  "reserve": true
+ },
+ {
+  "sid": "03-075",
+  "arxiv": "2410.18451",
+  "title": "Skywork-Reward: Bag of Tricks for Reward Modeling in LLMs",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以数据筛选为中心的奖励模型训练技巧。",
+  "reserve": true
+ },
+ {
+  "sid": "03-076",
+  "arxiv": "2406.07814",
+  "title": "Collective Constitutional AI: Aligning a Language Model with Public Input",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "由公众参与制定宪法原则并用于训练模型。",
+  "reserve": true
+ },
+ {
+  "sid": "03-077",
+  "arxiv": "2402.08925",
+  "title": "MaxMin-RLHF: Alignment with Diverse Human Preferences",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以混合偏好分布与最大最小目标处理群体偏好多样性。",
+  "reserve": true
+ },
+ {
+  "sid": "03-078",
+  "arxiv": "2505.10320",
+  "title": "J1: Incentivizing Thinking in LLM-as-a-Judge via Reinforcement Learning",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "用可验证奖励的 RL 训练会思考的评判模型。",
+  "reserve": true
+ }
+]
