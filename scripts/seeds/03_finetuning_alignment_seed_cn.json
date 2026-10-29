@@ -519,7 +519,12 @@
   "subtopic": "人类反馈与模型反馈",
   "type": "学术教程",
   "priority": "高",
-  "reason": "系统介绍 RLHF 各环节的学术教程型专著。"
+  "reason": "系统介绍 RLHF 各环节的学术教程型专著。",
+  "cross_only": true,
+  "cross": [
+   "14"
+  ],
+  "cross_reason": "该书为 RLHF 专著，已由 14 类（书籍）作为主分类收录；本类仅作交叉标签。"
  },
  {
   "sid": "03-054",
@@ -767,6 +772,53 @@
   "type": "原始研究",
   "priority": "低",
   "reason": "用可验证奖励的 RL 训练会思考的评判模型。",
+  "reserve": true
+ },
+ {
+  "sid": "03-079",
+  "arxiv": "2509.04259",
+  "title": "RL's Razor: Why Online Reinforcement Learning Forgets Less",
+  "subtopic": "指令微调",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "比较 SFT 与在线 RL 微调后的遗忘，并以分布 KL 解释差异。"
+ },
+ {
+  "sid": "03-080",
+  "arxiv": "2602.12180",
+  "title": "How Sampling Shapes LLM Alignment: From One-Shot Optima to Iterative Dynamics",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分析偏好数据采样方式对一次性与迭代对齐解的影响（2026 新工作）。"
+ },
+ {
+  "sid": "03-081",
+  "arxiv": "2505.21289",
+  "title": "LoFT: Low-Rank Adaptation That Behaves Like Full Fine-Tuning",
+  "subtopic": "参数高效微调",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "使低秩适配在优化器状态上对齐全参微调行为的 PEFT 方法。"
+ },
+ {
+  "sid": "03-082",
+  "arxiv": "2510.01458",
+  "title": "How Well Can Preference Optimization Generalize Under Noisy Feedback?",
+  "subtopic": "偏好优化",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "研究偏好标注噪声下偏好优化的泛化。",
+  "reserve": true
+ },
+ {
+  "sid": "03-083",
+  "arxiv": "2607.20515",
+  "title": "Reliability-Aware LLM Alignment from Inconsistent Human Feedback",
+  "subtopic": "人类反馈与模型反馈",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "处理不一致人类反馈的可靠性感知对齐（2026）。",
   "reserve": true
  }
 ]

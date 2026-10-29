@@ -1,5 +1,23 @@
 [
  {
+  "sid": "07-057",
+  "arxiv": "2603.24326",
+  "title": "Boosting Document Parsing Efficiency and Performance with Coarse-to-Fine Visual Processing",
+  "subtopic": "OCR",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "PaddleOCR-VL：先定位有效区域再由紧凑 VLM 精细识别的文档解析方法"
+ },
+ {
+  "sid": "07-056",
+  "arxiv": "2511.21150",
+  "title": "LLaVA-UHD v3: Progressive Visual Compression for Efficient Native-Resolution Encoding in MLLMs",
+  "subtopic": "图文理解",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在 ViT 内部渐进压缩视觉 token，实现高效原生分辨率编码"
+ },
+ {
   "sid": "07-001",
   "arxiv": "2103.00020",
   "title": "Learning Transferable Visual Models From Natural Language Supervision",
@@ -49,15 +67,6 @@
   "reason": "在 sigmoid 图文对比损失上叠加 captioning、自蒸馏与掩码预测，改进多语言视觉编码器"
  },
  {
-  "sid": "07-006",
-  "arxiv": "2402.04252",
-  "title": "EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters",
-  "subtopic": "跨模态对齐",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "研究对比式视觉编码器扩展到 18B 参数的训练方法"
- },
- {
   "sid": "07-007",
   "arxiv": "2504.13181",
   "title": "Perception Encoder: The best visual embeddings are not at the output of the network",
@@ -65,33 +74,6 @@
   "type": "原始研究",
   "priority": "高",
   "reason": "仅用对比图文预训练得到通用视觉编码器，并研究中间层特征对下游任务的作用"
- },
- {
-  "sid": "07-008",
-  "arxiv": "2411.14402",
-  "title": "Multimodal Autoregressive Pre-training of Large Vision Encoders",
-  "subtopic": "跨模态对齐",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "AIMv2：用多模态自回归（像素+文本）目标预训练视觉编码器，替代对比目标"
- },
- {
-  "sid": "07-009",
-  "arxiv": "2504.01017",
-  "title": "Scaling Language-Free Visual Representation Learning",
-  "subtopic": "跨模态对齐",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "比较无语言监督自监督视觉表示与 CLIP 在 VQA 等多模态任务上的扩展行为"
- },
- {
-  "sid": "07-010",
-  "arxiv": "2507.22062",
-  "title": "Meta CLIP 2: A Worldwide Scaling Recipe",
-  "subtopic": "跨模态对齐",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "研究全球多语言图文数据上训练 CLIP 的数据整理与扩展方法"
  },
  {
   "sid": "07-011",
@@ -139,15 +121,6 @@
   "reason": "Idefics2：对 VLM 架构与训练选择（交叉注意力 vs 自回归融合等）做受控实验"
  },
  {
-  "sid": "07-016",
-  "arxiv": "2402.07865",
-  "title": "Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models",
-  "subtopic": "表示融合",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "在统一框架下对视觉条件语言模型的设计空间做受控比较"
- },
- {
   "sid": "07-017",
   "arxiv": "2405.09818",
   "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
@@ -158,7 +131,8 @@
   "cross": [
    "08"
   ],
-  "cross_reason": "模型同时具备图像生成能力，生成部分属 08"
+  "cross_reason": "模型同时具备图像生成能力，生成部分属 08",
+  "team": "Chameleon Team"
  },
  {
   "sid": "07-018",
@@ -172,6 +146,194 @@
    "01"
   ],
   "cross_reason": "研究对象为规模定律，方法学属 01"
+ },
+ {
+  "sid": "07-022",
+  "arxiv": "2409.12191",
+  "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+  "subtopic": "表示融合",
+  "type": "技术报告",
+  "priority": "高",
+  "reason": "动态分辨率与多模态旋转位置编码（M-RoPE）的视觉语言模型"
+ },
+ {
+  "sid": "07-023",
+  "arxiv": "2511.21631",
+  "title": "Qwen3-VL Technical Report",
+  "subtopic": "表示融合",
+  "type": "技术报告",
+  "priority": "高",
+  "reason": "新一代开源视觉语言模型系列技术报告，覆盖长上下文图文与视频理解"
+ },
+ {
+  "sid": "07-025",
+  "arxiv": "2409.17146",
+  "title": "Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models",
+  "subtopic": "图文理解",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "完全开放数据（人工语音描述等）训练的 VLM，强调不依赖闭源模型蒸馏"
+ },
+ {
+  "sid": "07-038",
+  "arxiv": "2505.14362",
+  "title": "DeepEyes: Incentivizing \"Thinking with Images\" via Reinforcement Learning",
+  "subtopic": "视觉问答",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "用强化学习让 VLM 在推理中主动裁剪/放大图像区域",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "为推理而做的强化学习"
+ },
+ {
+  "sid": "07-040",
+  "arxiv": "2409.01704",
+  "title": "General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model",
+  "subtopic": "OCR",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "GOT：端到端统一 OCR 模型，覆盖文本、公式、表格、乐谱等"
+ },
+ {
+  "sid": "07-041",
+  "arxiv": "2510.18234",
+  "title": "DeepSeek-OCR: Contexts Optical Compression",
+  "subtopic": "OCR",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以视觉编码压缩长文本上下文的光学压缩思路及 OCR 模型"
+ },
+ {
+  "sid": "07-045",
+  "arxiv": "2407.01449",
+  "title": "ColPali: Efficient Document Retrieval with Vision Language Models",
+  "subtopic": "文档理解",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "直接以页面图像嵌入做文档检索，免 OCR 解析流水线",
+  "cross": [
+   "05"
+  ],
+  "cross_reason": "以 VLM 直接嵌入文档页面图像做检索，涉及文档理解；主分类在 05（05-051）",
+  "cross_only": true
+ },
+ {
+  "sid": "07-047",
+  "arxiv": "2412.07626",
+  "title": "OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations",
+  "subtopic": "文档理解",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "多类型 PDF 文档解析评测基准"
+ },
+ {
+  "sid": "07-049",
+  "arxiv": "2311.16502",
+  "title": "MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI",
+  "subtopic": "视觉问答",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "多学科大学水平多模态理解与推理基准"
+ },
+ {
+  "sid": "07-050",
+  "arxiv": "2403.20330",
+  "title": "Are We on the Right Way for Evaluating Large Vision-Language Models?",
+  "subtopic": "视觉问答",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "揭示多模态基准中无需视觉即可作答与数据泄漏问题，提出 MMStar",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "评测方法学"
+ },
+ {
+  "sid": "07-055",
+  "arxiv": "2405.17247",
+  "title": "An Introduction to Vision-Language Modeling",
+  "subtopic": "跨模态对齐",
+  "type": "学术教程",
+  "priority": "高",
+  "reason": "视觉语言建模入门教程，涵盖对比、掩码、生成与基于 LLM 的方法"
+ },
+ {
+  "sid": "07-080",
+  "arxiv": "2602.05384",
+  "title": "Dolphin-v2: Universal Document Parsing via Scalable Anchor Prompting",
+  "subtopic": "文档理解",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以锚点提示统一文档版面分析与元素解析的通用文档解析模型"
+ },
+ {
+  "sid": "07-081",
+  "arxiv": "2605.03903",
+  "title": "CC-OCR V2: Fine-Grained Attribution of LMM Failures in Real-World Visual Document Understanding",
+  "subtopic": "OCR",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "对真实文档理解中 LMM 失败进行细粒度归因的 OCR/文档评测"
+ },
+ {
+  "sid": "07-082",
+  "arxiv": "2609.35457",
+  "title": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+  "subtopic": "表示融合",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究无视觉编码器多模态预训练的规模定律，检验能否去掉独立视觉编码器",
+  "cross": [
+   "01"
+  ],
+  "cross_reason": "涉及规模定律"
+ },
+ {
+  "sid": "07-083",
+  "arxiv": "2605.25364",
+  "title": "Can MLLMs Reason Beyond Language? VisReason: A Comprehensive Benchmark for Vision-Centric Reasoning",
+  "subtopic": "视觉问答",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以视觉为中心、抑制语言捷径的推理评测"
+ },
+ {
+  "sid": "07-006",
+  "arxiv": "2402.04252",
+  "title": "EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters",
+  "subtopic": "跨模态对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究对比式视觉编码器扩展到 18B 参数的训练方法"
+ },
+ {
+  "sid": "07-008",
+  "arxiv": "2411.14402",
+  "title": "Multimodal Autoregressive Pre-training of Large Vision Encoders",
+  "subtopic": "跨模态对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "AIMv2：用多模态自回归（像素+文本）目标预训练视觉编码器，替代对比目标"
+ },
+ {
+  "sid": "07-009",
+  "arxiv": "2504.01017",
+  "title": "Scaling Language-Free Visual Representation Learning",
+  "subtopic": "跨模态对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "比较无语言监督自监督视觉表示与 CLIP 在 VQA 等多模态任务上的扩展行为"
+ },
+ {
+  "sid": "07-010",
+  "arxiv": "2507.22062",
+  "title": "Meta CLIP 2: A Worldwide Scaling Recipe",
+  "subtopic": "跨模态对齐",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究全球多语言图文数据上训练 CLIP 的数据整理与扩展方法"
  },
  {
   "sid": "07-019",
@@ -201,24 +363,6 @@
   "reason": "原生多模态预训练与测试时扩展的开源 MLLM 训练配方"
  },
  {
-  "sid": "07-022",
-  "arxiv": "2409.12191",
-  "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
-  "subtopic": "表示融合",
-  "type": "技术报告",
-  "priority": "高",
-  "reason": "动态分辨率与多模态旋转位置编码（M-RoPE）的视觉语言模型"
- },
- {
-  "sid": "07-023",
-  "arxiv": "2511.21631",
-  "title": "Qwen3-VL Technical Report",
-  "subtopic": "表示融合",
-  "type": "技术报告",
-  "priority": "高",
-  "reason": "新一代开源视觉语言模型系列技术报告，覆盖长上下文图文与视频理解"
- },
- {
   "sid": "07-024",
   "arxiv": "2408.03326",
   "title": "LLaVA-OneVision: Easy Visual Task Transfer",
@@ -226,15 +370,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "统一单图、多图与视频场景的开源 LMM 训练方案"
- },
- {
-  "sid": "07-025",
-  "arxiv": "2409.17146",
-  "title": "Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models",
-  "subtopic": "图文理解",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "完全开放数据（人工语音描述等）训练的 VLM，强调不依赖闭源模型蒸馏"
  },
  {
   "sid": "07-026",
@@ -277,15 +412,6 @@
   "cross_reason": "关注端侧高效部署"
  },
  {
-  "sid": "07-030",
-  "arxiv": "2504.05299",
-  "title": "SmolVLM: Redefining small and efficient multimodal models",
-  "subtopic": "图文理解",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "系统研究小规模 VLM 的架构与 token 分配"
- },
- {
   "sid": "07-031",
   "arxiv": "2408.15998",
   "title": "Eagle: Exploring The Design Space for Multimodal LLMs with Mixture of Encoders",
@@ -293,15 +419,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "比较多视觉编码器混合的融合策略"
- },
- {
-  "sid": "07-032",
-  "arxiv": "2311.12793",
-  "title": "ShareGPT4V: Improving Large Multi-Modal Models with Better Captions",
-  "subtopic": "图文理解",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "高质量详细描述数据对图文对齐与理解的作用"
  },
  {
   "sid": "07-033",
@@ -313,28 +430,6 @@
   "reason": "任意长宽比与高分辨率图像的切片编码"
  },
  {
-  "sid": "07-034",
-  "arxiv": "2412.13303",
-  "title": "FastVLM: Efficient Vision Encoding for Vision Language Models",
-  "subtopic": "图文理解",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "混合卷积-Transformer 视觉编码器以降低高分辨率编码延迟",
-  "cross": [
-   "11"
-  ],
-  "cross_reason": "关注推理效率"
- },
- {
-  "sid": "07-035",
-  "arxiv": "2311.06242",
-  "title": "Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks",
-  "subtopic": "图文理解",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "以序列到序列统一表示多种视觉任务（描述、检测、分割、OCR）"
- },
- {
   "sid": "07-036",
   "arxiv": "2311.03356",
   "title": "GLaMM: Pixel Grounding Large Multimodal Model",
@@ -344,32 +439,6 @@
   "reason": "生成与像素级分割掩码对齐的回答，实现图文像素级定位"
  },
  {
-  "sid": "07-037",
-  "arxiv": "2411.10440",
-  "title": "LLaVA-CoT: Let Vision Language Models Reason Step-by-Step",
-  "subtopic": "视觉问答",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "结构化多阶段推理用于视觉问答",
-  "cross": [
-   "04"
-  ],
-  "cross_reason": "涉及逐步推理"
- },
- {
-  "sid": "07-038",
-  "arxiv": "2505.14362",
-  "title": "DeepEyes: Incentivizing \"Thinking with Images\" via Reinforcement Learning",
-  "subtopic": "视觉问答",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "用强化学习让 VLM 在推理中主动裁剪/放大图像区域",
-  "cross": [
-   "04"
-  ],
-  "cross_reason": "为推理而做的强化学习"
- },
- {
   "sid": "07-039",
   "arxiv": "2312.14135",
   "title": "V*: Guided Visual Search as a Core Mechanism in Multimodal LLMs",
@@ -377,24 +446,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "LLM 引导的视觉搜索解决高分辨率图像细节问答"
- },
- {
-  "sid": "07-040",
-  "arxiv": "2409.01704",
-  "title": "General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model",
-  "subtopic": "OCR",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "GOT：端到端统一 OCR 模型，覆盖文本、公式、表格、乐谱等"
- },
- {
-  "sid": "07-041",
-  "arxiv": "2510.18234",
-  "title": "DeepSeek-OCR: Contexts Optical Compression",
-  "subtopic": "OCR",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "以视觉编码压缩长文本上下文的光学压缩思路及 OCR 模型"
  },
  {
   "sid": "07-042",
@@ -424,19 +475,6 @@
   "reason": "统一结构学习用于免 OCR 文档理解"
  },
  {
-  "sid": "07-045",
-  "arxiv": "2407.01449",
-  "title": "ColPali: Efficient Document Retrieval with Vision Language Models",
-  "subtopic": "文档理解",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "直接以页面图像嵌入做文档检索，免 OCR 解析流水线",
-  "cross": [
-   "05"
-  ],
-  "cross_reason": "文档检索属检索增强"
- },
- {
   "sid": "07-046",
   "arxiv": "2409.18839",
   "title": "MinerU: An Open-Source Solution for Precise Document Content Extraction",
@@ -446,15 +484,6 @@
   "reason": "开源文档内容抽取流水线（版面、公式、表格）"
  },
  {
-  "sid": "07-047",
-  "arxiv": "2412.07626",
-  "title": "OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations",
-  "subtopic": "文档理解",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "多类型 PDF 文档解析评测基准"
- },
- {
   "sid": "07-048",
   "arxiv": "2406.18521",
   "title": "CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs",
@@ -462,28 +491,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "真实论文图表理解评测"
- },
- {
-  "sid": "07-049",
-  "arxiv": "2311.16502",
-  "title": "MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI",
-  "subtopic": "视觉问答",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "多学科大学水平多模态理解与推理基准"
- },
- {
-  "sid": "07-050",
-  "arxiv": "2403.20330",
-  "title": "Are We on the Right Way for Evaluating Large Vision-Language Models?",
-  "subtopic": "视觉问答",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "揭示多模态基准中无需视觉即可作答与数据泄漏问题，提出 MMStar",
-  "cross": [
-   "12"
-  ],
-  "cross_reason": "评测方法学"
  },
  {
   "sid": "07-051",
@@ -506,7 +513,7 @@
  {
   "sid": "07-053",
   "arxiv": "2407.06581",
-  "title": "Vision language models are blind",
+  "title": "Vision language models are blind: Failing to translate detailed visual features into words",
   "subtopic": "视觉问答",
   "type": "原始研究",
   "priority": "中",
@@ -520,42 +527,6 @@
   "type": "综述",
   "priority": "中",
   "reason": "多模态大模型架构与训练配方综述"
- },
- {
-  "sid": "07-055",
-  "arxiv": "2405.17247",
-  "title": "An Introduction to Vision-Language Modeling",
-  "subtopic": "跨模态对齐",
-  "type": "学术教程",
-  "priority": "高",
-  "reason": "视觉语言建模入门教程，涵盖对比、掩码、生成与基于 LLM 的方法"
- },
- {
-  "sid": "07-056",
-  "arxiv": "2511.21150",
-  "title": "LLaVA-UHD v3: Progressive Visual Compression for Efficient Native-Resolution Encoding in MLLMs",
-  "subtopic": "图文理解",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "在 ViT 内部渐进压缩视觉 token，实现高效原生分辨率编码"
- },
- {
-  "sid": "07-057",
-  "arxiv": "2603.24326",
-  "title": "Boosting Document Parsing Efficiency and Performance with Coarse-to-Fine Visual Processing",
-  "subtopic": "OCR",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "PaddleOCR-VL：先定位有效区域再由紧凑 VLM 精细识别的文档解析方法"
- },
- {
-  "sid": "07-058",
-  "arxiv": "2511.19575",
-  "title": "HunyuanOCR Technical Report",
-  "subtopic": "OCR",
-  "type": "技术报告",
-  "priority": "低",
-  "reason": "端到端轻量 OCR 专用视觉语言模型技术报告"
  },
  {
   "sid": "07-059",
@@ -576,6 +547,84 @@
   "reason": "完全开放的视觉编码器家族，作为 CLIP 类编码器在多模态 LLM 中的替代"
  },
  {
+  "sid": "07-058",
+  "arxiv": "2511.19575",
+  "title": "HunyuanOCR Technical Report",
+  "subtopic": "OCR",
+  "type": "技术报告",
+  "priority": "低",
+  "reason": "端到端轻量 OCR 专用视觉语言模型技术报告",
+  "team": "Hunyuan Vision Team"
+ },
+ {
+  "sid": "07-016",
+  "arxiv": "2402.07865",
+  "title": "Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models",
+  "subtopic": "表示融合",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在统一框架下对视觉条件语言模型的设计空间做受控比较",
+  "reserve": true
+ },
+ {
+  "sid": "07-030",
+  "arxiv": "2504.05299",
+  "title": "SmolVLM: Redefining small and efficient multimodal models",
+  "subtopic": "图文理解",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "系统研究小规模 VLM 的架构与 token 分配",
+  "reserve": true
+ },
+ {
+  "sid": "07-032",
+  "arxiv": "2311.12793",
+  "title": "ShareGPT4V: Improving Large Multi-Modal Models with Better Captions",
+  "subtopic": "图文理解",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "高质量详细描述数据对图文对齐与理解的作用",
+  "reserve": true
+ },
+ {
+  "sid": "07-034",
+  "arxiv": "2412.13303",
+  "title": "FastVLM: Efficient Vision Encoding for Vision Language Models",
+  "subtopic": "图文理解",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "混合卷积-Transformer 视觉编码器以降低高分辨率编码延迟",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "关注推理效率",
+  "reserve": true
+ },
+ {
+  "sid": "07-035",
+  "arxiv": "2311.06242",
+  "title": "Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks",
+  "subtopic": "图文理解",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以序列到序列统一表示多种视觉任务（描述、检测、分割、OCR）",
+  "reserve": true
+ },
+ {
+  "sid": "07-037",
+  "arxiv": "2411.10440",
+  "title": "LLaVA-CoT: Let Vision Language Models Reason Step-by-Step",
+  "subtopic": "视觉问答",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "结构化多阶段推理用于视觉问答",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "涉及逐步推理",
+  "reserve": true
+ },
+ {
   "sid": "07-061",
   "arxiv": "2403.15378",
   "title": "Long-CLIP: Unlocking the Long-Text Capability of CLIP",
@@ -593,7 +642,8 @@
   "type": "技术报告",
   "priority": "低",
   "reason": "MoE 视觉语言模型，原生分辨率视觉编码与长思维链推理",
-  "reserve": true
+  "reserve": true,
+  "team": "Kimi Team"
  },
  {
   "sid": "07-063",
@@ -751,7 +801,8 @@
    "04"
   ],
   "cross_reason": "推理强化学习",
-  "reserve": true
+  "reserve": true,
+  "team": "GLM-V Team"
  },
  {
   "sid": "07-078",
@@ -774,5 +825,45 @@
   "reason": "BAGEL 统一预训练",
   "cross_reason": "统一多模态预训练涉及图文理解融合，主分类在 08（08-027）",
   "cross_only": true
+ },
+ {
+  "sid": "07-084",
+  "arxiv": "2606.04433",
+  "title": "Stateful Visual Encoders for Vision-Language Models",
+  "subtopic": "表示融合",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "备选：视觉编码器状态化设计",
+  "reserve": true
+ },
+ {
+  "sid": "07-085",
+  "arxiv": "2607.28640",
+  "title": "TokenSwap: Benchmarking and Reducing the Modality Gap in Multimodal LLMs",
+  "subtopic": "跨模态对齐",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "备选：度量并缩小多模态 LLM 的模态差距",
+  "reserve": true
+ },
+ {
+  "sid": "07-086",
+  "arxiv": "2511.10390",
+  "title": "MonkeyOCR v1.5 Technical Report: Unlocking Robust Document Parsing for Complex Patterns",
+  "subtopic": "文档理解",
+  "type": "技术报告",
+  "priority": "低",
+  "reason": "备选：复杂版式文档解析",
+  "reserve": true
+ },
+ {
+  "sid": "07-087",
+  "arxiv": "2604.02371",
+  "title": "Internalized Reasoning for Long-Context Visual Document Understanding",
+  "subtopic": "文档理解",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "备选：长文档视觉理解中的内化推理",
+  "reserve": true
  }
 ]

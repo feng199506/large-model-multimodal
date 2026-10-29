@@ -135,7 +135,8 @@
   "subtopic": "数据收集",
   "type": "原始研究",
   "priority": "中",
-  "reason": "在万亿 token 语料上构建后缀数组索引的无界 n-gram 模型，为语料分析与记忆研究提供工具。"
+  "reason": "在万亿 token 语料上构建后缀数组索引的无界 n-gram 模型，为语料分析与记忆研究提供工具。",
+  "reserve": true
  },
  {
   "sid": "02-015",
@@ -171,7 +172,9 @@
   "subtopic": "去重",
   "type": "原始研究",
   "priority": "低",
-  "reason": "用 GPU 加速 MinHash 近重复去重，代表大规模去重的工程化方法。"
+  "reason": "用 GPU 加速 MinHash 近重复去重，代表大规模去重的工程化方法。",
+  "exclude": true,
+  "exclude_reason": "resolve 时给定 ID 与标题不符（相似度 0.73）且按标题检索不到，无法确认文献身份，排除。"
  },
  {
   "sid": "02-019",
@@ -189,7 +192,8 @@
   "subtopic": "质量筛选",
   "type": "原始研究",
   "priority": "中",
-  "reason": "以 datamodel 估计每条数据对目标任务损失的影响来选择数据。"
+  "reason": "以 datamodel 估计每条数据对目标任务损失的影响来选择数据。",
+  "reserve": true
  },
  {
   "sid": "02-021",
@@ -198,7 +202,8 @@
   "subtopic": "质量筛选",
   "type": "原始研究",
   "priority": "中",
-  "reason": "研究小参考模型困惑度剪枝对大模型预训练的效果。"
+  "reason": "研究小参考模型困惑度剪枝对大模型预训练的效果。",
+  "reserve": true
  },
  {
   "sid": "02-022",
@@ -225,7 +230,8 @@
   "subtopic": "质量筛选",
   "type": "原始研究",
   "priority": "中",
-  "reason": "随预训练进程动态估计数据影响并选择数据。"
+  "reason": "随预训练进程动态估计数据影响并选择数据。",
+  "reserve": true
  },
  {
   "sid": "02-025",
@@ -262,15 +268,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "提出高效的数据质量验证策略与轻量分类器过滤管线。"
- },
- {
-  "sid": "02-029",
-  "arxiv": "2406.04638",
-  "title": "Large Language Model-guided Document Selection",
-  "subtopic": "质量筛选",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "以大模型标注少量文档再训练分类器的方式筛选预训练文档。"
  },
  {
   "sid": "02-030",
@@ -328,7 +325,8 @@
   "subtopic": "数据配比",
   "type": "原始研究",
   "priority": "中",
-  "reason": "系统消融预训练中代码数据比例对非代码任务的影响。"
+  "reason": "系统消融预训练中代码数据比例对非代码任务的影响。",
+  "reserve": true
  },
  {
   "sid": "02-036",
@@ -337,7 +335,8 @@
   "subtopic": "数据配比",
   "type": "原始研究",
   "priority": "中",
-  "reason": "研究训练末期对特定领域上采样（退火）对基准表现的影响。"
+  "reason": "研究训练末期对特定领域上采样（退火）对基准表现的影响。",
+  "reserve": true
  },
  {
   "sid": "02-037",
@@ -346,7 +345,8 @@
   "subtopic": "数据配比",
   "type": "原始研究",
   "priority": "中",
-  "reason": "从 BPE 合并规则反推闭源模型分词器训练数据的语言与领域配比。"
+  "reason": "从 BPE 合并规则反推闭源模型分词器训练数据的语言与领域配比。",
+  "reserve": true
  },
  {
   "sid": "02-038",
@@ -373,7 +373,8 @@
   "subtopic": "合成数据",
   "type": "原始研究",
   "priority": "中",
-  "reason": "在预训练语料上合成指令-回答对进行增强预训练。"
+  "reason": "在预训练语料上合成指令-回答对进行增强预训练。",
+  "reserve": true
  },
  {
   "sid": "02-041",
@@ -409,7 +410,8 @@
   "subtopic": "合成数据",
   "type": "原始研究",
   "priority": "中",
-  "reason": "研究迭代训练中保留真实数据并累积合成数据能否避免模型崩溃。"
+  "reason": "研究迭代训练中保留真实数据并累积合成数据能否避免模型崩溃。",
+  "reserve": true
  },
  {
   "sid": "02-045",
@@ -419,15 +421,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "从理论上分析训练数据中少量合成数据即可导致的模型崩溃。"
- },
- {
-  "sid": "02-046",
-  "arxiv": "2412.14689",
-  "title": "How to Synthesize Text Data without Model Collapse?",
-  "subtopic": "合成数据",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "分析合成数据比例与模型崩溃，提出 token 级编辑生成半合成数据。"
  },
  {
   "sid": "02-047",
@@ -492,7 +485,8 @@
   "cross": [
    "12"
   ],
-  "cross_reason": "关系评测可信性。"
+  "cross_reason": "关系评测可信性。",
+  "reserve": true
  },
  {
   "sid": "02-052",
@@ -531,7 +525,8 @@
   "cross": [
    "12"
   ],
-  "cross_reason": "关系评测可信性。"
+  "cross_reason": "关系评测可信性。",
+  "reserve": true
  },
  {
   "sid": "02-055",
@@ -562,7 +557,8 @@
   "subtopic": "数据收集",
   "type": "综述",
   "priority": "中",
-  "reason": "整理预训练、指令微调、偏好与评测数据集的构成与统计。"
+  "reason": "整理预训练、指令微调、偏好与评测数据集的构成与统计。",
+  "reserve": true
  },
  {
   "sid": "02-058",
@@ -609,50 +605,6 @@
   "cross_reason": "成员推断与评测可信性。"
  },
  {
-  "sid": "02-062",
-  "arxiv": "2406.01981",
-  "title": "Zyda: A 1.3T Dataset for Open Language Modeling",
-  "subtopic": "数据收集",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "整合并交叉去重多个开放语料构建的预训练数据集。",
-  "reserve": true
- },
- {
-  "sid": "02-063",
-  "arxiv": "2503.10267",
-  "title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies",
-  "subtopic": "数据收集",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "HPLT v2 多语言网页与平行语料的收集与清洗。",
-  "reserve": true
- },
- {
-  "sid": "02-064",
-  "arxiv": "2312.02406",
-  "title": "Efficient Online Data Mixing For Language Model Pre-Training",
-  "subtopic": "数据配比",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "以多臂老虎机在线调整数据配比。",
-  "reserve": true
- },
- {
-  "sid": "02-065",
-  "arxiv": "2311.09783",
-  "title": "Investigating Data Contamination in Modern Benchmarks for Large Language Models",
-  "subtopic": "数据污染",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "用检索与掩码猜测方法探查主流基准的污染。",
-  "reserve": true,
-  "cross": [
-   "12"
-  ],
-  "cross_reason": "关系评测可信性。"
- },
- {
   "sid": "02-066",
   "arxiv": "2406.04244",
   "title": "Benchmark Data Contamination of Large Language Models: A Survey",
@@ -667,37 +619,105 @@
   "cross_reason": "关系评测可信性。"
  },
  {
-  "sid": "02-067",
-  "arxiv": "2312.01700",
-  "title": "Data Management For Training Large Language Models: A Survey",
-  "subtopic": "质量筛选",
-  "type": "综述",
-  "priority": "低",
-  "reason": "梳理预训练与微调阶段的数据管理问题。",
-  "reserve": true
- },
- {
-  "sid": "02-068",
-  "arxiv": "2412.03398",
-  "title": "RedStone: Curating General, Code, Math, and QA Data for Large Language Models",
-  "subtopic": "数据收集",
+  "sid": "02-070",
+  "arxiv": "2604.13977",
+  "title": "How Can We Synthesize High-Quality Pretraining Data? A Systematic Study of Prompt Design, Generator Model, and Source Data",
+  "subtopic": "合成数据",
   "type": "原始研究",
-  "priority": "低",
-  "reason": "从 Common Crawl 中抽取通用、代码、数学与问答领域数据的可扩展管线。",
-  "reserve": true
+  "priority": "高",
+  "reason": "系统消融改写提示、生成模型与源数据对合成预训练数据质量的影响，代表 2026 年合成预训练数据研究。"
  },
  {
-  "sid": "02-069",
-  "arxiv": "2410.03249",
-  "title": "How Much Can We Forget about Data Contamination?",
+  "sid": "02-071",
+  "arxiv": "2602.12413",
+  "title": "Soft Contamination Means Benchmarks Test Shallow Generalization",
   "subtopic": "数据污染",
   "type": "原始研究",
-  "priority": "低",
-  "reason": "研究污染样本在后续大量训练后被遗忘的程度。",
-  "reserve": true,
+  "priority": "中",
+  "reason": "研究训练数据中语义重复（软污染）对基准成绩的混淆作用。",
   "cross": [
    "12"
   ],
   "cross_reason": "关系评测可信性。"
+ },
+ {
+  "sid": "02-072",
+  "arxiv": "2606.03305",
+  "title": "The Reliability Gap in Benchmark Auditing: Distribution Shift and Scale as Failure Modes of Contamination Detection",
+  "subtopic": "数据污染",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在多个模型上评估主流污染检测范式，分析分布偏移与规模导致的失效。",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "关系评测可信性。"
+ },
+ {
+  "sid": "02-073",
+  "arxiv": "2606.11499",
+  "title": "Hubs or Fringes: Pretraining Data Selection via Web Graph Centrality",
+  "subtopic": "质量筛选",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "利用网页链接图中心性作为预训练数据选择信号，把爬取阶段的图结构重新引入数据筛选。"
+ },
+ {
+  "sid": "02-074",
+  "arxiv": "2602.12237",
+  "title": "Olmix: A Framework for Data Mixing Throughout LM Development",
+  "subtopic": "数据配比",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究数据领域集合更新后如何高效重新计算预训练数据配比。"
+ },
+ {
+  "sid": "02-075",
+  "arxiv": "2604.16380",
+  "title": "Data Mixing for Large Language Models Pretraining: A Survey and Outlook",
+  "subtopic": "数据配比",
+  "type": "综述",
+  "priority": "中",
+  "reason": "把数据配比优化形式化为单纯形上的双层优化并系统梳理现有方法。"
+ },
+ {
+  "sid": "02-076",
+  "arxiv": "2512.18834",
+  "title": "Mix, MinHash, and Match: Cross-Source Agreement for Multilingual Pretraining Datasets",
+  "subtopic": "去重",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "把跨来源去重簇的一致性用作质量信号，结合 MinHash 去重重组已有语料。"
+ },
+ {
+  "sid": "02-077",
+  "arxiv": "2605.17849",
+  "title": "Generating Pretraining Tokens from Organic Data for Data-Bound Scaling",
+  "subtopic": "合成数据",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以强化学习训练的改写器从有机数据生成预训练 token，应对数据受限下的扩展。",
+  "reserve": true
+ },
+ {
+  "sid": "02-078",
+  "arxiv": "2602.00747",
+  "title": "DeMix",
+  "subtopic": "数据配比",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "用候选数据集上的组件模型加权合并作为配比代理，避免为每个配比单独训练代理模型。",
+  "reserve": true,
+  "exclude": true,
+  "exclude_reason": "凭网页检索片段给出的 ID 与标题不符，按标题检索到的是无关论文，无法确认文献身份，排除。"
+ },
+ {
+  "sid": "02-079",
+  "arxiv": "2407.06654",
+  "title": "SoftDedup: an Efficient Data Reweighting Method for Speeding Up Language Model Pre-training",
+  "subtopic": "去重",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以数据“共性”度量对重复度高的样本做软降权而非硬删除，代表去重方法的另一路线。"
  }
 ]

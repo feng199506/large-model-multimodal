@@ -11,88 +11,6 @@
  },
  {
   "sid": "09-002",
-  "arxiv": "2106.07447",
-  "title": "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units",
-  "subtopic": "语音理解",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "以聚类伪标签做掩码预测的自监督语音表示，离散语音单元的主要来源。",
-  "old_reason": "HuBERT 离散单元是 GSLM/SpiRit-LM 等语音语言模型的语义 token 基础，近期文献普遍沿用，必须作为经典补充。"
- },
- {
-  "sid": "09-003",
-  "arxiv": "2312.05187",
-  "title": "Seamless: Multilingual Expressive and Streaming Speech Translation",
-  "subtopic": "语音理解",
-  "type": "技术报告",
-  "priority": "中",
-  "reason": "多语种、保留表现力且支持流式的语音到语音/文本翻译模型族。"
- },
- {
-  "sid": "09-004",
-  "arxiv": "2401.16658",
-  "title": "OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer",
-  "subtopic": "语音理解",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "完全开放数据与代码的 Whisper 风格语音基础模型复现与改进。"
- },
- {
-  "sid": "09-005",
-  "arxiv": "2406.19674",
-  "title": "Less is More: Accurate Speech Recognition & Translation without Web-Scale Data",
-  "subtopic": "语音理解",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "Canary：用远少于 Whisper 的数据训练多语种 ASR/AST 模型的数据与训练策略。"
- },
- {
-  "sid": "09-006",
-  "arxiv": "2402.08846",
-  "title": "An Embarrassingly Simple Approach for LLM with Strong ASR Capacity",
-  "subtopic": "语音理解",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "SLAM-ASR：冻结语音编码器与 LLM、仅训练线性投影即可得到强 ASR。"
- },
- {
-  "sid": "09-007",
-  "arxiv": "2407.04675",
-  "title": "Seed-ASR: Understanding Diverse Speech and Contexts with LLM-based Speech Recognition",
-  "subtopic": "语音理解",
-  "type": "技术报告",
-  "priority": "中",
-  "reason": "基于音频条件 LLM 的大规模上下文感知语音识别技术报告。"
- },
- {
-  "sid": "09-008",
-  "arxiv": "2501.14350",
-  "title": "FireRedASR: Open-Source Industrial-Grade Mandarin Speech Recognition Models from Encoder-Decoder to LLM Integration",
-  "subtopic": "语音理解",
-  "type": "技术报告",
-  "priority": "低",
-  "reason": "开源工业级中文 ASR，比较编码器-解码器与 LLM 集成两种路线。"
- },
- {
-  "sid": "09-009",
-  "arxiv": "2601.21337",
-  "title": "Qwen3-ASR Technical Report",
-  "subtopic": "语音理解",
-  "type": "技术报告",
-  "priority": "中",
-  "reason": "2026 年多语种语音识别模型技术报告。"
- },
- {
-  "sid": "09-010",
-  "arxiv": "2502.03382",
-  "title": "High-Fidelity Simultaneous Speech-To-Speech Translation",
-  "subtopic": "语音理解",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "Hibiki：基于多流语言模型的同声语音到语音翻译。"
- },
- {
-  "sid": "09-011",
   "arxiv": "2301.02111",
   "title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers",
   "subtopic": "语音与音频生成",
@@ -102,128 +20,7 @@
   "old_reason": "VALL-E 开创了编解码语言模型 TTS 范式，近三年 Seed-TTS、CosyVoice、Llasa 等均以其为基线，无可替代。"
  },
  {
-  "sid": "09-012",
-  "arxiv": "2403.03100",
-  "title": "NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "因子化编解码器把语音分解为内容、韵律、音色、声学细节并分别用扩散生成。"
- },
- {
-  "sid": "09-013",
-  "arxiv": "2406.05370",
-  "title": "VALL-E 2: Neural Codec Language Models are Human Parity Zero-Shot Text to Speech Synthesizers",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "重复感知采样与分组编码建模改进编解码语言模型 TTS 的稳定性与效率。"
- },
- {
-  "sid": "09-014",
-  "arxiv": "2406.02430",
-  "title": "Seed-TTS: A Family of High-Quality Versatile Speech Generation Models",
-  "subtopic": "语音与音频生成",
-  "type": "技术报告",
-  "priority": "高",
-  "reason": "自回归与非自回归（扩散）两类大规模语音生成模型及其自蒸馏、强化学习后训练。"
- },
- {
-  "sid": "09-015",
-  "arxiv": "2410.06885",
-  "title": "F5-TTS: A Fairytale that Fakes Fluent and Faithful Speech with Flow Matching",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "基于 DiT 与流匹配的全非自回归 TTS，无需时长模型与音素对齐。"
- },
- {
-  "sid": "09-016",
-  "arxiv": "2412.10117",
-  "title": "CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "有限标量量化语音 token、LLM 加块感知流匹配，统一流式与非流式合成。"
- },
- {
-  "sid": "09-017",
-  "arxiv": "2409.00750",
-  "title": "MaskGCT: Zero-Shot Text-to-Speech with Masked Generative Codec Transformer",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "两阶段掩码生成 Transformer 的非自回归零样本 TTS。"
- },
- {
-  "sid": "09-018",
-  "arxiv": "2502.04128",
-  "title": "Llasa: Scaling Train-Time and Inference-Time Compute for Llama-based Speech Synthesis",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "单层码本加 Llama 的 TTS，研究训练与推理时计算的扩展。"
- },
- {
-  "sid": "09-019",
-  "arxiv": "2506.21619",
-  "title": "IndexTTS2: A Breakthrough in Emotionally Expressive and Duration-Controlled Auto-Regressive Zero-Shot Text-to-Speech",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "自回归 TTS 中的精确时长控制与情感-音色解耦。"
- },
- {
-  "sid": "09-020",
-  "arxiv": "2508.19205",
-  "title": "VibeVoice Technical Report",
-  "subtopic": "语音与音频生成",
-  "type": "技术报告",
-  "priority": "中",
-  "reason": "基于下一 token 扩散与超低帧率 tokenizer 的长篇多说话人语音合成。"
- },
- {
-  "sid": "09-021",
-  "arxiv": "2402.01912",
-  "title": "Natural language guidance of high-fidelity text-to-speech with synthetic annotations",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "用自动标注的说话人风格自然语言描述控制 TTS（Parler-TTS 方法来源）。"
- },
- {
-  "sid": "09-022",
-  "arxiv": "2407.14358",
-  "title": "Stable Audio Open",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "仅用知识共享许可数据训练的开放权重文本到音频潜扩散模型。"
- },
- {
-  "sid": "09-023",
-  "arxiv": "2503.08638",
-  "title": "YuE: Scaling Open Foundation Models for Long-Form Music Generation",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "歌词到整首歌曲（含人声与伴奏）的长时音乐生成开放基础模型。"
- },
- {
-  "sid": "09-024",
-  "arxiv": "2412.15322",
-  "title": "MMAudio: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "视频与文本联合条件的多模态联合训练视频配音（视频到音频）生成。",
-  "cross": [
-   "08"
-  ],
-  "cross_reason": "以视频为条件的生成任务，与视频生成相邻。"
- },
- {
-  "sid": "09-025",
+  "sid": "09-003",
   "arxiv": "2209.03143",
   "title": "AudioLM: a Language Modeling Approach to Audio Generation",
   "subtopic": "语音语言模型",
@@ -233,7 +30,44 @@
   "old_reason": "AudioLM 的语义/声学分层 token 方案是近三年语音语言模型与编解码 TTS 的共同框架来源。"
  },
  {
-  "sid": "09-026",
+  "sid": "09-004",
+  "arxiv": "2407.10759",
+  "title": "Qwen2-Audio Technical Report",
+  "subtopic": "音频语言模型",
+  "type": "技术报告",
+  "priority": "高",
+  "reason": "音频-文本大模型，支持语音聊天与音频分析两种交互模式，并用 DPO 对齐。"
+ },
+ {
+  "sid": "09-005",
+  "arxiv": "2410.00037",
+  "title": "Moshi: a speech-text foundation model for real-time dialogue",
+  "subtopic": "实时交互",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "多流并行建模用户与系统语音的全双工实时对话模型，含 Mimi 编解码器与内心独白。"
+ },
+ {
+  "sid": "09-006",
+  "arxiv": "2106.07447",
+  "title": "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units",
+  "subtopic": "语音理解",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以聚类伪标签做掩码预测的自监督语音表示，离散语音单元的主要来源。",
+  "old_reason": "HuBERT 离散单元是 GSLM/SpiRit-LM 等语音语言模型的语义 token 基础，近期文献普遍沿用，必须作为经典补充。"
+ },
+ {
+  "sid": "09-007",
+  "arxiv": "2403.03100",
+  "title": "NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models",
+  "subtopic": "语音与音频生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "因子化编解码器把语音分解为内容、韵律、音色、声学细节并分别用扩散生成。"
+ },
+ {
+  "sid": "09-008",
   "arxiv": "2210.13438",
   "title": "High Fidelity Neural Audio Compression",
   "subtopic": "语音语言模型",
@@ -243,101 +77,7 @@
   "old_reason": "EnCodec 的 RVQ 声学 token 是 VALL-E、MusicGen、Moshi 等的直接前置，近期 codec 工作均以其为基线。"
  },
  {
-  "sid": "09-027",
-  "arxiv": "2402.05755",
-  "title": "SpiRit-LM: Interleaved Spoken and Written Language Model",
-  "subtopic": "语音语言模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "在文本 LLM 上以语音-文本交错数据继续训练，得到跨模态的语音语言模型。"
- },
- {
-  "sid": "09-028",
-  "arxiv": "2404.00685",
-  "title": "Scaling Properties of Speech Language Models",
-  "subtopic": "语音语言模型",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "研究无文本语音语言模型的规模定律及其与文本 LLM 的计算效率差距。"
- },
- {
-  "sid": "09-029",
-  "arxiv": "2411.17607",
-  "title": "Scaling Speech-Text Pre-training with Synthetic Interleaved Data",
-  "subtopic": "语音语言模型",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "从文本语料合成语音-文本交错数据，扩大语音语言模型预训练规模。"
- },
- {
-  "sid": "09-030",
-  "arxiv": "2408.16532",
-  "title": "WavTokenizer: an Efficient Acoustic Discrete Codec Tokenizer for Audio Language Modeling",
-  "subtopic": "语音语言模型",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "单量化器、极低 token 率的声学编解码器，面向音频语言建模。"
- },
- {
-  "sid": "09-031",
-  "arxiv": "2408.17175",
-  "title": "Codec Does Matter: Exploring the Semantic Shortcoming of Codec for Audio Language Model",
-  "subtopic": "语音语言模型",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "X-Codec：在编解码器中引入语义特征，改善音频语言模型生成。"
- },
- {
-  "sid": "09-032",
-  "arxiv": "2411.19842",
-  "title": "Scaling Transformers for Low-Bitrate High-Quality Speech Coding",
-  "subtopic": "语音语言模型",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "以大参数 Transformer 和 FSQ 构建极低码率高质量语音编解码器。"
- },
- {
-  "sid": "09-033",
-  "arxiv": "2411.01834",
-  "title": "Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback",
-  "subtopic": "语音语言模型",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "用 AI 反馈偏好优化提升无文本语音语言模型的语义连贯性。",
-  "cross": [
-   "03"
-  ],
-  "cross_reason": "偏好优化用于语音语言模型。"
- },
- {
-  "sid": "09-034",
-  "arxiv": "2410.03751",
-  "title": "Recent Advances in Speech Language Models: A Survey",
-  "subtopic": "语音语言模型",
-  "type": "综述",
-  "priority": "中",
-  "reason": "语音语言模型（端到端语音生成与理解）的系统综述。"
- },
- {
-  "sid": "09-035",
-  "arxiv": "2504.08528",
-  "title": "On The Landscape of Spoken Language Models: A Comprehensive Survey",
-  "subtopic": "语音语言模型",
-  "type": "综述",
-  "priority": "中",
-  "reason": "口语语言模型的分类、训练与评测综述。"
- },
- {
-  "sid": "09-036",
-  "arxiv": "2407.10759",
-  "title": "Qwen2-Audio Technical Report",
-  "subtopic": "音频语言模型",
-  "type": "技术报告",
-  "priority": "高",
-  "reason": "音频-文本大模型，支持语音聊天与音频分析两种交互模式，并用 DPO 对齐。"
- },
- {
-  "sid": "09-037",
+  "sid": "09-009",
   "arxiv": "2406.11768",
   "title": "GAMA: A Large Audio-Language Model with Advanced Audio Understanding and Complex Reasoning Abilities",
   "subtopic": "音频语言模型",
@@ -346,7 +86,43 @@
   "reason": "多层音频特征聚合与复杂推理指令数据的大型音频语言模型。"
  },
  {
-  "sid": "09-038",
+  "sid": "09-010",
+  "arxiv": "2408.16725",
+  "title": "Mini-Omni: Language Models Can Hear, Talk While Thinking in Streaming",
+  "subtopic": "实时交互",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "文本引导的并行语音生成，使语言模型可边思考边流式说话。"
+ },
+ {
+  "sid": "09-011",
+  "arxiv": "2312.05187",
+  "title": "Seamless: Multilingual Expressive and Streaming Speech Translation",
+  "subtopic": "语音理解",
+  "type": "技术报告",
+  "priority": "中",
+  "reason": "多语种、保留表现力且支持流式的语音到语音/文本翻译模型族。"
+ },
+ {
+  "sid": "09-012",
+  "arxiv": "2406.02430",
+  "title": "Seed-TTS: A Family of High-Quality Versatile Speech Generation Models",
+  "subtopic": "语音与音频生成",
+  "type": "技术报告",
+  "priority": "高",
+  "reason": "自回归与非自回归（扩散）两类大规模语音生成模型及其自蒸馏、强化学习后训练。"
+ },
+ {
+  "sid": "09-013",
+  "arxiv": "2402.05755",
+  "title": "SpiRit-LM: Interleaved Spoken and Written Language Model",
+  "subtopic": "语音语言模型",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "在文本 LLM 上以语音-文本交错数据继续训练，得到跨模态的语音语言模型。"
+ },
+ {
+  "sid": "09-014",
   "arxiv": "2507.08128",
   "title": "Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models",
   "subtopic": "音频语言模型",
@@ -355,7 +131,43 @@
   "reason": "全开源大型音频语言模型，覆盖语音、声音、音乐的理解、推理与多轮对话。"
  },
  {
-  "sid": "09-039",
+  "sid": "09-015",
+  "arxiv": "2409.06666",
+  "title": "LLaMA-Omni: Seamless Speech Interaction with Large Language Models",
+  "subtopic": "实时交互",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在 LLM 上接语音编码器与流式语音解码器，实现低延迟语音交互。"
+ },
+ {
+  "sid": "09-016",
+  "arxiv": "2401.16658",
+  "title": "OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer",
+  "subtopic": "语音理解",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "完全开放数据与代码的 Whisper 风格语音基础模型复现与改进。"
+ },
+ {
+  "sid": "09-017",
+  "arxiv": "2410.06885",
+  "title": "F5-TTS: A Fairytale that Fakes Fluent and Faithful Speech with Flow Matching",
+  "subtopic": "语音与音频生成",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "基于 DiT 与流匹配的全非自回归 TTS，无需时长模型与音素对齐。"
+ },
+ {
+  "sid": "09-018",
+  "arxiv": "2404.00685",
+  "title": "Scaling Properties of Speech Language Models",
+  "subtopic": "语音语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究无文本语音语言模型的规模定律及其与文本 LLM 的计算效率差距。"
+ },
+ {
+  "sid": "09-019",
   "arxiv": "2504.18425",
   "title": "Kimi-Audio Technical Report",
   "subtopic": "音频语言模型",
@@ -364,7 +176,43 @@
   "reason": "统一音频理解、生成与对话的开源音频基础模型技术报告。"
  },
  {
-  "sid": "09-040",
+  "sid": "09-020",
+  "arxiv": "2411.00774",
+  "title": "Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM",
+  "subtopic": "实时交互",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "冻结 LLM 参数的语音到语音对话，避免灾难性遗忘并支持双工。"
+ },
+ {
+  "sid": "09-021",
+  "arxiv": "2406.19674",
+  "title": "Less is More: Accurate Speech Recognition & Translation without Web-Scale Data",
+  "subtopic": "语音理解",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "Canary：用远少于 Whisper 的数据训练多语种 ASR/AST 模型的数据与训练策略。"
+ },
+ {
+  "sid": "09-022",
+  "arxiv": "2412.10117",
+  "title": "CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models",
+  "subtopic": "语音与音频生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "有限标量量化语音 token、LLM 加块感知流匹配，统一流式与非流式合成。"
+ },
+ {
+  "sid": "09-023",
+  "arxiv": "2411.17607",
+  "title": "Scaling Speech-Text Pre-training with Synthetic Interleaved Data",
+  "subtopic": "语音语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "从文本语料合成语音-文本交错数据，扩大语音语言模型预训练规模。"
+ },
+ {
+  "sid": "09-024",
   "arxiv": "2507.16632",
   "title": "Step-Audio 2 Technical Report",
   "subtopic": "音频语言模型",
@@ -373,16 +221,43 @@
   "reason": "端到端音频理解与语音对话大模型，结合强化学习与检索增强。"
  },
  {
-  "sid": "09-041",
-  "arxiv": "2507.13264",
-  "title": "Voxtral",
-  "subtopic": "音频语言模型",
-  "type": "技术报告",
-  "priority": "低",
-  "reason": "开放权重的语音理解与对话模型，支持长音频上下文。"
+  "sid": "09-025",
+  "arxiv": "2412.02612",
+  "title": "GLM-4-Voice: Towards Intelligent and Human-Like End-to-End Spoken Chatbot",
+  "subtopic": "实时交互",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "端到端中英语音聊天模型，单码本低帧率语音 tokenizer 加大规模预训练。"
  },
  {
-  "sid": "09-042",
+  "sid": "09-026",
+  "arxiv": "2402.08846",
+  "title": "An Embarrassingly Simple Approach for LLM with Strong ASR Capacity",
+  "subtopic": "语音理解",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "SLAM-ASR：冻结语音编码器与 LLM、仅训练线性投影即可得到强 ASR。"
+ },
+ {
+  "sid": "09-027",
+  "arxiv": "2502.04128",
+  "title": "Llasa: Scaling Train-Time and Inference-Time Compute for Llama-based Speech Synthesis",
+  "subtopic": "语音与音频生成",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "单层码本加 Llama 的 TTS，研究训练与推理时计算的扩展。"
+ },
+ {
+  "sid": "09-028",
+  "arxiv": "2408.16532",
+  "title": "WavTokenizer: an Efficient Acoustic Discrete Codec Tokenizer for Audio Language Modeling",
+  "subtopic": "语音语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "单量化器、极低 token 率的声学编解码器，面向音频语言建模。"
+ },
+ {
+  "sid": "09-029",
   "arxiv": "2410.19168",
   "title": "MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark",
   "subtopic": "音频语言模型",
@@ -395,7 +270,43 @@
   "cross_reason": "评测基准。"
  },
  {
-  "sid": "09-043",
+  "sid": "09-030",
+  "arxiv": "2409.15594",
+  "title": "Beyond Turn-Based Interfaces: Synchronous LLMs as Full-Duplex Dialogue Agents",
+  "subtopic": "实时交互",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "SyncLLM：把时间信息融入 LLM，使其与真实时钟同步进行全双工对话。"
+ },
+ {
+  "sid": "09-031",
+  "arxiv": "2407.04675",
+  "title": "Seed-ASR: Understanding Diverse Speech and Contexts with LLM-based Speech Recognition",
+  "subtopic": "语音理解",
+  "type": "技术报告",
+  "priority": "中",
+  "reason": "基于音频条件 LLM 的大规模上下文感知语音识别技术报告。"
+ },
+ {
+  "sid": "09-032",
+  "arxiv": "2506.21619",
+  "title": "IndexTTS2: A Breakthrough in Emotionally Expressive and Duration-Controlled Auto-Regressive Zero-Shot Text-to-Speech",
+  "subtopic": "语音与音频生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "自回归 TTS 中的精确时长控制与情感-音色解耦。"
+ },
+ {
+  "sid": "09-033",
+  "arxiv": "2408.17175",
+  "title": "Codec Does Matter: Exploring the Semantic Shortcoming of Codec for Audio Language Model",
+  "subtopic": "语音语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "X-Codec：在编解码器中引入语义特征，改善音频语言模型生成。"
+ },
+ {
+  "sid": "09-034",
   "arxiv": "2402.07729",
   "title": "AIR-Bench: Benchmarking Large Audio-Language Models via Generative Comprehension",
   "subtopic": "音频语言模型",
@@ -408,96 +319,7 @@
   "cross_reason": "评测基准。"
  },
  {
-  "sid": "09-044",
-  "arxiv": "2503.02318",
-  "title": "Audio-Reasoner: Improving Reasoning Capability in Large Audio Language Models",
-  "subtopic": "音频语言模型",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "构造结构化思维链数据训练音频语言模型做长推理。",
-  "cross": [
-   "04"
-  ],
-  "cross_reason": "思维链推理。"
- },
- {
-  "sid": "09-045",
-  "arxiv": "2503.11197",
-  "title": "Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering",
-  "subtopic": "音频语言模型",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "在音频问答上用 GRPO 强化学习对比监督微调。",
-  "cross": [
-   "04"
-  ],
-  "cross_reason": "面向推理的强化学习（GRPO）。"
- },
- {
-  "sid": "09-046",
-  "arxiv": "2410.00037",
-  "title": "Moshi: a speech-text foundation model for real-time dialogue",
-  "subtopic": "实时交互",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "多流并行建模用户与系统语音的全双工实时对话模型，含 Mimi 编解码器与内心独白。"
- },
- {
-  "sid": "09-047",
-  "arxiv": "2408.16725",
-  "title": "Mini-Omni: Language Models Can Hear, Talk While Thinking in Streaming",
-  "subtopic": "实时交互",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "文本引导的并行语音生成，使语言模型可边思考边流式说话。"
- },
- {
-  "sid": "09-048",
-  "arxiv": "2409.06666",
-  "title": "LLaMA-Omni: Seamless Speech Interaction with Large Language Models",
-  "subtopic": "实时交互",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "在 LLM 上接语音编码器与流式语音解码器，实现低延迟语音交互。"
- },
- {
-  "sid": "09-049",
-  "arxiv": "2411.00774",
-  "title": "Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM",
-  "subtopic": "实时交互",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "冻结 LLM 参数的语音到语音对话，避免灾难性遗忘并支持双工。"
- },
- {
-  "sid": "09-050",
-  "arxiv": "2412.02612",
-  "title": "GLM-4-Voice: Towards Intelligent and Human-Like End-to-End Spoken Chatbot",
-  "subtopic": "实时交互",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "端到端中英语音聊天模型，单码本低帧率语音 tokenizer 加大规模预训练。"
- },
- {
-  "sid": "09-051",
-  "arxiv": "2409.15594",
-  "title": "Beyond Turn-Based Interfaces: Synchronous LLMs as Full-Duplex Dialogue Agents",
-  "subtopic": "实时交互",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "SyncLLM：把时间信息融入 LLM，使其与真实时钟同步进行全双工对话。"
- },
- {
-  "sid": "09-052",
-  "arxiv": "2410.17799",
-  "title": "OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation",
-  "subtopic": "实时交互",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "把多流对话展平为单序列，在 GPT 上渐进式训练全双工语音对话。"
- },
- {
-  "sid": "09-053",
+  "sid": "09-035",
   "arxiv": "2503.20215",
   "title": "Qwen2.5-Omni Technical Report",
   "subtopic": "实时交互",
@@ -510,7 +332,47 @@
   "cross_reason": "全模态（视觉+音频）输入的多模态大模型。"
  },
  {
-  "sid": "09-054",
+  "sid": "09-036",
+  "arxiv": "2601.21337",
+  "title": "Qwen3-ASR Technical Report",
+  "subtopic": "语音理解",
+  "type": "技术报告",
+  "priority": "中",
+  "reason": "2026 年多语种语音识别模型技术报告。"
+ },
+ {
+  "sid": "09-037",
+  "arxiv": "2508.19205",
+  "title": "VibeVoice Technical Report",
+  "subtopic": "语音与音频生成",
+  "type": "技术报告",
+  "priority": "中",
+  "reason": "基于下一 token 扩散与超低帧率 tokenizer 的长篇多说话人语音合成。"
+ },
+ {
+  "sid": "09-038",
+  "arxiv": "2411.19842",
+  "title": "Scaling Transformers for Low-Bitrate High-Quality Speech Coding",
+  "subtopic": "语音语言模型",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以大参数 Transformer 和 FSQ 构建极低码率高质量语音编解码器。"
+ },
+ {
+  "sid": "09-039",
+  "arxiv": "2503.02318",
+  "title": "Audio-Reasoner: Improving Reasoning Capability in Large Audio Language Models",
+  "subtopic": "音频语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "构造结构化思维链数据训练音频语言模型做长推理。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "思维链推理。"
+ },
+ {
+  "sid": "09-040",
   "arxiv": "2410.17196",
   "title": "VoiceBench: Benchmarking LLM-Based Voice Assistants",
   "subtopic": "实时交互",
@@ -523,7 +385,47 @@
   "cross_reason": "评测基准。"
  },
  {
-  "sid": "09-055",
+  "sid": "09-041",
+  "arxiv": "2502.03382",
+  "title": "High-Fidelity Simultaneous Speech-To-Speech Translation",
+  "subtopic": "语音理解",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "Hibiki：基于多流语言模型的同声语音到语音翻译。"
+ },
+ {
+  "sid": "09-042",
+  "arxiv": "2402.01912",
+  "title": "Natural language guidance of high-fidelity text-to-speech with synthetic annotations",
+  "subtopic": "语音与音频生成",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "用自动标注的说话人风格自然语言描述控制 TTS（Parler-TTS 方法来源）。"
+ },
+ {
+  "sid": "09-043",
+  "arxiv": "2410.03751",
+  "title": "Recent Advances in Speech Language Models: A Survey",
+  "subtopic": "语音语言模型",
+  "type": "综述",
+  "priority": "中",
+  "reason": "语音语言模型（端到端语音生成与理解）的系统综述。"
+ },
+ {
+  "sid": "09-044",
+  "arxiv": "2503.11197",
+  "title": "Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering",
+  "subtopic": "音频语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在音频问答上用 GRPO 强化学习对比监督微调。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "面向推理的强化学习（GRPO）。"
+ },
+ {
+  "sid": "09-045",
   "arxiv": "2503.04721",
   "title": "Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities",
   "subtopic": "实时交互",
@@ -536,7 +438,38 @@
   "cross_reason": "评测基准。"
  },
  {
-  "sid": "09-056",
+  "sid": "09-046",
+  "arxiv": "2407.14358",
+  "title": "Stable Audio Open",
+  "subtopic": "语音与音频生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "仅用知识共享许可数据训练的开放权重文本到音频潜扩散模型。"
+ },
+ {
+  "sid": "09-047",
+  "arxiv": "2504.08528",
+  "title": "On The Landscape of Spoken Language Models: A Comprehensive Survey",
+  "subtopic": "语音语言模型",
+  "type": "综述",
+  "priority": "中",
+  "reason": "口语语言模型的分类、训练与评测综述。"
+ },
+ {
+  "sid": "09-048",
+  "arxiv": "2505.13032",
+  "title": "MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix",
+  "subtopic": "音频语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "覆盖语音、声音、音乐及其混合的深层音频推理基准。",
+  "cross": [
+   "12"
+  ],
+  "cross_reason": "评测基准。"
+ },
+ {
+  "sid": "09-049",
   "arxiv": "2411.13577",
   "title": "WavChat: A Survey of Spoken Dialogue Models",
   "subtopic": "实时交互",
@@ -545,17 +478,150 @@
   "reason": "口语对话模型（级联与端到端）的系统综述。"
  },
  {
-  "sid": "09-057",
-  "arxiv": "2410.15608",
-  "title": "Moonshine: Speech Recognition for Live Transcription and Voice Commands",
-  "subtopic": "语音理解",
+  "sid": "09-050",
+  "arxiv": "2503.08638",
+  "title": "YuE: Scaling Open Foundation Models for Long-Form Music Generation",
+  "subtopic": "语音与音频生成",
   "type": "原始研究",
+  "priority": "中",
+  "reason": "歌词到整首歌曲（含人声与伴奏）的长时音乐生成开放基础模型。"
+ },
+ {
+  "sid": "09-051",
+  "arxiv": "2604.18187",
+  "title": "Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models",
+  "subtopic": "音频语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "Audio-DeepThinker：不依赖监督推理数据、以强化学习激发音频语言模型的思维链推理（2026 新工作）。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "面向推理的强化学习。"
+ },
+ {
+  "sid": "09-052",
+  "arxiv": "2509.17765",
+  "title": "Qwen3-Omni Technical Report",
+  "subtopic": "实时交互",
+  "type": "技术报告",
+  "priority": "中",
+  "reason": "全模态模型在文本、图像、音频、视频上保持不降级的统一训练，并以多码本流式语音生成降低首包延迟。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "全模态输入的多模态大模型。"
+ },
+ {
+  "sid": "09-053",
+  "arxiv": "2412.15322",
+  "title": "MMAudio: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis",
+  "subtopic": "语音与音频生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "视频与文本联合条件的多模态联合训练视频配音（视频到音频）生成。",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "以视频为条件的生成任务，与视频生成相邻。"
+ },
+ {
+  "sid": "09-054",
+  "arxiv": "2602.11909",
+  "title": "Echo: Towards Advanced Audio Comprehension via Audio-Interleaved Reasoning",
+  "subtopic": "音频语言模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "Echo：推理过程中反复回看音频的音频交错推理，缓解一次性编码的信息瓶颈（2026 新工作）。",
+  "cross": [
+   "04"
+  ],
+  "cross_reason": "推理方法。"
+ },
+ {
+  "sid": "09-055",
+  "arxiv": "2601.11329",
+  "title": "F-Actor: Controllable Conversational Behaviour in Full-Duplex Models",
+  "subtopic": "实时交互",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "可由指令控制音色、话题、附和、打断与主动发起的全双工对话语音模型（2026 新工作）。"
+ },
+ {
+  "sid": "09-056",
+  "arxiv": "2603.08823",
+  "title": "Fish Audio S2 Technical Report",
+  "subtopic": "语音与音频生成",
+  "type": "技术报告",
   "priority": "低",
-  "reason": "面向边缘设备实时转写的轻量 ASR 模型。",
+  "reason": "2026 年开放语音合成系统技术报告。"
+ },
+ {
+  "sid": "09-057",
+  "arxiv": "2501.14350",
+  "title": "FireRedASR: Open-Source Industrial-Grade Mandarin Speech Recognition Models from Encoder-Decoder to LLM Integration",
+  "subtopic": "语音理解",
+  "type": "技术报告",
+  "priority": "低",
+  "reason": "开源工业级中文 ASR，比较编码器-解码器与 LLM 集成两种路线。",
   "reserve": true
  },
  {
   "sid": "09-058",
+  "arxiv": "2406.05370",
+  "title": "VALL-E 2: Neural Codec Language Models are Human Parity Zero-Shot Text to Speech Synthesizers",
+  "subtopic": "语音与音频生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "重复感知采样与分组编码建模改进编解码语言模型 TTS 的稳定性与效率。",
+  "reserve": true
+ },
+ {
+  "sid": "09-059",
+  "arxiv": "2409.00750",
+  "title": "MaskGCT: Zero-Shot Text-to-Speech with Masked Generative Codec Transformer",
+  "subtopic": "语音与音频生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "两阶段掩码生成 Transformer 的非自回归零样本 TTS。",
+  "reserve": true
+ },
+ {
+  "sid": "09-060",
+  "arxiv": "2411.01834",
+  "title": "Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback",
+  "subtopic": "语音语言模型",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "用 AI 反馈偏好优化提升无文本语音语言模型的语义连贯性。",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "偏好优化用于语音语言模型。",
+  "reserve": true
+ },
+ {
+  "sid": "09-061",
+  "arxiv": "2507.13264",
+  "title": "Voxtral",
+  "subtopic": "音频语言模型",
+  "type": "技术报告",
+  "priority": "低",
+  "reason": "开放权重的语音理解与对话模型，支持长音频上下文。",
+  "reserve": true
+ },
+ {
+  "sid": "09-062",
+  "arxiv": "2410.17799",
+  "title": "OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation",
+  "subtopic": "实时交互",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "把多流对话展平为单序列，在 GPT 上渐进式训练全双工语音对话。",
+  "reserve": true
+ },
+ {
+  "sid": "09-063",
   "arxiv": "2509.12508",
   "title": "Fun-ASR Technical Report",
   "subtopic": "语音理解",
@@ -565,7 +631,7 @@
   "reserve": true
  },
  {
-  "sid": "09-059",
+  "sid": "09-064",
   "arxiv": "2406.18009",
   "title": "E2 TTS: Embarrassingly Easy Fully Non-Autoregressive Zero-Shot TTS",
   "subtopic": "语音与音频生成",
@@ -575,7 +641,7 @@
   "reserve": true
  },
  {
-  "sid": "09-060",
+  "sid": "09-065",
   "arxiv": "2503.01710",
   "title": "Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens",
   "subtopic": "语音与音频生成",
@@ -585,17 +651,7 @@
   "reserve": true
  },
  {
-  "sid": "09-061",
-  "arxiv": "2404.09956",
-  "title": "Tango 2: Aligning Diffusion-based Text-to-Audio Generations through Direct Preference Optimization",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "用合成偏好数据和 DPO 对齐文本到音频扩散模型。",
-  "reserve": true
- },
- {
-  "sid": "09-062",
+  "sid": "09-066",
   "arxiv": "2502.07243",
   "title": "Vevo: Controllable Zero-Shot Voice Imitation with Self-Supervised Disentanglement",
   "subtopic": "语音与音频生成",
@@ -605,17 +661,7 @@
   "reserve": true
  },
  {
-  "sid": "09-063",
-  "arxiv": "2407.05361",
-  "title": "Emilia: An Extensive, Multilingual, and Diverse Speech Dataset for Large-Scale Speech Generation",
-  "subtopic": "语音与音频生成",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "面向大规模语音生成的多语种自发语音数据集与预处理管线。",
-  "reserve": true
- },
- {
-  "sid": "09-064",
+  "sid": "09-067",
   "arxiv": "2402.13071",
   "title": "Codec-SUPERB: An In-Depth Analysis of Sound Codec Models",
   "subtopic": "语音语言模型",
@@ -629,7 +675,7 @@
   "reserve": true
  },
  {
-  "sid": "09-065",
+  "sid": "09-068",
   "arxiv": "2311.07919",
   "title": "Qwen-Audio: Advancing Universal Audio Understanding via Unified Large-Scale Audio-Language Models",
   "subtopic": "音频语言模型",
@@ -639,7 +685,7 @@
   "reserve": true
  },
  {
-  "sid": "09-066",
+  "sid": "09-069",
   "arxiv": "2503.03983",
   "title": "Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities",
   "subtopic": "音频语言模型",
@@ -649,17 +695,7 @@
   "reserve": true
  },
  {
-  "sid": "09-067",
-  "arxiv": "2405.08295",
-  "title": "SpeechVerse: A Large-scale Generalizable Audio Language Model",
-  "subtopic": "音频语言模型",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "多任务指令微调的可泛化音频语言模型。",
-  "reserve": true
- },
- {
-  "sid": "09-068",
+  "sid": "09-070",
   "arxiv": "2502.11946",
   "title": "Step-Audio: Unified Understanding and Generation in Intelligent Speech Interaction",
   "subtopic": "实时交互",
@@ -669,17 +705,7 @@
   "reserve": true
  },
  {
-  "sid": "09-069",
-  "arxiv": "2502.17239",
-  "title": "Baichuan-Audio: A Unified Framework for End-to-End Speech Interaction",
-  "subtopic": "实时交互",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "端到端语音交互框架，多码本离散化与两阶段预训练。",
-  "reserve": true
- },
- {
-  "sid": "09-070",
+  "sid": "09-071",
   "arxiv": "2408.02622",
   "title": "Language Model Can Listen While Speaking",
   "subtopic": "实时交互",
@@ -689,7 +715,7 @@
   "reserve": true
  },
  {
-  "sid": "09-071",
+  "sid": "09-072",
   "arxiv": "2505.02625",
   "title": "LLaMA-Omni2: LLM-based Real-time Spoken Chatbot with Autoregressive Streaming Speech Synthesis",
   "subtopic": "实时交互",

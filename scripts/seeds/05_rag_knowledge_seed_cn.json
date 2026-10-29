@@ -435,7 +435,7 @@
  {
   "sid": "05-042",
   "arxiv": "2406.13121",
-  "title": "Can Long-Context Language Models Replace Retrieval, Retrieval-Augmented Generation, SQL, and More?",
+  "title": "Can Long-Context Language Models Subsume Retrieval, RAG, SQL, and More?",
   "subtopic": "长上下文",
   "type": "原始研究",
   "priority": "中",
@@ -576,7 +576,8 @@
   "subtopic": "检索增强生成",
   "type": "原始研究",
   "priority": "中",
-  "reason": "覆盖多领域、多问题类型与动态事实的 RAG 问答基准，含模拟网页与知识图谱检索接口"
+  "reason": "覆盖多领域、多问题类型与动态事实的 RAG 问答基准，含模拟网页与知识图谱检索接口",
+  "reserve": true
  },
  {
   "sid": "05-056",
@@ -594,7 +595,8 @@
   "subtopic": "知识编辑",
   "type": "原始研究",
   "priority": "中",
-  "reason": "无需训练、主体定位或外部记忆的终身编辑方法，以终身归一化维持大规模连续编辑"
+  "reason": "无需训练、主体定位或外部记忆的终身编辑方法，以终身归一化维持大规模连续编辑",
+  "reserve": true
  },
  {
   "sid": "05-058",
@@ -612,7 +614,8 @@
   "subtopic": "检索增强生成",
   "type": "原始研究",
   "priority": "中",
-  "reason": "提出“上下文是否充分”的判别视角，分析 RAG 中错误回答与拒答的来源"
+  "reason": "提出“上下文是否充分”的判别视角，分析 RAG 中错误回答与拒答的来源",
+  "reserve": true
  },
  {
   "sid": "05-060",
@@ -681,7 +684,8 @@
   "subtopic": "知识更新",
   "type": "原始研究",
   "priority": "低",
-  "reason": "自适应融合内部知识与外部检索并解决冲突，应对不完美检索"
+  "reason": "自适应融合内部知识与外部检索并解决冲突，应对不完美检索",
+  "reserve": true
  },
  {
   "sid": "05-066",

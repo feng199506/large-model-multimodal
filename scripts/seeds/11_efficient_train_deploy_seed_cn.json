@@ -715,5 +715,80 @@
   "priority": "中",
   "reason": "大量 LoRA 适配器并发服务的显存与调度设计。",
   "reserve": true
+ },
+ {
+  "sid": "11-075",
+  "arxiv": "2604.13016",
+  "title": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
+  "subtopic": "蒸馏",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "系统分析 LLM 在线策略蒸馏（OPD）成败条件与 token 级机制并给出修复配方，代表 2026 年后训练蒸馏的新范式研究。",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "OPD 用于后训练阶段的能力迁移，与微调对齐交叉；主体是蒸馏方法分析。"
+ },
+ {
+  "sid": "11-076",
+  "arxiv": "2601.22813",
+  "title": "Quartet II: Accurate LLM Pre-Training in NVFP4 by Improved Unbiased Gradient Estimation",
+  "subtopic": "低精度",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以改进的无偏梯度估计实现全 NVFP4 线性层预训练并提供 Blackwell 内核，代表 FP4 训练的 2026 年进展（与 Quartet 贡献不同：针对 NVFP4 反向无偏量化）。"
+ },
+ {
+  "sid": "11-077",
+  "arxiv": "2601.07372",
+  "title": "Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models",
+  "subtopic": "混合专家",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "提出以可扩展查表（Engram）的条件记忆作为与 MoE 并列的稀疏维度，并研究专家与记忆之间的稀疏参数分配。",
+  "cross": [
+   "01"
+  ],
+  "cross_reason": "同时是模型架构创新；本类关注其与 MoE 的稀疏分配及主机内存卸载的效率设计。"
+ },
+ {
+  "sid": "11-078",
+  "arxiv": "2602.11686",
+  "title": "LAER-MoE: Load-Adaptive Expert Re-layout for Efficient Mixture-of-Experts Training",
+  "subtopic": "混合专家",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在专家并行训练中按负载动态重排专家参数并调度通信，针对 MoE 训练负载不均衡这一系统瓶颈。"
+ },
+ {
+  "sid": "11-079",
+  "arxiv": "2603.03251",
+  "title": "Speculative Speculative Decoding",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "让起草与验证并行（预测验证结果并预先起草），突破标准投机解码的串行依赖，代表投机解码的新方向。"
+ },
+ {
+  "sid": "11-080",
+  "arxiv": "2602.06036",
+  "title": "DFlash: Block Diffusion for Flash Speculative Decoding",
+  "subtopic": "推理加速",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "用轻量块扩散模型一次前向并行起草整块 token，代表扩散式草稿模型用于无损投机解码。",
+  "cross": [
+   "01"
+  ],
+  "cross_reason": "涉及扩散语言模型作为草稿器；主体是推理加速。"
+ },
+ {
+  "sid": "11-081",
+  "arxiv": "2604.15039",
+  "title": "Prefill-as-a-Service: KVCache of Next-Generation Models Could Go Cross-Datacenter",
+  "subtopic": "资源管理",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "把长上下文 prefill 跨数据中心卸载并经普通以太网传输 KVCache，含带宽感知调度，代表 PD 分离服务的跨集群扩展。"
  }
 ]

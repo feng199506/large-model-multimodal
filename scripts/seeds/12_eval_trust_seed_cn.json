@@ -738,5 +738,67 @@
   "priority": "中",
   "reason": "以多种政治倾向测试评估 LLM 的政治偏好。",
   "reserve": true
+ },
+ {
+  "sid": "12-076",
+  "arxiv": "2606.15057",
+  "title": "AutoDojo: A Generative Benchmark for Evaluating Prompt Injection Defenses in LLM Agents",
+  "subtopic": "鲁棒性",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "针对给定智能体与防御自适应生成间接提示注入攻击的评测基准，检验静态基准是否高估防御效果。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "评测对象是工具使用智能体；主体是提示注入鲁棒性/防御评测。"
+ },
+ {
+  "sid": "12-077",
+  "arxiv": "2602.07150",
+  "title": "On Randomness in Agentic Evals",
+  "subtopic": "可复现性",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以大规模重复轨迹量化智能体基准单次 pass@1 的随机波动并给出多次运行与功效分析建议，代表评测可复现性问题。",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "实验在代码智能体基准上进行；主体是评测方法学（方差与可复现性）。"
+ },
+ {
+  "sid": "12-078",
+  "arxiv": "2602.00279",
+  "title": "Semantic Calibration Prevails Where Token Confidence Fails: Benchmarking Long-Form Scientific QA",
+  "subtopic": "不确定性",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在多模型、多数据集的长文本科学问答上系统比较 token 级、口头化与一致性等不确定性估计方法的校准。"
+ },
+ {
+  "sid": "12-079",
+  "arxiv": "2602.01031",
+  "title": "HalluHard: A Hard Multi-Turn Hallucination Benchmark",
+  "subtopic": "幻觉",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "面向高风险领域多轮对话的困难幻觉基准，以检索证据的判定流程度量基于依据的幻觉。"
+ },
+ {
+  "sid": "12-080",
+  "arxiv": "2601.04603",
+  "title": "Constitutional Classifiers++: Efficient Production-Grade Defenses against Universal Jailbreaks",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以上下文交换分类器、两级级联与线性探针集成降低越狱防御成本，代表生产级越狱防御（与 12-040 贡献不同：侧重部署效率与上下文判别）。"
+ },
+ {
+  "sid": "12-081",
+  "arxiv": "2601.23045",
+  "title": "The Hot Mess of AI: How Does Misalignment Scale With Model Intelligence and Task Complexity?",
+  "subtopic": "安全",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "把模型失败分解为偏差与方差（不一致性），研究失配形式如何随推理长度与模型规模变化，代表对齐风险的经验度量。"
  }
 ]

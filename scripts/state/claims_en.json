@@ -22,5 +22,4217 @@
   "sid": "14-001",
   "state": "verified",
   "file": "books/Xiao_FoundationsOfLargeLanguageModels_v4_en.pdf"
+ },
+ "arxiv:2504.12501": {
+  "cat": "14",
+  "sid": "14-010",
+  "state": "verified",
+  "file": "books/Lambert_ReinforcementLearningFromHumanFeedback_v12_en.pdf"
+ },
+ "arxiv:2412.05265": {
+  "cat": "14",
+  "sid": "14-012",
+  "state": "verified",
+  "file": "books/Murphy_ReinforcementLearningAnOverview_v5_en.pdf"
+ },
+ "arxiv:2610.13455": {
+  "cat": "14",
+  "sid": "14-014",
+  "state": "verified",
+  "file": "books/vanDuijn_AgenticLargeLanguageModels_2026_en.pdf"
+ },
+ "arxiv:2401.09350": {
+  "cat": "14",
+  "sid": "14-015",
+  "state": "verified",
+  "file": "books/Bruch_FoundationsOfVectorRetrieval_2024_en.pdf"
+ },
+ "arxiv:2010.06467": {
+  "cat": "14",
+  "sid": "14-016",
+  "state": "verified",
+  "file": "books/Lin_PretrainedTransformersForTextRanking_v3_en.pdf"
+ },
+ "arxiv:2201.05176": {
+  "cat": "14",
+  "sid": "14-017",
+  "state": "verified",
+  "file": "books/Gao_NeuralApproachesToConversationalIR_en.pdf"
+ },
+ "arxiv:2309.10020": {
+  "cat": "14",
+  "sid": "14-018",
+  "state": "verified",
+  "file": "books/Li_MultimodalFoundationModels_en.pdf"
+ },
+ "arxiv:2210.09263": {
+  "cat": "14",
+  "sid": "14-019",
+  "state": "verified",
+  "file": "books/Gan_VisionLanguagePretraining_en.pdf"
+ },
+ "arxiv:2301.04856": {
+  "cat": "14",
+  "sid": "14-020",
+  "state": "verified",
+  "file": "books/Akkus_MultimodalDeepLearning_en.pdf"
+ },
+ "arxiv:2510.21890": {
+  "cat": "14",
+  "sid": "14-021",
+  "state": "verified",
+  "file": "books/Lai_PrinciplesOfDiffusionModels_v3_en.pdf"
+ },
+ "arxiv:2403.18103": {
+  "cat": "14",
+  "sid": "14-022",
+  "state": "verified",
+  "file": "books/Chan_TutorialOnDiffusionModels_v3_en.pdf"
+ },
+ "arxiv:2404.17625": {
+  "cat": "14",
+  "sid": "14-026",
+  "state": "verified",
+  "file": "books/Scardapane_AlicesAdventuresDifferentiableWonderland_v3_en.pdf"
+ },
+ "arxiv:2506.02070": {
+  "cat": "13",
+  "sid": "13-B02",
+  "state": "verified",
+  "file": "university_materials/MIT_6S184_2026IAP_LectureMaterials_en"
+ },
+ "arxiv:2312.15685": {
+  "cat": "03",
+  "sid": "03-001",
+  "state": "verified",
+  "file": "papers/2023_Liu_WhatMakesGoodDataAlignment_en.pdf"
+ },
+ "arxiv:2106.09685": {
+  "cat": "03",
+  "sid": "03-002",
+  "state": "verified",
+  "file": "papers/2021_Hu_LoRA_en.pdf"
+ },
+ "arxiv:2305.18290": {
+  "cat": "03",
+  "sid": "03-003",
+  "state": "verified",
+  "file": "papers/2023_Rafailov_DirectPreferenceOptimization_en.pdf"
+ },
+ "arxiv:2203.02155": {
+  "cat": "03",
+  "sid": "03-004",
+  "state": "verified",
+  "file": "papers/2022_Ouyang_TrainingLanguageModelsFollow_en.pdf"
+ },
+ "arxiv:2402.04833": {
+  "cat": "03",
+  "sid": "03-005",
+  "state": "verified",
+  "file": "papers/2024_Zhao_LongMoreAlignmentSimpleBut_en.pdf"
+ },
+ "arxiv:2305.14314": {
+  "cat": "03",
+  "sid": "03-006",
+  "state": "verified",
+  "file": "papers/2023_Dettmers_QLoRA_en.pdf"
+ },
+ "arxiv:2402.01306": {
+  "cat": "03",
+  "sid": "03-007",
+  "state": "verified",
+  "file": "papers/2024_Ethayarajh_KTO_en.pdf"
+ },
+ "arxiv:2212.08073": {
+  "cat": "03",
+  "sid": "03-008",
+  "state": "verified",
+  "file": "papers/2022_Bai_ConstitutionalAI_en.pdf"
+ },
+ "arxiv:2402.04333": {
+  "cat": "03",
+  "sid": "03-009",
+  "state": "verified",
+  "file": "papers/2024_Xia_LESS_en.pdf"
+ },
+ "arxiv:2310.11511": {
+  "cat": "05",
+  "sid": "05-001",
+  "state": "verified",
+  "file": "papers/2023_Asai_SelfRAG_en.pdf"
+ },
+ "arxiv:2402.09353": {
+  "cat": "03",
+  "sid": "03-010",
+  "state": "verified",
+  "file": "papers/2024_Liu_DoRA_en.pdf"
+ },
+ "arxiv:2401.15884": {
+  "cat": "05",
+  "sid": "05-002",
+  "state": "verified",
+  "file": "papers/2024_Yan_CorrectiveRetrievalAugmented_en.pdf"
+ },
+ "arxiv:2403.07691": {
+  "cat": "03",
+  "sid": "03-011",
+  "state": "verified",
+  "file": "papers/2024_Hong_ORPO_en.pdf"
+ },
+ "arxiv:2312.05934": {
+  "cat": "05",
+  "sid": "05-003",
+  "state": "verified",
+  "file": "papers/2023_Ovadia_FineTuningRetrievalComparing_en.pdf"
+ },
+ "arxiv:2401.10020": {
+  "cat": "03",
+  "sid": "03-012",
+  "state": "verified",
+  "file": "papers/2024_Yuan_SelfRewardingLanguageModels_en.pdf"
+ },
+ "arxiv:2305.14627": {
+  "cat": "05",
+  "sid": "05-005",
+  "state": "verified",
+  "file": "papers/2023_Gao_EnablingLargeLanguageModels_en.pdf"
+ },
+ "arxiv:2406.08464": {
+  "cat": "03",
+  "sid": "03-013",
+  "state": "verified",
+  "file": "papers/2024_Xu_Magpie_en.pdf"
+ },
+ "arxiv:2202.05262": {
+  "cat": "05",
+  "sid": "05-006",
+  "state": "verified",
+  "file": "papers/2022_Meng_LocatingEditingFactualAssociations_en.pdf"
+ },
+ "arxiv:2402.12354": {
+  "cat": "03",
+  "sid": "03-014",
+  "state": "verified",
+  "file": "papers/2024_Hayou_LoRA_en.pdf"
+ },
+ "arxiv:2405.14734": {
+  "cat": "03",
+  "sid": "03-015",
+  "state": "verified",
+  "file": "papers/2024_Meng_SimPO_en.pdf"
+ },
+ "arxiv:2408.02666": {
+  "cat": "03",
+  "sid": "03-016",
+  "state": "verified",
+  "file": "papers/2024_Wang_SelfTaughtEvaluators_en.pdf"
+ },
+ "arxiv:2307.03172": {
+  "cat": "05",
+  "sid": "05-007",
+  "state": "verified",
+  "file": "papers/2023_Liu_LostInTheMiddle_en.pdf"
+ },
+ "arxiv:2312.01552": {
+  "cat": "03",
+  "sid": "03-017",
+  "state": "verified",
+  "file": "papers/2023_Lin_UnlockingSpellBaseLLMsRethinking_en.pdf"
+ },
+ "arxiv:2404.16130": {
+  "cat": "05",
+  "sid": "05-008",
+  "state": "verified",
+  "file": "papers/2024_Edge_FromLocalToGlobal_en.pdf"
+ },
+ "arxiv:2403.03507": {
+  "cat": "03",
+  "sid": "03-018",
+  "state": "verified",
+  "file": "papers/2024_Zhao_GaLore_en.pdf"
+ },
+ "arxiv:2410.05779": {
+  "cat": "05",
+  "sid": "05-009",
+  "state": "verified",
+  "file": "papers/2024_Guo_LightRAG_en.pdf"
+ },
+ "arxiv:2401.01335": {
+  "cat": "03",
+  "sid": "03-019",
+  "state": "verified",
+  "file": "papers/2024_Chen_SelfPlayFineTuningConverts_en.pdf"
+ },
+ "arxiv:2405.05904": {
+  "cat": "05",
+  "sid": "05-010",
+  "state": "verified",
+  "file": "papers/2024_Gekhman_DoesFineTuningLLMsNewKnowledge_en.pdf"
+ },
+ "arxiv:2403.13787": {
+  "cat": "03",
+  "sid": "03-020",
+  "state": "verified",
+  "file": "papers/2024_Lambert_RewardBench_en.pdf"
+ },
+ "arxiv:2311.08401": {
+  "cat": "05",
+  "sid": "05-011",
+  "state": "verified",
+  "file": "papers/2023_Tian_FineTuningLanguageModels_en.pdf"
+ },
+ "arxiv:2411.15124": {
+  "cat": "03",
+  "sid": "03-021",
+  "state": "verified",
+  "file": "papers/2024_Lambert_Tulu3_en.pdf"
+ },
+ "arxiv:2402.04315": {
+  "cat": "05",
+  "sid": "05-012",
+  "state": "verified",
+  "file": "papers/2024_Huang_TrainingLanguageModelsGenerate_en.pdf"
+ },
+ "arxiv:2401.01286": {
+  "cat": "05",
+  "sid": "05-013",
+  "state": "verified",
+  "file": "papers/2024_Zhang_ComprehensiveStudyKnowledge_en.pdf"
+ },
+ "arxiv:2404.02948": {
+  "cat": "03",
+  "sid": "03-022",
+  "state": "verified",
+  "file": "papers/2024_Meng_PiSSA_en.pdf"
+ },
+ "arxiv:2404.06654": {
+  "cat": "05",
+  "sid": "05-014",
+  "state": "verified",
+  "file": "papers/2024_Hsieh_RULER_en.pdf"
+ },
+ "arxiv:2312.00886": {
+  "cat": "03",
+  "sid": "03-023",
+  "state": "verified",
+  "file": "papers/2023_Munos_NashLearningHumanFeedback_en.pdf"
+ },
+ "arxiv:2405.14831": {
+  "cat": "05",
+  "sid": "05-015",
+  "state": "verified",
+  "file": "papers/2024_Gutierrez_HippoRAG_en.pdf"
+ },
+ "arxiv:2507.01352": {
+  "cat": "03",
+  "sid": "03-024",
+  "state": "verified",
+  "file": "papers/2025_Liu_SkyworkRewardV2_en.pdf"
+ },
+ "arxiv:2403.14403": {
+  "cat": "05",
+  "sid": "05-016",
+  "state": "verified",
+  "file": "papers/2024_Jeong_AdaptiveRAG_en.pdf"
+ },
+ "arxiv:2406.20094": {
+  "cat": "03",
+  "sid": "03-025",
+  "state": "verified",
+  "file": "papers/2024_Ge_ScalingSyntheticDataCreation_en.pdf"
+ },
+ "arxiv:2406.11813": {
+  "cat": "05",
+  "sid": "05-017",
+  "state": "verified",
+  "file": "papers/2024_Chang_HowDoLargeLanguageModels_en.pdf"
+ },
+ "arxiv:2405.09673": {
+  "cat": "03",
+  "sid": "03-026",
+  "state": "verified",
+  "file": "papers/2024_Biderman_LoRALearnsLessForgetsLess_en.pdf"
+ },
+ "arxiv:2404.03715": {
+  "cat": "03",
+  "sid": "03-027",
+  "state": "verified",
+  "file": "papers/2024_Rosset_DirectNashOptimization_en.pdf"
+ },
+ "arxiv:2409.02897": {
+  "cat": "05",
+  "sid": "05-019",
+  "state": "verified",
+  "file": "papers/2024_Zhang_LongCite_en.pdf"
+ },
+ "arxiv:2406.08673": {
+  "cat": "03",
+  "sid": "03-028",
+  "state": "verified",
+  "file": "papers/2024_Wang_HelpSteer2_en.pdf"
+ },
+ "arxiv:2410.02355": {
+  "cat": "05",
+  "sid": "05-020",
+  "state": "verified",
+  "file": "papers/2024_Fang_AlphaEdit_en.pdf"
+ },
+ "arxiv:2407.10490": {
+  "cat": "03",
+  "sid": "03-029",
+  "state": "verified",
+  "file": "papers/2024_Ren_LearningDynamicsLLMFinetuning_en.pdf"
+ },
+ "arxiv:2412.15204": {
+  "cat": "05",
+  "sid": "05-021",
+  "state": "verified",
+  "file": "papers/2024_Bai_LongBenchV2_en.pdf"
+ },
+ "arxiv:2404.03592": {
+  "cat": "03",
+  "sid": "03-030",
+  "state": "verified",
+  "file": "papers/2024_Wu_ReFT_en.pdf"
+ },
+ "arxiv:2403.10131": {
+  "cat": "05",
+  "sid": "05-022",
+  "state": "verified",
+  "file": "papers/2024_Zhang_RAFT_en.pdf"
+ },
+ "arxiv:2402.14740": {
+  "cat": "03",
+  "sid": "03-031",
+  "state": "verified",
+  "file": "papers/2024_Ahmadian_BackToBasics_en.pdf"
+ },
+ "arxiv:2503.09516": {
+  "cat": "05",
+  "sid": "05-023",
+  "state": "verified",
+  "file": "papers/2025_Jin_SearchR1_en.pdf"
+ },
+ "arxiv:2406.12845": {
+  "cat": "03",
+  "sid": "03-032",
+  "state": "verified",
+  "file": "papers/2024_Wang_InterpretablePreferences_en.pdf"
+ },
+ "arxiv:2501.03200": {
+  "cat": "05",
+  "sid": "05-025",
+  "state": "verified",
+  "file": "papers/2025_Jacovi_FACTSGroundingLeaderboard_en.pdf"
+ },
+ "arxiv:2501.17161": {
+  "cat": "03",
+  "sid": "03-033",
+  "state": "verified",
+  "file": "papers/2025_Chu_SFTMemorizesRLGeneralizes_en.pdf"
+ },
+ "arxiv:2311.09533": {
+  "cat": "05",
+  "sid": "05-026",
+  "state": "verified",
+  "file": "papers/2023_Ye_EffectiveLargeLanguageModel_en.pdf"
+ },
+ "arxiv:2403.14608": {
+  "cat": "03",
+  "sid": "03-034",
+  "state": "verified",
+  "file": "papers/2024_Han_ParameterEfficientFineTuning_en.pdf"
+ },
+ "arxiv:2405.14768": {
+  "cat": "05",
+  "sid": "05-027",
+  "state": "verified",
+  "file": "papers/2024_Wang_WISE_en.pdf"
+ },
+ "arxiv:2404.10719": {
+  "cat": "03",
+  "sid": "03-035",
+  "state": "verified",
+  "file": "papers/2024_Xu_DPOSuperiorPPOLLMAlignment_en.pdf"
+ },
+ "arxiv:2410.02694": {
+  "cat": "05",
+  "sid": "05-028",
+  "state": "verified",
+  "file": "papers/2024_Yen_HELMET_en.pdf"
+ },
+ "arxiv:2006.11239": {
+  "cat": "08",
+  "sid": "08-001",
+  "state": "verified",
+  "file": "papers/2020_Ho_DenoisingDiffusionProbabilistic_en.pdf"
+ },
+ "arxiv:2401.12187": {
+  "cat": "03",
+  "sid": "03-036",
+  "state": "verified",
+  "file": "papers/2024_Rame_WARM_en.pdf"
+ },
+ "arxiv:2501.05366": {
+  "cat": "05",
+  "sid": "05-029",
+  "state": "verified",
+  "file": "papers/2025_Li_SearchO1_en.pdf"
+ },
+ "arxiv:2210.02747": {
+  "cat": "08",
+  "sid": "08-002",
+  "state": "verified",
+  "file": "papers/2022_Lipman_FlowMatchingGenerativeModeling_en.pdf"
+ },
+ "arxiv:2508.05629": {
+  "cat": "03",
+  "sid": "03-037",
+  "state": "verified",
+  "file": "papers/2025_Wu_GeneralizationSFTReinforcement_en.pdf"
+ },
+ "arxiv:2402.15627": {
+  "cat": "11",
+  "sid": "11-001",
+  "state": "verified",
+  "file": "papers/2024_Jiang_MegaScale_en.pdf"
+ },
+ "arxiv:2501.14342": {
+  "cat": "05",
+  "sid": "05-030",
+  "state": "verified",
+  "file": "papers/2025_Wang_ChainRetrievalAugmentedGeneration_en.pdf"
+ },
+ "arxiv:2302.05543": {
+  "cat": "08",
+  "sid": "08-003",
+  "state": "verified",
+  "file": "papers/2023_Zhang_AddingConditionalControl_en.pdf"
+ },
+ "arxiv:2410.21228": {
+  "cat": "03",
+  "sid": "03-038",
+  "state": "verified",
+  "file": "papers/2024_Shuttleworth_LoRAVsFullFineTuning_en.pdf"
+ },
+ "arxiv:2401.10241": {
+  "cat": "11",
+  "sid": "11-002",
+  "state": "verified",
+  "file": "papers/2023_Qi_ZeroBubblePipelineParallelism_en.pdf"
+ },
+ "arxiv:2506.10943": {
+  "cat": "05",
+  "sid": "05-031",
+  "state": "verified",
+  "file": "papers/2025_Zweiger_SelfAdaptingLanguageModels_en.pdf"
+ },
+ "arxiv:2404.02905": {
+  "cat": "08",
+  "sid": "08-004",
+  "state": "verified",
+  "file": "papers/2024_Tian_VisualAutoregressiveModeling_en.pdf"
+ },
+ "arxiv:2404.14367": {
+  "cat": "03",
+  "sid": "03-039",
+  "state": "verified",
+  "file": "papers/2024_Tajwar_PreferenceFineTuningLLMs_en.pdf"
+ },
+ "arxiv:2311.08105": {
+  "cat": "11",
+  "sid": "11-003",
+  "state": "verified",
+  "file": "papers/2023_Douillard_DiLoCo_en.pdf"
+ },
+ "arxiv:2406.19276": {
+  "cat": "05",
+  "sid": "05-032",
+  "state": "verified",
+  "file": "papers/2024_Song_VERISCORE_en.pdf"
+ },
+ "arxiv:2311.10089": {
+  "cat": "08",
+  "sid": "08-005",
+  "state": "verified",
+  "file": "papers/2023_Sheynin_EmuEdit_en.pdf"
+ },
+ "arxiv:2503.09799": {
+  "cat": "11",
+  "sid": "11-004",
+  "state": "verified",
+  "file": "papers/2025_Charles_CommunicationEfficientLanguage_en.pdf"
+ },
+ "arxiv:2404.16019": {
+  "cat": "03",
+  "sid": "03-040",
+  "state": "verified",
+  "file": "papers/2024_Kirk_ThePRISMAlignmentDataset_en.pdf"
+ },
+ "arxiv:2502.09604": {
+  "cat": "05",
+  "sid": "05-033",
+  "state": "verified",
+  "file": "papers/2025_Chuang_SelfCite_en.pdf"
+ },
+ "arxiv:2412.01152": {
+  "cat": "11",
+  "sid": "11-005",
+  "state": "verified",
+  "file": "papers/2024_Jaghouar_INTELLECT1TechnicalReport_en.pdf"
+ },
+ "arxiv:2311.15127": {
+  "cat": "08",
+  "sid": "08-006",
+  "state": "verified",
+  "file": "papers/2023_Blattmann_StableVideoDiffusion_en.pdf"
+ },
+ "arxiv:2401.07453": {
+  "cat": "05",
+  "sid": "05-034",
+  "state": "verified",
+  "file": "papers/2024_Gupta_ModelEditingScaleLeadsGradual_en.pdf"
+ },
+ "arxiv:2410.06511": {
+  "cat": "11",
+  "sid": "11-006",
+  "state": "verified",
+  "file": "papers/2024_Liang_TorchTitan_en.pdf"
+ },
+ "arxiv:2311.07911": {
+  "cat": "03",
+  "sid": "03-041",
+  "state": "verified",
+  "file": "papers/2023_Zhou_InstructionFollowingEvaluation_en.pdf"
+ },
+ "arxiv:2112.10752": {
+  "cat": "08",
+  "sid": "08-007",
+  "state": "verified",
+  "file": "papers/2021_Rombach_HighResolutionImageSynthesis_en.pdf"
+ },
+ "arxiv:2502.05167": {
+  "cat": "05",
+  "sid": "05-035",
+  "state": "verified",
+  "file": "papers/2025_Modarressi_NoLiMa_en.pdf"
+ },
+ "arxiv:1910.02054": {
+  "cat": "11",
+  "sid": "11-008",
+  "state": "verified",
+  "file": "papers/2019_Rajbhandari_ZeRO_en.pdf"
+ },
+ "arxiv:2506.06105": {
+  "cat": "03",
+  "sid": "03-042",
+  "state": "verified",
+  "file": "papers/2025_Charakorn_TextToLoRA_en.pdf"
+ },
+ "arxiv:2312.10997": {
+  "cat": "05",
+  "sid": "05-036",
+  "state": "verified",
+  "file": "papers/2023_Gao_RetrievalAugmentedGeneration_en.pdf"
+ },
+ "arxiv:2401.06066": {
+  "cat": "11",
+  "sid": "11-009",
+  "state": "verified",
+  "file": "papers/2024_Dai_DeepSeekMoE_en.pdf"
+ },
+ "arxiv:2505.05470": {
+  "cat": "08",
+  "sid": "08-008",
+  "state": "verified",
+  "file": "papers/2025_Liu_FlowGRPO_en.pdf"
+ },
+ "arxiv:2404.12358": {
+  "cat": "03",
+  "sid": "03-043",
+  "state": "verified",
+  "file": "papers/2024_Rafailov_FromRToQ_en.pdf"
+ },
+ "arxiv:2501.09136": {
+  "cat": "05",
+  "sid": "05-037",
+  "state": "verified",
+  "file": "papers/2025_Singh_AgenticRetrievalAugmented_en.pdf"
+ },
+ "arxiv:2405.21060": {
+  "cat": "01",
+  "sid": "01-004",
+  "state": "verified",
+  "file": "papers/2024_Dao_TransformersAreSSMs_en.pdf"
+ },
+ "arxiv:2408.15664": {
+  "cat": "11",
+  "sid": "11-010",
+  "state": "verified",
+  "file": "papers/2024_Wang_AuxiliaryLossFreeLoadBalancing_en.pdf"
+ },
+ "arxiv:2401.07519": {
+  "cat": "08",
+  "sid": "08-009",
+  "state": "verified",
+  "file": "papers/2024_Wang_InstantID_en.pdf"
+ },
+ "arxiv:2504.02495": {
+  "cat": "03",
+  "sid": "03-044",
+  "state": "verified",
+  "file": "papers/2025_Liu_InferenceTimeScalingGeneralist_en.pdf"
+ },
+ "arxiv:2504.09522": {
+  "cat": "05",
+  "sid": "05-038",
+  "state": "verified",
+  "file": "papers/2025_Sun_HowNewDataPermeatesLLMKnowledge_en.pdf"
+ },
+ "arxiv:2402.19427": {
+  "cat": "01",
+  "sid": "01-005",
+  "state": "verified",
+  "file": "papers/2024_De_Griffin_en.pdf"
+ },
+ "arxiv:2409.02060": {
+  "cat": "11",
+  "sid": "11-011",
+  "state": "verified",
+  "file": "papers/2024_Muennighoff_OLMoE_en.pdf"
+ },
+ "arxiv:2507.02833": {
+  "cat": "03",
+  "sid": "03-045",
+  "state": "verified",
+  "file": "papers/2025_Pyatkin_GeneralizingVerifiableInstruction_en.pdf"
+ },
+ "arxiv:2103.00020": {
+  "cat": "07",
+  "sid": "07-001",
+  "state": "verified",
+  "file": "papers/2021_Radford_LearningTransferableVisual_en.pdf"
+ },
+ "arxiv:2406.06525": {
+  "cat": "08",
+  "sid": "08-010",
+  "state": "verified",
+  "file": "papers/2024_Sun_AutoregressiveModelBeats_en.pdf"
+ },
+ "arxiv:2412.06464": {
+  "cat": "01",
+  "sid": "01-007",
+  "state": "verified",
+  "file": "papers/2024_Yang_GatedDeltaNetworks_en.pdf"
+ },
+ "arxiv:2402.04792": {
+  "cat": "03",
+  "sid": "03-046",
+  "state": "verified",
+  "file": "papers/2024_Guo_DirectLanguageModelAlignment_en.pdf"
+ },
+ "arxiv:2502.19811": {
+  "cat": "11",
+  "sid": "11-012",
+  "state": "verified",
+  "file": "papers/2025_Zhang_Comet_en.pdf"
+ },
+ "arxiv:2402.02420": {
+  "cat": "05",
+  "sid": "05-039",
+  "state": "verified",
+  "file": "papers/2024_Wang_FactualityLargeLanguageModels_en.pdf"
+ },
+ "arxiv:2204.14198": {
+  "cat": "07",
+  "sid": "07-002",
+  "state": "verified",
+  "file": "papers/2022_Alayrac_Flamingo_en.pdf"
+ },
+ "arxiv:2411.01042": {
+  "cat": "14",
+  "sid": "14-030",
+  "state": "verified",
+  "file": "books/Hendrycks_IntroductionToAISafetyEthicsSociety_v2_en.pdf"
+ },
+ "arxiv:2501.00663": {
+  "cat": "01",
+  "sid": "01-008",
+  "state": "verified",
+  "file": "papers/2024_Behrouz_Titans_en.pdf"
+ },
+ "arxiv:2505.02387": {
+  "cat": "03",
+  "sid": "03-047",
+  "state": "verified",
+  "file": "papers/2025_Chen_RMR1_en.pdf"
+ },
+ "arxiv:2312.06739": {
+  "cat": "08",
+  "sid": "08-011",
+  "state": "verified",
+  "file": "papers/2023_Huang_SmartEdit_en.pdf"
+ },
+ "arxiv:2504.02263": {
+  "cat": "11",
+  "sid": "11-013",
+  "state": "verified",
+  "file": "papers/2025_Zhu_MegaScaleInfer_en.pdf"
+ },
+ "arxiv:2409.00729": {
+  "cat": "05",
+  "sid": "05-040",
+  "state": "verified",
+  "file": "papers/2024_CohenWang_ContextCite_en.pdf"
+ },
+ "arxiv:2301.12597": {
+  "cat": "07",
+  "sid": "07-003",
+  "state": "verified",
+  "file": "papers/2023_Li_BLIP2_en.pdf"
+ },
+ "arxiv:2503.10622": {
+  "cat": "01",
+  "sid": "01-009",
+  "state": "verified",
+  "file": "papers/2025_Zhu_TransformersWithoutNormalization_en.pdf"
+ },
+ "arxiv:2406.02900": {
+  "cat": "03",
+  "sid": "03-048",
+  "state": "verified",
+  "file": "papers/2024_Rafailov_ScalingLawsRewardModel_en.pdf"
+ },
+ "arxiv:2407.06204": {
+  "cat": "11",
+  "sid": "11-014",
+  "state": "verified",
+  "file": "papers/2024_Cai_SurveyMixtureExpertsLarge_en.pdf"
+ },
+ "arxiv:2410.13720": {
+  "cat": "08",
+  "sid": "08-012",
+  "state": "verified",
+  "file": "papers/2024_Polyak_MovieGen_en.pdf"
+ },
+ "arxiv:2502.05628": {
+  "cat": "05",
+  "sid": "05-041",
+  "state": "verified",
+  "file": "papers/2025_Jiang_AnyEdit_en.pdf"
+ },
+ "arxiv:2304.08485": {
+  "cat": "07",
+  "sid": "07-004",
+  "state": "verified",
+  "file": "papers/2023_Liu_VisualInstructionTuning_en.pdf"
+ },
+ "arxiv:2312.06635": {
+  "cat": "01",
+  "sid": "01-010",
+  "state": "verified",
+  "file": "papers/2023_Yang_GatedLinearAttentionTransformers_en.pdf"
+ },
+ "arxiv:2507.17746": {
+  "cat": "03",
+  "sid": "03-049",
+  "state": "verified",
+  "file": "papers/2025_Gunjal_RubricsAsRewards_en.pdf"
+ },
+ "arxiv:2409.12517": {
+  "cat": "11",
+  "sid": "11-015",
+  "state": "verified",
+  "file": "papers/2024_Fishman_ScalingFP8TrainingTrillion_en.pdf"
+ },
+ "arxiv:2401.00368": {
+  "cat": "05",
+  "sid": "05-043",
+  "state": "verified",
+  "file": "papers/2023_Wang_ImprovingTextEmbeddingsLarge_en.pdf"
+ },
+ "arxiv:2502.14786": {
+  "cat": "07",
+  "sid": "07-005",
+  "state": "verified",
+  "file": "papers/2025_Tschannen_SigLIP2_en.pdf"
+ },
+ "arxiv:2505.06708": {
+  "cat": "01",
+  "sid": "01-012",
+  "state": "verified",
+  "file": "papers/2025_Qiu_GatedAttentionLargeLanguage_en.pdf"
+ },
+ "arxiv:2409.02795": {
+  "cat": "03",
+  "sid": "03-050",
+  "state": "verified",
+  "file": "papers/2024_Gao_UnifiedViewPreferenceLearning_en.pdf"
+ },
+ "arxiv:2212.09748": {
+  "cat": "08",
+  "sid": "08-013",
+  "state": "verified",
+  "file": "papers/2022_Peebles_ScalableDiffusionModelsTransformers_en.pdf"
+ },
+ "arxiv:2502.20586": {
+  "cat": "11",
+  "sid": "11-016",
+  "state": "verified",
+  "file": "papers/2025_Tseng_TrainingLLMsMXFP4_en.pdf"
+ },
+ "arxiv:2407.12883": {
+  "cat": "05",
+  "sid": "05-044",
+  "state": "verified",
+  "file": "papers/2024_Su_BRIGHT_en.pdf"
+ },
+ "arxiv:2504.13181": {
+  "cat": "07",
+  "sid": "07-007",
+  "state": "verified",
+  "file": "papers/2025_Bolya_PerceptionEncoder_en.pdf"
+ },
+ "arxiv:2402.18668": {
+  "cat": "01",
+  "sid": "01-014",
+  "state": "verified",
+  "file": "papers/2024_Arora_SimpleLinearAttentionLanguage_en.pdf"
+ },
+ "arxiv:2407.00215": {
+  "cat": "03",
+  "sid": "03-051",
+  "state": "verified",
+  "file": "papers/2024_McAleese_LLMCriticsHelpCatchLLMBugs_en.pdf"
+ },
+ "arxiv:2403.03206": {
+  "cat": "08",
+  "sid": "08-014",
+  "state": "verified",
+  "file": "papers/2024_Esser_ScalingRectifiedFlowTransformers_en.pdf"
+ },
+ "arxiv:2505.14669": {
+  "cat": "11",
+  "sid": "11-017",
+  "state": "verified",
+  "file": "papers/2025_Castro_Quartet_en.pdf"
+ },
+ "arxiv:2403.08319": {
+  "cat": "05",
+  "sid": "05-045",
+  "state": "verified",
+  "file": "papers/2024_Xu_KnowledgeConflictsForLLMs_en.pdf"
+ },
+ "arxiv:2405.07987": {
+  "cat": "07",
+  "sid": "07-011",
+  "state": "verified",
+  "file": "papers/2024_Huh_PlatonicRepresentationHypothesis_en.pdf"
+ },
+ "arxiv:2410.10781": {
+  "cat": "01",
+  "sid": "01-016",
+  "state": "verified",
+  "file": "papers/2024_Gu_WhenAttentionSinkEmerges_en.pdf"
+ },
+ "arxiv:2509.25149": {
+  "cat": "11",
+  "sid": "11-018",
+  "state": "verified",
+  "file": "papers/2025_NVIDIA_PretrainingLargeLanguage_en.pdf"
+ },
+ "arxiv:2312.04461": {
+  "cat": "08",
+  "sid": "08-015",
+  "state": "verified",
+  "file": "papers/2023_Li_PhotoMaker_en.pdf"
+ },
+ "arxiv:2508.05618": {
+  "cat": "05",
+  "sid": "05-046",
+  "state": "verified",
+  "file": "papers/2025_Chen_LearningReasonFactuality_en.pdf"
+ },
+ "arxiv:2401.06209": {
+  "cat": "07",
+  "sid": "07-012",
+  "state": "verified",
+  "file": "papers/2024_Tong_EyesWideShutExploringVisual_en.pdf"
+ },
+ "arxiv:2402.17764": {
+  "cat": "11",
+  "sid": "11-020",
+  "state": "verified",
+  "file": "papers/2024_Ma_Era1BitLLMsAllLargeLanguage_en.pdf"
+ },
+ "arxiv:2501.08313": {
+  "cat": "01",
+  "sid": "01-017",
+  "state": "verified",
+  "file": "papers/2025_MiniMax_MiniMax01_en.pdf"
+ },
+ "arxiv:2411.14199": {
+  "cat": "05",
+  "sid": "05-047",
+  "state": "verified",
+  "file": "papers/2024_Asai_OpenScholar_en.pdf"
+ },
+ "arxiv:2406.11838": {
+  "cat": "08",
+  "sid": "08-016",
+  "state": "verified",
+  "file": "papers/2024_Li_AutoregressiveImageGeneration_en.pdf"
+ },
+ "arxiv:2312.09390": {
+  "cat": "03",
+  "sid": "03-052",
+  "state": "verified",
+  "file": "papers/2023_Burns_WeakToStrongGeneralization_en.pdf"
+ },
+ "arxiv:2406.16860": {
+  "cat": "07",
+  "sid": "07-013",
+  "state": "verified",
+  "file": "papers/2024_Tong_Cambrian1_en.pdf"
+ },
+ "arxiv:2210.17323": {
+  "cat": "11",
+  "sid": "11-021",
+  "state": "verified",
+  "file": "papers/2022_Frantar_GPTQ_en.pdf"
+ },
+ "arxiv:2402.13753": {
+  "cat": "01",
+  "sid": "01-018",
+  "state": "verified",
+  "file": "papers/2024_Ding_LongRoPE_en.pdf"
+ },
+ "arxiv:2502.11177": {
+  "cat": "05",
+  "sid": "05-048",
+  "state": "verified",
+  "file": "papers/2025_Yang_MirageModelEditingRevisiting_en.pdf"
+ },
+ "arxiv:2410.10792": {
+  "cat": "08",
+  "sid": "08-017",
+  "state": "verified",
+  "file": "papers/2024_Rout_SemanticImageInversionEditing_en.pdf"
+ },
+ "arxiv:2312.14925": {
+  "cat": "03",
+  "sid": "03-054",
+  "state": "verified",
+  "file": "papers/2023_Kaufmann_SurveyReinforcementLearning_en.pdf"
+ },
+ "arxiv:2403.09611": {
+  "cat": "07",
+  "sid": "07-014",
+  "state": "verified",
+  "file": "papers/2024_McKinzie_MM1_en.pdf"
+ },
+ "arxiv:2404.00456": {
+  "cat": "11",
+  "sid": "11-022",
+  "state": "verified",
+  "file": "papers/2024_Ashkboos_QuaRot_en.pdf"
+ },
+ "arxiv:2410.06205": {
+  "cat": "01",
+  "sid": "01-019",
+  "state": "verified",
+  "file": "papers/2024_Barbero_RoundRoundGoWhatMakesRotary_en.pdf"
+ },
+ "arxiv:2404.15574": {
+  "cat": "05",
+  "sid": "05-049",
+  "state": "verified",
+  "file": "papers/2024_Wu_RetrievalHeadMechanistically_en.pdf"
+ },
+ "arxiv:2408.06072": {
+  "cat": "08",
+  "sid": "08-018",
+  "state": "verified",
+  "file": "papers/2024_Yang_CogVideoX_en.pdf"
+ },
+ "arxiv:2507.18624": {
+  "cat": "03",
+  "sid": "03-055",
+  "state": "verified",
+  "file": "papers/2025_Viswanathan_ChecklistsBetterThanReward_en.pdf"
+ },
+ "arxiv:2405.16406": {
+  "cat": "11",
+  "sid": "11-023",
+  "state": "verified",
+  "file": "papers/2024_Liu_SpinQuant_en.pdf"
+ },
+ "arxiv:2405.02246": {
+  "cat": "07",
+  "sid": "07-015",
+  "state": "verified",
+  "file": "papers/2024_Laurencon_WhatMattersWhenBuildingVision_en.pdf"
+ },
+ "arxiv:2405.18719": {
+  "cat": "01",
+  "sid": "01-020",
+  "state": "verified",
+  "file": "papers/2024_Golovneva_ContextualPositionEncoding_en.pdf"
+ },
+ "arxiv:2504.20595": {
+  "cat": "05",
+  "sid": "05-050",
+  "state": "verified",
+  "file": "papers/2025_Shao_ReasonIR_en.pdf"
+ },
+ "arxiv:2312.02696": {
+  "cat": "08",
+  "sid": "08-019",
+  "state": "verified",
+  "file": "papers/2023_Karras_AnalyzingImprovingTraining_en.pdf"
+ },
+ "arxiv:2509.04259": {
+  "cat": "03",
+  "sid": "03-079",
+  "state": "verified",
+  "file": "papers/2025_Shenfeld_RLSRazor_en.pdf"
+ },
+ "arxiv:2401.06118": {
+  "cat": "11",
+  "sid": "11-024",
+  "state": "verified",
+  "file": "papers/2024_Egiazarian_ExtremeCompressionLargeLanguage_en.pdf"
+ },
+ "arxiv:2405.09818": {
+  "cat": "07",
+  "sid": "07-017",
+  "state": "verified",
+  "file": "papers/2024_ChameleonTeam_Chameleon_en.pdf"
+ },
+ "arxiv:2505.16381": {
+  "cat": "01",
+  "sid": "01-022",
+  "state": "verified",
+  "file": "papers/2025_Yang_PaTHAttention_en.pdf"
+ },
+ "arxiv:2407.01449": {
+  "cat": "05",
+  "sid": "05-051",
+  "state": "verified",
+  "file": "papers/2024_Faysse_ColPali_en.pdf"
+ },
+ "arxiv:2401.08740": {
+  "cat": "08",
+  "sid": "08-020",
+  "state": "verified",
+  "file": "papers/2024_Ma_SiT_en.pdf"
+ },
+ "arxiv:2602.12180": {
+  "cat": "03",
+  "sid": "03-080",
+  "state": "verified",
+  "file": "papers/2026_Chen_HowSamplingShapesLLMAlignment_en.pdf"
+ },
+ "arxiv:2402.02750": {
+  "cat": "11",
+  "sid": "11-025",
+  "state": "verified",
+  "file": "papers/2024_Liu_KIVI_en.pdf"
+ },
+ "arxiv:2312.17044": {
+  "cat": "01",
+  "sid": "01-023",
+  "state": "verified",
+  "file": "papers/2023_Zhao_LengthExtrapolationTransformers_en.pdf"
+ },
+ "arxiv:2504.07951": {
+  "cat": "07",
+  "sid": "07-018",
+  "state": "verified",
+  "file": "papers/2025_Shukor_ScalingLawsNativeMultimodal_en.pdf"
+ },
+ "arxiv:2404.10198": {
+  "cat": "05",
+  "sid": "05-052",
+  "state": "verified",
+  "file": "papers/2024_Wu_ClashEval_en.pdf"
+ },
+ "arxiv:2404.07987": {
+  "cat": "08",
+  "sid": "08-021",
+  "state": "verified",
+  "file": "papers/2024_Li_ControlNet_en.pdf"
+ },
+ "arxiv:2505.21289": {
+  "cat": "03",
+  "sid": "03-081",
+  "state": "verified",
+  "file": "papers/2025_Tastan_LoFT_en.pdf"
+ },
+ "arxiv:2405.04532": {
+  "cat": "11",
+  "sid": "11-026",
+  "state": "verified",
+  "file": "papers/2024_Lin_QServe_en.pdf"
+ },
+ "arxiv:2412.09871": {
+  "cat": "01",
+  "sid": "01-024",
+  "state": "verified",
+  "file": "papers/2024_Pagnoni_ByteLatentTransformer_en.pdf"
+ },
+ "arxiv:2409.12191": {
+  "cat": "07",
+  "sid": "07-022",
+  "state": "verified",
+  "file": "papers/2024_Wang_Qwen2VL_en.pdf"
+ },
+ "arxiv:2503.05212": {
+  "cat": "05",
+  "sid": "05-053",
+  "state": "verified",
+  "file": "papers/2025_He_KnowledgeUpdatingNoMoreModel_en.pdf"
+ },
+ "arxiv:2201.11903": {
+  "cat": "04",
+  "sid": "04-001",
+  "state": "verified",
+  "file": "papers/2022_Wei_ChainThoughtPromptingElicits_en.pdf"
+ },
+ "arxiv:2407.13623": {
+  "cat": "01",
+  "sid": "01-025",
+  "state": "verified",
+  "file": "papers/2024_Tao_ScalingLawsWithVocabulary_en.pdf"
+ },
+ "arxiv:2406.07550": {
+  "cat": "08",
+  "sid": "08-022",
+  "state": "verified",
+  "file": "papers/2024_Yu_ImageWorth32TokensReconstruction_en.pdf"
+ },
+ "arxiv:2502.02631": {
+  "cat": "11",
+  "sid": "11-027",
+  "state": "verified",
+  "file": "papers/2025_Liu_ParetoQ_en.pdf"
+ },
+ "arxiv:2404.16811": {
+  "cat": "05",
+  "sid": "05-054",
+  "state": "verified",
+  "file": "papers/2024_An_MakeYourLLMFullyUtilizeContext_en.pdf"
+ },
+ "arxiv:2511.21631": {
+  "cat": "07",
+  "sid": "07-023",
+  "state": "verified",
+  "file": "papers/2025_Bai_Qwen3VLTechnicalReport_en.pdf"
+ },
+ "arxiv:2203.11171": {
+  "cat": "04",
+  "sid": "04-002",
+  "state": "verified",
+  "file": "papers/2022_Wang_SelfConsistencyImprovesChain_en.pdf"
+ },
+ "arxiv:2503.13423": {
+  "cat": "01",
+  "sid": "01-026",
+  "state": "verified",
+  "file": "papers/2025_Liu_SuperBPE_en.pdf"
+ },
+ "arxiv:2412.08629": {
+  "cat": "08",
+  "sid": "08-023",
+  "state": "verified",
+  "file": "papers/2024_Kulikov_FlowEdit_en.pdf"
+ },
+ "arxiv:2411.05007": {
+  "cat": "11",
+  "sid": "11-028",
+  "state": "verified",
+  "file": "papers/2024_Li_SVDQuant_en.pdf"
+ },
+ "arxiv:2409.17146": {
+  "cat": "07",
+  "sid": "07-025",
+  "state": "verified",
+  "file": "papers/2024_Deitke_MolmoAndPixMo_en.pdf"
+ },
+ "arxiv:2305.20050": {
+  "cat": "04",
+  "sid": "04-003",
+  "state": "verified",
+  "file": "papers/2023_Lightman_LetSVerifyStepStep_en.pdf"
+ },
+ "arxiv:2402.18376": {
+  "cat": "01",
+  "sid": "01-027",
+  "state": "verified",
+  "file": "papers/2024_Schmidt_TokenizationMoreThanCompression_en.pdf"
+ },
+ "arxiv:2505.14362": {
+  "cat": "07",
+  "sid": "07-038",
+  "state": "verified",
+  "file": "papers/2025_Zheng_DeepEyes_en.pdf"
+ },
+ "arxiv:2503.20314": {
+  "cat": "08",
+  "sid": "08-024",
+  "state": "verified",
+  "file": "papers/2025_TeamTeam_Wan_en.pdf"
+ },
+ "arxiv:2406.13121": {
+  "cat": "05",
+  "sid": "05-042",
+  "state": "verified",
+  "file": "papers/2024_Lee_CanLongContextLanguageModels_en.pdf"
+ },
+ "arxiv:2401.15024": {
+  "cat": "11",
+  "sid": "11-029",
+  "state": "verified",
+  "file": "papers/2024_Ashkboos_SliceGPT_en.pdf"
+ },
+ "arxiv:2305.10601": {
+  "cat": "04",
+  "sid": "04-004",
+  "state": "verified",
+  "file": "papers/2023_Yao_TreeOfThoughts_en.pdf"
+ },
+ "arxiv:2507.07955": {
+  "cat": "01",
+  "sid": "01-028",
+  "state": "verified",
+  "file": "papers/2025_Hwang_DynamicChunkingEndEndHierarchical_en.pdf"
+ },
+ "arxiv:2409.01704": {
+  "cat": "07",
+  "sid": "07-040",
+  "state": "verified",
+  "file": "papers/2024_Wei_GeneralOCRTheory_en.pdf"
+ },
+ "arxiv:2406.02507": {
+  "cat": "08",
+  "sid": "08-025",
+  "state": "verified",
+  "file": "papers/2024_Karras_GuidingDiffusionModelBad_en.pdf"
+ },
+ "arxiv:2409.12941": {
+  "cat": "05",
+  "sid": "05-056",
+  "state": "verified",
+  "file": "papers/2024_Krishna_FactFetchAndReason_en.pdf"
+ },
+ "arxiv:2403.03853": {
+  "cat": "11",
+  "sid": "11-030",
+  "state": "verified",
+  "file": "papers/2024_Men_ShortGPT_en.pdf"
+ },
+ "arxiv:2110.14168": {
+  "cat": "04",
+  "sid": "04-005",
+  "state": "verified",
+  "file": "papers/2021_Cobbe_TrainingVerifiersSolveMath_en.pdf"
+ },
+ "arxiv:2404.19737": {
+  "cat": "01",
+  "sid": "01-030",
+  "state": "verified",
+  "file": "papers/2024_Gloeckle_BetterFasterLargeLanguage_en.pdf"
+ },
+ "arxiv:2510.18234": {
+  "cat": "07",
+  "sid": "07-041",
+  "state": "verified",
+  "file": "papers/2025_Wei_DeepSeekOCR_en.pdf"
+ },
+ "arxiv:2410.05983": {
+  "cat": "05",
+  "sid": "05-058",
+  "state": "verified",
+  "file": "papers/2024_Jin_LongContextLLMsMeetRAG_en.pdf"
+ },
+ "arxiv:2407.14679": {
+  "cat": "11",
+  "sid": "11-031",
+  "state": "verified",
+  "file": "papers/2024_Muralidharan_CompactLanguageModelsPruning_en.pdf"
+ },
+ "arxiv:2505.13447": {
+  "cat": "08",
+  "sid": "08-026",
+  "state": "verified",
+  "file": "papers/2025_Geng_MeanFlowsOneStepGenerative_en.pdf"
+ },
+ "arxiv:2501.12948": {
+  "cat": "04",
+  "sid": "04-006",
+  "state": "verified",
+  "file": "papers/2025_DeepSeekAI_DeepSeekR1_en.pdf"
+ },
+ "arxiv:2404.07965": {
+  "cat": "01",
+  "sid": "01-031",
+  "state": "verified",
+  "file": "papers/2024_Lin_Rho1_en.pdf"
+ },
+ "arxiv:2412.07626": {
+  "cat": "07",
+  "sid": "07-047",
+  "state": "verified",
+  "file": "papers/2024_Ouyang_OmniDocBench_en.pdf"
+ },
+ "arxiv:2601.11888": {
+  "cat": "05",
+  "sid": "05-060",
+  "state": "verified",
+  "file": "papers/2026_Liu_AgenticR_en.pdf"
+ },
+ "arxiv:2409.17481": {
+  "cat": "11",
+  "sid": "11-032",
+  "state": "verified",
+  "file": "papers/2024_Fang_MaskLLM_en.pdf"
+ },
+ "arxiv:2411.15098": {
+  "cat": "08",
+  "sid": "08-027",
+  "state": "verified",
+  "file": "papers/2024_Tan_OminiControl_en.pdf"
+ },
+ "arxiv:2504.21801": {
+  "cat": "04",
+  "sid": "04-007",
+  "state": "verified",
+  "file": "papers/2025_Ren_DeepSeekProverV2_en.pdf"
+ },
+ "arxiv:2502.09992": {
+  "cat": "01",
+  "sid": "01-032",
+  "state": "verified",
+  "file": "papers/2025_Nie_LargeLanguageDiffusionModels_en.pdf"
+ },
+ "arxiv:2601.02872": {
+  "cat": "05",
+  "sid": "05-061",
+  "state": "verified",
+  "file": "papers/2026_Chen_LongBenchPro_en.pdf"
+ },
+ "arxiv:2311.16502": {
+  "cat": "07",
+  "sid": "07-049",
+  "state": "verified",
+  "file": "papers/2023_Yue_MMMU_en.pdf"
+ },
+ "arxiv:2408.14690": {
+  "cat": "11",
+  "sid": "11-033",
+  "state": "verified",
+  "file": "papers/2024_Liu_TrainingFreeActivationSparsity_en.pdf"
+ },
+ "arxiv:2403.07974": {
+  "cat": "04",
+  "sid": "04-008",
+  "state": "verified",
+  "file": "papers/2024_Jain_LiveCodeBench_en.pdf"
+ },
+ "arxiv:2409.18869": {
+  "cat": "08",
+  "sid": "08-028",
+  "state": "verified",
+  "file": "papers/2024_Wang_Emu3_en.pdf"
+ },
+ "arxiv:2406.07524": {
+  "cat": "01",
+  "sid": "01-033",
+  "state": "verified",
+  "file": "papers/2024_Sahoo_SimpleEffectiveMaskedDiffusion_en.pdf"
+ },
+ "arxiv:2405.01525": {
+  "cat": "05",
+  "sid": "05-066",
+  "state": "verified",
+  "file": "papers/2024_Lin_FLAME_en.pdf"
+ },
+ "arxiv:2402.03898": {
+  "cat": "11",
+  "sid": "11-034",
+  "state": "verified",
+  "file": "papers/2024_Ko_DistiLLM_en.pdf"
+ },
+ "arxiv:2403.20330": {
+  "cat": "07",
+  "sid": "07-050",
+  "state": "verified",
+  "file": "papers/2024_Chen_RightWayEvaluatingLargeVision_en.pdf"
+ },
+ "arxiv:2502.01100": {
+  "cat": "04",
+  "sid": "04-009",
+  "state": "verified",
+  "file": "papers/2025_Lin_ZebraLogic_en.pdf"
+ },
+ "arxiv:2411.07199": {
+  "cat": "08",
+  "sid": "08-029",
+  "state": "verified",
+  "file": "papers/2024_Wei_OmniEdit_en.pdf"
+ },
+ "arxiv:2503.09573": {
+  "cat": "01",
+  "sid": "01-034",
+  "state": "verified",
+  "file": "papers/2025_Arriola_BlockDiffusion_en.pdf"
+ },
+ "arxiv:2509.23765": {
+  "cat": "05",
+  "sid": "05-073",
+  "state": "verified",
+  "file": "papers/2025_Li_KnowledgeLevelConsistency_en.pdf"
+ },
+ "arxiv:2402.13116": {
+  "cat": "11",
+  "sid": "11-035",
+  "state": "verified",
+  "file": "papers/2024_Xu_SurveyKnowledgeDistillation_en.pdf"
+ },
+ "arxiv:2405.17247": {
+  "cat": "07",
+  "sid": "07-055",
+  "state": "verified",
+  "file": "papers/2024_Bordes_IntroductionVisionLanguage_en.pdf"
+ },
+ "arxiv:2408.03314": {
+  "cat": "04",
+  "sid": "04-010",
+  "state": "verified",
+  "file": "papers/2024_Snell_ScalingLLMTestTimeCompute_en.pdf"
+ },
+ "arxiv:2502.16982": {
+  "cat": "01",
+  "sid": "01-036",
+  "state": "verified",
+  "file": "papers/2025_Liu_MuonScalableLLMTraining_en.pdf"
+ },
+ "arxiv:2412.07772": {
+  "cat": "08",
+  "sid": "08-030",
+  "state": "verified",
+  "file": "papers/2024_Yin_SlowBidirectionalFastAutoregressive_en.pdf"
+ },
+ "arxiv:2502.08606": {
+  "cat": "11",
+  "sid": "11-036",
+  "state": "verified",
+  "file": "papers/2025_Busbridge_DistillationScalingLaws_en.pdf"
+ },
+ "arxiv:2302.04761": {
+  "cat": "06",
+  "sid": "06-001",
+  "state": "verified",
+  "file": "papers/2023_Schick_Toolformer_en.pdf"
+ },
+ "arxiv:2602.05384": {
+  "cat": "07",
+  "sid": "07-080",
+  "state": "verified",
+  "file": "papers/2026_Feng_DolphinV2_en.pdf"
+ },
+ "arxiv:2312.08935": {
+  "cat": "04",
+  "sid": "04-011",
+  "state": "verified",
+  "file": "papers/2023_Wang_MathShepherd_en.pdf"
+ },
+ "arxiv:2401.00448": {
+  "cat": "01",
+  "sid": "01-037",
+  "state": "verified",
+  "file": "papers/2023_Sardana_BeyondChinchillaOptimal_en.pdf"
+ },
+ "arxiv:2410.06940": {
+  "cat": "08",
+  "sid": "08-031",
+  "state": "verified",
+  "file": "papers/2024_Yu_RepresentationAlignmentGeneration_en.pdf"
+ },
+ "arxiv:2210.03629": {
+  "cat": "06",
+  "sid": "06-002",
+  "state": "verified",
+  "file": "papers/2022_Yao_ReAct_en.pdf"
+ },
+ "arxiv:2410.17215": {
+  "cat": "11",
+  "sid": "11-037",
+  "state": "verified",
+  "file": "papers/2024_Gu_MiniPLM_en.pdf"
+ },
+ "arxiv:2501.04519": {
+  "cat": "04",
+  "sid": "04-012",
+  "state": "verified",
+  "file": "papers/2025_Guan_RStarMath_en.pdf"
+ },
+ "arxiv:2403.08540": {
+  "cat": "01",
+  "sid": "01-038",
+  "state": "verified",
+  "file": "papers/2024_Gadre_LanguageModelsScaleReliably_en.pdf"
+ },
+ "arxiv:2605.03903": {
+  "cat": "07",
+  "sid": "07-081",
+  "state": "verified",
+  "file": "papers/2026_Peng_CCOCRV2_en.pdf"
+ },
+ "arxiv:2502.12110": {
+  "cat": "06",
+  "sid": "06-003",
+  "state": "verified",
+  "file": "papers/2025_Xu_AMEM_en.pdf"
+ },
+ "arxiv:2211.17192": {
+  "cat": "11",
+  "sid": "11-038",
+  "state": "verified",
+  "file": "papers/2022_Leviathan_FastInferenceTransformers_en.pdf"
+ },
+ "arxiv:2410.12557": {
+  "cat": "08",
+  "sid": "08-032",
+  "state": "verified",
+  "file": "papers/2024_Frans_OneStepDiffusionShortcut_en.pdf"
+ },
+ "arxiv:2408.15240": {
+  "cat": "04",
+  "sid": "04-013",
+  "state": "verified",
+  "file": "papers/2024_Zhang_GenerativeVerifiers_en.pdf"
+ },
+ "arxiv:2405.10938": {
+  "cat": "01",
+  "sid": "01-039",
+  "state": "verified",
+  "file": "papers/2024_Ruan_ObservationalScalingLaws_en.pdf"
+ },
+ "arxiv:2308.08155": {
+  "cat": "06",
+  "sid": "06-004",
+  "state": "verified",
+  "file": "papers/2023_Wu_AutoGen_en.pdf"
+ },
+ "arxiv:2609.35457": {
+  "cat": "07",
+  "sid": "07-082",
+  "state": "verified",
+  "file": "papers/2026_Chen_HowFarRemovingVisualEncoder_en.pdf"
+ },
+ "arxiv:2401.10774": {
+  "cat": "11",
+  "sid": "11-039",
+  "state": "verified",
+  "file": "papers/2024_Cai_Medusa_en.pdf"
+ },
+ "arxiv:2504.02160": {
+  "cat": "08",
+  "sid": "08-033",
+  "state": "verified",
+  "file": "papers/2025_Wu_LessToMoreGeneralization_en.pdf"
+ },
+ "arxiv:2501.12599": {
+  "cat": "04",
+  "sid": "04-014",
+  "state": "verified",
+  "file": "papers/2025_KimiTeam_KimiK15_en.pdf"
+ },
+ "arxiv:2411.04330": {
+  "cat": "01",
+  "sid": "01-041",
+  "state": "verified",
+  "file": "papers/2024_Kumar_ScalingLawsPrecision_en.pdf"
+ },
+ "arxiv:2401.13919": {
+  "cat": "06",
+  "sid": "06-005",
+  "state": "verified",
+  "file": "papers/2024_He_WebVoyager_en.pdf"
+ },
+ "arxiv:2605.25364": {
+  "cat": "07",
+  "sid": "07-083",
+  "state": "verified",
+  "file": "papers/2026_Guo_CanMLLMsReasonBeyondLanguage_en.pdf"
+ },
+ "arxiv:2401.15077": {
+  "cat": "11",
+  "sid": "11-040",
+  "state": "verified",
+  "file": "papers/2024_Li_EAGLE_en.pdf"
+ },
+ "arxiv:2402.03300": {
+  "cat": "04",
+  "sid": "04-015",
+  "state": "verified",
+  "file": "papers/2024_Shao_DeepSeekMath_en.pdf"
+ },
+ "arxiv:2408.11039": {
+  "cat": "08",
+  "sid": "08-034",
+  "state": "verified",
+  "file": "papers/2024_Zhou_Transfusion_en.pdf"
+ },
+ "arxiv:2405.18392": {
+  "cat": "01",
+  "sid": "01-042",
+  "state": "verified",
+  "file": "papers/2024_Hagele_ScalingLawsComputeOptimal_en.pdf"
+ },
+ "arxiv:2307.13854": {
+  "cat": "06",
+  "sid": "06-006",
+  "state": "verified",
+  "file": "papers/2023_Zhou_WebArena_en.pdf"
+ },
+ "arxiv:2402.04252": {
+  "cat": "07",
+  "sid": "07-006",
+  "state": "verified",
+  "file": "papers/2024_Sun_EVACLIP18B_en.pdf"
+ },
+ "arxiv:2503.01840": {
+  "cat": "11",
+  "sid": "11-041",
+  "state": "verified",
+  "file": "papers/2025_Li_EAGLE3_en.pdf"
+ },
+ "arxiv:2502.06807": {
+  "cat": "04",
+  "sid": "04-016",
+  "state": "verified",
+  "file": "papers/2025_OpenAI_CompetitiveProgrammingLarge_en.pdf"
+ },
+ "arxiv:2504.17761": {
+  "cat": "08",
+  "sid": "08-035",
+  "state": "verified",
+  "file": "papers/2025_Liu_Step1XEdit_en.pdf"
+ },
+ "arxiv:2401.02954": {
+  "cat": "01",
+  "sid": "01-044",
+  "state": "verified",
+  "file": "papers/2024_DeepSeekAI_DeepSeekLLM_en.pdf"
+ },
+ "arxiv:2402.01030": {
+  "cat": "06",
+  "sid": "06-007",
+  "state": "verified",
+  "file": "papers/2024_Wang_ExecutableCodeActionsElicit_en.pdf"
+ },
+ "arxiv:2411.14402": {
+  "cat": "07",
+  "sid": "07-008",
+  "state": "verified",
+  "file": "papers/2024_Fini_MultimodalAutoregressive_en.pdf"
+ },
+ "arxiv:2401.07851": {
+  "cat": "11",
+  "sid": "11-042",
+  "state": "verified",
+  "file": "papers/2024_Xia_UnlockingEfficiencyLarge_en.pdf"
+ },
+ "arxiv:2502.14768": {
+  "cat": "04",
+  "sid": "04-017",
+  "state": "verified",
+  "file": "papers/2025_Xie_LogicRL_en.pdf"
+ },
+ "arxiv:2506.08009": {
+  "cat": "08",
+  "sid": "08-036",
+  "state": "verified",
+  "file": "papers/2025_Huang_SelfForcing_en.pdf"
+ },
+ "arxiv:2510.26692": {
+  "cat": "01",
+  "sid": "01-045",
+  "state": "verified",
+  "file": "papers/2025_KimiTeam_KimiLinear_en.pdf"
+ },
+ "arxiv:2504.01017": {
+  "cat": "07",
+  "sid": "07-009",
+  "state": "verified",
+  "file": "papers/2025_Fan_ScalingLanguageFreeVisual_en.pdf"
+ },
+ "arxiv:2402.01622": {
+  "cat": "06",
+  "sid": "06-008",
+  "state": "verified",
+  "file": "papers/2024_Xie_TravelPlanner_en.pdf"
+ },
+ "arxiv:2404.14294": {
+  "cat": "11",
+  "sid": "11-043",
+  "state": "verified",
+  "file": "papers/2024_Zhou_SurveyEfficientInference_en.pdf"
+ },
+ "arxiv:2501.19393": {
+  "cat": "04",
+  "sid": "04-018",
+  "state": "verified",
+  "file": "papers/2025_Muennighoff_S1_en.pdf"
+ },
+ "arxiv:2510.11690": {
+  "cat": "08",
+  "sid": "08-037",
+  "state": "verified",
+  "file": "papers/2025_Zheng_DiffusionTransformersRepresentation_en.pdf"
+ },
+ "arxiv:2507.22062": {
+  "cat": "07",
+  "sid": "07-010",
+  "state": "verified",
+  "file": "papers/2025_Chuang_MetaCLIP2_en.pdf"
+ },
+ "arxiv:2504.19413": {
+  "cat": "06",
+  "sid": "06-009",
+  "state": "verified",
+  "file": "papers/2025_Chhikara_Mem0_en.pdf"
+ },
+ "arxiv:2510.04800": {
+  "cat": "01",
+  "sid": "01-047",
+  "state": "verified",
+  "file": "papers/2025_Bae_HybridArchitecturesLanguage_en.pdf"
+ },
+ "arxiv:2307.08691": {
+  "cat": "11",
+  "sid": "11-044",
+  "state": "verified",
+  "file": "papers/2023_Dao_FlashAttention2_en.pdf"
+ },
+ "arxiv:2410.08146": {
+  "cat": "04",
+  "sid": "04-019",
+  "state": "verified",
+  "file": "papers/2024_Setlur_RewardingProgress_en.pdf"
+ },
+ "arxiv:2311.03079": {
+  "cat": "07",
+  "sid": "07-019",
+  "state": "verified",
+  "file": "papers/2023_Wang_CogVLM_en.pdf"
+ },
+ "arxiv:2412.06264": {
+  "cat": "08",
+  "sid": "08-038",
+  "state": "verified",
+  "file": "papers/2024_Lipman_FlowMatchingGuideCode_en.pdf"
+ },
+ "arxiv:2503.13657": {
+  "cat": "06",
+  "sid": "06-010",
+  "state": "verified",
+  "file": "papers/2025_Cemri_WhyDoMultiAgentLLMSystems_en.pdf"
+ },
+ "arxiv:2407.08608": {
+  "cat": "11",
+  "sid": "11-045",
+  "state": "verified",
+  "file": "papers/2024_Shah_FlashAttention3_en.pdf"
+ },
+ "arxiv:2507.15857": {
+  "cat": "01",
+  "sid": "01-049",
+  "state": "verified",
+  "file": "papers/2025_Prabhudesai_DiffusionBeatsAutoregressive_en.pdf"
+ },
+ "arxiv:2406.03816": {
+  "cat": "04",
+  "sid": "04-020",
+  "state": "verified",
+  "file": "papers/2024_Zhang_ReSTMCTS_en.pdf"
+ },
+ "arxiv:2312.14238": {
+  "cat": "07",
+  "sid": "07-020",
+  "state": "verified",
+  "file": "papers/2023_Chen_InternVL_en.pdf"
+ },
+ "arxiv:2312.08914": {
+  "cat": "06",
+  "sid": "06-011",
+  "state": "verified",
+  "file": "papers/2023_Hong_CogAgent_en.pdf"
+ },
+ "arxiv:2409.11340": {
+  "cat": "08",
+  "sid": "08-039",
+  "state": "verified",
+  "file": "papers/2024_Xiao_OmniGen_en.pdf"
+ },
+ "arxiv:2410.02367": {
+  "cat": "11",
+  "sid": "11-046",
+  "state": "verified",
+  "file": "papers/2024_Zhang_SageAttention_en.pdf"
+ },
+ "arxiv:2509.02046": {
+  "cat": "01",
+  "sid": "01-050",
+  "state": "verified",
+  "file": "papers/2025_Wen_FantasticPretrainingOptimizers_en.pdf"
+ },
+ "arxiv:2402.06457": {
+  "cat": "04",
+  "sid": "04-021",
+  "state": "verified",
+  "file": "papers/2024_Hosseini_VSTaR_en.pdf"
+ },
+ "arxiv:2504.10479": {
+  "cat": "07",
+  "sid": "07-021",
+  "state": "verified",
+  "file": "papers/2025_Zhu_InternVL3_en.pdf"
+ },
+ "arxiv:2310.06770": {
+  "cat": "06",
+  "sid": "06-012",
+  "state": "verified",
+  "file": "papers/2023_Jimenez_SWEBench_en.pdf"
+ },
+ "arxiv:2501.17811": {
+  "cat": "08",
+  "sid": "08-040",
+  "state": "verified",
+  "file": "papers/2025_Chen_JanusPro_en.pdf"
+ },
+ "arxiv:2505.09388": {
+  "cat": "01",
+  "sid": "01-051",
+  "state": "verified",
+  "file": "papers/2025_Yang_Qwen3TechnicalReport_en.pdf"
+ },
+ "arxiv:2404.14469": {
+  "cat": "11",
+  "sid": "11-047",
+  "state": "verified",
+  "file": "papers/2024_Li_SnapKV_en.pdf"
+ },
+ "arxiv:2503.14476": {
+  "cat": "04",
+  "sid": "04-022",
+  "state": "verified",
+  "file": "papers/2025_Yu_DAPO_en.pdf"
+ },
+ "arxiv:2408.03326": {
+  "cat": "07",
+  "sid": "07-024",
+  "state": "verified",
+  "file": "papers/2024_Li_LLaVAOneVision_en.pdf"
+ },
+ "arxiv:2409.00920": {
+  "cat": "06",
+  "sid": "06-013",
+  "state": "verified",
+  "file": "papers/2024_Liu_ToolACE_en.pdf"
+ },
+ "arxiv:2506.15742": {
+  "cat": "08",
+  "sid": "08-041",
+  "state": "verified",
+  "file": "papers/2025_Labs_FLUX1Kontext_en.pdf"
+ },
+ "arxiv:2503.19786": {
+  "cat": "01",
+  "sid": "01-052",
+  "state": "verified",
+  "file": "papers/2025_GemmaTeam_Gemma3TechnicalReport_en.pdf"
+ },
+ "arxiv:2407.02490": {
+  "cat": "11",
+  "sid": "11-048",
+  "state": "verified",
+  "file": "papers/2024_Jiang_MInference10_en.pdf"
+ },
+ "arxiv:2409.12122": {
+  "cat": "04",
+  "sid": "04-023",
+  "state": "verified",
+  "file": "papers/2024_Yang_Qwen25MathTechnicalReport_en.pdf"
+ },
+ "arxiv:2412.10302": {
+  "cat": "07",
+  "sid": "07-026",
+  "state": "verified",
+  "file": "papers/2024_Wu_DeepSeekVL2_en.pdf"
+ },
+ "arxiv:2402.01817": {
+  "cat": "06",
+  "sid": "06-014",
+  "state": "verified",
+  "file": "papers/2024_Kambhampati_LLMsCanTPlanButCanHelpPlanning_en.pdf"
+ },
+ "arxiv:2505.13211": {
+  "cat": "08",
+  "sid": "08-042",
+  "state": "verified",
+  "file": "papers/2025_ai_MAGI1_en.pdf"
+ },
+ "arxiv:2501.00656": {
+  "cat": "01",
+  "sid": "01-053",
+  "state": "verified",
+  "file": "papers/2024_TeamTeam_2OLMo2Furious_en.pdf"
+ },
+ "arxiv:2505.23416": {
+  "cat": "11",
+  "sid": "11-050",
+  "state": "verified",
+  "file": "papers/2025_Kim_KVzip_en.pdf"
+ },
+ "arxiv:2504.01943": {
+  "cat": "04",
+  "sid": "04-024",
+  "state": "verified",
+  "file": "papers/2025_Ahmad_OpenCodeReasoning_en.pdf"
+ },
+ "arxiv:2409.11402": {
+  "cat": "07",
+  "sid": "07-027",
+  "state": "verified",
+  "file": "papers/2024_Dai_NVLM_en.pdf"
+ },
+ "arxiv:2402.17753": {
+  "cat": "06",
+  "sid": "06-015",
+  "state": "verified",
+  "file": "papers/2024_Maharana_EvaluatingVeryLongTermConversational_en.pdf"
+ },
+ "arxiv:2508.09834": {
+  "cat": "01",
+  "sid": "01-055",
+  "state": "verified",
+  "file": "papers/2025_Sun_SpeedAlwaysWins_en.pdf"
+ },
+ "arxiv:2309.06180": {
+  "cat": "11",
+  "sid": "11-051",
+  "state": "verified",
+  "file": "papers/2023_Kwon_EfficientMemoryManagement_en.pdf"
+ },
+ "arxiv:2311.12908": {
+  "cat": "08",
+  "sid": "08-043",
+  "state": "verified",
+  "file": "papers/2023_Wallace_DiffusionModelAlignmentUsing_en.pdf"
+ },
+ "arxiv:2410.05229": {
+  "cat": "04",
+  "sid": "04-025",
+  "state": "verified",
+  "file": "papers/2024_Mirzadeh_GSMSymbolic_en.pdf"
+ },
+ "arxiv:2406.04692": {
+  "cat": "06",
+  "sid": "06-016",
+  "state": "verified",
+  "file": "papers/2024_Wang_MixtureAgentsEnhancesLarge_en.pdf"
+ },
+ "arxiv:2407.07726": {
+  "cat": "07",
+  "sid": "07-028",
+  "state": "verified",
+  "file": "papers/2024_Beyer_PaliGemma_en.pdf"
+ },
+ "arxiv:2508.10875": {
+  "cat": "01",
+  "sid": "01-056",
+  "state": "verified",
+  "file": "papers/2025_Li_SurveyDiffusionLanguageModels_en.pdf"
+ },
+ "arxiv:2312.07104": {
+  "cat": "11",
+  "sid": "11-052",
+  "state": "verified",
+  "file": "papers/2023_Zheng_SGLang_en.pdf"
+ },
+ "arxiv:2508.02324": {
+  "cat": "08",
+  "sid": "08-044",
+  "state": "verified",
+  "file": "papers/2025_Wu_QwenImageTechnicalReport_en.pdf"
+ },
+ "arxiv:2407.21787": {
+  "cat": "04",
+  "sid": "04-026",
+  "state": "verified",
+  "file": "papers/2024_Brown_LargeLanguageMonkeys_en.pdf"
+ },
+ "arxiv:2401.10935": {
+  "cat": "06",
+  "sid": "06-017",
+  "state": "verified",
+  "file": "papers/2024_Cheng_SeeClick_en.pdf"
+ },
+ "arxiv:2408.01800": {
+  "cat": "07",
+  "sid": "07-029",
+  "state": "verified",
+  "file": "papers/2024_Yao_MiniCPMV_en.pdf"
+ },
+ "arxiv:1706.03762": {
+  "cat": "01",
+  "sid": "01-057",
+  "state": "verified",
+  "file": "papers/2017_Vaswani_AttentionAllYouNeed_en.pdf"
+ },
+ "arxiv:2401.09670": {
+  "cat": "11",
+  "sid": "11-053",
+  "state": "verified",
+  "file": "papers/2024_Zhong_DistServe_en.pdf"
+ },
+ "arxiv:2501.07301": {
+  "cat": "04",
+  "sid": "04-027",
+  "state": "verified",
+  "file": "papers/2025_Zhang_LessonsDevelopingProcess_en.pdf"
+ },
+ "arxiv:2404.02101": {
+  "cat": "08",
+  "sid": "08-045",
+  "state": "verified",
+  "file": "papers/2024_He_CameraCtrl_en.pdf"
+ },
+ "arxiv:2311.12983": {
+  "cat": "06",
+  "sid": "06-018",
+  "state": "verified",
+  "file": "papers/2023_Mialon_GAIA_en.pdf"
+ },
+ "arxiv:2408.15998": {
+  "cat": "07",
+  "sid": "07-031",
+  "state": "verified",
+  "file": "papers/2024_Shi_Eagle_en.pdf"
+ },
+ "arxiv:2001.08361": {
+  "cat": "01",
+  "sid": "01-058",
+  "state": "verified",
+  "file": "papers/2020_Kaplan_ScalingLawsNeuralLanguage_en.pdf"
+ },
+ "arxiv:2404.03683": {
+  "cat": "04",
+  "sid": "04-028",
+  "state": "verified",
+  "file": "papers/2024_Gandhi_StreamOfSearchSoS_en.pdf"
+ },
+ "arxiv:2505.14683": {
+  "cat": "08",
+  "sid": "08-046",
+  "state": "verified",
+  "file": "papers/2025_Deng_EmergingPropertiesUnified_en.pdf"
+ },
+ "arxiv:2406.18518": {
+  "cat": "06",
+  "sid": "06-019",
+  "state": "verified",
+  "file": "papers/2024_Liu_APIGen_en.pdf"
+ },
+ "arxiv:2403.02310": {
+  "cat": "11",
+  "sid": "11-054",
+  "state": "verified",
+  "file": "papers/2024_Agrawal_TamingThroughputLatencyTradeoff_en.pdf"
+ },
+ "arxiv:2403.11703": {
+  "cat": "07",
+  "sid": "07-033",
+  "state": "verified",
+  "file": "papers/2024_Xu_LLaVAUHD_en.pdf"
+ },
+ "arxiv:2203.15556": {
+  "cat": "01",
+  "sid": "01-059",
+  "state": "verified",
+  "file": "papers/2022_Hoffmann_TrainingComputeOptimalLarge_en.pdf"
+ },
+ "arxiv:2502.01839": {
+  "cat": "04",
+  "sid": "04-029",
+  "state": "verified",
+  "file": "papers/2025_Zhao_SampleScrutinizeAndScale_en.pdf"
+ },
+ "arxiv:2408.07199": {
+  "cat": "06",
+  "sid": "06-020",
+  "state": "verified",
+  "file": "papers/2024_Putta_AgentQ_en.pdf"
+ },
+ "arxiv:2407.00079": {
+  "cat": "11",
+  "sid": "11-055",
+  "state": "verified",
+  "file": "papers/2024_Qin_Mooncake_en.pdf"
+ },
+ "arxiv:2402.17525": {
+  "cat": "08",
+  "sid": "08-047",
+  "state": "verified",
+  "file": "papers/2024_Huang_DiffusionModelBasedImage_en.pdf"
+ },
+ "arxiv:2311.03356": {
+  "cat": "07",
+  "sid": "07-036",
+  "state": "verified",
+  "file": "papers/2023_Rasheed_GLaMM_en.pdf"
+ },
+ "arxiv:2603.03583": {
+  "cat": "01",
+  "sid": "01-075",
+  "state": "verified",
+  "file": "papers/2026_Deng_ByteFlow_en.pdf"
+ },
+ "arxiv:2503.20783": {
+  "cat": "04",
+  "sid": "04-030",
+  "state": "verified",
+  "file": "papers/2025_Liu_UnderstandingR1ZeroLikeTraining_en.pdf"
+ },
+ "arxiv:2410.10813": {
+  "cat": "06",
+  "sid": "06-021",
+  "state": "verified",
+  "file": "papers/2024_Wu_LongMemEval_en.pdf"
+ },
+ "arxiv:2501.01005": {
+  "cat": "11",
+  "sid": "11-056",
+  "state": "verified",
+  "file": "papers/2025_Ye_FlashInfer_en.pdf"
+ },
+ "arxiv:2312.14135": {
+  "cat": "07",
+  "sid": "07-039",
+  "state": "verified",
+  "file": "papers/2023_Wu_V_en.pdf"
+ },
+ "arxiv:2504.12626": {
+  "cat": "08",
+  "sid": "08-048",
+  "state": "verified",
+  "file": "papers/2025_Zhang_FrameContextPackingDrift_en.pdf"
+ },
+ "arxiv:2610.17590": {
+  "cat": "01",
+  "sid": "01-076",
+  "state": "verified",
+  "file": "papers/2026_Wang_Revisiting16xPretraining_en.pdf"
+ },
+ "arxiv:2502.03387": {
+  "cat": "04",
+  "sid": "04-031",
+  "state": "verified",
+  "file": "papers/2025_Ye_LIMO_en.pdf"
+ },
+ "arxiv:2402.01680": {
+  "cat": "06",
+  "sid": "06-022",
+  "state": "verified",
+  "file": "papers/2024_Guo_LargeLanguageModelBasedMulti_en.pdf"
+ },
+ "arxiv:2408.00741": {
+  "cat": "11",
+  "sid": "11-057",
+  "state": "verified",
+  "file": "papers/2024_Stojkovic_DynamoLLM_en.pdf"
+ },
+ "arxiv:2502.18443": {
+  "cat": "07",
+  "sid": "07-042",
+  "state": "verified",
+  "file": "papers/2025_Poznanski_OlmOCR_en.pdf"
+ },
+ "arxiv:2410.11081": {
+  "cat": "08",
+  "sid": "08-049",
+  "state": "verified",
+  "file": "papers/2024_Lu_SimplifyingStabilizingScaling_en.pdf"
+ },
+ "arxiv:2601.22156": {
+  "cat": "01",
+  "sid": "01-077",
+  "state": "verified",
+  "file": "papers/2026_Chen_HybridLinearAttentionDone_en.pdf"
+ },
+ "arxiv:2505.16400": {
+  "cat": "04",
+  "sid": "04-032",
+  "state": "verified",
+  "file": "papers/2025_Chen_AceReasonNemotron_en.pdf"
+ },
+ "arxiv:2410.23218": {
+  "cat": "06",
+  "sid": "06-023",
+  "state": "verified",
+  "file": "papers/2024_Wu_OSATLAS_en.pdf"
+ },
+ "arxiv:2505.09343": {
+  "cat": "11",
+  "sid": "11-058",
+  "state": "verified",
+  "file": "papers/2025_Zhao_InsightsIntoDeepSeekV3_en.pdf"
+ },
+ "arxiv:2501.00321": {
+  "cat": "07",
+  "sid": "07-043",
+  "state": "verified",
+  "file": "papers/2024_Fu_OCRBenchV2_en.pdf"
+ },
+ "arxiv:2610.10114": {
+  "cat": "01",
+  "sid": "01-079",
+  "state": "verified",
+  "file": "papers/2026_Liu_MechanicsLongContextHybrid_en.pdf"
+ },
+ "arxiv:2603.15132": {
+  "cat": "08",
+  "sid": "08-050",
+  "state": "verified",
+  "file": "papers/2026_Wang_WiT_en.pdf"
+ },
+ "arxiv:2506.06941": {
+  "cat": "04",
+  "sid": "04-033",
+  "state": "verified",
+  "file": "papers/2025_Shojaee_TheIllusionOfThinking_en.pdf"
+ },
+ "arxiv:2404.07972": {
+  "cat": "06",
+  "sid": "06-024",
+  "state": "verified",
+  "file": "papers/2024_Xie_OSWorld_en.pdf"
+ },
+ "arxiv:2505.06371": {
+  "cat": "11",
+  "sid": "11-059",
+  "state": "verified",
+  "file": "papers/2025_Chung_TheMLENERGYBenchmark_en.pdf"
+ },
+ "arxiv:2403.12895": {
+  "cat": "07",
+  "sid": "07-044",
+  "state": "verified",
+  "file": "papers/2024_Hu_MPLUGDocOwl15_en.pdf"
+ },
+ "arxiv:2412.21187": {
+  "cat": "04",
+  "sid": "04-034",
+  "state": "verified",
+  "file": "papers/2024_Chen_DoNOTThinkThatMuch23Overthinking_en.pdf"
+ },
+ "arxiv:2403.04132": {
+  "cat": "12",
+  "sid": "12-001",
+  "state": "verified",
+  "file": "papers/2024_Chiang_ChatbotArena_en.pdf"
+ },
+ "arxiv:2504.13958": {
+  "cat": "06",
+  "sid": "06-025",
+  "state": "verified",
+  "file": "papers/2025_Qian_ToolRL_en.pdf"
+ },
+ "arxiv:2409.18839": {
+  "cat": "07",
+  "sid": "07-046",
+  "state": "verified",
+  "file": "papers/2024_Wang_MinerU_en.pdf"
+ },
+ "arxiv:2412.06559": {
+  "cat": "04",
+  "sid": "04-035",
+  "state": "verified",
+  "file": "papers/2024_Zheng_ProcessBench_en.pdf"
+ },
+ "arxiv:2212.04356": {
+  "cat": "09",
+  "sid": "09-001",
+  "state": "verified",
+  "file": "papers/2022_Radford_RobustSpeechRecognitionLarge_en.pdf"
+ },
+ "arxiv:2311.12022": {
+  "cat": "12",
+  "sid": "12-002",
+  "state": "verified",
+  "file": "papers/2023_Rein_GPQA_en.pdf"
+ },
+ "arxiv:2402.19446": {
+  "cat": "06",
+  "sid": "06-026",
+  "state": "verified",
+  "file": "papers/2024_Zhou_ArCHer_en.pdf"
+ },
+ "arxiv:2406.18521": {
+  "cat": "07",
+  "sid": "07-048",
+  "state": "verified",
+  "file": "papers/2024_Wang_CharXiv_en.pdf"
+ },
+ "arxiv:2409.03733": {
+  "cat": "04",
+  "sid": "04-036",
+  "state": "verified",
+  "file": "papers/2024_Wang_PlanningNaturalLanguageImproves_en.pdf"
+ },
+ "arxiv:2301.02111": {
+  "cat": "09",
+  "sid": "09-002",
+  "state": "verified",
+  "file": "papers/2023_Wang_NeuralCodecLanguageModels_en.pdf"
+ },
+ "arxiv:2501.14249": {
+  "cat": "12",
+  "sid": "12-003",
+  "state": "verified",
+  "file": "papers/2025_Phan_HumanitySLastExam_en.pdf"
+ },
+ "arxiv:2404.13501": {
+  "cat": "06",
+  "sid": "06-027",
+  "state": "verified",
+  "file": "papers/2024_Zhang_SurveyMemoryMechanismLarge_en.pdf"
+ },
+ "arxiv:2510.00492": {
+  "cat": "04",
+  "sid": "04-037",
+  "state": "verified",
+  "file": "papers/2025_Lee_RethinkingRewardModelsMulti_en.pdf"
+ },
+ "arxiv:2404.12390": {
+  "cat": "07",
+  "sid": "07-051",
+  "state": "verified",
+  "file": "papers/2024_Fu_BLINK_en.pdf"
+ },
+ "arxiv:2209.03143": {
+  "cat": "09",
+  "sid": "09-003",
+  "state": "verified",
+  "file": "papers/2022_Borsos_AudioLM_en.pdf"
+ },
+ "arxiv:2406.01574": {
+  "cat": "12",
+  "sid": "12-004",
+  "state": "verified",
+  "file": "papers/2024_Wang_MMLUPro_en.pdf"
+ },
+ "arxiv:2406.07155": {
+  "cat": "06",
+  "sid": "06-028",
+  "state": "verified",
+  "file": "papers/2024_Qian_ScalingLargeLanguageModel_en.pdf"
+ },
+ "arxiv:2504.13837": {
+  "cat": "04",
+  "sid": "04-038",
+  "state": "verified",
+  "file": "papers/2025_Yue_DoesReinforcementLearning_en.pdf"
+ },
+ "arxiv:2403.14624": {
+  "cat": "07",
+  "sid": "07-052",
+  "state": "verified",
+  "file": "papers/2024_Zhang_MathVerse_en.pdf"
+ },
+ "arxiv:2407.10759": {
+  "cat": "09",
+  "sid": "09-004",
+  "state": "verified",
+  "file": "papers/2024_Chu_Qwen2AudioTechnicalReport_en.pdf"
+ },
+ "arxiv:2406.19314": {
+  "cat": "12",
+  "sid": "12-005",
+  "state": "verified",
+  "file": "papers/2024_White_LiveBench_en.pdf"
+ },
+ "arxiv:2501.12326": {
+  "cat": "06",
+  "sid": "06-029",
+  "state": "verified",
+  "file": "papers/2025_Qin_UITARS_en.pdf"
+ },
+ "arxiv:2411.04872": {
+  "cat": "04",
+  "sid": "04-039",
+  "state": "verified",
+  "file": "papers/2024_Glazer_FrontierMath_en.pdf"
+ },
+ "arxiv:2503.18712": {
+  "cat": "10",
+  "sid": "10-079",
+  "state": "verified",
+  "file": "papers/2025_Qi_LLaVAction_en.pdf"
+ },
+ "arxiv:2410.00037": {
+  "cat": "09",
+  "sid": "09-005",
+  "state": "verified",
+  "file": "papers/2024_Defossez_Moshi_en.pdf"
+ },
+ "arxiv:2411.15594": {
+  "cat": "12",
+  "sid": "12-007",
+  "state": "verified",
+  "file": "papers/2024_Gu_SurveyLLMJudge_en.pdf"
+ },
+ "arxiv:2411.07279": {
+  "cat": "04",
+  "sid": "04-040",
+  "state": "verified",
+  "file": "papers/2024_Akyurek_SurprisingEffectivenessTest_en.pdf"
+ },
+ "arxiv:2406.12045": {
+  "cat": "06",
+  "sid": "06-030",
+  "state": "verified",
+  "file": "papers/2024_Yao_Bench_en.pdf"
+ },
+ "arxiv:2307.15818": {
+  "cat": "10",
+  "sid": "10-001",
+  "state": "verified",
+  "file": "papers/2023_Brohan_RT2_en.pdf"
+ },
+ "arxiv:2106.07447": {
+  "cat": "09",
+  "sid": "09-006",
+  "state": "verified",
+  "file": "papers/2021_Hsu_HuBERT_en.pdf"
+ },
+ "arxiv:2406.04127": {
+  "cat": "12",
+  "sid": "12-008",
+  "state": "verified",
+  "file": "papers/2024_Gema_DoneMMLU_en.pdf"
+ },
+ "arxiv:2504.11536": {
+  "cat": "06",
+  "sid": "06-031",
+  "state": "verified",
+  "file": "papers/2025_Feng_ReTool_en.pdf"
+ },
+ "arxiv:2503.04697": {
+  "cat": "04",
+  "sid": "04-041",
+  "state": "verified",
+  "file": "papers/2025_Aggarwal_L1_en.pdf"
+ },
+ "arxiv:2310.08864": {
+  "cat": "10",
+  "sid": "10-002",
+  "state": "verified",
+  "file": "papers/2023_Collaboration_OpenXEmbodiment_en.pdf"
+ },
+ "arxiv:2403.03100": {
+  "cat": "09",
+  "sid": "09-007",
+  "state": "verified",
+  "file": "papers/2024_Ju_NaturalSpeech3_en.pdf"
+ },
+ "arxiv:2211.09110": {
+  "cat": "12",
+  "sid": "12-009",
+  "state": "verified",
+  "file": "papers/2022_Liang_HolisticEvaluationLanguage_en.pdf"
+ },
+ "arxiv:2406.04151": {
+  "cat": "06",
+  "sid": "06-032",
+  "state": "verified",
+  "file": "papers/2024_Xi_AgentGym_en.pdf"
+ },
+ "arxiv:2412.01981": {
+  "cat": "04",
+  "sid": "04-042",
+  "state": "verified",
+  "file": "papers/2024_Yuan_FreeProcessRewardsWithout_en.pdf"
+ },
+ "arxiv:2303.03378": {
+  "cat": "10",
+  "sid": "10-003",
+  "state": "verified",
+  "file": "papers/2023_Driess_PaLME_en.pdf"
+ },
+ "arxiv:2210.13438": {
+  "cat": "09",
+  "sid": "09-008",
+  "state": "verified",
+  "file": "papers/2022_Defossez_HighFidelityNeuralAudioCompression_en.pdf"
+ },
+ "arxiv:2411.00640": {
+  "cat": "12",
+  "sid": "12-010",
+  "state": "verified",
+  "file": "papers/2024_Miller_AddingErrorBarsEvalsStatistical_en.pdf"
+ },
+ "arxiv:2409.07429": {
+  "cat": "06",
+  "sid": "06-033",
+  "state": "verified",
+  "file": "papers/2024_Wang_AgentWorkflowMemory_en.pdf"
+ },
+ "arxiv:2506.10947": {
+  "cat": "04",
+  "sid": "04-043",
+  "state": "verified",
+  "file": "papers/2025_Shao_SpuriousRewards_en.pdf"
+ },
+ "arxiv:2311.17005": {
+  "cat": "10",
+  "sid": "10-007",
+  "state": "verified",
+  "file": "papers/2023_Li_MVBench_en.pdf"
+ },
+ "arxiv:2406.11768": {
+  "cat": "09",
+  "sid": "09-009",
+  "state": "verified",
+  "file": "papers/2024_Ghosh_GAMA_en.pdf"
+ },
+ "arxiv:2405.14782": {
+  "cat": "12",
+  "sid": "12-011",
+  "state": "verified",
+  "file": "papers/2024_Biderman_LessonsTrenchesReproducible_en.pdf"
+ },
+ "arxiv:2402.16823": {
+  "cat": "06",
+  "sid": "06-034",
+  "state": "verified",
+  "file": "papers/2024_Zhuge_LanguageAgentsOptimizable_en.pdf"
+ },
+ "arxiv:2503.21934": {
+  "cat": "04",
+  "sid": "04-044",
+  "state": "verified",
+  "file": "papers/2025_Petrov_ProofBluffEvaluatingLLMs_en.pdf"
+ },
+ "arxiv:2405.21075": {
+  "cat": "10",
+  "sid": "10-008",
+  "state": "verified",
+  "file": "papers/2024_Fu_VideoMME_en.pdf"
+ },
+ "arxiv:2504.20879": {
+  "cat": "12",
+  "sid": "12-012",
+  "state": "verified",
+  "file": "papers/2025_Singh_LeaderboardIllusion_en.pdf"
+ },
+ "arxiv:2408.16725": {
+  "cat": "09",
+  "sid": "09-010",
+  "state": "verified",
+  "file": "papers/2024_Xie_MiniOmni_en.pdf"
+ },
+ "arxiv:2508.09123": {
+  "cat": "06",
+  "sid": "06-035",
+  "state": "verified",
+  "file": "papers/2025_Wang_OpenCUA_en.pdf"
+ },
+ "arxiv:2502.05171": {
+  "cat": "04",
+  "sid": "04-045",
+  "state": "verified",
+  "file": "papers/2025_Geiping_ScalingUpTestTimeCompute_en.pdf"
+ },
+ "arxiv:2412.10360": {
+  "cat": "10",
+  "sid": "10-015",
+  "state": "verified",
+  "file": "papers/2024_Zohar_Apollo_en.pdf"
+ },
+ "arxiv:2508.13144": {
+  "cat": "12",
+  "sid": "12-013",
+  "state": "verified",
+  "file": "papers/2025_Heineman_SignalAndNoise_en.pdf"
+ },
+ "arxiv:2312.05187": {
+  "cat": "09",
+  "sid": "09-011",
+  "state": "verified",
+  "file": "papers/2023_Communication_Seamless_en.pdf"
+ },
+ "arxiv:2506.07982": {
+  "cat": "06",
+  "sid": "06-036",
+  "state": "verified",
+  "file": "papers/2025_Barres_2Bench_en.pdf"
+ },
+ "arxiv:2502.01456": {
+  "cat": "04",
+  "sid": "04-046",
+  "state": "verified",
+  "file": "papers/2025_Cui_ProcessReinforcementThrough_en.pdf"
+ },
+ "arxiv:2401.00595": {
+  "cat": "12",
+  "sid": "12-014",
+  "state": "verified",
+  "file": "papers/2023_Mizrahi_StateWhatArtCallMultiPrompt_en.pdf"
+ },
+ "arxiv:2405.17935": {
+  "cat": "06",
+  "sid": "06-037",
+  "state": "verified",
+  "file": "papers/2024_Qu_ToolLearningLargeLanguage_en.pdf"
+ },
+ "arxiv:2406.02430": {
+  "cat": "09",
+  "sid": "09-012",
+  "state": "verified",
+  "file": "papers/2024_Anastassiou_SeedTTS_en.pdf"
+ },
+ "arxiv:2609.34556": {
+  "cat": "01",
+  "sid": "01-080",
+  "state": "verified",
+  "file": "papers/2026_Levy_RoPEDeadLongLiveRoPEScalable_en.pdf"
+ },
+ "arxiv:2505.22617": {
+  "cat": "04",
+  "sid": "04-047",
+  "state": "verified",
+  "file": "papers/2025_Cui_EntropyMechanismReinforcement_en.pdf"
+ },
+ "arxiv:2311.05232": {
+  "cat": "12",
+  "sid": "12-015",
+  "state": "verified",
+  "file": "papers/2023_Huang_SurveyHallucinationLarge_en.pdf"
+ },
+ "arxiv:2504.20073": {
+  "cat": "06",
+  "sid": "06-038",
+  "state": "verified",
+  "file": "papers/2025_Wang_RAGEN_en.pdf"
+ },
+ "arxiv:2402.05755": {
+  "cat": "09",
+  "sid": "09-013",
+  "state": "verified",
+  "file": "papers/2024_Nguyen_SpiritLM_en.pdf"
+ },
+ "arxiv:2404.08471": {
+  "cat": "10",
+  "sid": "10-021",
+  "state": "verified",
+  "file": "papers/2024_Bardes_RevisitingFeaturePrediction_en.pdf"
+ },
+ "arxiv:2608.28444": {
+  "cat": "01",
+  "sid": "01-081",
+  "state": "verified",
+  "file": "papers/2026_JolicoeurMartineau_SlidingWindowBeatsLinear_en.pdf"
+ },
+ "arxiv:2506.04178": {
+  "cat": "04",
+  "sid": "04-048",
+  "state": "verified",
+  "file": "papers/2025_Guha_OpenThoughts_en.pdf"
+ },
+ "arxiv:2411.04368": {
+  "cat": "12",
+  "sid": "12-016",
+  "state": "verified",
+  "file": "papers/2024_Wei_MeasuringShortFormFactuality_en.pdf"
+ },
+ "arxiv:2506.15841": {
+  "cat": "06",
+  "sid": "06-039",
+  "state": "verified",
+  "file": "papers/2025_Zhou_MEM1_en.pdf"
+ },
+ "arxiv:2507.08128": {
+  "cat": "09",
+  "sid": "09-014",
+  "state": "verified",
+  "file": "papers/2025_Goel_AudioFlamingo3_en.pdf"
+ },
+ "arxiv:2506.09985": {
+  "cat": "10",
+  "sid": "10-022",
+  "state": "verified",
+  "file": "papers/2025_Assran_VJEPA2_en.pdf"
+ },
+ "arxiv:2412.06769": {
+  "cat": "04",
+  "sid": "04-049",
+  "state": "verified",
+  "file": "papers/2024_Hao_TrainingLargeLanguageModels_en.pdf"
+ },
+ "arxiv:2402.00159": {
+  "cat": "02",
+  "sid": "02-001",
+  "state": "verified",
+  "file": "papers/2024_Soldaini_Dolma_en.pdf"
+ },
+ "arxiv:2403.18802": {
+  "cat": "12",
+  "sid": "12-017",
+  "state": "verified",
+  "file": "papers/2024_Wei_LongFormFactualityLargeLanguage_en.pdf"
+ },
+ "arxiv:2410.10762": {
+  "cat": "06",
+  "sid": "06-040",
+  "state": "verified",
+  "file": "papers/2024_Zhang_AFlow_en.pdf"
+ },
+ "arxiv:2409.06666": {
+  "cat": "09",
+  "sid": "09-015",
+  "state": "verified",
+  "file": "papers/2024_Fang_LLaMAOmni_en.pdf"
+ },
+ "arxiv:2412.14171": {
+  "cat": "10",
+  "sid": "10-024",
+  "state": "verified",
+  "file": "papers/2024_Yang_ThinkingInSpace_en.pdf"
+ },
+ "arxiv:2504.16828": {
+  "cat": "04",
+  "sid": "04-050",
+  "state": "verified",
+  "file": "papers/2025_Khalifa_ProcessRewardModelsThatThink_en.pdf"
+ },
+ "arxiv:2406.17557": {
+  "cat": "02",
+  "sid": "02-002",
+  "state": "verified",
+  "file": "papers/2024_Penedo_TheFineWebDatasets_en.pdf"
+ },
+ "arxiv:2509.04664": {
+  "cat": "12",
+  "sid": "12-018",
+  "state": "verified",
+  "file": "papers/2025_Kalai_WhyLanguageModelsHallucinate_en.pdf"
+ },
+ "arxiv:2411.02337": {
+  "cat": "06",
+  "sid": "06-041",
+  "state": "verified",
+  "file": "papers/2024_Qi_WebRL_en.pdf"
+ },
+ "arxiv:2401.16658": {
+  "cat": "09",
+  "sid": "09-016",
+  "state": "verified",
+  "file": "papers/2024_Peng_OWSMV31_en.pdf"
+ },
+ "arxiv:2311.18259": {
+  "cat": "10",
+  "sid": "10-025",
+  "state": "verified",
+  "file": "papers/2023_Grauman_EgoExo4D_en.pdf"
+ },
+ "arxiv:2406.11794": {
+  "cat": "02",
+  "sid": "02-003",
+  "state": "verified",
+  "file": "papers/2024_Li_DataCompLM_en.pdf"
+ },
+ "arxiv:2406.15927": {
+  "cat": "12",
+  "sid": "12-019",
+  "state": "verified",
+  "file": "papers/2024_Kossen_SemanticEntropyProbes_en.pdf"
+ },
+ "arxiv:2410.06885": {
+  "cat": "09",
+  "sid": "09-017",
+  "state": "verified",
+  "file": "papers/2024_Chen_F5TTS_en.pdf"
+ },
+ "arxiv:2412.14161": {
+  "cat": "06",
+  "sid": "06-042",
+  "state": "verified",
+  "file": "papers/2024_Xu_TheAgentCompany_en.pdf"
+ },
+ "arxiv:2505.03335": {
+  "cat": "04",
+  "sid": "04-051",
+  "state": "verified",
+  "file": "papers/2025_Zhao_AbsoluteZero_en.pdf"
+ },
+ "arxiv:2411.12372": {
+  "cat": "02",
+  "sid": "02-004",
+  "state": "verified",
+  "file": "papers/2024_Weber_RedPajama_en.pdf"
+ },
+ "arxiv:2404.18930": {
+  "cat": "12",
+  "sid": "12-020",
+  "state": "verified",
+  "file": "papers/2024_Bai_HallucinationMultimodalLarge_en.pdf"
+ },
+ "arxiv:2404.00685": {
+  "cat": "09",
+  "sid": "09-018",
+  "state": "verified",
+  "file": "papers/2024_Cuervo_ScalingPropertiesSpeechLanguage_en.pdf"
+ },
+ "arxiv:2408.04682": {
+  "cat": "06",
+  "sid": "06-043",
+  "state": "verified",
+  "file": "papers/2024_Lu_ToolSandbox_en.pdf"
+ },
+ "arxiv:2406.09246": {
+  "cat": "10",
+  "sid": "10-027",
+  "state": "verified",
+  "file": "papers/2024_Kim_OpenVLA_en.pdf"
+ },
+ "arxiv:2503.16419": {
+  "cat": "04",
+  "sid": "04-052",
+  "state": "verified",
+  "file": "papers/2025_Sui_StopOverthinking_en.pdf"
+ },
+ "arxiv:2412.02595": {
+  "cat": "02",
+  "sid": "02-005",
+  "state": "verified",
+  "file": "papers/2024_Su_NemotronCC_en.pdf"
+ },
+ "arxiv:2311.07397": {
+  "cat": "12",
+  "sid": "12-021",
+  "state": "verified",
+  "file": "papers/2023_Wang_AMBER_en.pdf"
+ },
+ "arxiv:2504.18425": {
+  "cat": "09",
+  "sid": "09-019",
+  "state": "verified",
+  "file": "papers/2025_KimiTeamTeam_KimiAudioTechnicalReport_en.pdf"
+ },
+ "arxiv:2509.02547": {
+  "cat": "06",
+  "sid": "06-044",
+  "state": "verified",
+  "file": "papers/2025_Zhang_LandscapeAgenticReinforcement_en.pdf"
+ },
+ "arxiv:2410.24164": {
+  "cat": "10",
+  "sid": "10-028",
+  "state": "verified",
+  "file": "papers/2024_Black_0_en.pdf"
+ },
+ "arxiv:2504.16084": {
+  "cat": "04",
+  "sid": "04-053",
+  "state": "verified",
+  "file": "papers/2025_Zuo_TTRL_en.pdf"
+ },
+ "arxiv:2506.20920": {
+  "cat": "02",
+  "sid": "02-006",
+  "state": "verified",
+  "file": "papers/2025_Penedo_FineWeb2_en.pdf"
+ },
+ "arxiv:2207.05221": {
+  "cat": "12",
+  "sid": "12-022",
+  "state": "verified",
+  "file": "papers/2022_Kadavath_LanguageModelsMostlyKnow_en.pdf"
+ },
+ "arxiv:2411.00774": {
+  "cat": "09",
+  "sid": "09-020",
+  "state": "verified",
+  "file": "papers/2024_Wang_FreezeOmni_en.pdf"
+ },
+ "arxiv:2509.25140": {
+  "cat": "06",
+  "sid": "06-045",
+  "state": "verified",
+  "file": "papers/2025_Ouyang_ReasoningBank_en.pdf"
+ },
+ "arxiv:2504.16054": {
+  "cat": "10",
+  "sid": "10-029",
+  "state": "verified",
+  "file": "papers/2025_Intelligence_05_en.pdf"
+ },
+ "arxiv:2510.13786": {
+  "cat": "04",
+  "sid": "04-083",
+  "state": "verified",
+  "file": "papers/2025_Khatri_ArtScalingReinforcementLearning_en.pdf"
+ },
+ "arxiv:2506.05209": {
+  "cat": "02",
+  "sid": "02-007",
+  "state": "verified",
+  "file": "papers/2025_Kandpal_TheCommonPileV01_en.pdf"
+ },
+ "arxiv:2405.20003": {
+  "cat": "12",
+  "sid": "12-023",
+  "state": "verified",
+  "file": "papers/2024_Nikitin_KernelLanguageEntropy_en.pdf"
+ },
+ "arxiv:2406.19674": {
+  "cat": "09",
+  "sid": "09-021",
+  "state": "verified",
+  "file": "papers/2024_Puvvada_LessIsMore_en.pdf"
+ },
+ "arxiv:2408.08435": {
+  "cat": "06",
+  "sid": "06-046",
+  "state": "verified",
+  "file": "papers/2024_Hu_AutomatedDesignAgenticSystems_en.pdf"
+ },
+ "arxiv:2511.22570": {
+  "cat": "04",
+  "sid": "04-084",
+  "state": "verified",
+  "file": "papers/2025_Shao_DeepSeekMathV2_en.pdf"
+ },
+ "arxiv:2503.14734": {
+  "cat": "10",
+  "sid": "10-032",
+  "state": "verified",
+  "file": "papers/2025_NVIDIA_GR00TN1_en.pdf"
+ },
+ "arxiv:2402.19173": {
+  "cat": "02",
+  "sid": "02-008",
+  "state": "verified",
+  "file": "papers/2024_Lozhkov_StarCoder2StackV2NextGeneration_en.pdf"
+ },
+ "arxiv:2406.08391": {
+  "cat": "12",
+  "sid": "12-024",
+  "state": "verified",
+  "file": "papers/2024_Kapoor_LargeLanguageModelsMustBe_en.pdf"
+ },
+ "arxiv:2412.10117": {
+  "cat": "09",
+  "sid": "09-022",
+  "state": "verified",
+  "file": "papers/2024_Du_CosyVoice2_en.pdf"
+ },
+ "arxiv:2405.15793": {
+  "cat": "06",
+  "sid": "06-047",
+  "state": "verified",
+  "file": "papers/2024_Yang_SWEAgent_en.pdf"
+ },
+ "arxiv:2508.15260": {
+  "cat": "04",
+  "sid": "04-085",
+  "state": "verified",
+  "file": "papers/2025_Fu_DeepThinkConfidence_en.pdf"
+ },
+ "arxiv:2504.02807": {
+  "cat": "02",
+  "sid": "02-009",
+  "state": "verified",
+  "file": "papers/2025_Zhou_MegaMath_en.pdf"
+ },
+ "arxiv:2503.20020": {
+  "cat": "10",
+  "sid": "10-033",
+  "state": "verified",
+  "file": "papers/2025_GeminiTeam_GeminiRobotics_en.pdf"
+ },
+ "arxiv:2402.10978": {
+  "cat": "12",
+  "sid": "12-025",
+  "state": "verified",
+  "file": "papers/2024_Mohri_LanguageModelsConformalFactuality_en.pdf"
+ },
+ "arxiv:2411.17607": {
+  "cat": "09",
+  "sid": "09-023",
+  "state": "verified",
+  "file": "papers/2024_Zeng_ScalingSpeechTextPreTraining_en.pdf"
+ },
+ "arxiv:2503.14499": {
+  "cat": "06",
+  "sid": "06-048",
+  "state": "verified",
+  "file": "papers/2025_Kwa_MeasuringAIAbilityComplete_en.pdf"
+ },
+ "arxiv:2510.04871": {
+  "cat": "04",
+  "sid": "04-086",
+  "state": "verified",
+  "file": "papers/2025_JolicoeurMartineau_LessIsMore_en.pdf"
+ },
+ "arxiv:2407.14933": {
+  "cat": "02",
+  "sid": "02-010",
+  "state": "verified",
+  "file": "papers/2024_Longpre_ConsentInCrisis_en.pdf"
+ },
+ "arxiv:2503.15850": {
+  "cat": "12",
+  "sid": "12-026",
+  "state": "verified",
+  "file": "papers/2025_Liu_UncertaintyQuantification_en.pdf"
+ },
+ "arxiv:2402.15391": {
+  "cat": "10",
+  "sid": "10-047",
+  "state": "verified",
+  "file": "papers/2024_Bruce_Genie_en.pdf"
+ },
+ "arxiv:2507.16632": {
+  "cat": "09",
+  "sid": "09-024",
+  "state": "verified",
+  "file": "papers/2025_Wu_StepAudio2TechnicalReport_en.pdf"
+ },
+ "arxiv:2508.14704": {
+  "cat": "06",
+  "sid": "06-049",
+  "state": "verified",
+  "file": "papers/2025_Luo_MCPUniverse_en.pdf"
+ },
+ "arxiv:2506.14245": {
+  "cat": "04",
+  "sid": "04-087",
+  "state": "verified",
+  "file": "papers/2025_Wen_ReinforcementLearningVerifiable_en.pdf"
+ },
+ "arxiv:2502.13347": {
+  "cat": "02",
+  "sid": "02-011",
+  "state": "verified",
+  "file": "papers/2025_Yu_Craw4LLM_en.pdf"
+ },
+ "arxiv:2406.04093": {
+  "cat": "12",
+  "sid": "12-027",
+  "state": "verified",
+  "file": "papers/2024_Gao_ScalingEvaluatingSparseAutoencoders_en.pdf"
+ },
+ "arxiv:2501.03575": {
+  "cat": "10",
+  "sid": "10-048",
+  "state": "verified",
+  "file": "papers/2025_NVIDIA_CosmosWorldFoundationModel_en.pdf"
+ },
+ "arxiv:2412.02612": {
+  "cat": "09",
+  "sid": "09-025",
+  "state": "verified",
+  "file": "papers/2024_Zeng_GLM4Voice_en.pdf"
+ },
+ "arxiv:2508.03680": {
+  "cat": "06",
+  "sid": "06-050",
+  "state": "verified",
+  "file": "papers/2025_Luo_AgentLightning_en.pdf"
+ },
+ "arxiv:2601.17223": {
+  "cat": "04",
+  "sid": "04-088",
+  "state": "verified",
+  "file": "papers/2026_Pronesti_BeyondOutcomeVerification_en.pdf"
+ },
+ "arxiv:2502.02737": {
+  "cat": "02",
+  "sid": "02-012",
+  "state": "verified",
+  "file": "papers/2025_Allal_SmolLM2_en.pdf"
+ },
+ "arxiv:2408.05147": {
+  "cat": "12",
+  "sid": "12-028",
+  "state": "verified",
+  "file": "papers/2024_Lieberum_GemmaScope_en.pdf"
+ },
+ "arxiv:2402.08846": {
+  "cat": "09",
+  "sid": "09-026",
+  "state": "verified",
+  "file": "papers/2024_Ma_EmbarrassinglySimpleApproach_en.pdf"
+ },
+ "arxiv:2602.00919": {
+  "cat": "10",
+  "sid": "10-072",
+  "state": "verified",
+  "file": "papers/2026_Apanasevich_GreenVLA_en.pdf"
+ },
+ "arxiv:2603.22117": {
+  "cat": "04",
+  "sid": "04-091",
+  "state": "verified",
+  "file": "papers/2026_Huang_DirectionRLVRUpdatesLLMReasoning_en.pdf"
+ },
+ "arxiv:2310.20707": {
+  "cat": "02",
+  "sid": "02-013",
+  "state": "verified",
+  "file": "papers/2023_Elazar_WhatSMyBigData_en.pdf"
+ },
+ "arxiv:2406.11717": {
+  "cat": "12",
+  "sid": "12-029",
+  "state": "verified",
+  "file": "papers/2024_Arditi_RefusalLanguageModelsMediated_en.pdf"
+ },
+ "arxiv:2502.04128": {
+  "cat": "09",
+  "sid": "09-027",
+  "state": "verified",
+  "file": "papers/2025_Ye_Llasa_en.pdf"
+ },
+ "arxiv:2507.05257": {
+  "cat": "06",
+  "sid": "06-051",
+  "state": "verified",
+  "file": "papers/2025_Hu_EvaluatingMemoryLLMAgents_en.pdf"
+ },
+ "arxiv:2605.13301": {
+  "cat": "04",
+  "sid": "04-092",
+  "state": "verified",
+  "file": "papers/2026_Li_AchievingGoldMedalLevelOlympiad_en.pdf"
+ },
+ "arxiv:2403.19647": {
+  "cat": "12",
+  "sid": "12-030",
+  "state": "verified",
+  "file": "papers/2024_Marks_SparseFeatureCircuits_en.pdf"
+ },
+ "arxiv:2409.17115": {
+  "cat": "02",
+  "sid": "02-015",
+  "state": "verified",
+  "file": "papers/2024_Zhou_ProgrammingEveryExample_en.pdf"
+ },
+ "arxiv:2408.16532": {
+  "cat": "09",
+  "sid": "09-028",
+  "state": "verified",
+  "file": "papers/2024_Ji_WavTokenizer_en.pdf"
+ },
+ "arxiv:2411.04468": {
+  "cat": "06",
+  "sid": "06-052",
+  "state": "verified",
+  "file": "papers/2024_Fourney_MagenticOne_en.pdf"
+ },
+ "arxiv:2601.02456": {
+  "cat": "10",
+  "sid": "10-073",
+  "state": "verified",
+  "file": "papers/2026_Cai_InternVLAA1_en.pdf"
+ },
+ "arxiv:2501.16496": {
+  "cat": "12",
+  "sid": "12-031",
+  "state": "verified",
+  "file": "papers/2025_Sharkey_OpenProblemsMechanistic_en.pdf"
+ },
+ "arxiv:2410.19168": {
+  "cat": "09",
+  "sid": "09-029",
+  "state": "verified",
+  "file": "papers/2024_Sakshi_MMAU_en.pdf"
+ },
+ "arxiv:2411.04257": {
+  "cat": "02",
+  "sid": "02-017",
+  "state": "verified",
+  "file": "papers/2024_Khan_LSHBloom_en.pdf"
+ },
+ "arxiv:2407.16741": {
+  "cat": "06",
+  "sid": "06-053",
+  "state": "verified",
+  "file": "papers/2024_Wang_OpenHands_en.pdf"
+ },
+ "arxiv:2603.29252": {
+  "cat": "10",
+  "sid": "10-074",
+  "state": "verified",
+  "file": "papers/2026_Chen_ScalingLongVideoUnderstanding_en.pdf"
+ },
+ "arxiv:2312.06681": {
+  "cat": "12",
+  "sid": "12-032",
+  "state": "verified",
+  "file": "papers/2023_Panickssery_SteeringLlama2Contrastive_en.pdf"
+ },
+ "arxiv:2409.15594": {
+  "cat": "09",
+  "sid": "09-030",
+  "state": "verified",
+  "file": "papers/2024_Veluri_BeyondTurnBasedInterfaces_en.pdf"
+ },
+ "arxiv:2402.09739": {
+  "cat": "02",
+  "sid": "02-019",
+  "state": "verified",
+  "file": "papers/2024_Wettig_QuRating_en.pdf"
+ },
+ "arxiv:2504.12516": {
+  "cat": "06",
+  "sid": "06-054",
+  "state": "verified",
+  "file": "papers/2025_Wei_BrowseComp_en.pdf"
+ },
+ "arxiv:2610.10515": {
+  "cat": "10",
+  "sid": "10-075",
+  "state": "verified",
+  "file": "papers/2026_Zholus_RoboJEPA_en.pdf"
+ },
+ "arxiv:2505.05410": {
+  "cat": "12",
+  "sid": "12-033",
+  "state": "verified",
+  "file": "papers/2025_Chen_ReasoningModelsDonTAlways_en.pdf"
+ },
+ "arxiv:2407.04675": {
+  "cat": "09",
+  "sid": "09-031",
+  "state": "verified",
+  "file": "papers/2024_Bai_SeedASR_en.pdf"
+ },
+ "arxiv:2508.20453": {
+  "cat": "06",
+  "sid": "06-055",
+  "state": "verified",
+  "file": "papers/2025_Wang_MCPBench_en.pdf"
+ },
+ "arxiv:2507.21509": {
+  "cat": "12",
+  "sid": "12-034",
+  "state": "verified",
+  "file": "papers/2025_Chen_PersonaVectors_en.pdf"
+ },
+ "arxiv:2610.09170": {
+  "cat": "10",
+  "sid": "10-076",
+  "state": "verified",
+  "file": "papers/2026_Chen_BeyondReconstruction_en.pdf"
+ },
+ "arxiv:2506.21619": {
+  "cat": "09",
+  "sid": "09-032",
+  "state": "verified",
+  "file": "papers/2025_Zhou_IndexTTS2_en.pdf"
+ },
+ "arxiv:2601.11868": {
+  "cat": "06",
+  "sid": "06-058",
+  "state": "verified",
+  "file": "papers/2026_Merrill_TerminalBench_en.pdf"
+ },
+ "arxiv:2402.09668": {
+  "cat": "02",
+  "sid": "02-022",
+  "state": "verified",
+  "file": "papers/2024_Sachdeva_HowTrainDataEfficientLLMs_en.pdf"
+ },
+ "arxiv:2307.15043": {
+  "cat": "12",
+  "sid": "12-035",
+  "state": "verified",
+  "file": "papers/2023_Zou_UniversalTransferableAdversarial_en.pdf"
+ },
+ "arxiv:2605.27817": {
+  "cat": "10",
+  "sid": "10-077",
+  "state": "verified",
+  "file": "papers/2026_Li_TurningVideoModelsIntoGeneralist_en.pdf"
+ },
+ "arxiv:2408.17175": {
+  "cat": "09",
+  "sid": "09-033",
+  "state": "verified",
+  "file": "papers/2024_Ye_CodecDoesMatter_en.pdf"
+ },
+ "arxiv:2507.02592": {
+  "cat": "06",
+  "sid": "06-060",
+  "state": "verified",
+  "file": "papers/2025_Li_WebSailor_en.pdf"
+ },
+ "arxiv:2402.04249": {
+  "cat": "12",
+  "sid": "12-036",
+  "state": "verified",
+  "file": "papers/2024_Mazeika_HarmBench_en.pdf"
+ },
+ "arxiv:2409.05816": {
+  "cat": "02",
+  "sid": "02-023",
+  "state": "verified",
+  "file": "papers/2024_Thrush_ImprovingPretrainingData_en.pdf"
+ },
+ "arxiv:2605.00080": {
+  "cat": "10",
+  "sid": "10-078",
+  "state": "verified",
+  "file": "papers/2026_Hou_WorldModelRobotLearningComprehensive_en.pdf"
+ },
+ "arxiv:2402.07729": {
+  "cat": "09",
+  "sid": "09-034",
+  "state": "verified",
+  "file": "papers/2024_Yang_AIRBench_en.pdf"
+ },
+ "arxiv:2606.29537": {
+  "cat": "06",
+  "sid": "06-061",
+  "state": "verified",
+  "file": "papers/2026_Yuan_OSWorld20_en.pdf"
+ },
+ "arxiv:2404.01318": {
+  "cat": "12",
+  "sid": "12-037",
+  "state": "verified",
+  "file": "papers/2024_Chao_JailbreakBench_en.pdf"
+ },
+ "arxiv:2502.10341": {
+  "cat": "02",
+  "sid": "02-025",
+  "state": "verified",
+  "file": "papers/2025_Wettig_OrganizeTheWeb_en.pdf"
+ },
+ "arxiv:2502.04144": {
+  "cat": "10",
+  "sid": "10-080",
+  "state": "verified",
+  "file": "papers/2025_Perrett_HDEPIC_en.pdf"
+ },
+ "arxiv:2503.20215": {
+  "cat": "09",
+  "sid": "09-035",
+  "state": "verified",
+  "file": "papers/2025_Xu_Qwen25OmniTechnicalReport_en.pdf"
+ },
+ "arxiv:2401.05566": {
+  "cat": "12",
+  "sid": "12-038",
+  "state": "verified",
+  "file": "papers/2024_Hubinger_SleeperAgents_en.pdf"
+ },
+ "arxiv:2504.14194": {
+  "cat": "02",
+  "sid": "02-026",
+  "state": "verified",
+  "file": "papers/2025_Zhuang_MetaRater_en.pdf"
+ },
+ "arxiv:2601.21337": {
+  "cat": "09",
+  "sid": "09-036",
+  "state": "verified",
+  "file": "papers/2026_Shi_Qwen3ASRTechnicalReport_en.pdf"
+ },
+ "arxiv:2412.14093": {
+  "cat": "12",
+  "sid": "12-039",
+  "state": "verified",
+  "file": "papers/2024_Greenblatt_AlignmentFakingLargeLanguage_en.pdf"
+ },
+ "arxiv:2603.12147": {
+  "cat": "10",
+  "sid": "10-081",
+  "state": "verified",
+  "file": "papers/2026_Pan_EgoIntent_en.pdf"
+ },
+ "arxiv:2504.11393": {
+  "cat": "02",
+  "sid": "02-027",
+  "state": "verified",
+  "file": "papers/2025_Magnusson_DataDecide_en.pdf"
+ },
+ "arxiv:2508.19205": {
+  "cat": "09",
+  "sid": "09-037",
+  "state": "verified",
+  "file": "papers/2025_Peng_VibeVoiceTechnicalReport_en.pdf"
+ },
+ "arxiv:2501.18837": {
+  "cat": "12",
+  "sid": "12-040",
+  "state": "verified",
+  "file": "papers/2025_Sharma_ConstitutionalClassifiers_en.pdf"
+ },
+ "arxiv:2203.12602": {
+  "cat": "10",
+  "sid": "10-004",
+  "state": "verified",
+  "file": "papers/2022_Tong_VideoMAE_en.pdf"
+ },
+ "arxiv:2505.05427": {
+  "cat": "02",
+  "sid": "02-028",
+  "state": "verified",
+  "file": "papers/2025_Wang_UltraFineWeb_en.pdf"
+ },
+ "arxiv:2411.19842": {
+  "cat": "09",
+  "sid": "09-038",
+  "state": "verified",
+  "file": "papers/2024_Parker_ScalingTransformersLowBitrate_en.pdf"
+ },
+ "arxiv:2406.04313": {
+  "cat": "12",
+  "sid": "12-041",
+  "state": "verified",
+  "file": "papers/2024_Zou_ImprovingAlignmentRobustness_en.pdf"
+ },
+ "arxiv:2311.10122": {
+  "cat": "10",
+  "sid": "10-005",
+  "state": "verified",
+  "file": "papers/2023_Lin_VideoLLaVA_en.pdf"
+ },
+ "arxiv:2403.16952": {
+  "cat": "02",
+  "sid": "02-030",
+  "state": "verified",
+  "file": "papers/2024_Ye_DataMixingLaws_en.pdf"
+ },
+ "arxiv:2503.02318": {
+  "cat": "09",
+  "sid": "09-039",
+  "state": "verified",
+  "file": "papers/2025_Xie_AudioReasoner_en.pdf"
+ },
+ "arxiv:2412.04984": {
+  "cat": "12",
+  "sid": "12-042",
+  "state": "verified",
+  "file": "papers/2024_Meinke_FrontierModelsCapableContext_en.pdf"
+ },
+ "arxiv:2311.17043": {
+  "cat": "10",
+  "sid": "10-006",
+  "state": "verified",
+  "file": "papers/2023_Li_LLaMAVID_en.pdf"
+ },
+ "arxiv:2407.01492": {
+  "cat": "02",
+  "sid": "02-031",
+  "state": "verified",
+  "file": "papers/2024_Liu_RegMix_en.pdf"
+ },
+ "arxiv:2410.17196": {
+  "cat": "09",
+  "sid": "09-040",
+  "state": "verified",
+  "file": "papers/2024_Chen_VoiceBench_en.pdf"
+ },
+ "arxiv:2502.17424": {
+  "cat": "12",
+  "sid": "12-043",
+  "state": "verified",
+  "file": "papers/2025_Betley_EmergentMisalignment_en.pdf"
+ },
+ "arxiv:2407.15754": {
+  "cat": "10",
+  "sid": "10-009",
+  "state": "verified",
+  "file": "papers/2024_Wu_LongVideoBench_en.pdf"
+ },
+ "arxiv:2411.05735": {
+  "cat": "02",
+  "sid": "02-032",
+  "state": "verified",
+  "file": "papers/2024_Chen_Aioli_en.pdf"
+ },
+ "arxiv:2502.03382": {
+  "cat": "09",
+  "sid": "09-041",
+  "state": "verified",
+  "file": "papers/2025_Labiausse_HighFidelitySimultaneous_en.pdf"
+ },
+ "arxiv:2403.03218": {
+  "cat": "12",
+  "sid": "12-044",
+  "state": "verified",
+  "file": "papers/2024_Li_TheWMDPBenchmark_en.pdf"
+ },
+ "arxiv:2406.16852": {
+  "cat": "10",
+  "sid": "10-011",
+  "state": "verified",
+  "file": "papers/2024_Zhang_LongContextTransferLanguage_en.pdf"
+ },
+ "arxiv:2504.13161": {
+  "cat": "02",
+  "sid": "02-033",
+  "state": "verified",
+  "file": "papers/2025_Diao_NemotronCLIMB_en.pdf"
+ },
+ "arxiv:2402.01912": {
+  "cat": "09",
+  "sid": "09-042",
+  "state": "verified",
+  "file": "papers/2024_Lyth_NaturalLanguageGuidanceHigh_en.pdf"
+ },
+ "arxiv:2507.11473": {
+  "cat": "12",
+  "sid": "12-045",
+  "state": "verified",
+  "file": "papers/2025_Korbak_ChainThoughtMonitorability_en.pdf"
+ },
+ "arxiv:2507.09404": {
+  "cat": "02",
+  "sid": "02-034",
+  "state": "verified",
+  "file": "papers/2025_Shukor_ScalingLawsOptimalDataMixtures_en.pdf"
+ },
+ "arxiv:2410.03751": {
+  "cat": "09",
+  "sid": "09-043",
+  "state": "verified",
+  "file": "papers/2024_Cui_RecentAdvancesSpeechLanguage_en.pdf"
+ },
+ "arxiv:2410.02713": {
+  "cat": "10",
+  "sid": "10-012",
+  "state": "verified",
+  "file": "papers/2024_Zhang_LLaVAVideo_en.pdf"
+ },
+ "arxiv:2412.03556": {
+  "cat": "12",
+  "sid": "12-047",
+  "state": "verified",
+  "file": "papers/2024_Hughes_BestNJailbreaking_en.pdf"
+ },
+ "arxiv:2401.16380": {
+  "cat": "02",
+  "sid": "02-038",
+  "state": "verified",
+  "file": "papers/2024_Maini_RephrasingTheWeb_en.pdf"
+ },
+ "arxiv:2503.11197": {
+  "cat": "09",
+  "sid": "09-044",
+  "state": "verified",
+  "file": "papers/2025_Li_ReinforcementLearningOutperforms_en.pdf"
+ },
+ "arxiv:2501.13106": {
+  "cat": "10",
+  "sid": "10-013",
+  "state": "verified",
+  "file": "papers/2025_Zhang_VideoLLaMA3_en.pdf"
+ },
+ "arxiv:2409.07431": {
+  "cat": "02",
+  "sid": "02-039",
+  "state": "verified",
+  "file": "papers/2024_Yang_SyntheticContinuedPretraining_en.pdf"
+ },
+ "arxiv:2503.04721": {
+  "cat": "09",
+  "sid": "09-045",
+  "state": "verified",
+  "file": "papers/2025_Lin_FullDuplexBench_en.pdf"
+ },
+ "arxiv:2404.02151": {
+  "cat": "12",
+  "sid": "12-048",
+  "state": "verified",
+  "file": "papers/2024_Andriushchenko_JailbreakingLeadingSafety_en.pdf"
+ },
+ "arxiv:2403.15377": {
+  "cat": "10",
+  "sid": "10-014",
+  "state": "verified",
+  "file": "papers/2024_Wang_InternVideo2_en.pdf"
+ },
+ "arxiv:2503.19551": {
+  "cat": "02",
+  "sid": "02-041",
+  "state": "verified",
+  "file": "papers/2025_Qin_ScalingLawsSyntheticData_en.pdf"
+ },
+ "arxiv:2407.14358": {
+  "cat": "09",
+  "sid": "09-046",
+  "state": "verified",
+  "file": "papers/2024_Evans_StableAudioOpen_en.pdf"
+ },
+ "arxiv:2503.18813": {
+  "cat": "12",
+  "sid": "12-049",
+  "state": "verified",
+  "file": "papers/2025_Debenedetti_DefeatingPromptInjections_en.pdf"
+ },
+ "arxiv:2312.02051": {
+  "cat": "10",
+  "sid": "10-016",
+  "state": "verified",
+  "file": "papers/2023_Ren_TimeChat_en.pdf"
+ },
+ "arxiv:2508.10975": {
+  "cat": "02",
+  "sid": "02-042",
+  "state": "verified",
+  "file": "papers/2025_DatologyAI_BeyondWeb_en.pdf"
+ },
+ "arxiv:2504.08528": {
+  "cat": "09",
+  "sid": "09-047",
+  "state": "verified",
+  "file": "papers/2025_Arora_LandscapeSpokenLanguageModels_en.pdf"
+ },
+ "arxiv:2311.17035": {
+  "cat": "12",
+  "sid": "12-050",
+  "state": "verified",
+  "file": "papers/2023_Nasr_ScalableExtractionTraining_en.pdf"
+ },
+ "arxiv:2406.11816": {
+  "cat": "10",
+  "sid": "10-018",
+  "state": "verified",
+  "file": "papers/2024_Chen_VideoLLMOnline_en.pdf"
+ },
+ "arxiv:2506.04689": {
+  "cat": "02",
+  "sid": "02-043",
+  "state": "verified",
+  "file": "papers/2025_Nguyen_RecyclingTheWeb_en.pdf"
+ },
+ "arxiv:2505.13032": {
+  "cat": "09",
+  "sid": "09-048",
+  "state": "verified",
+  "file": "papers/2025_Ma_MMAR_en.pdf"
+ },
+ "arxiv:2403.06634": {
+  "cat": "12",
+  "sid": "12-052",
+  "state": "verified",
+  "file": "papers/2024_Carlini_StealingPartProductionLanguage_en.pdf"
+ },
+ "arxiv:2503.21776": {
+  "cat": "10",
+  "sid": "10-020",
+  "state": "verified",
+  "file": "papers/2025_Feng_VideoR1_en.pdf"
+ },
+ "arxiv:2410.04840": {
+  "cat": "02",
+  "sid": "02-045",
+  "state": "verified",
+  "file": "papers/2024_Dohmatob_StrongModelCollapse_en.pdf"
+ },
+ "arxiv:2401.06121": {
+  "cat": "12",
+  "sid": "12-053",
+  "state": "verified",
+  "file": "papers/2024_Maini_TOFU_en.pdf"
+ },
+ "arxiv:2411.13577": {
+  "cat": "09",
+  "sid": "09-049",
+  "state": "verified",
+  "file": "papers/2024_Ji_WavChat_en.pdf"
+ },
+ "arxiv:2402.13217": {
+  "cat": "10",
+  "sid": "10-023",
+  "state": "verified",
+  "file": "papers/2024_Zhao_VideoPrism_en.pdf"
+ },
+ "arxiv:2404.02936": {
+  "cat": "02",
+  "sid": "02-047",
+  "state": "verified",
+  "file": "papers/2024_Zhang_MinK_en.pdf"
+ },
+ "arxiv:2407.06460": {
+  "cat": "12",
+  "sid": "12-054",
+  "state": "verified",
+  "file": "papers/2024_Shi_MUSE_en.pdf"
+ },
+ "arxiv:2503.08638": {
+  "cat": "09",
+  "sid": "09-050",
+  "state": "verified",
+  "file": "papers/2025_Yuan_YuE_en.pdf"
+ },
+ "arxiv:2411.04998": {
+  "cat": "10",
+  "sid": "10-026",
+  "state": "verified",
+  "file": "papers/2024_Chandrasegaran_HourVideo_en.pdf"
+ },
+ "arxiv:2404.18824": {
+  "cat": "02",
+  "sid": "02-048",
+  "state": "verified",
+  "file": "papers/2024_Xu_BenchmarkingBenchmarkLeakage_en.pdf"
+ },
+ "arxiv:2604.18187": {
+  "cat": "09",
+  "sid": "09-051",
+  "state": "verified",
+  "file": "papers/2026_He_AudioDeepThinker_en.pdf"
+ },
+ "arxiv:2405.12213": {
+  "cat": "10",
+  "sid": "10-030",
+  "state": "verified",
+  "file": "papers/2024_OctoTeam_Octo_en.pdf"
+ },
+ "arxiv:2405.00332": {
+  "cat": "02",
+  "sid": "02-049",
+  "state": "verified",
+  "file": "papers/2024_Zhang_CarefulExaminationLargeLanguage_en.pdf"
+ },
+ "arxiv:2410.07864": {
+  "cat": "10",
+  "sid": "10-031",
+  "state": "verified",
+  "file": "papers/2024_Liu_RDT1B_en.pdf"
+ },
+ "arxiv:2311.04850": {
+  "cat": "02",
+  "sid": "02-050",
+  "state": "verified",
+  "file": "papers/2023_Yang_RethinkingBenchmarkContamination_en.pdf"
+ },
+ "arxiv:2501.09747": {
+  "cat": "10",
+  "sid": "10-034",
+  "state": "verified",
+  "file": "papers/2025_Pertsch_FAST_en.pdf"
+ },
+ "arxiv:2402.07841": {
+  "cat": "02",
+  "sid": "02-052",
+  "state": "verified",
+  "file": "papers/2024_Duan_DoMembershipInferenceAttacks_en.pdf"
+ },
+ "arxiv:2502.19645": {
+  "cat": "10",
+  "sid": "10-035",
+  "state": "verified",
+  "file": "papers/2025_Kim_FineTuningVisionLanguage_en.pdf"
+ },
+ "arxiv:2402.15938": {
+  "cat": "02",
+  "sid": "02-053",
+  "state": "verified",
+  "file": "papers/2024_Dong_GeneralizationOrMemorization_en.pdf"
+ },
+ "arxiv:2501.18914": {
+  "cat": "12",
+  "sid": "12-055",
+  "state": "verified",
+  "file": "papers/2025_McKenna_ScalingLawsDifferentially_en.pdf"
+ },
+ "arxiv:2502.14425": {
+  "cat": "02",
+  "sid": "02-055",
+  "state": "verified",
+  "file": "papers/2025_Cheng_SurveyDataContaminationLarge_en.pdf"
+ },
+ "arxiv:2403.09631": {
+  "cat": "10",
+  "sid": "10-038",
+  "state": "verified",
+  "file": "papers/2024_Zhen_3DVLA_en.pdf"
+ },
+ "arxiv:2402.16827": {
+  "cat": "02",
+  "sid": "02-056",
+  "state": "verified",
+  "file": "papers/2024_Albalak_SurveyDataSelectionLanguage_en.pdf"
+ },
+ "arxiv:2403.00742": {
+  "cat": "12",
+  "sid": "12-056",
+  "state": "verified",
+  "file": "papers/2024_Hofmann_DialectPrejudicePredicts_en.pdf"
+ },
+ "arxiv:2401.02117": {
+  "cat": "10",
+  "sid": "10-039",
+  "state": "verified",
+  "file": "papers/2024_Fu_MobileALOHA_en.pdf"
+ },
+ "arxiv:2107.06499": {
+  "cat": "02",
+  "sid": "02-058",
+  "state": "verified",
+  "file": "papers/2021_Lee_DeduplicatingTrainingData_en.pdf"
+ },
+ "arxiv:2402.04105": {
+  "cat": "12",
+  "sid": "12-057",
+  "state": "verified",
+  "file": "papers/2024_Bai_MeasuringImplicitBiasExplicitly_en.pdf"
+ },
+ "arxiv:2403.12945": {
+  "cat": "10",
+  "sid": "10-040",
+  "state": "verified",
+  "file": "papers/2024_Khazatsky_DROID_en.pdf"
+ },
+ "arxiv:2306.01116": {
+  "cat": "02",
+  "sid": "02-059",
+  "state": "verified",
+  "file": "papers/2023_Penedo_RefinedWebDatasetFalconLLM_en.pdf"
+ },
+ "arxiv:2311.04892": {
+  "cat": "12",
+  "sid": "12-058",
+  "state": "verified",
+  "file": "papers/2023_Gupta_BiasRunsDeep_en.pdf"
+ },
+ "arxiv:2409.20537": {
+  "cat": "10",
+  "sid": "10-041",
+  "state": "verified",
+  "file": "papers/2024_Wang_ScalingProprioceptiveVisual_en.pdf"
+ },
+ "arxiv:2305.10429": {
+  "cat": "02",
+  "sid": "02-060",
+  "state": "verified",
+  "file": "papers/2023_Xie_DoReMi_en.pdf"
+ },
+ "arxiv:2312.03689": {
+  "cat": "12",
+  "sid": "12-059",
+  "state": "verified",
+  "file": "papers/2023_Tamkin_EvaluatingMitigatingDiscrimination_en.pdf"
+ },
+ "arxiv:2412.14058": {
+  "cat": "10",
+  "sid": "10-042",
+  "state": "verified",
+  "file": "papers/2024_Li_WhatMattersBuildingVision_en.pdf"
+ },
+ "arxiv:2310.16789": {
+  "cat": "02",
+  "sid": "02-061",
+  "state": "verified",
+  "file": "papers/2023_Shi_DetectingPretrainingData_en.pdf"
+ },
+ "arxiv:2404.13076": {
+  "cat": "12",
+  "sid": "12-060",
+  "state": "verified",
+  "file": "papers/2024_Panickssery_LLMEvaluatorsRecognizeFavor_en.pdf"
+ },
+ "arxiv:2604.13977": {
+  "cat": "02",
+  "sid": "02-070",
+  "state": "verified",
+  "file": "papers/2026_Niklaus_HowCanSynthesizeHighQuality_en.pdf"
+ },
+ "arxiv:2602.12413": {
+  "cat": "02",
+  "sid": "02-071",
+  "state": "verified",
+  "file": "papers/2026_Spiesberger_SoftContaminationMeansBenchmarks_en.pdf"
+ },
+ "arxiv:2405.05941": {
+  "cat": "10",
+  "sid": "10-043",
+  "state": "verified",
+  "file": "papers/2024_Li_EvaluatingRealWorldRobot_en.pdf"
+ },
+ "arxiv:2606.03305": {
+  "cat": "02",
+  "sid": "02-072",
+  "state": "verified",
+  "file": "papers/2026_Zarzecki_ReliabilityGapBenchmarkAuditing_en.pdf"
+ },
+ "arxiv:2606.11499": {
+  "cat": "02",
+  "sid": "02-073",
+  "state": "verified",
+  "file": "papers/2026_Badoni_HubsOrFringes_en.pdf"
+ },
+ "arxiv:2602.12237": {
+  "cat": "02",
+  "sid": "02-074",
+  "state": "verified",
+  "file": "papers/2026_Chen_Olmix_en.pdf"
+ },
+ "arxiv:2603.24326": {
+  "cat": "07",
+  "sid": "07-057",
+  "state": "verified",
+  "file": "papers/2026_Cui_BoostingDocumentParsingEfficiency_en.pdf"
+ },
+ "arxiv:2511.21150": {
+  "cat": "07",
+  "sid": "07-056",
+  "state": "verified",
+  "file": "papers/2025_Sun_LLaVAUHDV3_en.pdf"
+ },
+ "arxiv:2412.03572": {
+  "cat": "10",
+  "sid": "10-051",
+  "state": "verified",
+  "file": "papers/2024_Bar_NavigationWorldModels_en.pdf"
+ },
+ "arxiv:2405.12399": {
+  "cat": "10",
+  "sid": "10-049",
+  "state": "verified",
+  "file": "papers/2024_Alonso_DiffusionForWorldModeling_en.pdf"
+ },
+ "arxiv:2410.11758": {
+  "cat": "10",
+  "sid": "10-053",
+  "state": "verified",
+  "file": "papers/2024_Ye_LatentActionPretrainingVideos_en.pdf"
+ },
+ "arxiv:2509.09674": {
+  "cat": "10",
+  "sid": "10-061",
+  "state": "verified",
+  "file": "papers/2025_Li_SimpleVLARL_en.pdf"
+ },
+ "arxiv:2407.06380": {
+  "cat": "02",
+  "sid": "02-016",
+  "state": "verified",
+  "file": "papers/2024_Parmar_DataDataEverywhere_en.pdf"
+ },
+ "arxiv:2604.16380": {
+  "cat": "02",
+  "sid": "02-075",
+  "state": "verified",
+  "file": "papers/2026_Chen_DataMixingLargeLanguageModels_en.pdf"
+ },
+ "arxiv:2512.18834": {
+  "cat": "02",
+  "sid": "02-076",
+  "state": "verified",
+  "file": "papers/2025_Alrashed_MixMinHashAndMatch_en.pdf"
+ },
+ "arxiv:2407.06654": {
+  "cat": "02",
+  "sid": "02-079",
+  "state": "verified",
+  "file": "papers/2024_He_SoftDedup_en.pdf"
+ },
+ "arxiv:2401.17377": {
+  "cat": "02",
+  "sid": "02-014",
+  "state": "verified",
+  "file": "papers/2024_Liu_InfiniGram_en.pdf"
+ },
+ "arxiv:2502.11089": {
+  "cat": "01",
+  "sid": "01-011",
+  "state": "verified",
+  "file": "papers/2025_Yuan_NativeSparseAttention_en.pdf"
+ },
+ "arxiv:2506.18871": {
+  "cat": "08",
+  "sid": "08-051",
+  "state": "verified",
+  "file": "papers/2025_Wu_OmniGen2_en.pdf"
+ },
+ "arxiv:2411.05902": {
+  "cat": "08",
+  "sid": "08-052",
+  "state": "verified",
+  "file": "papers/2024_Xiong_AutoregressiveModelsVision_en.pdf"
+ },
+ "arxiv:2602.13344": {
+  "cat": "08",
+  "sid": "08-053",
+  "state": "verified",
+  "file": "papers/2026_SuperTeam_FireRedImageEdit10Technical_en.pdf"
+ },
+ "arxiv:2311.17982": {
+  "cat": "08",
+  "sid": "08-054",
+  "state": "verified",
+  "file": "papers/2023_Huang_VBench_en.pdf"
+ },
+ "arxiv:2511.20645": {
+  "cat": "08",
+  "sid": "08-055",
+  "state": "verified",
+  "file": "papers/2025_Yu_PixelDiT_en.pdf"
+ },
+ "arxiv:2503.07598": {
+  "cat": "08",
+  "sid": "08-056",
+  "state": "verified",
+  "file": "papers/2025_Jiang_VACE_en.pdf"
+ },
+ "arxiv:2405.03150": {
+  "cat": "08",
+  "sid": "08-057",
+  "state": "verified",
+  "file": "papers/2024_Melnik_VideoDiffusionModels_en.pdf"
+ },
+ "arxiv:2509.25161": {
+  "cat": "08",
+  "sid": "08-058",
+  "state": "verified",
+  "file": "papers/2025_Liu_RollingForcing_en.pdf"
+ },
+ "arxiv:2603.09488": {
+  "cat": "08",
+  "sid": "08-059",
+  "state": "verified",
+  "file": "papers/2026_Liu_StreamingAutoregressiveVideo_en.pdf"
+ },
+ "arxiv:2509.17765": {
+  "cat": "09",
+  "sid": "09-052",
+  "state": "verified",
+  "file": "papers/2025_Xu_Qwen3OmniTechnicalReport_en.pdf"
+ },
+ "arxiv:2412.15322": {
+  "cat": "09",
+  "sid": "09-053",
+  "state": "verified",
+  "file": "papers/2024_Cheng_MMAudio_en.pdf"
+ },
+ "arxiv:2602.11909": {
+  "cat": "09",
+  "sid": "09-054",
+  "state": "verified",
+  "file": "papers/2026_Wu_Echo_en.pdf"
+ },
+ "arxiv:2601.11329": {
+  "cat": "09",
+  "sid": "09-055",
+  "state": "verified",
+  "file": "papers/2026_Zufle_FActor_en.pdf"
+ },
+ "arxiv:2603.08823": {
+  "cat": "09",
+  "sid": "09-056",
+  "state": "verified",
+  "file": "papers/2026_Liao_FishAudioS2TechnicalReport_en.pdf"
+ },
+ "arxiv:2604.13016": {
+  "cat": "11",
+  "sid": "11-075",
+  "state": "verified",
+  "file": "papers/2026_Li_RethinkingPolicyDistillation_en.pdf"
+ },
+ "arxiv:2601.22813": {
+  "cat": "11",
+  "sid": "11-076",
+  "state": "verified",
+  "file": "papers/2026_Panferov_QuartetII_en.pdf"
+ },
+ "arxiv:2601.07372": {
+  "cat": "11",
+  "sid": "11-077",
+  "state": "verified",
+  "file": "papers/2026_Cheng_ConditionalMemoryScalable_en.pdf"
+ },
+ "arxiv:2602.11686": {
+  "cat": "11",
+  "sid": "11-078",
+  "state": "verified",
+  "file": "papers/2026_Liu_LAERMoE_en.pdf"
+ },
+ "arxiv:2603.03251": {
+  "cat": "11",
+  "sid": "11-079",
+  "state": "verified",
+  "file": "papers/2026_Kumar_SpeculativeSpeculativeDecoding_en.pdf"
+ },
+ "arxiv:2602.06036": {
+  "cat": "11",
+  "sid": "11-080",
+  "state": "verified",
+  "file": "papers/2026_Chen_DFlash_en.pdf"
+ },
+ "arxiv:2604.15039": {
+  "cat": "11",
+  "sid": "11-081",
+  "state": "verified",
+  "file": "papers/2026_Qin_PrefillAsAService_en.pdf"
+ },
+ "arxiv:2606.15057": {
+  "cat": "12",
+  "sid": "12-076",
+  "state": "verified",
+  "file": "papers/2026_Ma_AutoDojo_en.pdf"
+ },
+ "arxiv:2602.07150": {
+  "cat": "12",
+  "sid": "12-077",
+  "state": "verified",
+  "file": "papers/2026_Bjarnason_RandomnessAgenticEvals_en.pdf"
+ },
+ "arxiv:2602.00279": {
+  "cat": "12",
+  "sid": "12-078",
+  "state": "verified",
+  "file": "papers/2026_Muller_SemanticCalibrationPrevails_en.pdf"
+ },
+ "arxiv:2602.01031": {
+  "cat": "12",
+  "sid": "12-079",
+  "state": "verified",
+  "file": "papers/2026_Fan_HalluHard_en.pdf"
+ },
+ "arxiv:2601.04603": {
+  "cat": "12",
+  "sid": "12-080",
+  "state": "verified",
+  "file": "papers/2026_Cunningham_ConstitutionalClassifiers_en.pdf"
+ },
+ "arxiv:2601.23045": {
+  "cat": "12",
+  "sid": "12-081",
+  "state": "verified",
+  "file": "papers/2026_Hagele_HotMessAIHowDoesMisalignment_en.pdf"
+ },
+ "arxiv:2311.17633": {
+  "cat": "14",
+  "sid": "14-036",
+  "state": "verified",
+  "file": "books/Xiao_IntroductionToTransformers_v2_en.pdf"
+ },
+ "arxiv:2510.12403": {
+  "cat": "14",
+  "sid": "14-039",
+  "state": "verified",
+  "file": "books/Capuano_RobotLearningATutorial_en.pdf"
  }
 }

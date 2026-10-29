@@ -570,11 +570,12 @@
  {
   "sid": "06-056",
   "arxiv": "2502.18864",
-  "title": "Towards an AI co-scientist",
+  "title": "Accelerating scientific discovery with Co-Scientist",
   "subtopic": "多智能体",
   "type": "原始研究",
   "priority": "中",
-  "reason": "基于多智能体生成-辩论-演化机制辅助科学假设生成"
+  "reason": "基于多智能体生成-辩论-演化机制辅助科学假设生成（arXiv 初版题为 Towards an AI co-scientist，最新版改题）",
+  "reserve": true
  },
  {
   "sid": "06-057",
@@ -587,7 +588,8 @@
   "cross": [
    "04"
   ],
-  "cross_reason": "强化学习"
+  "cross_reason": "强化学习",
+  "reserve": true
  },
  {
   "sid": "06-058",
@@ -605,7 +607,8 @@
   "subtopic": "工具调用",
   "type": "原始研究",
   "priority": "低",
-  "reason": "以标准化工具卡、规划器与执行器构成免训练的可扩展工具智能体框架"
+  "reason": "以标准化工具卡、规划器与执行器构成免训练的可扩展工具智能体框架",
+  "reserve": true
  },
  {
   "sid": "06-060",
@@ -644,7 +647,8 @@
   "cross": [
    "05"
   ],
-  "cross_reason": "深度检索与信息综合"
+  "cross_reason": "深度检索与信息综合",
+  "reserve": true
  },
  {
   "sid": "06-063",
@@ -657,7 +661,8 @@
   "cross": [
    "12"
   ],
-  "cross_reason": "评测方法学"
+  "cross_reason": "评测方法学",
+  "reserve": true
  },
  {
   "sid": "06-064",

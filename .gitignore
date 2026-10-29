@@ -1,0 +1,27 @@
+# 全文与二进制只放 Release 附件，不进普通 Git
+*.pdf
+*.PDF
+*.pptx
+*.ppt
+*.docx
+*.epub
+*.djvu
+*.zip
+*.tar
+*.tar.*
+*.7z
+*.rar
+*.gz
+books/
+university_materials/
+papers/
+# 缓存、锁、日志、临时下载
+__pycache__/
+*.pyc
+.*.lock
+*.log
+*.part
+*.tmp
+*.crdownload
+*.partial
+scripts/state/venue_index_en.json

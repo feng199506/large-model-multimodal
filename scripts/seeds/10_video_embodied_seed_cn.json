@@ -1,5 +1,50 @@
 [
  {
+  "sid": "10-051",
+  "arxiv": "2412.03572",
+  "title": "Navigation World Models",
+  "subtopic": "世界模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "条件扩散 Transformer 预测导航轨迹视频并用于规划"
+ },
+ {
+  "sid": "10-049",
+  "arxiv": "2405.12399",
+  "title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+  "subtopic": "世界模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "DIAMOND：扩散世界模型中训练强化学习智能体"
+ },
+ {
+  "sid": "10-053",
+  "arxiv": "2410.11758",
+  "title": "Latent Action Pretraining from Videos",
+  "subtopic": "视觉语言动作模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "LAPA：从无动作标注视频学习潜在动作以预训练 VLA"
+ },
+ {
+  "sid": "10-061",
+  "arxiv": "2509.09674",
+  "title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+  "subtopic": "视觉语言动作模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在线强化学习扩展 VLA 训练"
+ },
+ {
+  "sid": "10-079",
+  "arxiv": "2503.18712",
+  "title": "LLaVAction: evaluating and training multi-modal large language models for action understanding",
+  "subtopic": "动作理解",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "将 EPIC-KITCHENS-100 改造为 MLLM 动作理解评测并训练动作理解模型"
+ },
+ {
   "sid": "10-001",
   "arxiv": "2307.15818",
   "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
@@ -17,7 +62,8 @@
   "type": "原始研究",
   "priority": "高",
   "reason": "汇集多机构多形态机器人数据集并训练跨形态策略",
-  "old_reason": "OXE 是当前几乎所有开源 VLA 的预训练数据来源，不可替代"
+  "old_reason": "OXE 是当前几乎所有开源 VLA 的预训练数据来源，不可替代",
+  "team": "Open X-Embodiment"
  },
  {
   "sid": "10-003",
@@ -28,6 +74,228 @@
   "priority": "高",
   "reason": "将连续传感器观测注入 LLM 的具身多模态语言模型",
   "old_reason": "具身多模态语言模型的奠基工作，定义了观测注入 LLM 做具身规划的路线"
+ },
+ {
+  "sid": "10-007",
+  "arxiv": "2311.17005",
+  "title": "MVBench: A Comprehensive Multi-modal Video Understanding Benchmark",
+  "subtopic": "时间建模",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "从静态图像任务转化出需要时间推理的视频理解基准"
+ },
+ {
+  "sid": "10-008",
+  "arxiv": "2405.21075",
+  "title": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis",
+  "subtopic": "视频理解",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "覆盖短中长视频、多领域的视频 MLLM 综合评测"
+ },
+ {
+  "sid": "10-015",
+  "arxiv": "2412.10360",
+  "title": "Apollo: An Exploration of Video Understanding in Large Multimodal Models",
+  "subtopic": "视频理解",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "系统研究视频 LMM 的采样、编码器、token 重采样等设计"
+ },
+ {
+  "sid": "10-021",
+  "arxiv": "2404.08471",
+  "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
+  "subtopic": "时间建模",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "V-JEPA：仅以特征预测目标从视频学习表示"
+ },
+ {
+  "sid": "10-022",
+  "arxiv": "2506.09985",
+  "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+  "subtopic": "世界模型",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "大规模视频自监督预训练后接动作条件世界模型用于机器人规划"
+ },
+ {
+  "sid": "10-024",
+  "arxiv": "2412.14171",
+  "title": "Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces",
+  "subtopic": "视频理解",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "VSI-Bench：基于视频的视觉空间智能评测"
+ },
+ {
+  "sid": "10-025",
+  "arxiv": "2311.18259",
+  "title": "Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person Perspectives",
+  "subtopic": "动作理解",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "第一/第三人称同步视角的熟练人类活动数据集与基准"
+ },
+ {
+  "sid": "10-027",
+  "arxiv": "2406.09246",
+  "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+  "subtopic": "视觉语言动作模型",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "开源 7B VLA，基于 OXE 数据训练并研究参数高效微调"
+ },
+ {
+  "sid": "10-028",
+  "arxiv": "2410.24164",
+  "title": "$π_0$: A Vision-Language-Action Flow Model for General Robot Control",
+  "subtopic": "视觉语言动作模型",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "VLM 主干加流匹配动作专家，生成连续动作块"
+ },
+ {
+  "sid": "10-029",
+  "arxiv": "2504.16054",
+  "title": "$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization",
+  "subtopic": "视觉语言动作模型",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "多源异构数据协同训练以实现开放世界家庭环境泛化"
+ },
+ {
+  "sid": "10-032",
+  "arxiv": "2503.14734",
+  "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+  "subtopic": "视觉语言动作模型",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "双系统（VLM 推理+扩散动作）的人形机器人基础模型",
+  "team": "NVIDIA"
+ },
+ {
+  "sid": "10-033",
+  "arxiv": "2503.20020",
+  "title": "Gemini Robotics: Bringing AI into the Physical World",
+  "subtopic": "视觉语言动作模型",
+  "type": "技术报告",
+  "priority": "高",
+  "reason": "基于 Gemini 的 VLA 与具身推理模型技术报告",
+  "team": "Gemini Robotics Team"
+ },
+ {
+  "sid": "10-047",
+  "arxiv": "2402.15391",
+  "title": "Genie: Generative Interactive Environments",
+  "subtopic": "世界模型",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "从无标注视频无监督学习潜在动作的可交互世界模型",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "以视频生成为实现方式"
+ },
+ {
+  "sid": "10-048",
+  "arxiv": "2501.03575",
+  "title": "Cosmos World Foundation Model Platform for Physical AI",
+  "subtopic": "世界模型",
+  "type": "技术报告",
+  "priority": "高",
+  "reason": "面向物理 AI 的视频世界基础模型平台",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "以视频生成为实现方式",
+  "team": "NVIDIA"
+ },
+ {
+  "sid": "10-072",
+  "arxiv": "2602.00919",
+  "title": "Green-VLA: Staged Vision-Language-Action Model for Generalist Robots",
+  "subtopic": "视觉语言动作模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分阶段课程（多形态预训练→形态适配→RL 对齐）训练跨形态通用 VLA"
+ },
+ {
+  "sid": "10-073",
+  "arxiv": "2601.02456",
+  "title": "InternVLA-A1: Unifying Understanding, Generation and Action for Robotic Manipulation",
+  "subtopic": "视觉语言动作模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以混合 Transformer 统一场景理解、视觉预见生成与动作执行"
+ },
+ {
+  "sid": "10-074",
+  "arxiv": "2603.29252",
+  "title": "Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism",
+  "subtopic": "时间建模",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以视觉记忆机制扩展 MLLM 的长视频与流式理解"
+ },
+ {
+  "sid": "10-075",
+  "arxiv": "2610.10515",
+  "title": "RoboJEPA: Scaling Robotic Latent World Models",
+  "subtopic": "世界模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在潜在空间扩展机器人世界模型的 JEPA 式方法"
+ },
+ {
+  "sid": "10-076",
+  "arxiv": "2610.09170",
+  "title": "Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?",
+  "subtopic": "视觉语言动作模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "系统分析机器人策略中动作 token 化的关键因素"
+ },
+ {
+  "sid": "10-077",
+  "arxiv": "2605.27817",
+  "title": "Turning Video Models into Generalist Robot Policies",
+  "subtopic": "世界模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "将预训练视频模型改造为通用机器人策略",
+  "cross": [
+   "08"
+  ],
+  "cross_reason": "依托视频生成模型"
+ },
+ {
+  "sid": "10-078",
+  "arxiv": "2605.00080",
+  "title": "World Model for Robot Learning: A Comprehensive Survey",
+  "subtopic": "世界模型",
+  "type": "综述",
+  "priority": "中",
+  "reason": "面向机器人学习的世界模型综述"
+ },
+ {
+  "sid": "10-080",
+  "arxiv": "2502.04144",
+  "title": "HD-EPIC: A Highly-Detailed Egocentric Video Dataset",
+  "subtopic": "动作理解",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "细粒度标注的第一人称厨房视频数据集与 VQA 基准"
+ },
+ {
+  "sid": "10-081",
+  "arxiv": "2603.12147",
+  "title": "EgoIntent: An Egocentric Step-level Benchmark for Understanding What, Why, and Next",
+  "subtopic": "动作理解",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "第一人称步骤级意图（做什么、为何、下一步）理解评测"
  },
  {
   "sid": "10-004",
@@ -58,24 +326,6 @@
   "reason": "每帧压缩为上下文 token 与内容 token，支持长视频输入"
  },
  {
-  "sid": "10-007",
-  "arxiv": "2311.17005",
-  "title": "MVBench: A Comprehensive Multi-modal Video Understanding Benchmark",
-  "subtopic": "时间建模",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "从静态图像任务转化出需要时间推理的视频理解基准"
- },
- {
-  "sid": "10-008",
-  "arxiv": "2405.21075",
-  "title": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis",
-  "subtopic": "视频理解",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "覆盖短中长视频、多领域的视频 MLLM 综合评测"
- },
- {
   "sid": "10-009",
   "arxiv": "2407.15754",
   "title": "LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding",
@@ -83,15 +333,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "长时长视频-字幕交错理解评测"
- },
- {
-  "sid": "10-010",
-  "arxiv": "2406.04264",
-  "title": "MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding",
-  "subtopic": "视频理解",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "多任务长视频理解评测"
  },
  {
   "sid": "10-011",
@@ -130,15 +371,6 @@
   "reason": "掩码重建、跨模态对比与下一 token 预测渐进式训练的视频基础编码器"
  },
  {
-  "sid": "10-015",
-  "arxiv": "2412.10360",
-  "title": "Apollo: An Exploration of Video Understanding in Large Multimodal Models",
-  "subtopic": "视频理解",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "系统研究视频 LMM 的采样、编码器、token 重采样等设计"
- },
- {
   "sid": "10-016",
   "arxiv": "2312.02051",
   "title": "TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding",
@@ -148,31 +380,14 @@
   "reason": "时间戳感知帧编码与滑动视频 Q-Former，用于时间定位类任务"
  },
  {
-  "sid": "10-017",
-  "arxiv": "2311.18445",
-  "title": "VTimeLLM: Empower LLM to Grasp Video Moments",
-  "subtopic": "时间建模",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "边界感知三阶段训练提升视频片段时间定位"
- },
- {
   "sid": "10-018",
-  "arxiv": "2406.11303",
+  "arxiv": "2406.11816",
   "title": "VideoLLM-online: Online Video Large Language Model for Streaming Video",
   "subtopic": "时间建模",
   "type": "原始研究",
   "priority": "中",
-  "reason": "流式视频中实时对话与时间对齐训练"
- },
- {
-  "sid": "10-019",
-  "arxiv": "2410.17434",
-  "title": "LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding",
-  "subtopic": "时间建模",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "时空自适应 token 压缩以处理长视频"
+  "reason": "流式视频中实时对话与时间对齐训练",
+  "arxiv_seed_given": "2406.11303"
  },
  {
   "sid": "10-020",
@@ -188,24 +403,6 @@
   "cross_reason": "为推理而做的强化学习"
  },
  {
-  "sid": "10-021",
-  "arxiv": "2404.08471",
-  "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
-  "subtopic": "时间建模",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "V-JEPA：仅以特征预测目标从视频学习表示"
- },
- {
-  "sid": "10-022",
-  "arxiv": "2506.09985",
-  "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
-  "subtopic": "世界模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "大规模视频自监督预训练后接动作条件世界模型用于机器人规划"
- },
- {
   "sid": "10-023",
   "arxiv": "2402.13217",
   "title": "VideoPrism: A Foundational Visual Encoder for Video Understanding",
@@ -213,24 +410,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "通用视频编码器，结合视频-文本对比与掩码蒸馏"
- },
- {
-  "sid": "10-024",
-  "arxiv": "2412.14171",
-  "title": "Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces",
-  "subtopic": "视频理解",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "VSI-Bench：基于视频的视觉空间智能评测"
- },
- {
-  "sid": "10-025",
-  "arxiv": "2311.18259",
-  "title": "Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person Perspectives",
-  "subtopic": "动作理解",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "第一/第三人称同步视角的熟练人类活动数据集与基准"
  },
  {
   "sid": "10-026",
@@ -242,40 +421,14 @@
   "reason": "小时级第一人称视频理解基准"
  },
  {
-  "sid": "10-027",
-  "arxiv": "2406.09246",
-  "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
-  "subtopic": "视觉语言动作模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "开源 7B VLA，基于 OXE 数据训练并研究参数高效微调"
- },
- {
-  "sid": "10-028",
-  "arxiv": "2410.24164",
-  "title": "$π_0$: A Vision-Language-Action Flow Model for General Robot Control",
-  "subtopic": "视觉语言动作模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "VLM 主干加流匹配动作专家，生成连续动作块"
- },
- {
-  "sid": "10-029",
-  "arxiv": "2504.16054",
-  "title": "$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization",
-  "subtopic": "视觉语言动作模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "多源异构数据协同训练以实现开放世界家庭环境泛化"
- },
- {
   "sid": "10-030",
   "arxiv": "2405.12213",
   "title": "Octo: An Open-Source Generalist Robot Policy",
   "subtopic": "机器人",
   "type": "原始研究",
   "priority": "中",
-  "reason": "基于 Transformer 与扩散头的开源通用机器人策略"
+  "reason": "基于 Transformer 与扩散头的开源通用机器人策略",
+  "team": "Octo Model Team"
  },
  {
   "sid": "10-031",
@@ -285,24 +438,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "面向双臂操作的扩散式机器人基础模型"
- },
- {
-  "sid": "10-032",
-  "arxiv": "2503.14734",
-  "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
-  "subtopic": "视觉语言动作模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "双系统（VLM 推理+扩散动作）的人形机器人基础模型"
- },
- {
-  "sid": "10-033",
-  "arxiv": "2503.20020",
-  "title": "Gemini Robotics: Bringing AI into the Physical World",
-  "subtopic": "视觉语言动作模型",
-  "type": "技术报告",
-  "priority": "高",
-  "reason": "基于 Gemini 的 VLA 与具身推理模型技术报告"
  },
  {
   "sid": "10-034",
@@ -321,24 +456,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "OpenVLA-OFT：并行解码、动作块与连续动作的 VLA 微调配方"
- },
- {
-  "sid": "10-036",
-  "arxiv": "2411.19650",
-  "title": "CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation",
-  "subtopic": "视觉语言动作模型",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "以扩散动作模块从 VLM 认知特征生成动作"
- },
- {
-  "sid": "10-037",
-  "arxiv": "2501.15830",
-  "title": "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model",
-  "subtopic": "视觉语言动作模型",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "三维空间位置编码与自适应动作网格"
  },
  {
   "sid": "10-038",
@@ -379,7 +496,7 @@
  {
   "sid": "10-042",
   "arxiv": "2412.14058",
-  "title": "Towards Generalist Robot Policies: What Matters in Building Vision-Language-Action Models",
+  "title": "What Matters in Building Vision-Language-Action Models for Generalist Robots",
   "subtopic": "视觉语言动作模型",
   "type": "原始研究",
   "priority": "中",
@@ -410,7 +527,8 @@
   "subtopic": "机器人",
   "type": "原始研究",
   "priority": "中",
-  "reason": "面向物理常识与具身推理的多模态推理模型"
+  "reason": "面向物理常识与具身推理的多模态推理模型",
+  "team": "NVIDIA"
  },
  {
   "sid": "10-046",
@@ -420,41 +538,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "在 VLA 中加入具身思维链（规划、子任务、目标框）"
- },
- {
-  "sid": "10-047",
-  "arxiv": "2402.15391",
-  "title": "Genie: Generative Interactive Environments",
-  "subtopic": "世界模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "从无标注视频无监督学习潜在动作的可交互世界模型",
-  "cross": [
-   "08"
-  ],
-  "cross_reason": "以视频生成为实现方式"
- },
- {
-  "sid": "10-048",
-  "arxiv": "2501.03575",
-  "title": "Cosmos World Foundation Model Platform for Physical AI",
-  "subtopic": "世界模型",
-  "type": "技术报告",
-  "priority": "高",
-  "reason": "面向物理 AI 的视频世界基础模型平台",
-  "cross": [
-   "08"
-  ],
-  "cross_reason": "以视频生成为实现方式"
- },
- {
-  "sid": "10-049",
-  "arxiv": "2405.12399",
-  "title": "Diffusion for World Modeling: Visual Details Matter in Atari",
-  "subtopic": "世界模型",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "DIAMOND：扩散世界模型中训练强化学习智能体"
  },
  {
   "sid": "10-050",
@@ -470,15 +553,6 @@
   "cross_reason": "以视频生成为实现方式"
  },
  {
-  "sid": "10-051",
-  "arxiv": "2412.03572",
-  "title": "Navigation World Models",
-  "subtopic": "世界模型",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "条件扩散 Transformer 预测导航轨迹视频并用于规划"
- },
- {
   "sid": "10-052",
   "arxiv": "2410.06158",
   "title": "GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation",
@@ -486,46 +560,6 @@
   "type": "原始研究",
   "priority": "中",
   "reason": "网络视频生成预训练后微调动作预测"
- },
- {
-  "sid": "10-053",
-  "arxiv": "2410.11758",
-  "title": "Latent Action Pretraining from Videos",
-  "subtopic": "视觉语言动作模型",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "LAPA：从无动作标注视频学习潜在动作以预训练 VLA"
- },
- {
-  "sid": "10-054",
-  "arxiv": "2502.09560",
-  "title": "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents",
-  "subtopic": "机器人",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "视觉驱动具身智能体的 MLLM 评测"
- },
- {
-  "sid": "10-055",
-  "arxiv": "2409.01652",
-  "title": "ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation",
-  "subtopic": "机器人",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "以 VLM 生成关系关键点约束进行操作规划"
- },
- {
-  "sid": "10-056",
-  "arxiv": "2502.13130",
-  "title": "Magma: A Foundation Model for Multimodal AI Agents",
-  "subtopic": "机器人",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "同时面向数字界面与机器人操作的多模态智能体基础模型",
-  "cross": [
-   "06"
-  ],
-  "cross_reason": "兼含 UI 智能体"
  },
  {
   "sid": "10-057",
@@ -561,16 +595,91 @@
   "subtopic": "视觉语言动作模型",
   "type": "技术报告",
   "priority": "中",
-  "reason": "具身推理与动作迁移的新一代 VLA 技术报告"
+  "reason": "具身推理与动作迁移的新一代 VLA 技术报告",
+  "team": "Gemini Robotics Team"
  },
  {
-  "sid": "10-061",
-  "arxiv": "2509.09674",
-  "title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+  "sid": "10-010",
+  "arxiv": "2406.04264",
+  "title": "MLVU: Benchmarking Multi-task Long Video Understanding",
+  "subtopic": "视频理解",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "多任务长视频理解评测"
+ },
+ {
+  "sid": "10-017",
+  "arxiv": "2311.18445",
+  "title": "VTimeLLM: Empower LLM to Grasp Video Moments",
+  "subtopic": "时间建模",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "边界感知三阶段训练提升视频片段时间定位",
+  "reserve": true
+ },
+ {
+  "sid": "10-019",
+  "arxiv": "2410.17434",
+  "title": "LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding",
+  "subtopic": "时间建模",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "时空自适应 token 压缩以处理长视频",
+  "reserve": true
+ },
+ {
+  "sid": "10-036",
+  "arxiv": "2411.19650",
+  "title": "CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation",
   "subtopic": "视觉语言动作模型",
   "type": "原始研究",
+  "priority": "低",
+  "reason": "以扩散动作模块从 VLM 认知特征生成动作",
+  "reserve": true
+ },
+ {
+  "sid": "10-037",
+  "arxiv": "2501.15830",
+  "title": "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model",
+  "subtopic": "视觉语言动作模型",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "三维空间位置编码与自适应动作网格",
+  "reserve": true
+ },
+ {
+  "sid": "10-054",
+  "arxiv": "2502.09560",
+  "title": "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents",
+  "subtopic": "机器人",
+  "type": "原始研究",
   "priority": "中",
-  "reason": "在线强化学习扩展 VLA 训练"
+  "reason": "视觉驱动具身智能体的 MLLM 评测",
+  "reserve": true
+ },
+ {
+  "sid": "10-055",
+  "arxiv": "2409.01652",
+  "title": "ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation",
+  "subtopic": "机器人",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "以 VLM 生成关系关键点约束进行操作规划",
+  "reserve": true
+ },
+ {
+  "sid": "10-056",
+  "arxiv": "2502.13130",
+  "title": "Magma: A Foundation Model for Multimodal AI Agents",
+  "subtopic": "机器人",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "同时面向数字界面与机器人操作的多模态智能体基础模型",
+  "cross": [
+   "06"
+  ],
+  "cross_reason": "兼含 UI 智能体",
+  "reserve": true
  },
  {
   "sid": "10-062",
@@ -624,7 +733,8 @@
   "type": "原始研究",
   "priority": "低",
   "reason": "大规模真实操作数据平台与策略",
-  "reserve": true
+  "reserve": true,
+  "team": "AgiBot"
  },
  {
   "sid": "10-067",
@@ -676,6 +786,36 @@
   "priority": "低",
   "reason": "DreamerV3：通用潜在世界模型强化学习",
   "old_reason": "潜在世界模型强化学习的标杆方法（备选）",
+  "reserve": true
+ },
+ {
+  "sid": "10-082",
+  "arxiv": "2503.03803",
+  "title": "EgoLife: Towards Egocentric Life Assistant",
+  "subtopic": "动作理解",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "长时第一人称生活记录数据与问答助手",
+  "reserve": true
+ },
+ {
+  "sid": "10-083",
+  "arxiv": "2512.22315",
+  "title": "VideoZoomer: Reinforcement-Learned Temporal Focusing for Long Video Reasoning",
+  "subtopic": "时间建模",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "备选：强化学习驱动的时间聚焦长视频推理",
+  "reserve": true
+ },
+ {
+  "sid": "10-084",
+  "arxiv": "2610.10846",
+  "title": "Cross-Embodiment Robot Foundation World Models with Latent Actions",
+  "subtopic": "世界模型",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "备选：基于潜在动作的跨形态机器人世界基础模型",
   "reserve": true
  }
 ]

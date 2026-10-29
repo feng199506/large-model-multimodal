@@ -145,7 +145,9 @@
   "cross": [
    "01",
    "03"
-  ]
+  ],
+  "top10_rank": 2,
+  "top10_reason": "NLP 与深度学习的标准入门课（2026 学期），从词向量讲到 Transformer、预训练与后训练。"
  },
  {
   "sid": "13-A02",
@@ -287,7 +289,9 @@
    "01",
    "02",
    "11"
-  ]
+  ],
+  "top10_rank": 1,
+  "top10_reason": "从分词、Transformer 实现、预训练、并行与推理到对齐，完整动手构建语言模型的课程，最贴合大模型全流程。"
  },
  {
   "sid": "13-A03",
@@ -373,6 +377,3128 @@
   "cross": [
    "01",
    "03"
+  ]
+ },
+ {
+  "sid": "13-A04",
+  "kind": "course",
+  "university": "University of California, Berkeley",
+  "course_code": "CS294/194-196",
+  "course_title": "Large Language Model Agents",
+  "term": "Fall 2024",
+  "term_year": 2024,
+  "instructors": [
+   "Dawn Song",
+   "Xinyun Chen"
+  ],
+  "official_url": "https://rdi.berkeley.edu/llm-agents/f24",
+  "schedule_url": "https://rdi.berkeley.edu/llm-agents/f24",
+  "verification_basis": "课程主页标题“CS294/194-196 Large Language Model Agents, Fall 2024”，Instructor Dawn Song（UC Berkeley）、(Guest) Co-instructor Xinyun Chen（Google DeepMind），日程表见 https://rdi.berkeley.edu/llm-agents/f24",
+  "dir_name": "Berkeley_CS294-196_LLMAgents_2024Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents/assets/intro.pdf",
+    "name": "00_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Course intro (Sept 9, Dawn Song)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents/assets/llm-reasoning.pdf",
+    "name": "01_llm-reasoning_en.pdf",
+    "kind": "pdf",
+    "label": "Sept 9 LLM Reasoning (Denny Zhou)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents/assets/llm_agent_history.pdf",
+    "name": "02_llm_agent_history_en.pdf",
+    "kind": "pdf",
+    "label": "Sept 16 LLM agents: brief history and overview (Shunyu Yao)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents-mooc/slides/autogen.pdf",
+    "name": "03_autogen_en.pdf",
+    "kind": "pdf",
+    "label": "Sept 23 Agentic AI Frameworks & AutoGen (Chi Wang)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents-mooc/slides/MKA.pdf",
+    "name": "04_MKA_en.pdf",
+    "kind": "pdf",
+    "label": "Sept 23 Building a Multimodal Knowledge Assistant (Jerry Liu)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents-mooc/slides/Burak_slides.pdf",
+    "name": "05_Burak_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Sept 30 Enterprise trends for generative AI (Burak Gokturk)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents-mooc/slides/dspy_lec.pdf",
+    "name": "06_dspy_lec_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 7 Compound AI Systems & the DSPy Framework (Omar Khattab)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents-mooc/slides/neubig24softwareagents.pdf",
+    "name": "07_neubig24softwareagents_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 14 Agents for Software Development (Graham Neubig)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents/assets/agentworkflows.pdf",
+    "name": "08_agentworkflows_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 21 AI Agents for Enterprise Workflows (Nicolas Chapados)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents/assets/102824-yuandongtian.pdf",
+    "name": "09_102824-yuandongtian_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 28 Neural and Symbolic Decision Making (Yuandong Tian)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents/assets/jimfangr00t.pdf",
+    "name": "10_jimfangr00t_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 4 Project GR00T (Jim Fan)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents/assets/percyliang.pdf",
+    "name": "11_percyliang_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 18 Open-Source and Science in the Era of Foundation Models (Percy Liang)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents/assets/antrsp.pdf",
+    "name": "12_antrsp_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 25 Measuring Agent capabilities and Anthropic's RSP (Ben Mann)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/llm-agents/assets/dawn-agent-safety.pdf",
+    "name": "13_dawn-agent-safety_en.pdf",
+    "kind": "pdf",
+    "label": "Dec 2 Towards Building Safe & Trustworthy AI Agents (Dawn Song)"
+   }
+  ],
+  "expected_items": 12,
+  "completeness_note": "官方日程 12 讲（11-11 停课不计）均发布幻灯片，共 14 个 PDF（课程导论 1 份；9-23 讲两位讲者各 1 份），全部下载；日程中链接的 TapeAgents 论文属阅读材料，未收。",
+  "prereq": "官方页面未列硬性先修；面向具备机器学习/深度学习基础的本科高年级与研究生",
+  "coverage": "LLM 推理、智能体发展史与框架（AutoGen、DSPy、LlamaIndex）、软件开发与企业工作流智能体、神经-符号决策、具身智能体、开放基础模型、智能体能力评测与安全",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "伯克利 RDI 首期 LLM 智能体系列课，汇集一线研究者讲授智能体推理、工具使用、框架与安全，是 LLM 智能体方向最具代表性的公开课程。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "06",
+   "04"
+  ],
+  "top10_rank": 6,
+  "top10_reason": "LLM 智能体课程，由多位一线研究者讲授推理、工具使用、多智能体与评测。"
+ },
+ {
+  "sid": "13-A05",
+  "kind": "course",
+  "university": "University of California, Berkeley",
+  "course_code": "CS294/194-280",
+  "course_title": "Advanced Large Language Model Agents",
+  "term": "Spring 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Dawn Song",
+   "Xinyun Chen",
+   "Kaiyu Yang"
+  ],
+  "official_url": "https://rdi.berkeley.edu/adv-llm-agents/sp25",
+  "schedule_url": "https://rdi.berkeley.edu/adv-llm-agents/sp25",
+  "verification_basis": "课程主页标题“CS294/194-280 Advanced Large Language Model Agents, Spring 2025”，Instructor Dawn Song、(Guest) Co-instructor Xinyun Chen、Co-instructor Kaiyu Yang，日程表见 https://rdi.berkeley.edu/adv-llm-agents/sp25",
+  "dir_name": "Berkeley_CS294-280_AdvLLMAgents_2025Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/llm-agents-berkeley-intro-sp25.pdf",
+    "name": "00_llm-agents-berkeley-intro-sp25_en.pdf",
+    "kind": "pdf",
+    "label": "Course intro (Jan 27)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/inference_time_techniques_lecture_sp25.pdf",
+    "name": "01_inference_time_techniques_lecture_sp25_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 27 Inference-Time Techniques for LLM Reasoning (Xinyun Chen)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/Jason-Weston-Reasoning-Alignment-Berkeley-Talk.pdf",
+    "name": "02_Jason-Weston-Reasoning-Alignment-Berkeley-Talk_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 3 Learning to reason with LLMs (Jason Weston)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/language_agents_YuSu_Berkeley.pdf",
+    "name": "03_language_agents_YuSu_Berkeley_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 10 On Reasoning, Memory, and Planning of Language Agents (Yu Su)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/OLMo-Tulu-Reasoning-Hanna.pdf",
+    "name": "04_OLMo-Tulu-Reasoning-Hanna_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 24 Open Training Recipes for Reasoning in Language Models (Hanna Hajishirzi)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/Code%20Agents%20and%20AI%20for%20Vulnerability%20Detection.pdf",
+    "name": "05_Code_Agents_and_AI_for_Vulnerability_Detection_en.pdf",
+    "kind": "pdf",
+    "label": "Mar 3 Coding Agents and AI for Vulnerability Detection (Charles Sutton)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/ruslan-multimodal.pdf",
+    "name": "06_ruslan-multimodal_en.pdf",
+    "kind": "pdf",
+    "label": "Mar 10 Multimodal Autonomous AI Agents (Ruslan Salakhutdinov)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/Multimodal_Agent_caiming.pdf",
+    "name": "07_Multimodal_Agent_caiming_en.pdf",
+    "kind": "pdf",
+    "label": "Mar 17 Multimodal Agents - From Perception to Action (Caiming Xiong)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/alphaproof.pdf",
+    "name": "08_alphaproof_en.pdf",
+    "kind": "pdf",
+    "label": "Mar 31 AlphaProof (Thomas Hubert)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/mathverification.pdf",
+    "name": "09_mathverification_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 7 Language models for autoformalization and theorem proving (Kaiyu Yang)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/welleck2025_berkeley_bridging.pdf",
+    "name": "10_welleck2025_berkeley_bridging_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 14 Advanced topics in theorem proving (Sean Welleck)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/swarat.pdf",
+    "name": "11_swarat_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 21 Abstraction and Discovery with LLM Agents (Swarat Chaudhuri)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/dawn-agentic-ai.pdf",
+    "name": "12_dawn-agentic-ai_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 28 Towards building safe and secure agentic AI (Dawn Song)"
+   }
+  ],
+  "expected_items": 12,
+  "completeness_note": "官方日程 12 讲（2-17、3-24 停课不计）均发布幻灯片，另有课程导论幻灯片 1 份，共 13 个 PDF，全部下载；日程中链接的 arXiv 论文为阅读材料，未收。",
+  "prereq": "官方页面未列硬性先修；建议先修 Fall 2024 LLM Agents 或具备 LLM 基础",
+  "coverage": "推理时计算技术、推理与对齐训练、语言智能体的记忆与规划、开放推理训练配方（Tulu/OLMo）、代码智能体与漏洞检测、多模态网页/GUI 智能体、AlphaProof 与形式化定理证明、安全可信的智能体",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "LLM Agents 的进阶续课，聚焦推理、数学/形式化证明与代码智能体，与 Fall 2024 内容不重复，覆盖 2025 年推理模型热点。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "06",
+   "04"
+  ]
+ },
+ {
+  "sid": "13-A06",
+  "kind": "course",
+  "university": "University of California, Berkeley",
+  "course_code": "CS294/194-196",
+  "course_title": "Agentic AI",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Dawn Song"
+  ],
+  "official_url": "https://rdi.berkeley.edu/agentic-ai/f25",
+  "schedule_url": "https://rdi.berkeley.edu/agentic-ai/f25",
+  "verification_basis": "课程主页标题“CS294/194-196: Agentic AI, Fall 2025”，Instructor 为 Dawn Song（UC Berkeley），其余为嘉宾讲者，日程表见 https://rdi.berkeley.edu/agentic-ai/f25",
+  "dir_name": "Berkeley_CS294-196_AgenticAI_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://rdi.berkeley.edu/agentic-ai/slides/introduction_25.pdf",
+    "name": "01_introduction_25_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 8 Introduction (Dawn Song)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/agentic-ai/slides/lecture1.pdf",
+    "name": "02_lecture1_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 15 LLM Agents Overview (Yann Dubois)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/agentic-ai/slides/Yangqing.pdf",
+    "name": "03_Yangqing_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 22 Evolution of system designs from an AI engineer perspective (Yangqing Jia)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/agentic-ai/slides/AgenticAI_Jiantao%20Jiao.pdf",
+    "name": "04_AgenticAI_Jiantao_Jiao_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 29 Post-Training Verifiable Agents (Jiantao Jiao)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/agentic-ai/slides/LLM%20Agent%20Evaluations%20%26%20Project%20Overview.pdf",
+    "name": "05_LLM_Agent_Evaluations_Project_Overview_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 6 Agent Evaluation & Project Overview"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/agentic-ai/slides/weizhu.pdf",
+    "name": "06_weizhu_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 13 Some Challenges and Lessons from Training Agentic Models (Weizhu Chen)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/agentic-ai/slides/multiagent_berkeley_2025.pptx.pdf",
+    "name": "07_multiagent_berkeley_2025_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 20 Multi-Agent AI (Noam Brown)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/agentic-ai/slides/PredEval.pdf",
+    "name": "08_PredEval_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 27 Predictable Noise in LLM (Sida Wang)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/agentic-ai/slides/Practical_Lessons_AI_Agents.pdf",
+    "name": "09_Practical_Lessons_AI_Agents_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 10 Practical Lessons from Deploying Real-World AI Agents (Clay Bavor)"
+   }
+  ],
+  "expected_items": 9,
+  "completeness_note": "官方日程 13 讲（11-24 停课不计）中 9 讲官方发布了幻灯片，全部下载；James Zou（11-03）、Oriol Vinyals（11-17）、Peter Stone（12-01）只有录像，Dawn Song 12-08 讲只有直播链接，均无幻灯片。9-15 行链接的 Kimi K2 / DeepSeek-V3 报告为阅读材料，未收。",
+  "prereq": "官方页面未列硬性先修；面向具备 LLM 基础的本科高年级与研究生",
+  "coverage": "LLM 智能体概览、AI 系统设计演进、可验证智能体的后训练、智能体评测、智能体模型训练经验、多智能体、评测噪声统计、真实部署经验",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "伯克利 LLM 智能体系列的 2025 秋季版，侧重智能体训练（后训练/RL）、评测与工程部署，与前两期互补。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "06",
+   "12"
+  ]
+ },
+ {
+  "sid": "13-A07",
+  "kind": "course",
+  "university": "Carnegie Mellon University",
+  "course_code": "11-711",
+  "course_title": "Advanced Natural Language Processing",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Sean Welleck"
+  ],
+  "official_url": "https://cmu-l3.github.io/anlp-fall2025/",
+  "schedule_url": "https://cmu-l3.github.io/anlp-fall2025/#schedule",
+  "verification_basis": "课程主页“Advanced Natural Language Processing / Fall 2025”，Instructor Sean Welleck，Course identifier: LTI 11-711，日程表见 https://cmu-l3.github.io/anlp-fall2025/",
+  "dir_name": "CMU_11-711_ANLP_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-01-intro.pdf",
+    "name": "01_anlp-f2025-01-intro_en.pdf",
+    "kind": "pdf",
+    "label": "L1 Introduction & Fundamentals"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-02-learned-representations.pdf",
+    "name": "02_anlp-f2025-02-learned-representations_en.pdf",
+    "kind": "pdf",
+    "label": "L2 Fundamentals: Learned Representations"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-03-lm.pdf",
+    "name": "03_anlp-f2025-03-lm_en.pdf",
+    "kind": "pdf",
+    "label": "L3 Fundamentals: Autoregressive Language Modeling"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-04-rnns.pdf",
+    "name": "04_anlp-f2025-04-rnns_en.pdf",
+    "kind": "pdf",
+    "label": "L4 Architectures I: Recurrent Neural Networks"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-05-transformers.pdf",
+    "name": "05_anlp-f2025-05-transformers_en.pdf",
+    "kind": "pdf",
+    "label": "L5 Architectures II: Attention and Transformers"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-06-pretraining.pdf",
+    "name": "06_anlp-f2025-06-pretraining_en.pdf",
+    "kind": "pdf",
+    "label": "L6 Learning I: Pretraining"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-07-icl-prompting.pdf",
+    "name": "07_anlp-f2025-07-icl-prompting_en.pdf",
+    "kind": "pdf",
+    "label": "L7 Learning II/Inference I: In-Context Learning"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-08-finetuning.pdf",
+    "name": "08_anlp-f2025-08-finetuning_en.pdf",
+    "kind": "pdf",
+    "label": "L8 Learning III: Fine-tuning and Distillation"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-09-decoding.pdf",
+    "name": "09_anlp-f2025-09-decoding_en.pdf",
+    "kind": "pdf",
+    "label": "L9 Inference II: Decoding Algorithms"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/akari_anlp_2025_rag_lecture.pdf",
+    "name": "10_akari_anlp_2025_rag_lecture_en.pdf",
+    "kind": "pdf",
+    "label": "L10 Modeling I: Retrieval and RAG (guest, Akari Asai)"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-11-multimodal.pdf",
+    "name": "11_anlp-f2025-11-multimodal_en.pdf",
+    "kind": "pdf",
+    "label": "L11 Modeling II: Multimodal I"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-12-multimodal-ii.pdf",
+    "name": "12_anlp-f2025-12-multimodal-ii_en.pdf",
+    "kind": "pdf",
+    "label": "L12 Modeling III: Multimodal II"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-13-evaluation.pdf",
+    "name": "13_anlp-f2025-13-evaluation_en.pdf",
+    "kind": "pdf",
+    "label": "L13 Evaluation Techniques"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-14-experimentation.pdf",
+    "name": "14_anlp-f2025-14-experimentation_en.pdf",
+    "kind": "pdf",
+    "label": "L14 Research Skills and Experimental Design"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-15-rl.pdf",
+    "name": "15_anlp-f2025-15-rl_en.pdf",
+    "kind": "pdf",
+    "label": "L17 Reinforcement Learning I: Fundamentals"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-15-rl-llms.pdf",
+    "name": "16_anlp-f2025-15-rl-llms_en.pdf",
+    "kind": "pdf",
+    "label": "L18 Reinforcement Learning II: Applications"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-17-agents.pdf",
+    "name": "17_anlp-f2025-17-agents_en.pdf",
+    "kind": "pdf",
+    "label": "L19 Agents"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-18-scaling-parallelism.pdf",
+    "name": "18_anlp-f2025-18-scaling-parallelism_en.pdf",
+    "kind": "pdf",
+    "label": "L22 Scaling: Parallelism and Distributed Training"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-19-quantization.pdf",
+    "name": "19_anlp-f2025-19-quantization_en.pdf",
+    "kind": "pdf",
+    "label": "L23 Efficiency: Quantization"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-20-longcontext.pdf",
+    "name": "20_anlp-f2025-20-longcontext_en.pdf",
+    "kind": "pdf",
+    "label": "L24 Advanced Architectures I: Long Sequence Models"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-21-moe.pdf",
+    "name": "21_anlp-f2025-21-moe_en.pdf",
+    "kind": "pdf",
+    "label": "L25 Advanced Architectures II: Mixture of Experts"
+   },
+   {
+    "url": "https://cmu-l3.github.io/anlp-fall2025/static_files/anlp-f2025-22-inference.pdf",
+    "name": "22_anlp-f2025-22-inference_en.pdf",
+    "kind": "pdf",
+    "label": "L26 Advanced Inference Strategies"
+   }
+  ],
+  "expected_items": 22,
+  "completeness_note": "官方日程共 23 次正式讲课（不含停课、项目时间与海报展示），其中 22 讲官方发布了幻灯片，全部下载；11-25 嘉宾讲座“Advanced Modeling: Diffusion”（Andre He）官方未发布幻灯片。",
+  "prereq": "无硬性先修；要求 Python 编程经验与概率、线性代数知识，最好用过神经网络（官方页面所写）",
+  "coverage": "表示学习与自回归语言模型、RNN/Transformer、预训练、上下文学习、微调与蒸馏、解码、RAG、多模态、评测与实验设计、LLM 强化学习、智能体、并行训练、量化、长上下文、MoE 与高级推理策略",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "CMU 语言技术研究所的研究生 NLP 核心课，2025 秋由 Sean Welleck 讲授，从基础一路讲到 RL、智能体、MoE 与推理时算法，内容新且系统。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "03",
+   "04"
+  ]
+ },
+ {
+  "sid": "13-A08",
+  "kind": "course",
+  "university": "Carnegie Mellon University",
+  "course_code": "11-667",
+  "course_title": "Large Language Models: Methods and Applications",
+  "term": "Fall 2024",
+  "term_year": 2024,
+  "instructors": [
+   "Chenyan Xiong",
+   "Daphne Ippolito"
+  ],
+  "official_url": "https://2024.cmu-llms.org/",
+  "schedule_url": "https://2024.cmu-llms.org/schedule/",
+  "verification_basis": "课程主页“Large Language Models: Methods and Applications / Fall 2024”，说明为 11-667 研究生课程，Instructors 为 Chenyan Xiong 与 Daphne Ippolito（https://2024.cmu-llms.org/）；日程与讲义链接见 https://2024.cmu-llms.org/schedule/",
+  "dir_name": "CMU_11-667_LLMMethodsApplications_2024Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-08-26-course-intro-and-lm-basics.pdf",
+    "name": "2024-08-26-course-intro-and-lm-basics_en.pdf",
+    "kind": "pdf",
+    "label": "08/27 Building blocks of modern LLMs"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-08-29-lm-architectures-training-objectives.pdf",
+    "name": "2024-08-29-lm-architectures-training-objectives_en.pdf",
+    "kind": "pdf",
+    "label": "08/29 Transformer architecture and pre-training learning objectives"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-09-03-learning-objectives-and-pretraining-data.pdf",
+    "name": "2024-09-03-learning-objectives-and-pretraining-data_en.pdf",
+    "kind": "pdf",
+    "label": "09/03 Pre-training data curation and tokenization"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-09-05-architecture-advancement-on-transformers.pdf",
+    "name": "2024-09-05-architecture-advancement-on-transformers_en.pdf",
+    "kind": "pdf",
+    "label": "09/05 Architecture Advancement on Transformers"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-09-10-automatic-evaluation.pdf",
+    "name": "2024-09-10-automatic-evaluation_en.pdf",
+    "kind": "pdf",
+    "label": "09/10 Automatic evaluation of LLMs"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-09-12-finetuning.pdf",
+    "name": "2024-09-12-finetuning_en.pdf",
+    "kind": "pdf",
+    "label": "09/12 In-context learning, task-oriented finetuning, PEFT"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-09-17-akari_cmullm_ralm.pdf",
+    "name": "2024-09-17-akari_cmullm_ralm_en.pdf",
+    "kind": "pdf",
+    "label": "09/17 Retrieval-augmented generation (guest, Akari Asai)"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-09-19-instruction-tuning.pdf",
+    "name": "2024-09-19-instruction-tuning_en.pdf",
+    "kind": "pdf",
+    "label": "09/19 Instruction tuning and alignment (guest, Deep Ganguli)"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-09-24-weird-behaviours.v2.pdf",
+    "name": "2024-09-24-weird-behaviours_v2_en.pdf",
+    "kind": "pdf",
+    "label": "09/24 Surprising Behaviours of ICL and Model Alignment"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-09-26-embedding-learning-and-tool-use.pdf",
+    "name": "2024-09-26-embedding-learning-and-tool-use_en.pdf",
+    "kind": "pdf",
+    "label": "09/26 Embedding Learning and Tool Use"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-10-03-scaling-up-scaling-laws.pdf",
+    "name": "2024-10-03-scaling-up-scaling-laws_en.pdf",
+    "kind": "pdf",
+    "label": "10/03 Scaling Up LLMs - Scaling laws"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-10-08-Scaling-Up-Parallel-Training.pdf",
+    "name": "2024-10-08-Scaling-Up-Parallel-Training_en.pdf",
+    "kind": "pdf",
+    "label": "10/08 Scaling up LLMs - Optimization and Parallel Training"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-10-10-interpretability.pdf",
+    "name": "2024-10-10-interpretability_en.pdf",
+    "kind": "pdf",
+    "label": "10/10 Interpretability methods"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-10-24-rlfh-methods.pdf",
+    "name": "2024-10-24-rlfh-methods_en.pdf",
+    "kind": "pdf",
+    "label": "10/24 RLHF Methods (guest, Yiming Zhang)"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-10-29-attacking-llms.pdf",
+    "name": "2024-10-29-attacking-llms_en.pdf",
+    "kind": "pdf",
+    "label": "10/29 Attacking LLM systems + benchmark leakage"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-10-31-ethics.pdf",
+    "name": "2024-10-31-ethics_en.pdf",
+    "kind": "pdf",
+    "label": "10/31 Bias and ethical issues"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-11-07-efficient-pretraining-with-sparse-models.pdf",
+    "name": "2024-11-07-efficient-pretraining-with-sparse-models_en.pdf",
+    "kind": "pdf",
+    "label": "11/07 Efficient Pretraining with Sparse Models"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-11-12-efficient-inference-methods.pdf",
+    "name": "2024-11-12-efficient-inference-methods_en.pdf",
+    "kind": "pdf",
+    "label": "11/12 Efficient Inference Methods"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-11-14-chatbots-agents.pdf",
+    "name": "2024-11-14-chatbots-agents_en.pdf",
+    "kind": "pdf",
+    "label": "11/14 Chatbots and LLM Agents"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-11-19-ai-authorship.pdf",
+    "name": "2024-11-19-ai-authorship_en.pdf",
+    "kind": "pdf",
+    "label": "11/19 Legal considerations (guest, A. Feder Cooper)"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-11-21-long-context-llms.pdf",
+    "name": "2024-11-21-long-context-llms_en.pdf",
+    "kind": "pdf",
+    "label": "11/21 Long-context models"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2024/2024-11-26-training-with-synthetic-data.pdf",
+    "name": "2024-11-26-training-with-synthetic-data_en.pdf",
+    "kind": "pdf",
+    "label": "11/26 Training with Synthetic Data"
+   }
+  ],
+  "expected_items": 21,
+  "completeness_note": "官方日程 22 次专题讲课（不含 11-05 停课与两次学生项目展示），其中 21 讲发布了幻灯片，全部下载；10-01 Sara Hooker 嘉宾讲座的 slides 链接为空，官方未发布。选 2024 秋而非 2025 秋：2025 秋日程页基本未发布当期幻灯片（仅链接 2024 版）。",
+  "prereq": "具备 10-301/10-601 水平的机器学习基础，熟悉深度学习概念（官方 syllabus 所写）",
+  "coverage": "LLM 构件与 Transformer、预训练目标与数据、架构改进、自动评测、上下文学习与 PEFT、RAG、指令微调与对齐、RLHF、规模规律与并行训练、可解释性、攻击与伦理、稀疏模型、高效推理、智能体、长上下文与合成数据",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "CMU LTI 专门讲 LLM 方法论的研究生课，覆盖预训练-对齐-效率-安全全链路，讲义完整公开于官方存储桶。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "03",
+   "11"
+  ],
+  "top10_rank": 4,
+  "top10_reason": "专讲大语言模型方法与应用（架构、预训练、对齐、高效与评测），作为 CS224N 之后的进阶。"
+ },
+ {
+  "sid": "13-A09",
+  "kind": "course",
+  "university": "Carnegie Mellon University",
+  "course_code": "11-766",
+  "course_title": "Large Language Model Applications",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Fernando Diaz",
+   "Daphne Ippolito"
+  ],
+  "official_url": "https://cmu-llms.org/",
+  "schedule_url": "https://cmu-llms.org/schedule/",
+  "verification_basis": "课程主页“Large Language Model Applications / Spring 2026”，说明为 11-766 研究生课程，Instructors 为 Fernando Diaz 与 Daphne Ippolito（https://cmu-llms.org/）；日程与讲义链接见 https://cmu-llms.org/schedule/",
+  "dir_name": "CMU_11-766_LLMApplications_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-01-13-llm-history.pdf",
+    "name": "01_2026-01-13-llm-history_en.pdf",
+    "kind": "pdf",
+    "label": "01/13 Origins of LLMs"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-01-15-nlu-nlg.pdf",
+    "name": "02_2026-01-15-nlu-nlg_en.pdf",
+    "kind": "pdf",
+    "label": "01/15 Natural language understanding vs generation"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-01-20-prompting.pdf",
+    "name": "03_2026-01-20-prompting_en.pdf",
+    "kind": "pdf",
+    "label": "01/20 The science of prompting"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-01-22-finetuning.pdf",
+    "name": "04_2026-01-22-finetuning_en.pdf",
+    "kind": "pdf",
+    "label": "01/22 Deciding when to finetune and finetuning efficiently"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-01-27-embeddings.pdf",
+    "name": "05_2026-01-27-embeddings_en.pdf",
+    "kind": "pdf",
+    "label": "01/27 Learning representations and embeddings"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-01-29-retrieval.pdf",
+    "name": "06_2026-01-29-retrieval_en.pdf",
+    "kind": "pdf",
+    "label": "01/29 Retrieval 1: Storing and retrieving knowledge"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-02-03-retrieval%2Brag.pdf",
+    "name": "07_2026-02-03-retrieval_rag_en.pdf",
+    "kind": "pdf",
+    "label": "02/03 Retrieval 2: RAG, deep research"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-02-05-rag%2Bdeepresearch.pdf",
+    "name": "08_2026-02-05-rag_deepresearch_en.pdf",
+    "kind": "pdf",
+    "label": "02/05 Retrieval 3: RAG (2) and deep research"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-02-10-deep-research.pdf",
+    "name": "09_2026-02-10-deep-research_en.pdf",
+    "kind": "pdf",
+    "label": "02/10 Deep research"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-02-12-task.pdf",
+    "name": "10_2026-02-12-task_en.pdf",
+    "kind": "pdf",
+    "label": "02/12 Task-Oriented Dialogue"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-02-17-chatbots.pdf",
+    "name": "11_2026-02-17-chatbots_en.pdf",
+    "kind": "pdf",
+    "label": "02/17 Tool-use, chitchat, personas, and companionship"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-02-19-creativity-v2.pdf",
+    "name": "12_2026-02-19-creativity-v2_en.pdf",
+    "kind": "pdf",
+    "label": "02/19 Writing and ideation assistants and AI creative writing"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-02-24-evaluation.pdf",
+    "name": "13_2026-02-24-evaluation_en.pdf",
+    "kind": "pdf",
+    "label": "02/24 LLMs for evaluation: synthetic data, simulation, AI-as-judge"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-02-26-multi-agent-systems.pdf",
+    "name": "14_2026-02-26-multi-agent-systems_en.pdf",
+    "kind": "pdf",
+    "label": "02/26 Multi-agent systems"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-03-10-risks.pdf",
+    "name": "15_2026-03-10-risks_en.pdf",
+    "kind": "pdf",
+    "label": "03/10 Harms caused by LLM applications"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-03-12-misuse.pdf",
+    "name": "16_2026-03-12-misuse_en.pdf",
+    "kind": "pdf",
+    "label": "03/12 Attacking LLMs and LLM applications"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-03-17-coding-agents.pdf",
+    "name": "17_2026-03-17-coding-agents_en.pdf",
+    "kind": "pdf",
+    "label": "03/17 Code-writing assistants (guest, Zora Wang)"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-03-19-vision.pdf",
+    "name": "18_2026-03-19-vision_en.pdf",
+    "kind": "pdf",
+    "label": "03/19 Image generation and conversing about images"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-03-24-non-english.pdf",
+    "name": "19_2026-03-24-non-english_en.pdf",
+    "kind": "pdf",
+    "label": "03/24 LLMs for Non-English Languages (guest, Shaily Bhatt)"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-03-26-world-models.pdf",
+    "name": "20_2026-03-26-world-models_en.pdf",
+    "kind": "pdf",
+    "label": "03/26 World models (guest, Mingkai Deng)"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-03-31-drug-design.pdf",
+    "name": "21_2026-03-31-drug-design_en.pdf",
+    "kind": "pdf",
+    "label": "03/31 LLMs for biological understanding (guest, Lei Li)"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-04-02-music.pdf",
+    "name": "22_2026-04-02-music_en.pdf",
+    "kind": "pdf",
+    "label": "04/02 Music generation (guest, Chris Donahue)"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-03-7-detection-and-numbers.pdf",
+    "name": "23_2026-03-7-detection-and-numbers_en.pdf",
+    "kind": "pdf",
+    "label": "04/07 Numbers"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-04-14-robotics.pdf",
+    "name": "24_2026-04-14-robotics_en.pdf",
+    "kind": "pdf",
+    "label": "04/14 Robots and embodied AI (guest, Leena Mathur)"
+   },
+   {
+    "url": "https://storage.googleapis.com/cmu-llms/2026/2026-03-16-deployment.pdf",
+    "name": "25_2026-03-16-deployment_en.pdf",
+    "kind": "pdf",
+    "label": "04/16 Deployment"
+   }
+  ],
+  "expected_items": 25,
+  "completeness_note": "官方日程 25 次专题讲课均发布幻灯片，全部下载；另有 2 次学生项目展示（slides 链接为空）与停课日不计。",
+  "prereq": "已学过语言模型实现基础（如 11-667、11-711、10-423 或同类课程）（官方 syllabus 所写）",
+  "coverage": "LLM 起源、理解与生成、提示科学、微调取舍、嵌入与检索、RAG 与深度研究、任务型对话与聊天助手、创意写作、LLM 评测与合成数据、多智能体、危害与攻击、代码助手、多模态/世界模型/生物/音乐/机器人等应用及部署",
+  "stage": "工程实践",
+  "language": "en",
+  "reason": "CMU 11-667 的姊妹课，专讲 LLM 应用落地（RAG、深度研究、智能体、评测、安全、部署），2026 春最新学期讲义完整。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "05",
+   "06",
+   "12"
+  ]
+ },
+ {
+  "sid": "13-A10",
+  "kind": "course",
+  "university": "Carnegie Mellon University",
+  "course_code": "11-868",
+  "course_title": "Large Language Model Systems",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Lei Li"
+  ],
+  "official_url": "https://llmsystem.github.io/llmsystem2026spring/",
+  "schedule_url": "https://llmsystem.github.io/llmsystem2026spring/docs/Syllabus/",
+  "verification_basis": "课程主页“Large Language Model Systems, CMU 11868, Spring 2026”，Instructor Lei Li（https://llmsystem.github.io/llmsystem2026spring/）；日程与讲义链接见 https://llmsystem.github.io/llmsystem2026spring/docs/Syllabus/",
+  "dir_name": "CMU_11-868_LLMSystems_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-01-intro-14e74a426e4a7e3ed485a026e1f65b70.pdf",
+    "name": "llmsys-01-intro_en.pdf",
+    "kind": "pdf",
+    "label": "1/12 Introduction to LLM"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-02-gpu-programming-c64a0141b96a1f384db7f6717ed8e039.pdf",
+    "name": "llmsys-02-gpu-programming_en.pdf",
+    "kind": "pdf",
+    "label": "1/14 GPU Programming Basics 1"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-03-gpu-programming2-b82b6ffdf554494747d00ce7ac606c3b.pdf",
+    "name": "llmsys-03-gpu-programming2_en.pdf",
+    "kind": "pdf",
+    "label": "1/21 GPU Programming Basics 2"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-04-gpu-acceleration-48ffa5768ba62c54138f0a71ca2b68b8.pdf",
+    "name": "llmsys-04-gpu-acceleration_en.pdf",
+    "kind": "pdf",
+    "label": "1/26 GPU Acceleration"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-05-dlframework-fa0770d636572de3f7b48ccae0ba8848.pdf",
+    "name": "llmsys-05-dlframework_en.pdf",
+    "kind": "pdf",
+    "label": "1/28 Deep Learning Frameworks and Auto Differentiation"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-06-transformer-14bd7575a2f6c8bac60522354c11d691.pdf",
+    "name": "llmsys-06-transformer_en.pdf",
+    "kind": "pdf",
+    "label": "2/2 Transformer"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-07-llms-acf5db9438a8d9a86f86d29d9c563c00.pdf",
+    "name": "llmsys-07-llms_en.pdf",
+    "kind": "pdf",
+    "label": "2/4 Pre-trained LLMs"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-08-tokenization-594dd043d7a87d8dcc91b7e7585a0e34.pdf",
+    "name": "llmsys-08-tokenization_en.pdf",
+    "kind": "pdf",
+    "label": "2/9 Tokenization and Embedding"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-09-decoding-cac2cd9402765ff5e6c24f7baffd321c.pdf",
+    "name": "llmsys-09-decoding_en.pdf",
+    "kind": "pdf",
+    "label": "2/11 Generation and Speculative Decoding"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-10-transformer-acc-5ba466406bf7296f86cd244ad0405867.pdf",
+    "name": "llmsys-10-transformer-acc_en.pdf",
+    "kind": "pdf",
+    "label": "2/16 + 2/18 Accelerating Transformer on GPU Parts 1-2 (one file)"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-12-Introduction_to_JAX_XLA_TPU-f0450caf9e7e6707c009f7f77997a2be.pdf",
+    "name": "llmsys-12-Introduction_to_JAX_XLA_TPU_en.pdf",
+    "kind": "pdf",
+    "label": "2/23 Guest: TPU and JAX (Srinath Mandalapu)"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-13-pallas_splash_attention_srinath_mandalapu-b0bc7990950b84561ff9aa8e1791f727.pdf",
+    "name": "llmsys-13-pallas_splash_attention_srinath_mandalapu_en.pdf",
+    "kind": "pdf",
+    "label": "2/25 Guest: Pallas and Splash Attention (Srinath Mandalapu)"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-14-distributed-training-b27c3d1dc185e680c6f5cc924e9ec9d7.pdf",
+    "name": "llmsys-14-distributed-training_en.pdf",
+    "kind": "pdf",
+    "label": "3/9 Distributed Model Training"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-15-ddp-165dbe3873fac21eb8b339e64bcfee28.pdf",
+    "name": "llmsys-15-ddp_en.pdf",
+    "kind": "pdf",
+    "label": "3/11 Distributed Model Training II"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-16-model-parallel-83b41612547620ee0e172caa1ee448ed.pdf",
+    "name": "llmsys-16-model-parallel_en.pdf",
+    "kind": "pdf",
+    "label": "3/16 Distributed Model Training III"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-17-MoE-3aa3125f9ccdd4bb7109ef077fbe9260.pdf",
+    "name": "llmsys-17-MoE_en.pdf",
+    "kind": "pdf",
+    "label": "3/18 Large models with Mixture-of-Expert"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-18-zero-20eb6c8d8c1e7092e1b922abf03d8cdd.pdf",
+    "name": "llmsys-18-zero_en.pdf",
+    "kind": "pdf",
+    "label": "3/23 Memory Optimization in Distributed Training"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-19-quantization-da7a2abad092c802b03672ce1cc7bee9.pdf",
+    "name": "llmsys-19-quantization_en.pdf",
+    "kind": "pdf",
+    "label": "3/25 Model Quantization"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-20-quantization2-ba573d7e5d82e68027bbd3a92c3cd819.pdf",
+    "name": "llmsys-20-quantization2_en.pdf",
+    "kind": "pdf",
+    "label": "3/30 Model Quantization II"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-21-FlashAttention_tridao2026.4-50476379a6127697ae7fbf974ad28348.pdf",
+    "name": "llmsys-21-FlashAttention_tridao2026_4_en.pdf",
+    "kind": "pdf",
+    "label": "4/1 Optimizing Attention for Modern Hardware (Tri Dao)"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-22-llm-serving-scheduler-radixattention-dfa87a4515092525676277a85bc4425d.pdf",
+    "name": "llmsys-22-llm-serving-scheduler-radixattention_en.pdf",
+    "kind": "pdf",
+    "label": "4/6 LLM serving with SGL"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-23-peft-791e97c5520e2ea7491153b45a923ac7.pdf",
+    "name": "llmsys-23-peft_en.pdf",
+    "kind": "pdf",
+    "label": "4/8 Efficient fine-tuning for Large Models"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-24-vLLM_woosuk_kwon-b6a0750bb310949461ba5a635a1126eb.pdf",
+    "name": "llmsys-24-vLLM_woosuk_kwon_en.pdf",
+    "kind": "pdf",
+    "label": "4/13 Efficient LLM Inference with Paged Attention and vLLM (Woosuk Kwon)"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-26-dynamo-vikram_mailthody-0ddbeb69382d5c168b6d4636a82185d0.pdf",
+    "name": "llmsys-26-dynamo-vikram_mailthody_en.pdf",
+    "kind": "pdf",
+    "label": "4/20 Serving with Disaggregated Prefill-Decoding"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-27-LMCache_junchenjiang-c21828fe582270cb5e08b4a21a002956.pdf",
+    "name": "llmsys-27-LMCache_junchenjiang_en.pdf",
+    "kind": "pdf",
+    "label": "4/22 Better KV Cache for LLM Serving (Junchen Jiang)"
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-29-disaggregating_prefill_decode_hao_zhang-c0e55139d20512a2348783423397cc7f.pdf",
+    "name": "llmsys-29-disaggregating_prefill_decode_hao_zhang_en.pdf",
+    "kind": "pdf",
+    "label": "Undated syllabus row: DistServe: Disaggregated Prefill-Decoding (Hao Zhang)",
+    "aux": true
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-30-serving-c4a70ab21cde01fb60068a256c6e163a.pdf",
+    "name": "llmsys-30-serving_en.pdf",
+    "kind": "pdf",
+    "label": "Undated syllabus row: App Stack and Model Serving",
+    "aux": true
+   },
+   {
+    "url": "https://llmsystem.github.io/llmsystem2026spring/assets/files/llmsys-28-mooncake-kTransformer-1243bfbecbb0c3610bf95eac030acb2a.pdf",
+    "name": "llmsys-28-mooncake-kTransformer_en.pdf",
+    "kind": "pdf",
+    "label": "Undated syllabus row: LLM Serving on Heterogeneous Hardware",
+    "aux": true
+   }
+  ],
+  "expected_items": 25,
+  "completeness_note": "官方日程 27 次有日期的讲课（不含 recitation、停课与期末展示）中 26 讲发布了幻灯片，对应 25 个 PDF（2/16 与 2/18 两讲共用同一份 Transformer 加速幻灯片），全部下载；4/15“Efficient RL System for LLMs (ReaLHF)”未发布幻灯片。日程表末尾另有 3 行无日期的备选专题也附了幻灯片，一并下载并标为 aux；Recitation 1 幻灯片在 Google Slides，未收。",
+  "prereq": "线性代数、微积分、概率统计；Python 及 C/C++/Java 编程（15-122 或同等）；机器学习基础优先但非必需（官方 Logistics 页所写）",
+  "coverage": "GPU/CUDA 编程与加速、深度学习框架与自动微分、Transformer 与预训练 LLM、分词与解码（含推测解码）、TPU/JAX/Pallas、数据/模型/流水线并行与 ZeRO、MoE、量化、FlashAttention、SGLang/vLLM 推理服务、PEFT、预填充-解码分离与 KV 缓存",
+  "stage": "工程实践",
+  "language": "en",
+  "reason": "专讲大模型训练与推理系统的研究生课，从 GPU 编程一直讲到 vLLM/SGLang/LMCache 等前沿服务系统，多位系统作者亲授，适合作为 LLM 系统方向主干课程。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "11"
+  ],
+  "top10_rank": 7,
+  "top10_reason": "LLM 系统课程，覆盖 GPU 编程、分布式训练、推理服务与量化，对应高效训练部署方向。"
+ },
+ {
+  "sid": "13-A11",
+  "kind": "course",
+  "university": "Princeton University",
+  "course_code": "COS 484",
+  "course_title": "Natural Language Processing",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Tri Dao",
+   "Karthik Narasimhan"
+  ],
+  "official_url": "https://princeton-nlp.github.io/cos484/",
+  "schedule_url": "https://princeton-nlp.github.io/cos484/#schedule",
+  "verification_basis": "课程主页“COS 484: Natural Language Processing, Spring 2026”，Course staff 中 Instructors 为 Tri Dao 与 Karthik Narasimhan，日程表见 https://princeton-nlp.github.io/cos484/",
+  "dir_name": "Princeton_COS484_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L1_sp26.pdf",
+    "name": "L01_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1: Introduction + Language Models"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L2_sp26.pdf",
+    "name": "L02_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2: Text classification"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L3_sp26.pdf",
+    "name": "L03_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3: Word Embeddings"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L4_sp26.pdf",
+    "name": "L04_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4: Neural Networks for NLP"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L5_sp26.pdf",
+    "name": "L05_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5: Sequence Models"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L6_sp26.pdf",
+    "name": "L06_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6: Recurrent neural networks"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L7_sp26.pdf",
+    "name": "L07_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7: Seq2Seq models + Attention"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L8_sp26.pdf",
+    "name": "L08_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8: Transformers 1"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L9_sp26.pdf",
+    "name": "L09_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9: Transformers 2"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L10_sp26.pdf",
+    "name": "L10_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10: Contextualized representations + Pre-Training"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L11_sp26.pdf",
+    "name": "L11_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11: Large Language Models (LLMs)"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L12_sp26.pdf",
+    "name": "L12_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12: LLMs: Post-training"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L13_sp26.pdf",
+    "name": "L13_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13: LLMs: advanced techniques"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L14_sp26.pdf",
+    "name": "L14_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14: Language Agents"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L15_sp26.pdf",
+    "name": "L15_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15: Systems for LLM training"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L16_sp26.pdf",
+    "name": "L16_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16: Systems for LLM inference"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/lectures/L18_sp26.pdf",
+    "name": "L18_sp26_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18: Reasoning with LLMs"
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/precepts/precept1_s26.pdf",
+    "name": "precept1_s26_en.pdf",
+    "kind": "pdf",
+    "label": "Precept 1",
+    "aux": true
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/precepts/precept2_s26.pdf",
+    "name": "precept2_s26_en.pdf",
+    "kind": "pdf",
+    "label": "Precept 2",
+    "aux": true
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/precepts/precept3_s26.pdf",
+    "name": "precept3_s26_en.pdf",
+    "kind": "pdf",
+    "label": "Precept 3",
+    "aux": true
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/precepts/precept4_s26.pdf",
+    "name": "precept4_s26_en.pdf",
+    "kind": "pdf",
+    "label": "Precept 4",
+    "aux": true
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/precepts/precept5_s26.pdf",
+    "name": "precept5_s26_en.pdf",
+    "kind": "pdf",
+    "label": "Precept 5",
+    "aux": true
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/precepts/precept6_s26.pdf",
+    "name": "precept6_s26_en.pdf",
+    "kind": "pdf",
+    "label": "Precept 6",
+    "aux": true
+   },
+   {
+    "url": "https://princeton-nlp.github.io/cos484/precepts/26Spring_COS484_MidtermReview.pdf",
+    "name": "26Spring_COS484_MidtermReview_en.pdf",
+    "kind": "pdf",
+    "label": "Midterm Review (3/3)",
+    "aux": true
+   }
+  ],
+  "expected_items": 17,
+  "completeness_note": "官方日程共 20 次讲课（不含 precept、期中考试与项目周），其中 17 讲发布了幻灯片（L1–L16、L18），全部下载；4/7 Lei Li（仅 Zoom 与录像）、4/14 Xingyu Fu、4/16 Ofir Press 三次嘉宾讲座无幻灯片。另附 Precept 1–6 与期中复习讲义（aux；Precept 7–10 官方未发布文件）。",
+  "prereq": "必修 COS 324；概率、线性代数、多元微积分；Python 熟练（官方页面所写）",
+  "coverage": "语言模型与文本分类、词向量、神经网络、序列模型与 RNN、Seq2Seq 与注意力、Transformer、预训练、LLM 与后训练（RLHF/DPO）、语言智能体、LLM 训练与推理系统、推理",
+  "stage": "初学",
+  "language": "en",
+  "reason": "普林斯顿本科 NLP 主干课 2026 春版，由 FlashAttention 作者 Tri Dao 与 Karthik Narasimhan 讲授，后半程覆盖 LLM 后训练、智能体与训练/推理系统，适合作为入门课。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "11"
+  ]
+ },
+ {
+  "sid": "13-A12",
+  "kind": "course",
+  "university": "Johns Hopkins University",
+  "course_code": "CS 601.471/671",
+  "course_title": "NLP: Self-supervised Models",
+  "term": "Spring 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Daniel Khashabi"
+  ],
+  "official_url": "https://self-supervised.cs.jhu.edu/sp2025/",
+  "schedule_url": "https://self-supervised.cs.jhu.edu/sp2025/#schedule",
+  "verification_basis": "课程页标题“CS 601.471/671 NLP: Self-supervised Models, Johns Hopkins University - Spring 2025”，Instructor 为 Daniel Khashabi，日程表见 https://self-supervised.cs.jhu.edu/sp2025/",
+  "dir_name": "JHU_CS601-471_SelfSupervisedModels_2025Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/01.intro.pdf",
+    "name": "01_intro_en.pdf",
+    "kind": "pdf",
+    "label": "#1 Course introduction"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/02.language-modeling.pdf",
+    "name": "02_language-modeling_en.pdf",
+    "kind": "pdf",
+    "label": "#2 Language modeling: definitions, n-grams, evaluation"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/03-4-5.feedforward-nets.pdf",
+    "name": "03-4-5_feedforward-nets_en.pdf",
+    "kind": "pdf",
+    "label": "#3-#6 Neural Nets: background, backprop, practical tips"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/07.mlp-language-modeling.pdf",
+    "name": "07_mlp-language-modeling_en.pdf",
+    "kind": "pdf",
+    "label": "#7 Simple neural LMs: tokenization, fixed-window MLP LMs"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/08-9.recurrent-nets.pdf",
+    "name": "08-9_recurrent-nets_en.pdf",
+    "kind": "pdf",
+    "label": "#9 Recurrent Neural LMs"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/09-10.sampling-algorithms.pdf",
+    "name": "09-10_sampling-algorithms_en.pdf",
+    "kind": "pdf",
+    "label": "#10 Sampling from LMs"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/10-11.transformers.pdf",
+    "name": "10-11_transformers_en.pdf",
+    "kind": "pdf",
+    "label": "#10-#12 Transformer architecture"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/12-13.transformers-language-models.pdf",
+    "name": "12-13_transformers-language-models_en.pdf",
+    "kind": "pdf",
+    "label": "#13-#16 Transformer-based language models, pre-training"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/13-14.adaptation.pdf",
+    "name": "13-14_adaptation_en.pdf",
+    "kind": "pdf",
+    "label": "#16, #19, #21 Adapting LMs: fine-tuning, PEFT, in-context learning, prompting"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/14-15.alignment.pdf",
+    "name": "14-15_alignment_en.pdf",
+    "kind": "pdf",
+    "label": "#22-#24 Alignment: instruction tuning, RLHF, variants"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/15-16.inference-scaling.pdf",
+    "name": "15-16_inference-scaling_en.pdf",
+    "kind": "pdf",
+    "label": "#24 Inference-scaling"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/22-23.efficiency.pdf",
+    "name": "22-23_efficiency_en.pdf",
+    "kind": "pdf",
+    "label": "#25-#27 Efficiency: distributed training, quantization, distillation, scaling laws"
+   },
+   {
+    "url": "https://self-supervised.cs.jhu.edu/sp2025/files/slides/15.final_project_ideas.pdf",
+    "name": "15_final_project_ideas_en.pdf",
+    "kind": "pdf",
+    "label": "#21 Introducing final projects",
+    "aux": true
+   }
+  ],
+  "expected_items": 12,
+  "completeness_note": "官方日程 23 次讲课（不含 3 次小测、春假与项目节点）全部有讲义，但多讲共用一份按专题组织的幻灯片，去重后共 12 个专题 PDF（另有“期末项目介绍”1 份标为 aux），全部下载（官方同时提供 PPTX，只收 PDF）。#27 行中 seeing-acting-models 的链接在源码中被注释掉，不属已发布讲义。Fall 2026 学期正在进行，故选最近完整学期 Spring 2025。",
+  "prereq": "数据结构（601.226）；Python/PyTorch；线性代数、微积分、概率基础；建议有 NLP 与机器学习背景（官方页面所写）",
+  "coverage": "语言模型定义与 n-gram、前馈网络与反向传播、神经语言模型与分词、RNN、采样解码、Transformer 及其变体、预训练、微调/PEFT/上下文学习与提示、指令微调与 RLHF、推理时扩展、分布式训练/量化/蒸馏/规模规律",
+  "stage": "初学",
+  "language": "en",
+  "reason": "以“自监督语言模型”为主线从零讲到对齐与推理时扩展的本科/研究生课，讲义按专题组织、推导细致，是入门 LLM 原理的好教材。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "03"
+  ]
+ },
+ {
+  "sid": "13-A13",
+  "kind": "course",
+  "university": "Carnegie Mellon University",
+  "course_code": "15-442/15-642",
+  "course_title": "Machine Learning Systems",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Tianqi Chen",
+   "Zhihao Jia"
+  ],
+  "official_url": "https://mlsyscourse.org/",
+  "schedule_url": "https://mlsyscourse.org/schedule",
+  "verification_basis": "课程主页“15-442/15-642: Machine Learning Systems”，Instructor 为 Tianqi Chen 与 Zhihao Jia，Piazza/Autolab 链接标注 spring2026 / 15442-s26（https://mlsyscourse.org/）；日程与讲义见 https://mlsyscourse.org/schedule，HTML 幻灯片首页写明“Spring 2026, Tianqi Chen and Zhihao Jia”",
+  "dir_name": "CMU_15-442_MLSystems_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://mlsyscourse.org/slides/01-course-introduction.pdf",
+    "name": "01-course-introduction_en.pdf",
+    "kind": "pdf",
+    "label": "01/12 Why ML Systems?"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/02-introduction-to-MLSys.pdf",
+    "name": "02-introduction-to-MLSys_en.pdf",
+    "kind": "pdf",
+    "label": "01/14 Introduction to Machine Learning Systems"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/03-deep-learning-programming-abstraction.pdf",
+    "name": "03-deep-learning-programming-abstraction_en.pdf",
+    "kind": "pdf",
+    "label": "01/21 Intro to deep learning and programming abstraction"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/04-automatic-differentiation.pdf",
+    "name": "04-automatic-differentiation_en.pdf",
+    "kind": "pdf",
+    "label": "01/26 Automatic Differentiation"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/05-hardware-acceleration.pdf",
+    "name": "05-hardware-acceleration_en.pdf",
+    "kind": "pdf",
+    "label": "01/28 Optimizing Linear Algebra"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/06-CUDA-programming.pdf",
+    "name": "06-CUDA-programming_en.pdf",
+    "kind": "pdf",
+    "label": "02/02 + 02/04 GPU Architecture and CUDA Programming (1)(2) (one file)"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/07-transformers-attention.pdf",
+    "name": "07-transformers-attention_en.pdf",
+    "kind": "pdf",
+    "label": "02/09 Case study: Transformer, Attention, Optimizations"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/08-ML-parallelization-part1.pdf",
+    "name": "08-ML-parallelization-part1_en.pdf",
+    "kind": "pdf",
+    "label": "02/11 ML Parallelization (Data Parallelism and ZeRO)"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/09-ML-parallelization-part2.pdf",
+    "name": "09-ML-parallelization-part2_en.pdf",
+    "kind": "pdf",
+    "label": "02/16 ML Parallelization (Model and Pipeline Parallelism)"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/11-memory-optimization.pdf",
+    "name": "11-memory-optimization_en.pdf",
+    "kind": "pdf",
+    "label": "02/18 Memory Optimizations: Rematerialization and Offload"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/data_layout/",
+    "name": "data_layout_slides_en.html",
+    "kind": "html",
+    "label": "02/23 ML Compiler - Data Layouts (HTML slides)"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/modern-gpu-gemm/",
+    "name": "modern_gpu_gemm_slides_en.html",
+    "kind": "html",
+    "label": "02/25 ML Compiler - GEMM on Modern GPUs (HTML slides)"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/14-LLM-serving-part1.pdf",
+    "name": "14-LLM-serving-part1_en.pdf",
+    "kind": "pdf",
+    "label": "03/09 LLM Serving (Continuous Batching, PagedAttention, RadixAttention)"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/tirx-gemm/",
+    "name": "tirx_gemm_slides_en.html",
+    "kind": "html",
+    "label": "03/11 Blackwell GPU and TIRx (HTML slides)"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/15-LLM-serving-part2.pdf",
+    "name": "15-LLM-serving-part2_en.pdf",
+    "kind": "pdf",
+    "label": "03/16 LLM Serving (Speculative Decoding)"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/16-LLM-finetuning.pdf",
+    "name": "16-LLM-finetuning_en.pdf",
+    "kind": "pdf",
+    "label": "03/18 LLMs: Training (PEFT)"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/16-mixture-of-experts.pdf",
+    "name": "16-mixture-of-experts_en.pdf",
+    "kind": "pdf",
+    "label": "03/25 LLMs: Mixture of Experts"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/advanced-topic-mlc.pdf",
+    "name": "advanced-topic-mlc_en.pdf",
+    "kind": "pdf",
+    "label": "03/30 Advanced topics: ML Compilation"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/18-kernel-superoptimization.pdf",
+    "name": "18-kernel-superoptimization_en.pdf",
+    "kind": "pdf",
+    "label": "04/06 Advanced topics: ML Superoptimization"
+   },
+   {
+    "url": "https://mlsyscourse.org/slides/19-mega-kernel.pdf",
+    "name": "19-mega-kernel_en.pdf",
+    "kind": "pdf",
+    "label": "04/08 Advanced topics: Mega-Kernel"
+   }
+  ],
+  "expected_items": 20,
+  "completeness_note": "官方日程 23 次讲课（不含停课与海报展示）中 21 讲有讲义，对应 20 个文件（02/02 与 02/04 两讲共用一份 CUDA 幻灯片）：17 个 PDF + 3 个 reveal.js 网页幻灯片（单页 HTML，正文内嵌，已保存 HTML 本体），全部下载；04/13 Google TPU 与 04/15 LLM Agents 两次嘉宾讲座的 slides 链接为空，官方未发布。",
+  "prereq": "官方主页未列具体先修课；面向具备系统编程与机器学习基础的本科高年级/研究生",
+  "coverage": "深度学习编程抽象、自动微分、线性代数加速、GPU/CUDA、Transformer 注意力优化、数据/模型/流水线并行与 ZeRO、显存优化、ML 编译（数据布局、GEMM、TIRx）、LLM 服务（连续批处理、PagedAttention、推测解码）、PEFT、MoE、超优化与 Mega-Kernel",
+  "stage": "工程实践",
+  "language": "en",
+  "reason": "TVM/XGBoost 作者陈天奇与贾志豪讲授的机器学习系统课，2026 春以 LLM 训练与服务为案例，覆盖编译、内核与分布式，是高效 ML 系统方向的权威课程。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "11"
+  ]
+ },
+ {
+  "sid": "13-A14",
+  "kind": "course",
+  "university": "University of California, Berkeley",
+  "course_code": "CS 194/294-267",
+  "course_title": "Understanding Large Language Models: Foundations and Safety",
+  "term": "Spring 2024",
+  "term_year": 2024,
+  "instructors": [
+   "Dawn Song",
+   "Dan Hendrycks"
+  ],
+  "official_url": "https://rdi.berkeley.edu/understanding_llms/s24",
+  "schedule_url": "https://rdi.berkeley.edu/understanding_llms/s24",
+  "verification_basis": "课程主页标题“CS 194/294-267 Understanding Large Language Models: Foundations and Safety, Spring 2024”，Instructor Dawn Song（UC Berkeley）、(Guest) Co-instructor Dan Hendrycks（Center for AI Safety），日程表见 https://rdi.berkeley.edu/understanding_llms/s24",
+  "dir_name": "Berkeley_CS294-267_UnderstandingLLMs_2024Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/intro-cs294-267-s24.pptx.pdf",
+    "name": "00_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 19 Course intro (Dawn Song)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/jan19.pdf",
+    "name": "01_jan19_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 19 Transformer, LLM foundations (Lukasz Kaiser)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/jan23.pdf",
+    "name": "02_jan23_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 23 AI safety primer (Dan Hendrycks)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/jan23_1.pdf",
+    "name": "03_jan23_1_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 23 Representation engineering"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/jan30.pdf",
+    "name": "04_jan30_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 30 Interpretability and model editing (David Bau)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/feb6.pdf",
+    "name": "05_feb6_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 6 Training dynamics in multi-layer transformer (Yuandong Tian)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/feb13.pdf",
+    "name": "06_feb13_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 13 Models within models: how do LLMs represent the world? (Martin Wattenberg)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/feb20.pdf",
+    "name": "07_feb20_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 20 Benchmarks and evals, safety vs. capabilities, machine ethics (Dan Hendrycks, Bo Li)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/feb27.pdf",
+    "name": "08_feb27_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 27 Memorization in language models (Eric Wallace)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/mar12.pdf",
+    "name": "09_mar12_en.pdf",
+    "kind": "pdf",
+    "label": "Mar 12 Using AI to understand AI (Jacob Steinhardt)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/mar19.pdf",
+    "name": "10_mar19_en.pdf",
+    "kind": "pdf",
+    "label": "Mar 19 The security of LLMs (Nicholas Carlini)"
+   },
+   {
+    "url": "https://rdi.berkeley.edu/understanding_llms/assets/apr16.pdf",
+    "name": "11_apr16_en.pdf",
+    "kind": "pdf",
+    "label": "Apr 16 Deep Learning for Mathematical Reasoning (Christian Szegedy)"
+   }
+  ],
+  "expected_items": 10,
+  "completeness_note": "官方日程 12 讲（不含春假、停课与项目展示）中 10 讲发布了幻灯片，共 12 个 PDF（1-19 含课程导论与 Transformer 两份，1-23 含安全导论与表征工程两份），全部下载；3-5 Boaz Barak（水印与 AI 安全）与 4-9 Max Tegmark（机制可解释性与形式化验证）两讲官方未发布幻灯片。",
+  "prereq": "官方页面未列硬性先修；面向具备深度学习基础的本科高年级与研究生",
+  "coverage": "Transformer 与 LLM 基础、AI 安全导论、表征工程、可解释性与模型编辑、训练动力学、LLM 世界表征、基准与安全评测、机器伦理、记忆与训练数据提取、用 AI 理解 AI、LLM 安全攻击与数学推理",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "伯克利以 LLM 安全与可解释性为主题的课程，由 Dawn Song 与 CAIS 的 Dan Hendrycks 主持，汇集可解释性、对抗攻击、记忆化等方向代表学者，补足 AI 安全与可信方向。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "12"
+  ]
+ },
+ {
+  "sid": "13-A15",
+  "kind": "course",
+  "university": "University of California San Diego",
+  "course_code": "CSE 234",
+  "course_title": "Data Systems for Machine Learning",
+  "term": "Winter 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Hao Zhang"
+  ],
+  "official_url": "https://hao-ai-lab.github.io/cse234-w25/",
+  "schedule_url": "https://hao-ai-lab.github.io/cse234-w25/",
+  "verification_basis": "课程主页“CSE 234: Data Systems for Machine Learning — Instructor: Hao Zhang, UC San Diego, Winter 2025”，日程与讲义链接见 https://hao-ai-lab.github.io/cse234-w25/",
+  "dir_name": "UCSD_CSE234_DataSystemsForML_2025Winter_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/jan7.pdf",
+    "name": "L01_jan7_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Introduction"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/jan9.pdf",
+    "name": "L02_jan9_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Basics: Modern DL, computational graph, frameworks"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/jan14.pdf",
+    "name": "L03_jan14_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Basics: autodiff, ML system architecture overview"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/jan16.pdf",
+    "name": "L04_jan16_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Tensor format, matmul deep dive, accelerators"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/jan21.pdf",
+    "name": "L05_jan21_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 GPUs and CUDA"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/jan23.pdf",
+    "name": "L06_jan23_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 GPU matmul, operator compilation"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/jan28.pdf",
+    "name": "L07_jan28_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Triton, graph optimization and compilation"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/jan30.pdf",
+    "name": "L08_jan30_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Memory"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/feb4.pdf",
+    "name": "L09_feb4_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Quantization"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/feb6.pdf",
+    "name": "L10_feb6_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 Guest Lecture by Tianqi Chen"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/feb11.pdf",
+    "name": "L11_feb11_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Parallelization"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/feb13.pdf",
+    "name": "L12_feb13_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Parallelization - 2, collective communication"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/feb18.pdf",
+    "name": "L13_feb18_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Parallelization - 3, data, inter- and intra-op parallelism"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/feb20.pdf",
+    "name": "L14_feb20_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 Guest Lecture by Hector Liu"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/feb25.pdf",
+    "name": "L15_feb25_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 Parallelization - 4"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/feb27.pdf",
+    "name": "L16_feb27_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 LLM - 1: transformers, attention"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/mar4.pdf",
+    "name": "L17_mar4_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 LLM - 2: Scaling law, MoE"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/mar6.pdf",
+    "name": "L18_mar6_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 Guest Lecture by Hongyang Zhang"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/mar11.pdf",
+    "name": "L19_mar11_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 LLM - 3: Continuous batching, paged attention, disaggregated prefill and decoding"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/slides/mar13.pdf",
+    "name": "L20_mar13_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 20 LLM - 4: flash attention, deepseek-v3 review, ending words"
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/jan9_scribe.pdf",
+    "name": "scribe_jan9_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (jan9_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/jan14_scribe.pdf",
+    "name": "scribe_jan14_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (jan14_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/jan16_scribe.pdf",
+    "name": "scribe_jan16_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (jan16_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/jan21_scribe.pdf",
+    "name": "scribe_jan21_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (jan21_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/jan23_scribe.pdf",
+    "name": "scribe_jan23_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (jan23_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/jan28_scribe.pdf",
+    "name": "scribe_jan28_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (jan28_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/jan30_scribe.pdf",
+    "name": "scribe_jan30_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (jan30_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/feb4_scribe.pdf",
+    "name": "scribe_feb4_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (feb4_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/feb6_scribe.pdf",
+    "name": "scribe_feb6_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (feb6_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/feb11_scribe.pdf",
+    "name": "scribe_feb11_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (feb11_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/feb13_scribe.pdf",
+    "name": "scribe_feb13_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (feb13_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/feb_18_scribe.pdf",
+    "name": "scribe_feb_18_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (feb_18_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/feb20_scribe.pdf",
+    "name": "scribe_feb20_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (feb20_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/feb25_scribe.pdf",
+    "name": "scribe_feb25_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (feb25_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/feb27_scribe.pdf",
+    "name": "scribe_feb27_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (feb27_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/mar_4_scribe.pdf",
+    "name": "scribe_mar_4_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (mar_4_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/mar6_scribe.pdf",
+    "name": "scribe_mar6_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (mar6_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/march11_scribe.pdf",
+    "name": "scribe_march11_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (march11_scribe)",
+    "aux": true
+   },
+   {
+    "url": "https://hao-ai-lab.github.io/cse234-w25/assets/scribe_notes/mar13_scribe.pdf",
+    "name": "scribe_mar13_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "Scribe note (mar13_scribe)",
+    "aux": true
+   }
+  ],
+  "expected_items": 20,
+  "completeness_note": "官方日程 20 讲均发布幻灯片，全部下载；另附官方发布的 19 份学生 scribe 笔记（aux，第 1 讲无 scribe）。嘉宾讲座行中的 Google Drive 链接为录像，未收。",
+  "prereq": "Python 编程；深度学习与框架（PyTorch、HuggingFace 等）知识；非必需但强烈建议先修 DSC 204A 与 DSC 240（官方 syllabus 所写）",
+  "coverage": "计算图与框架、自动微分、张量与矩阵乘、GPU/CUDA、算子编译与 Triton、显存、量化、数据/模型/流水线并行与集合通信、Transformer 与注意力、规模规律与 MoE、连续批处理、PagedAttention、预填充-解码分离、FlashAttention 与 DeepSeek-V3",
+  "stage": "工程实践",
+  "language": "en",
+  "reason": "vLLM/DistServe 团队负责人 Hao Zhang 讲授的 ML 系统课，后半程集中讲 LLM 训练与推理系统，并附 scribe 笔记，便于自学。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "11"
+  ]
+ },
+ {
+  "sid": "13-A16",
+  "kind": "course",
+  "university": "University of Massachusetts Amherst",
+  "course_code": "CS 685",
+  "course_title": "Advanced Natural Language Processing",
+  "term": "Spring 2024",
+  "term_year": 2024,
+  "instructors": [
+   "Mohit Iyyer"
+  ],
+  "official_url": "https://people.cs.umass.edu/~miyyer/cs685/",
+  "schedule_url": "https://people.cs.umass.edu/~miyyer/cs685/schedule.html",
+  "verification_basis": "课程主页“Advanced Natural Language Processing, CS 685, Spring 2024, UMass Amherst”，Instructor: Mohit Iyyer（https://people.cs.umass.edu/~miyyer/cs685/）；日程与讲义链接见 https://people.cs.umass.edu/~miyyer/cs685/schedule.html",
+  "dir_name": "UMass_CS685_AdvancedNLP_2024Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/00-intro.pdf",
+    "name": "01_slides_00-intro_en.pdf",
+    "kind": "pdf",
+    "label": "Course introduction (slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/01-lm.pdf",
+    "name": "02_slides_01-lm_en.pdf",
+    "kind": "pdf",
+    "label": "Language modeling (slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/02-neural-lms.pdf",
+    "name": "03_slides_02-neural-lms_en.pdf",
+    "kind": "pdf",
+    "label": "Neural language models (slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/backprop_notes.pdf",
+    "name": "04_notes_backprop_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Backpropagation (lecture notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/attn_notes.pdf",
+    "name": "05_notes_attn_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Attention mechanisms & self-attention (lecture notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/transformer_notes.pdf",
+    "name": "06_notes_transformer_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Transformer language models (lecture notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/transformer_config_notes.pdf",
+    "name": "07_notes_transformer_config_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Transformers cont'd: architecture (lecture notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/transfer_instruction_tuning_notes.pdf",
+    "name": "08_notes_transfer_instruction_tuning_notes_en.pdf",
+    "kind": "pdf",
+    "label": "BERT + Instruction tuning (lecture notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/tokenization.pdf",
+    "name": "09_slides_tokenization_en.pdf",
+    "kind": "pdf",
+    "label": "Tokenization & T5 (slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/t5_training.pdf",
+    "name": "10_notes_t5_training_en.pdf",
+    "kind": "pdf",
+    "label": "Tokenization & T5 (lecture notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/peft_notes.pdf",
+    "name": "11_notes_peft_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Parameter-efficient adaptation (lecture notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/rlhf_notes.pdf",
+    "name": "12_notes_rlhf_notes_en.pdf",
+    "kind": "pdf",
+    "label": "RLHF / RLAIF (lecture notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/dpo_notes.pdf",
+    "name": "13_notes_dpo_notes_en.pdf",
+    "kind": "pdf",
+    "label": "DPO (lecture notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/decoding.pdf",
+    "name": "14_slides_decoding_en.pdf",
+    "kind": "pdf",
+    "label": "Decoding from language models (slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/prompt_engineering.txt",
+    "name": "15_slides_prompt_engineering_en.txt",
+    "kind": "text",
+    "label": "Prompt engineering & RAG (text slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/gen_eval.pdf",
+    "name": "16_slides_gen_eval_en.pdf",
+    "kind": "pdf",
+    "label": "Evaluating text generation models (slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/posemb_notes.pdf",
+    "name": "17_notes_posemb_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Position embeddings + efficient attention (lecture notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/scaling_laws.pdf",
+    "name": "18_slides_scaling_laws_en.pdf",
+    "kind": "pdf",
+    "label": "Scaling laws of LLMs (slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/scaling_laws.pdf",
+    "name": "19_notes_scaling_laws_en.pdf",
+    "kind": "pdf",
+    "label": "Scaling laws of LLMs (lecture notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/notes/midterm_notes.pdf",
+    "name": "20_notes_midterm_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Midterm review (notes)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/vision_nlp.pdf",
+    "name": "21_slides_vision_nlp_en.pdf",
+    "kind": "pdf",
+    "label": "Vision-language models (slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/incontext.pdf",
+    "name": "22_slides_incontext_en.pdf",
+    "kind": "pdf",
+    "label": "Understanding in-context learning (slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/security.pdf",
+    "name": "23_slides_security_en.pdf",
+    "kind": "pdf",
+    "label": "LLM detection & security risks (slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/interpet.pdf",
+    "name": "24_slides_interpet_en.pdf",
+    "kind": "pdf",
+    "label": "Interpretability: probing, editing, induction heads (slides)"
+   },
+   {
+    "url": "https://people.cs.umass.edu/~miyyer/cs685/slides/lru_notes.pdf",
+    "name": "25_slides_lru_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Beyond Transformers: Mamba & Griffin (slides)"
+   }
+  ],
+  "expected_items": 23,
+  "completeness_note": "官方日程 23 讲（含期中复习）均发布了讲义，共 25 个文件（“Tokenization & T5”与“Scaling laws”两讲各有幻灯片和手写笔记两份）：其中多讲以教师手写板书笔记 PDF（notes/）代替幻灯片，“Prompt engineering & RAG”一讲官方以纯文本 .txt 发布，全部下载；Decoding 一讲的 [notes] 无链接。",
+  "prereq": "面向熟悉机器学习基础的计算机/语言学研究生（官方主页所写）",
+  "coverage": "语言模型与神经语言模型、反向传播、注意力与 Transformer、BERT 与指令微调、分词与 T5、PEFT、RLHF/RLAIF 与 DPO、解码、提示工程与 RAG、生成评测、位置编码与高效注意力、规模规律、视觉-语言模型、上下文学习机理、LLM 检测与安全、可解释性、Mamba/Griffin",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "Mohit Iyyer 以大语言模型为核心的研究生 NLP 课，手写推导笔记细致（注意力、RLHF、DPO、规模规律），与幻灯片型课程互补。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "03"
+  ]
+ },
+ {
+  "sid": "13-A17",
+  "kind": "course",
+  "university": "Cornell University (Cornell Tech)",
+  "course_code": "CS 5740",
+  "course_title": "Natural Language Processing (LM-class)",
+  "term": "Spring 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Yoav Artzi"
+  ],
+  "official_url": "https://www.cs.cornell.edu/courses/cs5740/2025sp/",
+  "schedule_url": "https://lm-class.org/lectures.html",
+  "verification_basis": "课程主页“CS 5740: Natural Language Processing (Spring 2025)”，Instructor: Yoav Artzi，并写明“This course uses lm-class. All content, including slides and assignments, is publicly available at lm-class.org”（https://www.cs.cornell.edu/courses/cs5740/2025sp/）；讲义列表见 https://lm-class.org/lectures.html（Version 2025.5，由 Yoav Artzi 为 Cornell Tech CS 5740 编写）",
+  "dir_name": "Cornell_CS5740_LMClass_2025Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://lm-class.org/lectures/01%20-%20intro.pdf",
+    "name": "01_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 01 - intro"
+   },
+   {
+    "url": "https://lm-class.org/lectures/02%20-%20data%20basics%20and%20perceptron.pdf",
+    "name": "02_data_basics_and_perceptron_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 02 - data basics and perceptron"
+   },
+   {
+    "url": "https://lm-class.org/lectures/03%20-%20neural%20networks.pdf",
+    "name": "03_neural_networks_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 03 - neural networks"
+   },
+   {
+    "url": "https://lm-class.org/lectures/04%20-%20word%20embeddings.pdf",
+    "name": "04_word_embeddings_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 04 - word embeddings"
+   },
+   {
+    "url": "https://lm-class.org/lectures/05%20-%20language%20models.pdf",
+    "name": "05_language_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 05 - language models"
+   },
+   {
+    "url": "https://lm-class.org/lectures/06%20-%20tokenization.pdf",
+    "name": "06_tokenization_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 06 - tokenization"
+   },
+   {
+    "url": "https://lm-class.org/lectures/07%20-%20neural%20lms%20and%20transformers.pdf",
+    "name": "07_neural_lms_and_transformers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 07 - neural lms and transformers"
+   },
+   {
+    "url": "https://lm-class.org/lectures/08%20-%20decoding%20lms.pdf",
+    "name": "08_decoding_lms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 08 - decoding lms"
+   },
+   {
+    "url": "https://lm-class.org/lectures/09%20-%20scaling%20up%20to%20llms.pdf",
+    "name": "09_scaling_up_to_llms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 09 - scaling up to llms"
+   },
+   {
+    "url": "https://lm-class.org/lectures/10%20-%20masked%20lms.pdf",
+    "name": "10_masked_lms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 - masked lms"
+   },
+   {
+    "url": "https://lm-class.org/lectures/11%20-%20encdec%20pretrain.pdf",
+    "name": "11_encdec_pretrain_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 - encdec pretrain"
+   },
+   {
+    "url": "https://lm-class.org/lectures/12%20-%20raw%20data%20recap.pdf",
+    "name": "12_raw_data_recap_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 - raw data recap"
+   },
+   {
+    "url": "https://lm-class.org/lectures/13%20-%20tasks.pdf",
+    "name": "13_tasks_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 - tasks"
+   },
+   {
+    "url": "https://lm-class.org/lectures/14%20-%20post-training%20llms.pdf",
+    "name": "14_post_training_llms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 - post-training llms"
+   },
+   {
+    "url": "https://lm-class.org/lectures/15%20-%20prompting.pdf",
+    "name": "15_prompting_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 - prompting"
+   }
+  ],
+  "expected_items": 15,
+  "completeness_note": "课程讲义统一发布在 lm-class.org（Version 2025.5），讲义页列出的 15 讲均提供 PDF（另有 Keynote 源文件，未收），全部下载。课程主页说明 Canvas 上可能有更新版本（需登录，未收）；按 Cornell 课程页面未列出逐日日程，以 lm-class 讲义序列为准。",
+  "prereq": "入门级机器学习与神经网络、本科程度编程、概率论与线性代数（lm-class 主页所写）",
+  "coverage": "文本分类与感知机、神经网络基础、词向量、n-gram 语言模型、分词（BPE）、神经语言模型与 Transformer、解码、扩展到 LLM（数据与规模规律）、BERT 与编码器-解码器预训练、典型 NLP 任务、后训练（指令微调、RLHF/PPO、DPO）与提示",
+  "stage": "初学",
+  "language": "en",
+  "reason": "Yoav Artzi 为 Cornell Tech 重新设计的“以语言建模为主线”的 NLP 课，强调技术深度、自成体系，官方推荐作为 CS336 之前的先修。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01"
+  ]
+ },
+ {
+  "sid": "13-A18",
+  "kind": "course",
+  "university": "中国人民大学（Renmin University of China）",
+  "course_code": "（教材《大语言模型》配套课程课件，无单一课程编号）",
+  "course_title": "大语言模型（课程 PDF 课件）",
+  "term": "2025 课件版",
+  "term_year": 2025,
+  "instructors": [
+   "赵鑫",
+   "李军毅",
+   "周昆",
+   "唐天一",
+   "文继荣"
+  ],
+  "official_url": "https://llmbook-zh.github.io/",
+  "schedule_url": "https://llmbook-zh.github.io/",
+  "verification_basis": "官方站点 https://llmbook-zh.github.io/ “课程资源”栏写明“为了帮助课程教学及传播大模型知识，《大语言模型》编写团队特别提供了相应的PDF课件”，列出第一课至第八课及其他章节课件链接，均指向官方 GitHub 组织 LLMBook-zh 的仓库；作者为中国人民大学高瓴人工智能学院 RUCAIBox 团队赵鑫、李军毅、周昆、唐天一、文继荣，并注明配套教学视频已发布于 bilibili",
+  "dir_name": "RUC_LLMBook_DaYuYanMoXing_2025_CourseSlides_cn",
+  "files": [
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%B8%80%E8%AF%BE%20%E5%88%9D%E8%AF%86%E5%A4%A7%E6%A8%A1%E5%9E%8B/1.1%20%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B.pdf",
+    "name": "lesson1_1_语言模型发展历程_cn.pdf",
+    "kind": "pdf",
+    "label": "第一课 初识大模型/1.1 语言模型发展历程"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%B8%80%E8%AF%BE%20%E5%88%9D%E8%AF%86%E5%A4%A7%E6%A8%A1%E5%9E%8B/1.2%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80.pdf",
+    "name": "lesson1_2_大模型技术基础_cn.pdf",
+    "kind": "pdf",
+    "label": "第一课 初识大模型/1.2 大模型技术基础"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%B8%80%E8%AF%BE%20%E5%88%9D%E8%AF%86%E5%A4%A7%E6%A8%A1%E5%9E%8B/1.3%20GPT%2BDeepSeek%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D.pdf",
+    "name": "lesson1_3_GPT_DeepSeek模型介绍_cn.pdf",
+    "kind": "pdf",
+    "label": "第一课 初识大模型/1.3 GPT+DeepSeek模型介绍"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%BA%8C%E8%AF%BE%20%E6%A8%A1%E5%9E%8B%E6%9E%B6%E6%9E%84/2.1%20Transformer%E6%A8%A1%E5%9E%8B.pdf",
+    "name": "lesson2_1_Transformer模型_cn.pdf",
+    "kind": "pdf",
+    "label": "第二课 模型架构/2.1 Transformer模型"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%BA%8C%E8%AF%BE%20%E6%A8%A1%E5%9E%8B%E6%9E%B6%E6%9E%84/2.2%20%E6%A8%A1%E5%9E%8B%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE.pdf",
+    "name": "lesson2_2_模型详细配置_cn.pdf",
+    "kind": "pdf",
+    "label": "第二课 模型架构/2.2 模型详细配置"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%BA%8C%E8%AF%BE%20%E6%A8%A1%E5%9E%8B%E6%9E%B6%E6%9E%84/2.3%20%E9%95%BF%E4%B8%8A%E4%B8%8B%E6%96%87%E6%A8%A1%E5%9E%8B%E5%92%8C%E6%96%B0%E5%9E%8B%E6%9E%B6%E6%9E%84.pdf",
+    "name": "lesson2_3_长上下文模型和新型架构_cn.pdf",
+    "kind": "pdf",
+    "label": "第二课 模型架构/2.3 长上下文模型和新型架构"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%B8%89%E8%AF%BE%20%E9%A2%84%E8%AE%AD%E7%BB%83/3.1%20%E9%A2%84%E8%AE%AD%E7%BB%83%E4%B9%8B%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B.pdf",
+    "name": "lesson3_1_预训练之数据工程_cn.pdf",
+    "kind": "pdf",
+    "label": "第三课 预训练/3.1 预训练之数据工程"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%B8%89%E8%AF%BE%20%E9%A2%84%E8%AE%AD%E7%BB%83/3.2%E9%A2%84%E8%AE%AD%E7%BB%83%E4%B9%8B%E5%85%B7%E4%BD%93%E6%B5%81%E7%A8%8B.pdf",
+    "name": "lesson3_2_预训练之具体流程_cn.pdf",
+    "kind": "pdf",
+    "label": "第三课 预训练/3.2预训练之具体流程"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%B8%89%E8%AF%BE%20%E9%A2%84%E8%AE%AD%E7%BB%83/3.3%E9%A2%84%E8%AE%AD%E7%BB%83%E4%B9%8B%E8%AE%AD%E7%BB%83%E4%BC%98%E5%8C%96%E4%B8%8E%E6%95%88%E7%8E%87.pdf",
+    "name": "lesson3_3_预训练之训练优化与效率_cn.pdf",
+    "kind": "pdf",
+    "label": "第三课 预训练/3.3预训练之训练优化与效率"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E5%9B%9B%E8%AF%BE%20%E6%8C%87%E4%BB%A4%E5%BE%AE%E8%B0%83/4.1%20%E6%8C%87%E4%BB%A4%E5%BE%AE%E8%B0%83%E4%B8%8E%E5%B8%B8%E8%A7%81%E7%AD%96%E7%95%A5.pdf",
+    "name": "lesson4_1_指令微调与常见策略_cn.pdf",
+    "kind": "pdf",
+    "label": "第四课 指令微调/4.1 指令微调与常见策略"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E5%9B%9B%E8%AF%BE%20%E6%8C%87%E4%BB%A4%E5%BE%AE%E8%B0%83/4.2%20%E8%BD%BB%E9%87%8F%E5%8C%96%E5%BE%AE%E8%B0%83.pdf",
+    "name": "lesson4_2_轻量化微调_cn.pdf",
+    "kind": "pdf",
+    "label": "第四课 指令微调/4.2 轻量化微调"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%BA%94%E8%AF%BE%20%E4%BA%BA%E7%B1%BB%E5%AF%B9%E9%BD%90/5.1%20%E4%BA%BA%E7%B1%BB%E5%AF%B9%E9%BD%90%E4%B9%8B%E5%9F%BA%E7%A1%80.pdf",
+    "name": "lesson5_1_人类对齐之基础_cn.pdf",
+    "kind": "pdf",
+    "label": "第五课 人类对齐/5.1 人类对齐之基础"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%BA%94%E8%AF%BE%20%E4%BA%BA%E7%B1%BB%E5%AF%B9%E9%BD%90/5.2%20%E4%BA%BA%E7%B1%BB%E5%AF%B9%E9%BD%90%E4%B9%8B%E8%BF%9B%E9%98%B6.pdf",
+    "name": "lesson5_2_人类对齐之进阶_cn.pdf",
+    "kind": "pdf",
+    "label": "第五课 人类对齐/5.2 人类对齐之进阶"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E5%85%AD%E8%AF%BE%20%E8%A7%A3%E7%A0%81%E4%B8%8E%E9%83%A8%E7%BD%B2/6.1%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%A7%A3%E7%A0%81.pdf",
+    "name": "lesson6_1_大模型解码_cn.pdf",
+    "kind": "pdf",
+    "label": "第六课 解码与部署/6.1 大模型解码"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E5%85%AD%E8%AF%BE%20%E8%A7%A3%E7%A0%81%E4%B8%8E%E9%83%A8%E7%BD%B2/6.2%20%E8%A7%A3%E7%A0%81%E6%95%88%E7%8E%87%E5%88%86%E6%9E%90%E4%B8%8E%E5%8A%A0%E9%80%9F%E7%AE%97%E6%B3%95.pdf",
+    "name": "lesson6_2_解码效率分析与加速算法_cn.pdf",
+    "kind": "pdf",
+    "label": "第六课 解码与部署/6.2 解码效率分析与加速算法"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E5%85%AD%E8%AF%BE%20%E8%A7%A3%E7%A0%81%E4%B8%8E%E9%83%A8%E7%BD%B2/6.3%20%E6%A8%A1%E5%9E%8B%E5%8E%8B%E7%BC%A9.pdf",
+    "name": "lesson6_3_模型压缩_cn.pdf",
+    "kind": "pdf",
+    "label": "第六课 解码与部署/6.3 模型压缩"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%B8%83%E8%AF%BE%20%E6%8F%90%E7%A4%BA%E5%AD%A6%E4%B9%A0/7.1%20%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B.pdf",
+    "name": "lesson7_1_提示工程_cn.pdf",
+    "kind": "pdf",
+    "label": "第七课 提示学习/7.1 提示工程"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%B8%83%E8%AF%BE%20%E6%8F%90%E7%A4%BA%E5%AD%A6%E4%B9%A0/7.2%20%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AD%A6%E4%B9%A0.pdf",
+    "name": "lesson7_2_上下文学习_cn.pdf",
+    "kind": "pdf",
+    "label": "第七课 提示学习/7.2 上下文学习"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%B8%83%E8%AF%BE%20%E6%8F%90%E7%A4%BA%E5%AD%A6%E4%B9%A0/7.3%20%E6%80%9D%E7%BB%B4%E9%93%BE%E6%8F%90%E7%A4%BA.pdf",
+    "name": "lesson7_3_思维链提示_cn.pdf",
+    "kind": "pdf",
+    "label": "第七课 提示学习/7.3 思维链提示"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E4%B8%83%E8%AF%BE%20%E6%8F%90%E7%A4%BA%E5%AD%A6%E4%B9%A0/7.4%20%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90.pdf",
+    "name": "lesson7_4_检索增强生成_cn.pdf",
+    "kind": "pdf",
+    "label": "第七课 提示学习/7.4 检索增强生成"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E5%85%AB%E8%AF%BE%20%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/8.1%20%E8%A7%84%E5%88%92%E4%B8%8E%E6%99%BA%E8%83%BD%E4%BD%93.pdf",
+    "name": "lesson8_1_规划与智能体_cn.pdf",
+    "kind": "pdf",
+    "label": "第八课 复杂推理/8.1 规划与智能体"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E7%AC%AC%E5%85%AB%E8%AF%BE%20%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/8.2%20%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86%E4%B8%8E%E6%85%A2%E6%80%9D%E8%80%83.pdf",
+    "name": "lesson8_2_复杂推理与慢思考_cn.pdf",
+    "kind": "pdf",
+    "label": "第八课 复杂推理/8.2 复杂推理与慢思考"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E8%AF%84%E6%B5%8B%E4%B8%8E%E8%B5%84%E6%BA%90/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B5%84%E6%BA%90.pdf",
+    "name": "other_大模型资源_cn.pdf",
+    "kind": "pdf",
+    "label": "评测与资源/大模型资源（其他章节）",
+    "aux": true
+   },
+   {
+    "url": "https://raw.githubusercontent.com/LLMBook-zh/LLMBook-zh.github.io/main/slides/%E8%AF%84%E6%B5%8B%E4%B8%8E%E8%B5%84%E6%BA%90/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B.pdf",
+    "name": "other_大模型评测_cn.pdf",
+    "kind": "pdf",
+    "label": "评测与资源/大模型评测（其他章节）",
+    "aux": true
+   }
+  ],
+  "expected_items": 22,
+  "completeness_note": "官方课程目录共 8 课，课件页列出 23 个讲义链接（其中“训练优化”与“模型参数量与训练效率估计”两项指向同一 PDF），去重后 22 个 PDF 全部下载；“其他章节”的大模型资源、大模型评测两份课件一并下载（aux）。注意：这是教材配套的官方课程课件（附 bilibili 授课视频），不对应某一学期的具体课程编号与日程。",
+  "prereq": "具有深度学习基础（官方站点对教材读者的说明）",
+  "coverage": "语言模型发展与大模型技术基础、GPT/DeepSeek、Transformer 与模型配置、长上下文与新型架构、预训练数据工程与流程、训练优化、指令微调与轻量化微调、人类对齐（RLHF/DPO）、解码与加速、模型压缩、提示工程、上下文学习、思维链、RAG、规划与智能体、复杂推理与慢思考、资源与评测",
+  "stage": "初学",
+  "language": "cn",
+  "reason": "人大高瓴 RUCAIBox 团队（《A Survey of LLMs》作者）发布的中文大模型课程课件，体系完整、覆盖到 DeepSeek 与慢思考推理，是少有的公开、可下载的中国高校大模型课程讲义。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "03",
+   "04"
+  ]
+ },
+ {
+  "sid": "13-A19",
+  "kind": "course",
+  "university": "Princeton University",
+  "course_code": "COS 597R",
+  "course_title": "Deep Dive into Large Language Models",
+  "term": "Fall 2024",
+  "term_year": 2024,
+  "instructors": [
+   "Danqi Chen",
+   "Sanjeev Arora"
+  ],
+  "official_url": "https://princeton-cos597r.github.io/",
+  "schedule_url": "https://princeton-cos597r.github.io/#schedule",
+  "verification_basis": "课程主页“COS 597R (Fall 2024): Deep Dive into Large Language Models”，Instructors 为 Danqi Chen 与 Sanjeev Arora，日程表见 https://princeton-cos597r.github.io/",
+  "dir_name": "Princeton_COS597R_DeepDiveLLMs_2024Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec01.pdf",
+    "name": "lec01_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 4 Introduction (Sanjeev Arora)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec02.pdf",
+    "name": "lec02_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 9 Pretraining 1 (Danqi Chen)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec03.pdf",
+    "name": "lec03_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 11 Pretraining 2 (Danqi Chen)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec04.pdf",
+    "name": "lec04_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 16 Scaling laws (Sanjeev Arora)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec05.pdf",
+    "name": "lec05_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 18 Emergent behavior (Sanjeev Arora)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec06.pdf",
+    "name": "lec06_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 23 Data curation (Danqi Chen)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec07.pdf",
+    "name": "lec07_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 25 Post-training: Instruction tuning (Danqi Chen)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec08.pdf",
+    "name": "lec08_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 30 Post-training: learning from preferences (Danqi Chen)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec9-Alignment.pdf",
+    "name": "lec9-Alignment_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 2 Alignment (Sanjeev Arora)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec10-ConstitutionalAI.pdf",
+    "name": "lec10-ConstitutionalAI_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 7 Constitutional AI (Sanjeev Arora)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec11-Metacognition.pdf",
+    "name": "lec11-Metacognition_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 9 LLM Metacognition (Sanjeev Arora)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec12-long-context.pdf",
+    "name": "lec12-long-context_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 21 Long-context models (Tianyu Gao)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec13-MoreAlignment.pdf",
+    "name": "lec13-MoreAlignment_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 23 Advanced topics in alignment (Sanjeev Arora)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec14-Inference%20Time%20Compute.pdf",
+    "name": "lec14-Inference_Time_Compute_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 28 LLM Reasoning 1: inference-time compute"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec15.pdf",
+    "name": "lec15_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 30 LLM Reasoning 2 (Danqi Chen)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec16.pdf",
+    "name": "lec16_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 4 Small models (Mengzhou Xia)"
+   },
+   {
+    "url": "https://ysu1989.github.io/resources/language_agents_YuSu_2024.pdf",
+    "name": "lec17_guest_YuSu_language_agents_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 11 A Holistic and Critical Look at Language Agents (guest Yu Su; slides linked from official schedule, hosted on speaker's site)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec18.pdf",
+    "name": "lec18_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 13 Retrieval-augmented language models (Danqi Chen)"
+   },
+   {
+    "url": "https://princeton-cos597r.github.io/lectures/lec20.pdf",
+    "name": "lec20_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 20 Language Models Need Better Visual Grounding (Saining Xie)"
+   }
+  ],
+  "expected_items": 19,
+  "completeness_note": "官方日程 21 次讲课（不含学生项目展示）中 19 讲有幻灯片，共 19 个 PDF 全部下载（其中 11-11 嘉宾 Yu Su 的幻灯片由官方日程链接到讲者个人主页）；11-06“Retrieval-augmented LMs”与 11-18 Tri Dao“Hardware-aware Algorithms”两讲官方未发布幻灯片。",
+  "prereq": "COS 484 或同等背景（深度学习/机器学习基础、Transformer、PyTorch）（官方页面所写）",
+  "coverage": "预训练、规模规律、涌现行为（含理论视角）、数据整理、指令微调与偏好学习、对齐与 Constitutional AI、LLM 元认知、长上下文、推理时计算与推理、小模型（剪枝/蒸馏）、检索增强、语言智能体与视觉落地",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "Danqi Chen 与理论计算机科学家 Sanjeev Arora 合开的 LLM 研究生课，兼顾实证（预训练、数据、后训练）与理论视角（规模规律、涌现、元认知），弥补理论类讲义缺口。",
+  "priority": "高",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "03",
+   "04"
+  ]
+ },
+ {
+  "sid": "13-A20",
+  "kind": "course",
+  "university": "Indian Institute of Technology Delhi",
+  "course_code": "ELL881/AIL821",
+  "course_title": "Large Language Models (LLMs): Introduction and Recent Advances",
+  "term": "Semester I, 2024-25 (Jul–Nov 2024)",
+  "term_year": 2024,
+  "instructors": [
+   "Tanmoy Chakraborty"
+  ],
+  "official_url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/",
+  "schedule_url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/lectures/",
+  "verification_basis": "官方课程站点（GitHub 组织 lcs2-iitd 的仓库 ELL881-AIL821-2401，其 _config.yml 写明 course_code ELL881/AIL821、course_name “Large Language Models (LLMs): Introduction and Recent Advances”、course_semester “Semester I, 2024-25”；仓库描述“An advanced course on LLMs offered at IIT Delhi by Prof. Tanmoy Chakraborty”）；逐讲日程与讲义见 https://lcs2-iitd.github.io/ELL881-AIL821-2401/lectures/",
+  "dir_name": "IITDelhi_ELL881-AIL821_LLMs_2024Sem1_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/1.pdf",
+    "name": "L1_1_en.pdf",
+    "kind": "pdf",
+    "label": "1. Course Introduction (July 22, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/2.pdf",
+    "name": "L2_2_en.pdf",
+    "kind": "pdf",
+    "label": "2. Introduction to Natural Language Processing (July 24, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/31.pdf",
+    "name": "L3_1_31_en.pdf",
+    "kind": "pdf",
+    "label": "3.1. Introduction to Language Models: Statistical Language Modeling (July 25, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/32.pdf",
+    "name": "L3_2_32_en.pdf",
+    "kind": "pdf",
+    "label": "3.2. Introduction to Language Models: Advanced Smoothing and Evaluation (July 29, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/41.pdf",
+    "name": "L4_1_41_en.pdf",
+    "kind": "pdf",
+    "label": "4.1. Word Representation: Word2vec (July 31, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/42.pdf",
+    "name": "L4_2_42_en.pdf",
+    "kind": "pdf",
+    "label": "4.2. Word Representation: GloVe (August 1, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/51.pdf",
+    "name": "L5_1_51_en.pdf",
+    "kind": "pdf",
+    "label": "5.1. Neural Language Models: RNNs (August 1, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/52.pdf",
+    "name": "L5_2_52_en.pdf",
+    "kind": "pdf",
+    "label": "5.2. Neural Language Models: LSTMs and GRUs (August 2, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/53.pdf",
+    "name": "L5_3_53_en.pdf",
+    "kind": "pdf",
+    "label": "5.3. Neural Language Models: Sequence-to-Sequence and Attention (August 2, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/61.pdf",
+    "name": "L6_1_61_en.pdf",
+    "kind": "pdf",
+    "label": "6.1. Introduction to Transformer: Self-Attention and Multi-Head Attention (August 5, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/62.pdf",
+    "name": "L6_2_62_en.pdf",
+    "kind": "pdf",
+    "label": "6.2. Introduction to Transformer: Positional Encoding and Layer Normalization (August 7, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/71.pdf",
+    "name": "L7_71_en.pdf",
+    "kind": "pdf",
+    "label": "7. Pre-training Strategies (August 8, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/81.pdf",
+    "name": "L8_1_81_en.pdf",
+    "kind": "pdf",
+    "label": "8.1. Advanced Attention Mechanisms-I (August 21, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/82.pdf",
+    "name": "L8_2_82_en.pdf",
+    "kind": "pdf",
+    "label": "8.2. Advanced Attention Mechanisms-II (August 22, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/90.pdf",
+    "name": "L9_90_en.pdf",
+    "kind": "pdf",
+    "label": "9. Tokenization Strategies (August 26, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/101.pdf",
+    "name": "L10_1_101_en.pdf",
+    "kind": "pdf",
+    "label": "10.1. Mixture of Experts-I (August 28, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/102.pdf",
+    "name": "L10_2_102_en.pdf",
+    "kind": "pdf",
+    "label": "10.2. Mixture of Experts-II (August 29, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/110.pdf",
+    "name": "L11_110_en.pdf",
+    "kind": "pdf",
+    "label": "11. Scaling Laws (August 31, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/121.pdf",
+    "name": "L12_1_121_en.pdf",
+    "kind": "pdf",
+    "label": "12.1. Pre-training of Causal LMs and In-context Learning (September 2, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/122.pdf",
+    "name": "L12_2_122_en.pdf",
+    "kind": "pdf",
+    "label": "12.2. Instruction Tuning (September 4, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/131.pdf",
+    "name": "L13_1_131_en.pdf",
+    "kind": "pdf",
+    "label": "13.1. Alignment of Language Models: Reward Maximization-I (September 5, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/132.pdf",
+    "name": "L13_2_132_en.pdf",
+    "kind": "pdf",
+    "label": "13.2. Alignment of Language Models: Reward Maximization-II (September 7, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/133.pdf",
+    "name": "L13_3_133_en.pdf",
+    "kind": "pdf",
+    "label": "13.3. Alignment of Language Models: Contrastive Learning (September 9, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/141.pdf",
+    "name": "L14_1_141_en.pdf",
+    "kind": "pdf",
+    "label": "14.1. Parameter Efficient Fine-Tuning (PEFT) (September 19, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/142.pdf",
+    "name": "L14_2_142_en.pdf",
+    "kind": "pdf",
+    "label": "14.2. Quantization, Pruning & Distillation (September 23, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/151.pdf",
+    "name": "L15_1_151_en.pdf",
+    "kind": "pdf",
+    "label": "15.1. Efficient LLM Decoding-I (September 25, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/161.pdf",
+    "name": "L16_1_161_en.pdf",
+    "kind": "pdf",
+    "label": "16.1. Retrieval-based Language Models-I (September 30, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/162.pdf",
+    "name": "L16_2_162_en.pdf",
+    "kind": "pdf",
+    "label": "16.2. Retrieval-based Language Models-II (October 3, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/multimodal_1.pdf",
+    "name": "L17_1_multimodal_1_en.pdf",
+    "kind": "pdf",
+    "label": "17.1. Multimodal Models-I (October 7, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/multimodal_2.pdf",
+    "name": "L17_2_multimodal_2_en.pdf",
+    "kind": "pdf",
+    "label": "17.2. Multimodal Models-II (October 14, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/171.pdf",
+    "name": "L18_1_171_en.pdf",
+    "kind": "pdf",
+    "label": "18.1. LLMs and Tools: Tool Augmentation (October 16, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/172.pdf",
+    "name": "L18_2_172_en.pdf",
+    "kind": "pdf",
+    "label": "18.2. LLMs and Tools: Function Calling (October 17, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/173.pdf",
+    "name": "L18_3_173_en.pdf",
+    "kind": "pdf",
+    "label": "18.3. LLMs and Tools: Agentic Workflow (October 19, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/181.pdf",
+    "name": "L19_181_en.pdf",
+    "kind": "pdf",
+    "label": "19. Reasoning in LLMs (October 21, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/200.pdf",
+    "name": "L20_200_en.pdf",
+    "kind": "pdf",
+    "label": "20. Long Context LLMs: Challenges & Solutions (October 28, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/210.pdf",
+    "name": "L21_210_en.pdf",
+    "kind": "pdf",
+    "label": "21. Knowledge Editing (October 30, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/220.pdf",
+    "name": "L22_220_en.pdf",
+    "kind": "pdf",
+    "label": "22. Self-evolving LLMs (November 7, 2024)"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/230_scribe.pdf",
+    "name": "L23_230_scribe_en.pdf",
+    "kind": "pdf",
+    "label": "23. An Alternate Formulation of Transformers (November 11, 2024) [scribe notes, only material]"
+   },
+   {
+    "url": "https://lcs2-iitd.github.io/ELL881-AIL821-2401/static_files/presentations/240.pdf",
+    "name": "L24_240_en.pdf",
+    "kind": "pdf",
+    "label": "24. Interpretability: Demystifying the Black-Box LMs (November 13, 2024)"
+   }
+  ],
+  "expected_items": 39,
+  "completeness_note": "官方讲义页共 40 讲，全部有讲义：38 个幻灯片 PDF（15.1 与 15.2 两讲共用同一份解码幻灯片），第 23 讲“An Alternate Formulation of Transformers”只发布了 scribe 笔记，作为该讲讲义收录，合计 39 个文件全部下载。其余 21 份学生 scribe 笔记（多为 2–10 MB）未收。",
+  "prereq": "机器学习背景与 Python 熟练；最好具备深度学习与 NLP 基础（官方课程说明所写）",
+  "coverage": "统计语言模型、词向量、RNN/LSTM/Seq2Seq、Transformer 与位置编码、预训练策略、KV 缓存与高效注意力（FlashAttention）、分词、MoE、规模规律、上下文学习与指令微调、对齐（RLHF/DPO 等）、PEFT、量化/剪枝/蒸馏、高效解码、检索增强、多模态、工具使用与智能体、推理、长上下文、知识编辑、自进化 LLM 与可解释性",
+  "stage": "进阶研究",
+  "language": "en",
+  "reason": "印度理工德里分校面向本科高年级与研究生的 LLM 专题课，40 讲覆盖从基础到对齐、效率、智能体与可解释性，讲义完整公开，补充亚洲高校视角。",
+  "priority": "中",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "03",
+   "11"
+  ]
+ },
+ {
+  "sid": "13-A21",
+  "kind": "course",
+  "university": "Stanford University",
+  "course_code": "CS324",
+  "course_title": "Large Language Models",
+  "term": "Winter 2022",
+  "term_year": 2022,
+  "instructors": [
+   "Percy Liang",
+   "Tatsunori Hashimoto",
+   "Christopher Ré"
+  ],
+  "official_url": "https://stanford-cs324.github.io/winter2022/",
+  "schedule_url": "https://stanford-cs324.github.io/winter2022/calendar/",
+  "verification_basis": "课程主页“CS324 - Large Language Models”，Teaching team 中 Instructor 为 Percy Liang、Tatsunori Hashimoto、Christopher Ré，课程邮箱 cs324-win2122-staff 指明 2021–22 学年冬季（https://stanford-cs324.github.io/winter2022/）；日程见 /calendar/，讲义列表见 /lectures/",
+  "dir_name": "Stanford_CS324_LLMs_2022Winter_LectureNotes_en",
+  "files": [
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/introduction/",
+    "name": "01_introduction_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Introduction"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/capabilities/",
+    "name": "02_capabilities_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Capabilities"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/harms-1/",
+    "name": "03_harms_1_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Harms I"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/harms-2/",
+    "name": "04_harms_2_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Harms II"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/data/",
+    "name": "05_data_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Data"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/security/",
+    "name": "06_security_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Security"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/legality/",
+    "name": "07_legality_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Legality"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/modeling/",
+    "name": "08_modeling_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Modeling"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/training/",
+    "name": "09_training_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Training"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/parallelism/",
+    "name": "10_parallelism_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Parallelism"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/scaling-laws/",
+    "name": "11_scaling_laws_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Scaling laws"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/selective-architectures/",
+    "name": "12_selective_architectures_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Selective architectures"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/adaptation/",
+    "name": "13_adaptation_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Adaptation"
+   },
+   {
+    "url": "https://stanford-cs324.github.io/winter2022/lectures/environment/",
+    "name": "14_environment_notes_en.html",
+    "kind": "html",
+    "label": "Lecture notes: Environmental impact"
+   },
+   {
+    "url": "https://codeload.github.com/stanford-cs324/winter2022/zip/refs/heads/master",
+    "name": "stanford-cs324_winter2022_site_source_en.zip",
+    "kind": "zip",
+    "label": "Official course website repository (Markdown sources of lecture notes + figures)",
+    "aux": true
+   }
+  ],
+  "expected_items": 14,
+  "completeness_note": "官方讲义（网页形式 lecture notes）共 14 讲，全部以 HTML 保存；另以 aux 方式下载官方网站仓库 stanford-cs324/winter2022 的 zip（含各讲 Markdown 源文件与插图，约 20 MB），以免网页插图缺失。日程中的 2 次嘉宾讲座（Maxwell Nye；Margaret Mitchell 与 Stella Biderman）与学生展示没有讲义。",
+  "prereq": "官方主页未列具体先修；面向具备 NLP/深度学习基础的学生",
+  "coverage": "LLM 能力、危害（偏见、有害内容、虚假信息）、训练数据、安全、法律、建模（分词与架构）、训练目标与优化、并行化、规模规律、选择性架构（MoE、检索）、适配（微调、提示、轻量微调）与环境影响",
+  "stage": "初学",
+  "language": "en",
+  "reason": "斯坦福首门以“大语言模型”为名的课程，网页讲义系统梳理 LLM 的能力、危害、数据、法律与构建方法，是 CS336 的前身与经典参考。",
+  "priority": "中",
+  "old_reason": "2022 年冬季学期早于近三年范围，但它是首门系统讲授 LLM 的课程，其讲义（尤其危害、数据、法律、环境影响部分）至今被广泛引用，后续 2023 年后未再开设同名课程，内容无法被近年课程完全替代。",
+  "cross": [
+   "01",
+   "12"
+  ]
+ },
+ {
+  "sid": "13-A22",
+  "kind": "course",
+  "university": "New York University",
+  "course_code": "DS-GA 1011",
+  "course_title": "Natural Language Processing with Representation Learning",
+  "term": "Fall 2024",
+  "term_year": 2024,
+  "instructors": [
+   "He He"
+  ],
+  "official_url": "https://nyu-cs2590.github.io/fall2024/",
+  "schedule_url": "https://nyu-cs2590.github.io/fall2024/calendar/",
+  "verification_basis": "课程站点 DSGA 1011 Fall 2024（https://nyu-cs2590.github.io/fall2024/），Staff 页 Instructors 为 He He；日程与讲义链接见 https://nyu-cs2590.github.io/fall2024/calendar/，讲义托管于官方 GitHub 组织 nyu-cs2590 的 course-material 仓库",
+  "dir_name": "NYU_DSGA1011_NLP_2024Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec01/main.pdf",
+    "name": "lec01_main_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 4 Course overview; supervised learning basics; feature-based text classification"
+   },
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec02/main.pdf",
+    "name": "lec02_main_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 11 Distributed representation of words"
+   },
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec03/main.pdf",
+    "name": "lec03_main_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 18 Neural network basics; RNN; attention and Transformers"
+   },
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec04/main.pdf",
+    "name": "lec04_main_en.pdf",
+    "kind": "pdf",
+    "label": "Sep 25 Encoder-decoder models; decoding algorithms"
+   },
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec05/main.pdf",
+    "name": "lec05_main_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 2 Formulation of NLP tasks; final project tips"
+   },
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec06/main.pdf",
+    "name": "lec06_main_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 9 Representation learning: self-supervised learning; encoder-only/decoder-only/encoder-decoder models"
+   },
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec07/main.pdf",
+    "name": "lec07_main_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 16 Sub-word tokenization; efficient pre-training; parameter efficient finetuning"
+   },
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec08/main.pdf",
+    "name": "lec08_main_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 23 NLP via language modeling: history of LMs, scaling law, emergent capabilities"
+   },
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec09/main.pdf",
+    "name": "lec09_main_en.pdf",
+    "kind": "pdf",
+    "label": "Oct 30 Instruction tuning; reinforcement learning"
+   },
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec10/nyu-alignment-lecture-ruiqi.pdf",
+    "name": "lec10_nyu_alignment_lecture_ruiqi_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 6 Alignment (guest lecture slides by Ruiqi, per file name)"
+   },
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec11/main.pdf",
+    "name": "lec11_main_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 13 RLHF; direct preference optimization; reward hacking"
+   },
+   {
+    "url": "https://nyu-cs2590.github.io/course-material/fall2024/lecture/lec12/main.pdf",
+    "name": "lec12_main_en.pdf",
+    "kind": "pdf",
+    "label": "Nov 20 Benchmarking and evaluation"
+   }
+  ],
+  "expected_items": 12,
+  "completeness_note": "【核验失败 2026-10-29】官方日程中 11-06 对齐讲座幻灯片链接（course-material/fall2024/lecture/lec10/nyu-alignment-lecture-ruiqi.pdf）返回 404，官方仓库也无此文件，讲义不完整（11/12），不计入。官方日程 13 次讲课（不含习题课、项目展示与停课）中 12 讲发布了幻灯片，全部下载；11-27 嘉宾讲座（Abulhair Saparov，“Can Language Models Reason?”）无幻灯片。习题课（section）材料未收。",
+  "prereq": "官方日程页未列先修；面向具备机器学习基础的数据科学研究生",
+  "coverage": "文本分类、词向量、神经网络/RNN/注意力与 Transformer、编码器-解码器与解码、NLP 任务形式化、自监督表示学习与三类 Transformer、子词分词、高效预训练与 PEFT、语言模型史与规模规律/涌现、指令微调与 RL、对齐、RLHF 与 DPO、奖励欺骗、评测与基准",
+  "stage": "初学",
+  "language": "en",
+  "reason": "He He 讲授的 NYU 数据科学中心 NLP 研究生课，讲义推导清晰，后半程系统讲规模规律、指令微调、RLHF/DPO 与评测。",
+  "priority": "低",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "03"
+  ]
+ },
+ {
+  "sid": "13-A23",
+  "kind": "course",
+  "university": "University of Washington",
+  "course_code": "CSE 447/517",
+  "course_title": "Natural Language Processing",
+  "term": "Winter 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Robert Minneker"
+  ],
+  "official_url": "https://courses.cs.washington.edu/courses/cse447/26wi/",
+  "schedule_url": "https://courses.cs.washington.edu/courses/cse447/26wi/#calendar",
+  "verification_basis": "课程主页“Natural Language Processing | CSE 447/517, Winter 2026”，Instructor: Robert Minneker，日历与讲义链接见 https://courses.cs.washington.edu/courses/cse447/26wi/",
+  "dir_name": "UW_CSE447-517_NLP_2026Winter_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/01-logistics-and-intro-cc.pdf",
+    "name": "01_01_logistics_and_intro_cc_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 6 Logistics/Introduction"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/02-words-and-tokens-cc.pdf",
+    "name": "02_02_words_and_tokens_cc_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 8 Words and Tokens"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/text-classification-slides.pdf",
+    "name": "03_text_classification_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 13 Text Classification"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/20260115-text-classification-slides.pdf",
+    "name": "04_20260115_text_classification_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 15 Text Classification (2)"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/20260120-n-gram-lm.pdf",
+    "name": "05_20260120_n_gram_lm_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 20 N-gram Language Models"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/embeddings.pdf",
+    "name": "06_embeddings_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 22 Embeddings"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/embeddings-02.pdf",
+    "name": "07_embeddings_02_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 27 Embeddings (2)"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/nns.pdf",
+    "name": "08_nns_en.pdf",
+    "kind": "pdf",
+    "label": "Jan 29 Neural Networks"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/10-lms2.pdf",
+    "name": "09_10_lms2_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 3 Neural Networks (2) / neural LMs"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/transformers-01.pdf",
+    "name": "10_transformers_01_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 5 Transformers"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/transformers-02.pdf",
+    "name": "11_transformers_02_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 10 Transformers (2)"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/llm-01.pdf",
+    "name": "12_llm_01_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 12 LLMs - Pre-training to Deployment"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/prompt-and-reason.pdf",
+    "name": "13_prompt_and_reason_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 17 LLMs - Prompting and Reasoning"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/finetune-and-adapt.pdf",
+    "name": "14_finetune_and_adapt_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 19 LLMs - Finetuning and Adaptation"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/20260224-rag-and-tools.pdf",
+    "name": "15_20260224_rag_and_tools_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 24 LLMs - RAG and Tools"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/interp-theory-to-practice.pdf",
+    "name": "16_interp_theory_to_practice_en.pdf",
+    "kind": "pdf",
+    "label": "Feb 26 LLMs - Interpretability"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/evals.pdf",
+    "name": "17_evals_en.pdf",
+    "kind": "pdf",
+    "label": "Mar 3 LLMs - Evaluation"
+   },
+   {
+    "url": "https://courses.cs.washington.edu/nlp-26wi/assets/lectures/safety.pdf",
+    "name": "18_safety_en.pdf",
+    "kind": "pdf",
+    "label": "Mar 5 LLMs - Ethics, Safety and Deployment"
+   }
+  ],
+  "expected_items": 18,
+  "completeness_note": "【核验失败 2026-10-29】官方日历中所有讲义链接（/nlp-26wi/assets/lectures/...）均返回 404；同站点 /courses/cse447/26wi/assets/ 路径返回的是 HTML 页面而非 PDF，讲义当前无法公开获取，不计入。官方日历 20 次讲课中 18 讲发布了 PDF 幻灯片，全部下载（同一讲另有 PPTX 或 HTML 版幻灯片/博客版，内容重复未收）；3-10 FlexOlmo 与 3-12 Music + NLP 两讲未发布讲义。",
+  "prereq": "CSE 312（概率统计）与 CSE 332（数据结构/算法）；建议 MATH 208（线性代数）；建议先修或同修 CSE 446（机器学习）（官方页面所写）",
+  "coverage": "词与分词、文本分类、n-gram 语言模型、词向量、神经网络与神经语言模型、Transformer、LLM 预训练到部署、提示与推理、微调与适配、RAG 与工具、可解释性、评测、伦理安全与部署",
+  "stage": "初学",
+  "language": "en",
+  "reason": "华盛顿大学本科/研究生 NLP 课 2026 冬季版，后半程约一半课时讲 LLM（推理、RAG、工具、可解释性、评测与安全），可作为入门补充。",
+  "priority": "低",
+  "old_reason": "",
+  "cross": [
+   "01"
   ]
  }
 ]

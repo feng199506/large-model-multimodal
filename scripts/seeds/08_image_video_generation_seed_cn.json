@@ -11,26 +11,6 @@
  },
  {
   "sid": "08-002",
-  "arxiv": "2112.10752",
-  "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
-  "subtopic": "扩散模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "潜空间扩散（Stable Diffusion 基础），把扩散移到自编码器潜空间以降低高分辨率生成成本。",
-  "old_reason": "潜空间扩散是 SD/SDXL/SD3/视频扩散等几乎所有近期系统的结构前提，理解近期工作必须先读。"
- },
- {
-  "sid": "08-003",
-  "arxiv": "2212.09748",
-  "title": "Scalable Diffusion Models with Transformers",
-  "subtopic": "扩散模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "DiT：用 Transformer 替代 U-Net 作为扩散骨干并研究其规模扩展。",
-  "old_reason": "DiT 是 SD3、Sora 类视频模型、FLUX 等近期扩散 Transformer 的直接原型，近期文献普遍以其为对照。"
- },
- {
-  "sid": "08-004",
   "arxiv": "2210.02747",
   "title": "Flow Matching for Generative Modeling",
   "subtopic": "流匹配",
@@ -40,7 +20,7 @@
   "old_reason": "流匹配目标是 SD3、FLUX、Movie Gen 等近期模型的训练基础，近期教程亦以其为起点，无可替代的原始出处。"
  },
  {
-  "sid": "08-005",
+  "sid": "08-003",
   "arxiv": "2302.05543",
   "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
   "subtopic": "条件控制",
@@ -50,56 +30,44 @@
   "old_reason": "ControlNet 是近三年条件控制方法（ControlNet++、OminiControl 等）的共同基线与比较对象，必须作为经典补充。"
  },
  {
-  "sid": "08-006",
-  "arxiv": "2312.02696",
-  "title": "Analyzing and Improving the Training Dynamics of Diffusion Models",
-  "subtopic": "扩散模型",
+  "sid": "08-004",
+  "arxiv": "2404.02905",
+  "title": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction",
+  "subtopic": "自回归生成",
   "type": "原始研究",
   "priority": "高",
-  "reason": "EDM2：分析扩散 U-Net 训练中激活/权重幅值失衡并提出幅值保持设计与事后 EMA。"
+  "reason": "VAR：把图像自回归从逐 token 改为逐尺度（next-scale）预测。"
+ },
+ {
+  "sid": "08-005",
+  "arxiv": "2311.10089",
+  "title": "Emu Edit: Precise Image Editing via Recognition and Generation Tasks",
+  "subtopic": "图像编辑",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "以多任务（识别与生成）与学习的任务嵌入训练指令式图像编辑模型，并发布评测集。"
+ },
+ {
+  "sid": "08-006",
+  "arxiv": "2311.15127",
+  "title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
+  "subtopic": "视频生成",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "系统研究视频扩散的数据筛选与三阶段训练（图像预训练、视频预训练、高质量微调）。"
  },
  {
   "sid": "08-007",
-  "arxiv": "2406.02507",
-  "title": "Guiding a Diffusion Model with a Bad Version of Itself",
+  "arxiv": "2112.10752",
+  "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
   "subtopic": "扩散模型",
   "type": "原始研究",
-  "priority": "中",
-  "reason": "Autoguidance：用较弱版本的同一模型替代无条件模型进行引导，重新审视无分类器引导。"
+  "priority": "高",
+  "reason": "潜空间扩散（Stable Diffusion 基础），把扩散移到自编码器潜空间以降低高分辨率生成成本。",
+  "old_reason": "潜空间扩散是 SD/SDXL/SD3/视频扩散等几乎所有近期系统的结构前提，理解近期工作必须先读。"
  },
  {
   "sid": "08-008",
-  "arxiv": "2410.06940",
-  "title": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
-  "subtopic": "扩散模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "REPA：将扩散 Transformer 中间表征与预训练视觉编码器表征对齐以加速训练。"
- },
- {
-  "sid": "08-009",
-  "arxiv": "2510.11690",
-  "title": "Diffusion Transformers with Representation Autoencoders",
-  "subtopic": "扩散模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "RAE：以冻结的预训练表征编码器加解码器替代 VAE 作为扩散潜空间。"
- },
- {
-  "sid": "08-010",
-  "arxiv": "2311.12908",
-  "title": "Diffusion Model Alignment Using Direct Preference Optimization",
-  "subtopic": "扩散模型",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "Diffusion-DPO：把直接偏好优化改写到扩散模型似然下界上，用人类偏好对齐文生图模型。",
-  "cross": [
-   "03"
-  ],
-  "cross_reason": "偏好优化方法（DPO）迁移到图像生成模型对齐。"
- },
- {
-  "sid": "08-011",
   "arxiv": "2505.05470",
   "title": "Flow-GRPO: Training Flow Matching Models via Online RL",
   "subtopic": "流匹配",
@@ -112,26 +80,50 @@
   "cross_reason": "以在线强化学习做生成模型的奖励对齐。"
  },
  {
-  "sid": "08-012",
-  "arxiv": "2311.17042",
-  "title": "Adversarial Diffusion Distillation",
-  "subtopic": "扩散模型",
+  "sid": "08-009",
+  "arxiv": "2401.07519",
+  "title": "InstantID: Zero-shot Identity-Preserving Generation in Seconds",
+  "subtopic": "条件控制",
   "type": "原始研究",
   "priority": "中",
-  "reason": "ADD：结合对抗损失与分数蒸馏，把大型扩散模型蒸馏为 1–4 步采样。",
-  "cross": [
-   "11"
-  ],
-  "cross_reason": "少步蒸馏属于推理加速。"
+  "reason": "免微调的人脸身份保持生成，结合人脸编码与 IdentityNet 空间控制。"
+ },
+ {
+  "sid": "08-010",
+  "arxiv": "2406.06525",
+  "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation",
+  "subtopic": "自回归生成",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "LlamaGen：用原生 Llama 架构做类条件/文本条件图像 token 自回归生成。"
+ },
+ {
+  "sid": "08-011",
+  "arxiv": "2312.06739",
+  "title": "SmartEdit: Exploring Complex Instruction-based Image Editing with Multimodal Large Language Models",
+  "subtopic": "图像编辑",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "借助多模态大模型理解复杂指令并与扩散编辑器双向交互。"
+ },
+ {
+  "sid": "08-012",
+  "arxiv": "2410.13720",
+  "title": "Movie Gen: A Cast of Media Foundation Models",
+  "subtopic": "视频生成",
+  "type": "技术报告",
+  "priority": "高",
+  "reason": "大规模视频、音频生成与个性化/编辑基础模型的完整技术报告。"
  },
  {
   "sid": "08-013",
-  "arxiv": "2410.11081",
-  "title": "Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models",
+  "arxiv": "2212.09748",
+  "title": "Scalable Diffusion Models with Transformers",
   "subtopic": "扩散模型",
   "type": "原始研究",
   "priority": "高",
-  "reason": "sCM：统一连续时间一致性模型的参数化并解决训练不稳定，扩展到大规模。"
+  "reason": "DiT：用 Transformer 替代 U-Net 作为扩散骨干并研究其规模扩展。",
+  "old_reason": "DiT 是 SD3、Sora 类视频模型、FLUX 等近期扩散 Transformer 的直接原型，近期文献普遍以其为对照。"
  },
  {
   "sid": "08-014",
@@ -144,70 +136,15 @@
  },
  {
   "sid": "08-015",
-  "arxiv": "2401.08740",
-  "title": "SiT: Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers",
-  "subtopic": "流匹配",
+  "arxiv": "2312.04461",
+  "title": "PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding",
+  "subtopic": "条件控制",
   "type": "原始研究",
   "priority": "中",
-  "reason": "在 DiT 骨干上系统比较插值方式、预测目标与采样器等随机插值设计选项。"
+  "reason": "堆叠多张参考图的 ID 嵌入实现免测试时微调的人像定制。"
  },
  {
   "sid": "08-016",
-  "arxiv": "2505.13447",
-  "title": "Mean Flows for One-step Generative Modeling",
-  "subtopic": "流匹配",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "MeanFlow：以平均速度场替代瞬时速度，实现从零训练的一步生成。"
- },
- {
-  "sid": "08-017",
-  "arxiv": "2410.12557",
-  "title": "One Step Diffusion via Shortcut Models",
-  "subtopic": "流匹配",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "Shortcut 模型：以步长为条件的单网络单阶段训练，支持任意步数采样。"
- },
- {
-  "sid": "08-018",
-  "arxiv": "2412.06264",
-  "title": "Flow Matching Guide and Code",
-  "subtopic": "流匹配",
-  "type": "学术教程",
-  "priority": "高",
-  "reason": "流匹配的系统教程与参考实现，覆盖数学基础、设计选择与扩展。"
- },
- {
-  "sid": "08-019",
-  "arxiv": "2508.02324",
-  "title": "Qwen-Image Technical Report",
-  "subtopic": "流匹配",
-  "type": "技术报告",
-  "priority": "中",
-  "reason": "开源大规模文生图与编辑基础模型的技术报告，关注复杂文字渲染与精确编辑。",
-  "team": "Qwen Team"
- },
- {
-  "sid": "08-020",
-  "arxiv": "2404.02905",
-  "title": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction",
-  "subtopic": "自回归生成",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "VAR：把图像自回归从逐 token 改为逐尺度（next-scale）预测。"
- },
- {
-  "sid": "08-021",
-  "arxiv": "2406.06525",
-  "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation",
-  "subtopic": "自回归生成",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "LlamaGen：用原生 Llama 架构做类条件/文本条件图像 token 自回归生成。"
- },
- {
-  "sid": "08-022",
   "arxiv": "2406.11838",
   "title": "Autoregressive Image Generation without Vector Quantization",
   "subtopic": "自回归生成",
@@ -216,7 +153,52 @@
   "reason": "MAR：以逐 token 扩散损失建模连续值 token，摆脱向量量化。"
  },
  {
-  "sid": "08-023",
+  "sid": "08-017",
+  "arxiv": "2410.10792",
+  "title": "Semantic Image Inversion and Editing using Rectified Stochastic Differential Equations",
+  "subtopic": "图像编辑",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "RF-Inversion：基于整流流的受控 SDE 实现免训练图像反演与编辑。"
+ },
+ {
+  "sid": "08-018",
+  "arxiv": "2408.06072",
+  "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+  "subtopic": "视频生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "3D VAE 加专家自适应 LayerNorm 的开源文生视频扩散 Transformer。"
+ },
+ {
+  "sid": "08-019",
+  "arxiv": "2312.02696",
+  "title": "Analyzing and Improving the Training Dynamics of Diffusion Models",
+  "subtopic": "扩散模型",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "EDM2：分析扩散 U-Net 训练中激活/权重幅值失衡并提出幅值保持设计与事后 EMA。"
+ },
+ {
+  "sid": "08-020",
+  "arxiv": "2401.08740",
+  "title": "SiT: Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers",
+  "subtopic": "流匹配",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在 DiT 骨干上系统比较插值方式、预测目标与采样器等随机插值设计选项。"
+ },
+ {
+  "sid": "08-021",
+  "arxiv": "2404.07987",
+  "title": "ControlNet++: Improving Conditional Controls with Efficient Consistency Feedback",
+  "subtopic": "条件控制",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "用像素级循环一致性奖励显式优化生成图与条件之间的一致性。"
+ },
+ {
+  "sid": "08-022",
   "arxiv": "2406.07550",
   "title": "An Image is Worth 32 Tokens for Reconstruction and Generation",
   "subtopic": "自回归生成",
@@ -225,7 +207,52 @@
   "reason": "TiTok：一维图像 tokenizer，把图像压缩为 32 个离散 token 用于生成。"
  },
  {
+  "sid": "08-023",
+  "arxiv": "2412.08629",
+  "title": "FlowEdit: Inversion-Free Text-Based Editing Using Pre-Trained Flow Models",
+  "subtopic": "图像编辑",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "构造源/目标分布之间的 ODE 直接映射，无需反演即可在流模型上编辑。"
+ },
+ {
   "sid": "08-024",
+  "arxiv": "2503.20314",
+  "title": "Wan: Open and Advanced Large-Scale Video Generative Models",
+  "subtopic": "视频生成",
+  "type": "技术报告",
+  "priority": "高",
+  "reason": "开源视频基础模型套件，覆盖 VAE、DiT、数据管线与多种下游任务。"
+ },
+ {
+  "sid": "08-025",
+  "arxiv": "2406.02507",
+  "title": "Guiding a Diffusion Model with a Bad Version of Itself",
+  "subtopic": "扩散模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "Autoguidance：用较弱版本的同一模型替代无条件模型进行引导，重新审视无分类器引导。"
+ },
+ {
+  "sid": "08-026",
+  "arxiv": "2505.13447",
+  "title": "Mean Flows for One-step Generative Modeling",
+  "subtopic": "流匹配",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "MeanFlow：以平均速度场替代瞬时速度，实现从零训练的一步生成。"
+ },
+ {
+  "sid": "08-027",
+  "arxiv": "2411.15098",
+  "title": "OminiControl: Minimal and Universal Control for Diffusion Transformer",
+  "subtopic": "条件控制",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "在 DiT 中复用自身模块编码条件图像，以极少新增参数实现空间与主体控制。"
+ },
+ {
+  "sid": "08-028",
   "arxiv": "2409.18869",
   "title": "Emu3: Next-Token Prediction is All You Need",
   "subtopic": "自回归生成",
@@ -238,88 +265,40 @@
   "cross_reason": "统一的多模态理解与生成模型。"
  },
  {
-  "sid": "08-025",
-  "arxiv": "2408.11039",
-  "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model",
-  "subtopic": "自回归生成",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "单一 Transformer 对文本做下一 token 预测、对图像做扩散的混合目标训练。",
-  "cross": [
-   "07"
-  ],
-  "cross_reason": "统一的多模态理解与生成模型。"
- },
- {
-  "sid": "08-026",
-  "arxiv": "2501.17811",
-  "title": "Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling",
-  "subtopic": "自回归生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "解耦理解与生成视觉编码路径的统一模型，扩展数据与参数规模。",
-  "cross": [
-   "07"
-  ],
-  "cross_reason": "统一的多模态理解与生成模型。"
- },
- {
-  "sid": "08-027",
-  "arxiv": "2505.14683",
-  "title": "Emerging Properties in Unified Multimodal Pretraining",
-  "subtopic": "自回归生成",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "BAGEL：在大规模交错多模态数据上预训练的统一理解与生成模型，观察到涌现的编辑与推理能力。",
-  "cross": [
-   "07"
-  ],
-  "cross_reason": "统一的多模态理解与生成模型。"
- },
- {
-  "sid": "08-028",
-  "arxiv": "2411.05902",
-  "title": "Autoregressive Models in Vision: A Survey",
-  "subtopic": "自回归生成",
-  "type": "综述",
-  "priority": "中",
-  "reason": "视觉自回归生成的系统综述，覆盖像素/token/尺度级建模与应用。"
- },
- {
   "sid": "08-029",
-  "arxiv": "2401.07519",
-  "title": "InstantID: Zero-shot Identity-Preserving Generation in Seconds",
-  "subtopic": "条件控制",
+  "arxiv": "2411.07199",
+  "title": "OmniEdit: Building Image Editing Generalist Models Through Specialist Supervision",
+  "subtopic": "图像编辑",
   "type": "原始研究",
   "priority": "中",
-  "reason": "免微调的人脸身份保持生成，结合人脸编码与 IdentityNet 空间控制。"
+  "reason": "以多个专家模型监督与多模态大模型打分筛选数据，训练通用编辑模型。"
  },
  {
   "sid": "08-030",
-  "arxiv": "2312.04461",
-  "title": "PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding",
-  "subtopic": "条件控制",
+  "arxiv": "2412.07772",
+  "title": "From Slow Bidirectional to Fast Autoregressive Video Diffusion Models",
+  "subtopic": "视频生成",
   "type": "原始研究",
-  "priority": "中",
-  "reason": "堆叠多张参考图的 ID 嵌入实现免测试时微调的人像定制。"
+  "priority": "高",
+  "reason": "CausVid：把双向视频扩散蒸馏为因果自回归少步生成器，支持流式生成。"
  },
  {
   "sid": "08-031",
-  "arxiv": "2404.07987",
-  "title": "ControlNet++: Improving Conditional Controls with Efficient Consistency Feedback",
-  "subtopic": "条件控制",
+  "arxiv": "2410.06940",
+  "title": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
+  "subtopic": "扩散模型",
   "type": "原始研究",
-  "priority": "中",
-  "reason": "用像素级循环一致性奖励显式优化生成图与条件之间的一致性。"
+  "priority": "高",
+  "reason": "REPA：将扩散 Transformer 中间表征与预训练视觉编码器表征对齐以加速训练。"
  },
  {
   "sid": "08-032",
-  "arxiv": "2411.15098",
-  "title": "OminiControl: Minimal and Universal Control for Diffusion Transformer",
-  "subtopic": "条件控制",
+  "arxiv": "2410.12557",
+  "title": "One Step Diffusion via Shortcut Models",
+  "subtopic": "流匹配",
   "type": "原始研究",
-  "priority": "高",
-  "reason": "在 DiT 中复用自身模块编码条件图像，以极少新增参数实现空间与主体控制。"
+  "priority": "中",
+  "reason": "Shortcut 模型：以步长为条件的单网络单阶段训练，支持任意步数采样。"
  },
  {
   "sid": "08-033",
@@ -332,78 +311,19 @@
  },
  {
   "sid": "08-034",
-  "arxiv": "2409.11340",
-  "title": "OmniGen: Unified Image Generation",
-  "subtopic": "条件控制",
+  "arxiv": "2408.11039",
+  "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model",
+  "subtopic": "自回归生成",
   "type": "原始研究",
-  "priority": "中",
-  "reason": "单一扩散模型统一处理文生图、编辑、主体驱动与条件生成等多任务。"
+  "priority": "高",
+  "reason": "单一 Transformer 对文本做下一 token 预测、对图像做扩散的混合目标训练。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "统一的多模态理解与生成模型。"
  },
  {
   "sid": "08-035",
-  "arxiv": "2404.02101",
-  "title": "CameraCtrl: Enabling Camera Control for Text-to-Video Generation",
-  "subtopic": "条件控制",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "以 Plücker 嵌入编码相机位姿，为文生视频模型增加精确相机轨迹控制。"
- },
- {
-  "sid": "08-036",
-  "arxiv": "2311.10089",
-  "title": "Emu Edit: Precise Image Editing via Recognition and Generation Tasks",
-  "subtopic": "图像编辑",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "以多任务（识别与生成）与学习的任务嵌入训练指令式图像编辑模型，并发布评测集。"
- },
- {
-  "sid": "08-037",
-  "arxiv": "2312.06739",
-  "title": "SmartEdit: Exploring Complex Instruction-based Image Editing with Multimodal Large Language Models",
-  "subtopic": "图像编辑",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "借助多模态大模型理解复杂指令并与扩散编辑器双向交互。"
- },
- {
-  "sid": "08-038",
-  "arxiv": "2311.16711",
-  "title": "LEDITS++: Limitless Image Editing using Text-to-Image Models",
-  "subtopic": "图像编辑",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "免调参、免优化的多重同时编辑方法，结合高效反演与隐式掩码。"
- },
- {
-  "sid": "08-039",
-  "arxiv": "2410.10792",
-  "title": "Semantic Image Inversion and Editing using Rectified Stochastic Differential Equations",
-  "subtopic": "图像编辑",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "RF-Inversion：基于整流流的受控 SDE 实现免训练图像反演与编辑。"
- },
- {
-  "sid": "08-040",
-  "arxiv": "2412.08629",
-  "title": "FlowEdit: Inversion-Free Text-Based Editing Using Pre-Trained Flow Models",
-  "subtopic": "图像编辑",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "构造源/目标分布之间的 ODE 直接映射，无需反演即可在流模型上编辑。"
- },
- {
-  "sid": "08-041",
-  "arxiv": "2411.07199",
-  "title": "OmniEdit: Building Image Editing Generalist Models Through Specialist Supervision",
-  "subtopic": "图像编辑",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "以多个专家模型监督与多模态大模型打分筛选数据，训练通用编辑模型。"
- },
- {
-  "sid": "08-042",
   "arxiv": "2504.17761",
   "title": "Step1X-Edit: A Practical Framework for General Image Editing",
   "subtopic": "图像编辑",
@@ -412,88 +332,7 @@
   "reason": "多模态大模型加扩散解码器的开源通用编辑框架，并提出真实用户指令评测。"
  },
  {
-  "sid": "08-043",
-  "arxiv": "2506.15742",
-  "title": "FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space",
-  "subtopic": "图像编辑",
-  "type": "技术报告",
-  "priority": "高",
-  "reason": "在潜空间序列拼接上下文图像，以流匹配统一生成与多轮编辑。"
- },
- {
-  "sid": "08-044",
-  "arxiv": "2402.17525",
-  "title": "Diffusion Model-Based Image Editing: A Survey",
-  "subtopic": "图像编辑",
-  "type": "综述",
-  "priority": "中",
-  "reason": "扩散图像编辑方法的系统综述与分类，并给出评测基准。"
- },
- {
-  "sid": "08-045",
-  "arxiv": "2311.15127",
-  "title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
-  "subtopic": "视频生成",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "系统研究视频扩散的数据筛选与三阶段训练（图像预训练、视频预训练、高质量微调）。"
- },
- {
-  "sid": "08-046",
-  "arxiv": "2312.14125",
-  "title": "VideoPoet: A Large Language Model for Zero-Shot Video Generation",
-  "subtopic": "视频生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "仅解码器 LLM 在多模态 token 上做视频与音频生成。"
- },
- {
-  "sid": "08-047",
-  "arxiv": "2410.13720",
-  "title": "Movie Gen: A Cast of Media Foundation Models",
-  "subtopic": "视频生成",
-  "type": "技术报告",
-  "priority": "高",
-  "reason": "大规模视频、音频生成与个性化/编辑基础模型的完整技术报告。"
- },
- {
-  "sid": "08-048",
-  "arxiv": "2408.06072",
-  "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
-  "subtopic": "视频生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "3D VAE 加专家自适应 LayerNorm 的开源文生视频扩散 Transformer。"
- },
- {
-  "sid": "08-049",
-  "arxiv": "2412.03603",
-  "title": "HunyuanVideo: A Systematic Framework For Large Video Generative Models",
-  "subtopic": "视频生成",
-  "type": "技术报告",
-  "priority": "中",
-  "reason": "开源大规模视频生成模型的系统框架（数据、架构、训练与基础设施）。"
- },
- {
-  "sid": "08-050",
-  "arxiv": "2503.20314",
-  "title": "Wan: Open and Advanced Large-Scale Video Generative Models",
-  "subtopic": "视频生成",
-  "type": "技术报告",
-  "priority": "高",
-  "reason": "开源视频基础模型套件，覆盖 VAE、DiT、数据管线与多种下游任务。"
- },
- {
-  "sid": "08-051",
-  "arxiv": "2412.07772",
-  "title": "From Slow Bidirectional to Fast Autoregressive Video Diffusion Models",
-  "subtopic": "视频生成",
-  "type": "原始研究",
-  "priority": "高",
-  "reason": "CausVid：把双向视频扩散蒸馏为因果自回归少步生成器，支持流式生成。"
- },
- {
-  "sid": "08-052",
+  "sid": "08-036",
   "arxiv": "2506.08009",
   "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
   "subtopic": "视频生成",
@@ -502,7 +341,56 @@
   "reason": "训练时以模型自身生成的历史帧为条件进行自回归展开，缓解暴露偏差。"
  },
  {
-  "sid": "08-053",
+  "sid": "08-037",
+  "arxiv": "2510.11690",
+  "title": "Diffusion Transformers with Representation Autoencoders",
+  "subtopic": "扩散模型",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "RAE：以冻结的预训练表征编码器加解码器替代 VAE 作为扩散潜空间。"
+ },
+ {
+  "sid": "08-038",
+  "arxiv": "2412.06264",
+  "title": "Flow Matching Guide and Code",
+  "subtopic": "流匹配",
+  "type": "学术教程",
+  "priority": "高",
+  "reason": "流匹配的系统教程与参考实现，覆盖数学基础、设计选择与扩展。"
+ },
+ {
+  "sid": "08-039",
+  "arxiv": "2409.11340",
+  "title": "OmniGen: Unified Image Generation",
+  "subtopic": "条件控制",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "单一扩散模型统一处理文生图、编辑、主体驱动与条件生成等多任务。"
+ },
+ {
+  "sid": "08-040",
+  "arxiv": "2501.17811",
+  "title": "Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling",
+  "subtopic": "自回归生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "解耦理解与生成视觉编码路径的统一模型，扩展数据与参数规模。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "统一的多模态理解与生成模型。"
+ },
+ {
+  "sid": "08-041",
+  "arxiv": "2506.15742",
+  "title": "FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space",
+  "subtopic": "图像编辑",
+  "type": "技术报告",
+  "priority": "高",
+  "reason": "在潜空间序列拼接上下文图像，以流匹配统一生成与多轮编辑。"
+ },
+ {
+  "sid": "08-042",
   "arxiv": "2505.13211",
   "title": "MAGI-1: Autoregressive Video Generation at Scale",
   "subtopic": "视频生成",
@@ -511,16 +399,118 @@
   "reason": "按块自回归的大规模视频扩散模型技术报告，支持流式与长视频。"
  },
  {
-  "sid": "08-054",
+  "sid": "08-043",
+  "arxiv": "2311.12908",
+  "title": "Diffusion Model Alignment Using Direct Preference Optimization",
+  "subtopic": "扩散模型",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "Diffusion-DPO：把直接偏好优化改写到扩散模型似然下界上，用人类偏好对齐文生图模型。",
+  "cross": [
+   "03"
+  ],
+  "cross_reason": "偏好优化方法（DPO）迁移到图像生成模型对齐。"
+ },
+ {
+  "sid": "08-044",
+  "arxiv": "2508.02324",
+  "title": "Qwen-Image Technical Report",
+  "subtopic": "流匹配",
+  "type": "技术报告",
+  "priority": "中",
+  "reason": "开源大规模文生图与编辑基础模型的技术报告，关注复杂文字渲染与精确编辑。",
+  "team": "Qwen Team"
+ },
+ {
+  "sid": "08-045",
+  "arxiv": "2404.02101",
+  "title": "CameraCtrl: Enabling Camera Control for Text-to-Video Generation",
+  "subtopic": "条件控制",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以 Plücker 嵌入编码相机位姿，为文生视频模型增加精确相机轨迹控制。"
+ },
+ {
+  "sid": "08-046",
+  "arxiv": "2505.14683",
+  "title": "Emerging Properties in Unified Multimodal Pretraining",
+  "subtopic": "自回归生成",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "BAGEL：在大规模交错多模态数据上预训练的统一理解与生成模型，观察到涌现的编辑与推理能力。",
+  "cross": [
+   "07"
+  ],
+  "cross_reason": "统一的多模态理解与生成模型。"
+ },
+ {
+  "sid": "08-047",
+  "arxiv": "2402.17525",
+  "title": "Diffusion Model-Based Image Editing: A Survey",
+  "subtopic": "图像编辑",
+  "type": "综述",
+  "priority": "中",
+  "reason": "扩散图像编辑方法的系统综述与分类，并给出评测基准。"
+ },
+ {
+  "sid": "08-048",
   "arxiv": "2504.12626",
-  "title": "Packing Input Frame Context in Next-Frame Prediction Models for Video Generation",
+  "title": "Frame Context Packing and Drift Prevention in Next-Frame-Prediction Video Diffusion Models",
   "subtopic": "视频生成",
   "type": "原始研究",
   "priority": "中",
-  "reason": "FramePack：按重要性压缩历史帧上下文，使下一帧预测视频模型可生成长视频。"
+  "reason": "FramePack：按重要性压缩历史帧上下文，使下一帧预测视频模型可生成长视频。",
+  "title_seed_given": "Packing Input Frame Context in Next-Frame Prediction Models for Video Generation"
  },
  {
-  "sid": "08-055",
+  "sid": "08-049",
+  "arxiv": "2410.11081",
+  "title": "Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models",
+  "subtopic": "扩散模型",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "sCM：统一连续时间一致性模型的参数化并解决训练不稳定，扩展到大规模。"
+ },
+ {
+  "sid": "08-050",
+  "arxiv": "2603.15132",
+  "title": "WiT: Waypoint Diffusion Transformers for Alleviating Trajectory Conflict in Pixel-Space Image Generation",
+  "subtopic": "流匹配",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "WiT：针对像素空间流匹配中的轨迹冲突，经由中间语义路标点引导生成（2026 新工作）。"
+ },
+ {
+  "sid": "08-051",
+  "arxiv": "2506.18871",
+  "title": "OmniGen2: Towards Instruction-Aligned Multimodal Generation",
+  "subtopic": "条件控制",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "文本与图像解码分离路径的统一生成模型，覆盖文生图、编辑与上下文（主体）生成。",
+  "title_seed_given": "OmniGen2: Exploration to Advanced Multimodal Generation"
+ },
+ {
+  "sid": "08-052",
+  "arxiv": "2411.05902",
+  "title": "Autoregressive Models in Vision: A Survey",
+  "subtopic": "自回归生成",
+  "type": "综述",
+  "priority": "中",
+  "reason": "视觉自回归生成的系统综述，覆盖像素/token/尺度级建模与应用。"
+ },
+ {
+  "sid": "08-053",
+  "arxiv": "2602.13344",
+  "title": "FireRed-Image-Edit-1.0 Technical Report",
+  "subtopic": "图像编辑",
+  "type": "技术报告",
+  "priority": "低",
+  "reason": "2026 年指令式图像编辑 DiT 的技术报告，系统讨论数据筛选、训练方法与评测设计。",
+  "team": "Super Intelligence Team"
+ },
+ {
+  "sid": "08-054",
   "arxiv": "2311.17982",
   "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
   "subtopic": "视频生成",
@@ -531,6 +521,15 @@
    "12"
   ],
   "cross_reason": "生成模型评测方法。"
+ },
+ {
+  "sid": "08-055",
+  "arxiv": "2511.20645",
+  "title": "PixelDiT: Pixel Diffusion Transformers for Image Generation",
+  "subtopic": "扩散模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "无自编码器的像素空间扩散 Transformer，以 patch 级与像素级双通路建模全局结构与细节。"
  },
  {
   "sid": "08-056",
@@ -552,6 +551,68 @@
  },
  {
   "sid": "08-058",
+  "arxiv": "2509.25161",
+  "title": "Rolling Forcing: Autoregressive Long Video Diffusion in Real Time",
+  "subtopic": "视频生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在滚动窗口内联合去噪多帧以抑制误差累积，实现实时长视频自回归扩散。"
+ },
+ {
+  "sid": "08-059",
+  "arxiv": "2603.09488",
+  "title": "Streaming Autoregressive Video Generation via Diagonal Distillation",
+  "subtopic": "视频生成",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "按时间对角分配去噪步数的蒸馏方法，面向低延迟流式视频生成（2026 新工作）。"
+ },
+ {
+  "sid": "08-060",
+  "arxiv": "2311.17042",
+  "title": "Adversarial Diffusion Distillation",
+  "subtopic": "扩散模型",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "ADD：结合对抗损失与分数蒸馏，把大型扩散模型蒸馏为 1–4 步采样。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "少步蒸馏属于推理加速。",
+  "reserve": true
+ },
+ {
+  "sid": "08-061",
+  "arxiv": "2311.16711",
+  "title": "LEDITS++: Limitless Image Editing using Text-to-Image Models",
+  "subtopic": "图像编辑",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "免调参、免优化的多重同时编辑方法，结合高效反演与隐式掩码。",
+  "reserve": true
+ },
+ {
+  "sid": "08-062",
+  "arxiv": "2312.14125",
+  "title": "VideoPoet: A Large Language Model for Zero-Shot Video Generation",
+  "subtopic": "视频生成",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "仅解码器 LLM 在多模态 token 上做视频与音频生成。",
+  "reserve": true
+ },
+ {
+  "sid": "08-063",
+  "arxiv": "2412.03603",
+  "title": "HunyuanVideo: A Systematic Framework For Large Video Generative Models",
+  "subtopic": "视频生成",
+  "type": "技术报告",
+  "priority": "中",
+  "reason": "开源大规模视频生成模型的系统框架（数据、架构、训练与基础设施）。",
+  "reserve": true
+ },
+ {
+  "sid": "08-064",
   "arxiv": "2511.13720",
   "title": "Back to Basics: Let Denoising Generative Models Denoise",
   "subtopic": "扩散模型",
@@ -561,7 +622,7 @@
   "reserve": true
  },
  {
-  "sid": "08-059",
+  "sid": "08-065",
   "arxiv": "2410.10629",
   "title": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformers",
   "subtopic": "扩散模型",
@@ -575,7 +636,7 @@
   "reserve": true
  },
  {
-  "sid": "08-060",
+  "sid": "08-066",
   "arxiv": "2405.14867",
   "title": "Improved Distribution Matching Distillation for Fast Image Synthesis",
   "subtopic": "扩散模型",
@@ -589,7 +650,7 @@
   "reserve": true
  },
  {
-  "sid": "08-061",
+  "sid": "08-067",
   "arxiv": "2503.07565",
   "title": "Inductive Moment Matching",
   "subtopic": "扩散模型",
@@ -599,17 +660,7 @@
   "reserve": true
  },
  {
-  "sid": "08-062",
-  "arxiv": "2504.11346",
-  "title": "Seedream 3.0 Technical Report",
-  "subtopic": "流匹配",
-  "type": "技术报告",
-  "priority": "中",
-  "reason": "双语文生图模型技术报告，涵盖数据、预训练、后训练与加速全流程。",
-  "reserve": true
- },
- {
-  "sid": "08-063",
+  "sid": "08-068",
   "arxiv": "2412.04431",
   "title": "Infinity: Scaling Bitwise AutoRegressive Modeling for High-Resolution Image Synthesis",
   "subtopic": "自回归生成",
@@ -619,7 +670,7 @@
   "reserve": true
  },
  {
-  "sid": "08-064",
+  "sid": "08-069",
   "arxiv": "2408.12528",
   "title": "Show-o: One Single Transformer to Unify Multimodal Understanding and Generation",
   "subtopic": "自回归生成",
@@ -633,27 +684,7 @@
   "reserve": true
  },
  {
-  "sid": "08-065",
-  "arxiv": "2404.02733",
-  "title": "InstantStyle: Free Lunch towards Style-Preserving in Text-to-Image Generation",
-  "subtopic": "条件控制",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "通过特征相减与仅注入特定注意力层，实现免调参的风格迁移并减少内容泄漏。",
-  "reserve": true
- },
- {
-  "sid": "08-066",
-  "arxiv": "2407.05282",
-  "title": "UltraEdit: Instruction-based Fine-Grained Image Editing at Scale",
-  "subtopic": "图像编辑",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "大规模指令编辑数据集构建方法（真实图像锚定、区域编辑）。",
-  "reserve": true
- },
- {
-  "sid": "08-067",
+  "sid": "08-070",
   "arxiv": "2501.00103",
   "title": "LTX-Video: Realtime Video Latent Diffusion",
   "subtopic": "视频生成",
@@ -663,21 +694,7 @@
   "reserve": true
  },
  {
-  "sid": "08-068",
-  "arxiv": "2410.05954",
-  "title": "Pyramidal Flow Matching for Efficient Video Generative Modeling",
-  "subtopic": "视频生成",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "把视频生成分解为多分辨率金字塔阶段的流匹配，降低训练与推理成本。",
-  "cross": [
-   "11"
-  ],
-  "cross_reason": "以金字塔多分辨率结构提升视频生成效率。",
-  "reserve": true
- },
- {
-  "sid": "08-069",
+  "sid": "08-071",
   "arxiv": "2504.06256",
   "title": "Transfer between Modalities with MetaQueries",
   "subtopic": "自回归生成",
@@ -691,7 +708,7 @@
   "reserve": true
  },
  {
-  "sid": "08-070",
+  "sid": "08-072",
   "arxiv": "2504.20690",
   "title": "In-Context Edit: Enabling Instructional Image Editing with In-Context Generation in Large Scale Diffusion Transformer",
   "subtopic": "图像编辑",
@@ -701,7 +718,7 @@
   "reserve": true
  },
  {
-  "sid": "08-071",
+  "sid": "08-073",
   "arxiv": "2506.09113",
   "title": "Seedance 1.0: Exploring the Boundaries of Video Generation Models",
   "subtopic": "视频生成",
@@ -711,7 +728,7 @@
   "reserve": true
  },
  {
-  "sid": "08-072",
+  "sid": "08-074",
   "arxiv": "2404.01291",
   "title": "Evaluating Text-to-Visual Generation with Image-to-Text Generation",
   "subtopic": "条件控制",

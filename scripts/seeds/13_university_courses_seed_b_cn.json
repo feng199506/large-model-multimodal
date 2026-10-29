@@ -1,0 +1,3058 @@
+[
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "08"
+  ],
+  "sid": "13-B01",
+  "university": "Massachusetts Institute of Technology",
+  "course_code": "6.S978",
+  "course_title": "Deep Generative Models",
+  "term": "Fall 2024",
+  "term_year": 2024,
+  "instructors": [
+   "Kaiming He"
+  ],
+  "official_url": "https://mit-6s978.github.io/",
+  "schedule_url": "https://mit-6s978.github.io/schedule.html",
+  "verification_basis": "课程主页 https://mit-6s978.github.io/ 列出教师 Kaiming He（TA Minghao Guo），Piazza/Canvas 链接为 fall2024；日程页 schedule.html 日期 2024-09-05 至 2024-12-10",
+  "dir_name": "MIT_6S978_2024Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://mit-6s978.github.io/assets/pdfs/lec1_intro.pdf",
+    "name": "lec01_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Introduction"
+   },
+   {
+    "url": "https://mit-6s978.github.io/assets/pdfs/lec2_vae.pdf",
+    "name": "lec02_vae_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Variational Autoencoder"
+   },
+   {
+    "url": "https://mit-6s978.github.io/assets/pdfs/lec3_ar.pdf",
+    "name": "lec03_autoregressive_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Autoregressive Models"
+   },
+   {
+    "url": "https://mit-6s978.github.io/assets/pdfs/lec4_gan.pdf",
+    "name": "lec04_gan_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 GAN"
+   },
+   {
+    "url": "https://mit-6s978.github.io/assets/pdfs/lec5_diffusion.pdf",
+    "name": "lec05_ebm_score_diffusion_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 EBM, Score Matching, Diffusion"
+   },
+   {
+    "url": "https://mit-6s978.github.io/assets/pdfs/data_ownership_MIT_guest_lecture.pdf",
+    "name": "guest_data_ownership_junyanzhu_en.pdf",
+    "kind": "pdf",
+    "label": "Guest lecture: Ensuring Data Ownership in Generative Models (Jun-Yan Zhu)"
+   },
+   {
+    "url": "https://mit-6s978.github.io/assets/pdfs/CM_lecture.pdf",
+    "name": "guest_consistency_models_yangsong_en.pdf",
+    "kind": "pdf",
+    "label": "Guest lecture: Consistency Models (Yang Song)"
+   }
+  ],
+  "expected_items": 7,
+  "completeness_note": "官方日程中 5 次教师讲授 + 2 次嘉宾讲座均有幻灯片（共 7 份），全部下载；其余为学生论文研读（Reading）与期末展示，官方未发布讲义",
+  "prereq": "官方页面未单列；面向研究生，需深度学习与概率基础",
+  "coverage": "VAE、自回归、GAN、能量/得分匹配与扩散、一致性模型、生成模型数据归属；研读覆盖 tokenizer、流匹配、视频/3D/机器人应用",
+  "stage": "进阶研究",
+  "reason": "Kaiming He 主讲的深度生成模型研究生课，讲义精炼覆盖从 VAE 到扩散/流匹配的主线，是图像/视频生成方向的核心课程",
+  "priority": "高"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "08"
+  ],
+  "sid": "13-B02",
+  "university": "Massachusetts Institute of Technology",
+  "course_code": "6.S184",
+  "course_title": "Introduction to Flow Matching and Diffusion Models (Generative AI with Stochastic Differential Equations)",
+  "term": "IAP 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Peter Holderrieth",
+   "Ron Shprints",
+   "Ezra Erives"
+  ],
+  "official_url": "https://diffusion.csail.mit.edu/",
+  "schedule_url": "https://diffusion.csail.mit.edu/2026/index.html",
+  "verification_basis": "课程主页 https://diffusion.csail.mit.edu/2026/index.html 标题 6.S184 Introduction to Flow Matching and Diffusion Models 2026，讲授 Peter Holderrieth，实验 Ron Shprints、Ezra Erives；幻灯片日期 2026-01-20 至 01-30",
+  "dir_name": "MIT_6S184_2026IAP_LectureMaterials_en",
+  "arxiv": "2506.02070",
+  "files": [
+   {
+    "url": "https://diffusion.csail.mit.edu/2026/docs/20260120_Lecture_01.pdf",
+    "name": "lecture01_flow_and_diffusion_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Flow and Diffusion Models"
+   },
+   {
+    "url": "https://diffusion.csail.mit.edu/2026/docs/20260122_Lecture_02.pdf",
+    "name": "lecture02_flow_matching_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Flow Matching"
+   },
+   {
+    "url": "https://diffusion.csail.mit.edu/2026/docs/20260123_Lecture_03.pdf",
+    "name": "lecture03_score_matching_cfg_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Score Functions/Score Matching + Classifier-free Guidance"
+   },
+   {
+    "url": "https://diffusion.csail.mit.edu/2026/docs/20260128_Lecture_04_edited.pdf",
+    "name": "lecture04_latent_spaces_architectures_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Latent Spaces and Neural Network Architectures"
+   },
+   {
+    "url": "https://diffusion.csail.mit.edu/2026/docs/20260130_Lecture_05.pdf",
+    "name": "lecture05_discrete_diffusion_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Discrete Diffusion Models"
+   },
+   {
+    "url": "https://arxiv.org/pdf/2506.02070v3",
+    "name": "lecture_notes_arxiv2506.02070v3_en.pdf",
+    "kind": "pdf",
+    "label": "Course lecture notes (arXiv 2506.02070v3, Holderrieth & Erives)",
+    "aux": true
+   }
+  ],
+  "expected_items": 5,
+  "completeness_note": "官方 2026 页 5 讲（3-A/3-B 共用一份幻灯片）均有幻灯片，全部下载；另附课程讲义 arXiv 2506.02070v3（aux）",
+  "prereq": "官方页面：需线性代数、多元微积分、概率与基础深度学习",
+  "coverage": "流模型与扩散模型的 ODE/SDE 统一框架、流匹配、得分匹配、无分类器引导、潜空间与网络架构、离散扩散",
+  "stage": "初学/进阶研究",
+  "reason": "MIT 流匹配与扩散模型短课，配套完整数学讲义，是理解现代图像/视频/音频生成模型的最佳入门讲义包",
+  "priority": "高",
+  "top10_rank": 8,
+  "top10_reason": "MIT 流匹配与扩散课程，讲义推导完整，是图像视频生成的数学入门。"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "07"
+  ],
+  "sid": "13-B03",
+  "university": "Carnegie Mellon University",
+  "course_code": "11-777",
+  "course_title": "Multimodal Machine Learning",
+  "term": "Fall 2023",
+  "term_year": 2023,
+  "instructors": [
+   "Louis-Philippe Morency",
+   "Paul Liang"
+  ],
+  "official_url": "https://cmu-multicomp-lab.github.io/mmml-course/fall2023/",
+  "schedule_url": "https://cmu-multicomp-lab.github.io/mmml-course/fall2023/schedule/",
+  "verification_basis": "课程主页（现重定向至 https://multicomp.cs.cmu.edu/mmml-course/fall2023/）标题 11-777 MultiModal Machine Learning, Fall 2023，教师 Louis-Philippe Morency、Paul Liang（co-lecturer）；日程页幻灯片链接指向课程 Piazza 公开资源（无需登录）",
+  "dir_name": "CMU_11-777_2023Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/llvjl0qrqr138u",
+    "name": "lecture1_1_course_introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1.1 Course introduction"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/llymqj2h3jpoo",
+    "name": "lecture1_2_multimodal_applications_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1.2 Multimodal applications"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lm5izbpfrm95o5",
+    "name": "lecture2_1_unimodal_representations_1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2.1 Unimodal representations 1"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lm8en2afw0x4s4",
+    "name": "lecture2_2_unimodal_representations_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2.2 Unimodal representations 2"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lmfnjj8tlqy7if",
+    "name": "lecture3_1_multimodal_representations_1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3.1 Multimodal representations 1"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lmigwwr596235n",
+    "name": "lecture3_2_multimodal_representations_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3.2 Multimodal representations 2"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lmqci56deg757q",
+    "name": "lecture4_1_alignment_and_grounding_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4.1 Alignment and grounding"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lmsbgmk9haixi",
+    "name": "lecture4_2_aligned_representations_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4.2 Aligned representations"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lmziyucsmgr1of",
+    "name": "lecture5_1_multimodal_transformers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5.1 Multimodal transformers"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/ln2heqg1pp66of",
+    "name": "lecture5_2_structured_representation_and_reasoning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5.2 Structured representation and reasoning"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lnadgbwu3or5f2",
+    "name": "lecture6_1_multimodal_transformers_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6.1 Multimodal transformers 2"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lnjoc19x1kb1xl",
+    "name": "lecture7_1_multimodal_interaction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7.1 Multimodal interaction"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lnmg4sj9k9a3ar",
+    "name": "lecture7_2_multimodal_inference_and_knowledge_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7.2 Multimodal inference and knowledge"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lo4gab2k3n2oi",
+    "name": "lecture9_1_multimodal_generation_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9.1 Multimodal generation"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lo7860x9uyb76t",
+    "name": "lecture9_2_new_generation_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9.2 New generation models"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/loqkqmi75gz719",
+    "name": "lecture11_2_transference_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11.2 Transference"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/loyeyfj138i4of",
+    "name": "lecture12_1_new_research_directions_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12.1 New research directions"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lp0m96fzx545qi",
+    "name": "lecture12_2_quantification_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12.2 Quantification"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lqcxzkp2f1r4wu",
+    "name": "lecture14_1_guest_lecture_14_1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14.1 Guest lecture 14.1"
+   },
+   {
+    "url": "https://piazza.com/class_profile/get_resource/ll1e0syhci53g6/lpsx147hkf75gk",
+    "name": "lecture14_2_guest_lecture_14_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14.2 Guest lecture 14.2"
+   },
+   {
+    "url": "https://cmu-multicomp-lab.github.io/mmml-course/assets/pdf/MultimodalML-Fall2023-Syllabus.pdf",
+    "name": "syllabus_fall2023_en.pdf",
+    "kind": "pdf",
+    "label": "Course syllabus",
+    "aux": true
+   }
+  ],
+  "expected_items": 20,
+  "completeness_note": "官方日程 21 次讲课中 20 次发布了幻灯片（6.2 嘉宾讲座无幻灯片），全部下载；其余为假期/中期与期末展示无讲义。Fall 2026 学期正在进行，讲义未齐，故选最近完整学期 Fall 2023",
+  "prereq": "官方课程页未单列（需机器学习/深度学习基础，见课程大纲）",
+  "coverage": "多模态表示、对齐与对齐表示、多模态 Transformer、推理、生成、迁移与量化等多模态机器学习核心挑战体系",
+  "stage": "进阶研究",
+  "reason": "CMU 多模态机器学习旗舰课，提出表示/对齐/推理/生成/迁移/量化六大挑战框架，是多模态方向最系统的课程讲义",
+  "priority": "高",
+  "cross_before_fix": [
+   "05"
+  ],
+  "top10_rank": 3,
+  "top10_reason": "多模态机器学习的系统课程，覆盖表示、对齐、融合与生成等多模态核心问题。"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "01",
+   "08"
+  ],
+  "sid": "13-B04",
+  "university": "Carnegie Mellon University",
+  "course_code": "10-423/10-623/10-723",
+  "course_title": "Generative AI",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Aran Nayebi",
+   "Matt Gormley"
+  ],
+  "official_url": "https://www.cs.cmu.edu/~mgormley/courses/10423/",
+  "schedule_url": "https://www.cs.cmu.edu/~mgormley/courses/10423/schedule.html",
+  "verification_basis": "课程 people 页 https://www.cs.cmu.edu/~mgormley/courses/10423/people.html 列教师 Aran Nayebi、Matt Gormley，Spring 2026；日程页 26 讲日期 2026-01-12 至 04-20",
+  "dir_name": "CMU_10-423_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture1-overview.pdf",
+    "name": "lecture01_overview_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 RNN LMs / Autodiff"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture2-transformer.pdf",
+    "name": "lecture02_transformer_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Transformer LMs"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture3-llms.pdf",
+    "name": "lecture03_llms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Learning LLMs / Decoding"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture4-rope-gqa.pdf",
+    "name": "lecture04_rope_gqa_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Pre-training, fine-tuning / Modern Transformers"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture5-cnn-vit.pdf",
+    "name": "lecture05_cnn_vit_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 CNNs / Vision Transformers"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture6-gans.pdf",
+    "name": "lecture06_gans_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 GANs / PGM"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture7-diffusion.pdf",
+    "name": "lecture07_diffusion_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Diffusion models (Part I)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture8-diffusion-vae.pdf",
+    "name": "lecture08_diffusion_vae_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Diffusion models (Part II)"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture9-vae-icl.pdf",
+    "name": "lecture09_vae_icl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 VAEs / ICL"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture10-peft.pdf",
+    "name": "lecture10_peft_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 Parameter-efficient fine tuning"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture11-ift-rlhf.pdf",
+    "name": "lecture11_ift_rlhf_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Instruction fine-tuning / RLHF"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture12-dpo-text2img.pdf",
+    "name": "lecture12_dpo_text2img_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 DPO / Text-to-image / Latent diffusion"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture13-vlm.pdf",
+    "name": "lecture13_vlm_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Vision-language models"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture14-ldm-dit-p2p.pdf",
+    "name": "lecture14_ldm_dit_p2p_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 Cross-Attention / DiT / Prompt-to-Prompt"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture15-querying-scaling.pdf",
+    "name": "lecture15_querying_scaling_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 Querying Transformer / Scaling laws"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture16-moe.pdf",
+    "name": "lecture16_moe_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 Mixture of Experts"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture17-distributed.pdf",
+    "name": "lecture17_distributed_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 Distributed training"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture18-efficient.pdf",
+    "name": "lecture18_efficient_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 Flash Attention / Efficient decoding"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture19-long.pdf",
+    "name": "lecture19_long_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 Long context"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture20-reasoning.pdf",
+    "name": "lecture20_reasoning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 20 Reasoning models"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture21-ssm.pdf",
+    "name": "lecture21_ssm_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 21 State space models"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture22-practical-considerations.pdf",
+    "name": "lecture22_practical_considerations_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 22 Real-world issues"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture23-code.pdf",
+    "name": "lecture23_code_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 23 Code generation / Agents"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture24-audio.pdf",
+    "name": "lecture24_audio_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 24 Audio understanding and synthesis"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture25-video.pdf",
+    "name": "lecture25_video_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 25 Generative models for videos"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture26-world-models.pdf",
+    "name": "lecture26_world_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 26 Interactive world models"
+   },
+   {
+    "url": "https://www.cs.cmu.edu/~mgormley/courses/10423/slides/lecture26-alignment.pdf",
+    "name": "lecture26_alignment_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 26 Science of alignment"
+   }
+  ],
+  "expected_items": 26,
+  "completeness_note": "官方日程 26 讲均有幻灯片（第 26 讲为两份：world models 与 alignment），共 27 个文件全部下载；同讲 inked 手写批注版未重复收录",
+  "prereq": "官方页面：10-301/10-601 等机器学习导论及编程基础",
+  "coverage": "Transformer 语言模型、ViT、GAN/VAE/扩散、文生图与潜扩散、DiT、视觉-语言模型、MoE、高效训练与推理、音频与视频生成、世界模型",
+  "stage": "进阶研究",
+  "reason": "CMU 生成式 AI 课程，文本与图像/音频/视频生成并重，包含 VLM、扩散 Transformer、视频生成与世界模型等多模态生成内容",
+  "priority": "高",
+  "top10_rank": 5,
+  "top10_reason": "CMU 生成式 AI 课程（2026），同时讲文本与图像生成、扩散与 LLM，适合连接两条生成路线。"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "07"
+  ],
+  "sid": "13-B05",
+  "university": "Stanford University",
+  "course_code": "CS231n",
+  "course_title": "Deep Learning for Computer Vision",
+  "term": "Spring 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Fei-Fei Li",
+   "Ehsan Adeli",
+   "Justin Johnson",
+   "Zane Durante"
+  ],
+  "official_url": "https://cs231n.stanford.edu/2025/",
+  "schedule_url": "https://cs231n.stanford.edu/2025/schedule.html",
+  "verification_basis": "官方 2025 存档日程页 https://cs231n.stanford.edu/2025/schedule.html 列各讲主讲人（Fei-Fei Li、Ehsan Adeli、Justin Johnson、Zane Durante 及客座 Ruohan Gao、Jiajun Wu、Ranjay Krishna、Yunzhu Li），日期 04/01–06/03",
+  "dir_name": "Stanford_CS231n_2025Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_1_part_1.pdf",
+    "name": "lecture01_part1_introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 part 1 Introduction"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_1_part_2.pdf",
+    "name": "lecture01_part2_introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 part 2 Introduction"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_2.pdf",
+    "name": "lecture02_image_classification_with_linear_classifiers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Image Classification with Linear Classifiers"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_3.pdf",
+    "name": "lecture03_regularization_and_optimization_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Regularization and Optimization"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_4.pdf",
+    "name": "lecture04_neural_networks_and_backpropagation_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Neural Networks and Backpropagation"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_5.pdf",
+    "name": "lecture05_image_classification_with_cnns_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Image Classification with CNNs"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_6.pdf",
+    "name": "lecture06_cnn_architectures_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 CNN Architectures"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_7.pdf",
+    "name": "lecture07_recurrent_neural_networks_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Recurrent Neural Networks"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_8.pdf",
+    "name": "lecture08_attention_and_transformers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Attention and Transformers"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_9.pdf",
+    "name": "lecture09_detection_segmentation_visualizing_and_understanding_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Detection, Segmentation, Visualizing and Understanding"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_10.pdf",
+    "name": "lecture10_video_understanding_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 Video Understanding"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_11.pdf",
+    "name": "lecture11_large_scale_distributed_training_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Large Scale Distributed Training"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_12.pdf",
+    "name": "lecture12_self_supervised_learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Self-supervised Learning"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_13.pdf",
+    "name": "lecture13_generative_models_1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Generative Models 1"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_14.pdf",
+    "name": "lecture14_generative_models_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 Generative Models 2"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_15.pdf",
+    "name": "lecture15_3d_vision_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 3D Vision"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_16.pdf",
+    "name": "lecture16_vision_and_language_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 Vision and Language"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/lecture_17.pdf",
+    "name": "lecture17_robot_learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 Robot Learning"
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/section_2.pdf",
+    "name": "section_2_backprop_review_en.pdf",
+    "kind": "pdf",
+    "label": "Discussion section_2 Backprop review",
+    "aux": true
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/section_3.pdf",
+    "name": "section_3_final_project_overview_en.pdf",
+    "kind": "pdf",
+    "label": "Discussion section_3 Final project overview",
+    "aux": true
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/section_5.pdf",
+    "name": "section_5_rnns_transformers_en.pdf",
+    "kind": "pdf",
+    "label": "Discussion section_5 RNNs & Transformers",
+    "aux": true
+   },
+   {
+    "url": "https://cs231n.stanford.edu/slides/2025/section_6.pdf",
+    "name": "section_6_midterm_review_en.pdf",
+    "kind": "pdf",
+    "label": "Discussion section_6 Midterm review",
+    "aux": true
+   }
+  ],
+  "expected_items": 17,
+  "completeness_note": "官方日程 18 讲中 17 讲发布了幻灯片（第 1 讲分两部分，共 18 个文件；第 18 讲 Human-Centered AI 无幻灯片），全部下载；另附 4 份讨论课幻灯片（aux）。Spring 2026 版缺第 17、18 讲幻灯片，故选 2025",
+  "prereq": "官方页面：Python、微积分与线性代数、概率统计、机器学习基础（CS229 水平）",
+  "coverage": "图像分类、CNN、RNN、注意力与 Transformer、检测分割、视频理解、分布式训练、自监督、生成模型、3D 视觉、视觉-语言、机器人学习",
+  "stage": "初学",
+  "reason": "必要基础课（视觉方向）：计算机视觉深度学习标准课程，2025 版新增视频理解、自监督、生成模型、视觉-语言与机器人学习讲次，为多模态与视觉基础模型方向提供必备基础",
+  "priority": "高",
+  "cross_before_fix": [
+   "05"
+  ]
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "08"
+  ],
+  "sid": "13-B06",
+  "university": "Stanford University",
+  "course_code": "CS236",
+  "course_title": "Deep Generative Models",
+  "term": "Fall 2023",
+  "term_year": 2023,
+  "instructors": [
+   "Stefano Ermon"
+  ],
+  "official_url": "https://deepgenerativemodels.github.io/",
+  "schedule_url": "https://deepgenerativemodels.github.io/syllabus.html",
+  "verification_basis": "课程主页 https://deepgenerativemodels.github.io/ 标明 Fall Quarter 2023、教师 Stefano Ermon；syllabus.html 日程 Sep 27–Dec 6",
+  "dir_name": "Stanford_CS236_2023Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture1_2023.pptx",
+    "name": "lecture01_introduction_en.pptx",
+    "kind": "zip",
+    "label": "Lecture 1 Introduction"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture2.pdf",
+    "name": "lecture02_background_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Background"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture3.pdf",
+    "name": "lecture03_autoregressive_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Autoregressive Models"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture4.pdf",
+    "name": "lecture04_maximum_likelihood_learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Maximum Likelihood Learning"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture5.pdf",
+    "name": "lecture05_vaes_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 VAEs"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture6.pdf",
+    "name": "lecture06_vaes_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 VAEs 2"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture7.pdf",
+    "name": "lecture07_normalizing_flows_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Normalizing Flows"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture8.pdf",
+    "name": "lecture08_normalizing_flows_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Normalizing Flows 2"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture9.pdf",
+    "name": "lecture09_gans_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 GANs"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture10.pdf",
+    "name": "lecture10_gans_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 GANs 2"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture11.pdf",
+    "name": "lecture11_energy_based_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Energy Based Models"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture12.pdf",
+    "name": "lecture12_energy_based_models_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Energy Based Models 2"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/lecture%2013.pptx",
+    "name": "lecture13_score_based_models_en.pptx",
+    "kind": "zip",
+    "label": "Lecture 13 Score Based Models"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/lecture_14_comp.pptx",
+    "name": "lecture14_energy_based_models_3_en.pptx",
+    "kind": "zip",
+    "label": "Lecture 14 Energy Based Models 3"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/lecture15.pdf",
+    "name": "lecture15_evaluation_of_generative_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 Evaluation of Generative Models"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/lecture16-2023-comp.pptx",
+    "name": "lecture16_score_based_diffusion_models_en.pptx",
+    "kind": "zip",
+    "label": "Lecture 16 Score Based Diffusion Models"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture17.pdf",
+    "name": "lecture17_discrete_latent_variable_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 Discrete Latent Variable Models"
+   },
+   {
+    "url": "https://deepgenerativemodels.github.io/assets/slides/cs236_lecture18.pdf",
+    "name": "lecture18_diffusion_models_for_discrete_data_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 Diffusion Models for Discrete Data"
+   }
+  ],
+  "expected_items": 18,
+  "completeness_note": "官方日程 18 讲均有幻灯片（14 份 PDF + 4 份 PPTX 原件），全部下载；其余为假期/海报展示/考试周",
+  "prereq": "官方页面：CS221/228/229/230 之一的机器学习基础，概率与微积分，Python",
+  "coverage": "自回归、最大似然、VAE、归一化流、GAN、能量模型、得分模型与扩散、离散潜变量、离散数据扩散、生成模型评估",
+  "stage": "进阶研究",
+  "reason": "Stefano Ermon（得分/扩散模型奠基者之一）的深度生成模型课，理论体系完整，是扩散与生成模型原理的经典讲义",
+  "priority": "高"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "09"
+  ],
+  "sid": "13-B07",
+  "university": "Stanford University",
+  "course_code": "CS224S",
+  "course_title": "Spoken Language Processing",
+  "term": "Spring 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Andrew Maas",
+   "Tolúlọpẹ́ Ògúnrẹ̀mí"
+  ],
+  "official_url": "https://web.stanford.edu/class/cs224s/",
+  "schedule_url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/syllabus",
+  "verification_basis": "课程主页 https://web.stanford.edu/class/cs224s/ 指向 2025-spring 学期，列 Instructor Andrew Maas、Co-Instructor Tolúlọpẹ́ Ògúnrẹ̀mí；syllabus 日期 3.31.25–6.2.25",
+  "dir_name": "Stanford_CS224S_2025Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec1.pdf",
+    "name": "lecture01_course_introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Course introduction"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec2.pdf",
+    "name": "lecture02_phonetics_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Phonetics"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec3.pdf",
+    "name": "lecture03_tts_overview_and_history_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 TTS overview and history"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec4.pdf",
+    "name": "lecture04_foundations_of_tts_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Foundations of TTS"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec5.pdf",
+    "name": "lecture05_deep_learning_for_tts_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Deep learning for TTS"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec6.pdf",
+    "name": "lecture06_advanced_deep_learning_for_speech_and_audio_synthesis_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 Advanced deep learning for speech and audio synthesis"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec7.pdf",
+    "name": "lecture07_overview_of_dialog_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Overview of dialog"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec8.pdf",
+    "name": "lecture08_dialog_system_case_studies_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Dialog system case studies"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec9.pdf",
+    "name": "lecture09_speech_recognition_overview_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Speech recognition overview"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec10.pdf",
+    "name": "lecture10_hmm_dnn_ctc_end_to_end_asr_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 HMM-DNN, CTC, end-to-end ASR"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec11.pdf",
+    "name": "lecture11_sota_asr_conformer_whisper_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 SOTA ASR: Conformer, Whisper"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec12.pdf",
+    "name": "lecture12_social_meaning_extraction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Social meaning extraction"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec13.pdf",
+    "name": "lecture13_foundation_models_for_spoken_language_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Foundation models for spoken language"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec14.pdf",
+    "name": "lecture14_speech_recognition_beyond_english_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 Speech recognition beyond English"
+   },
+   {
+    "url": "https://web.stanford.edu/class/cs224s/semesters/2025-spring/lecture-slides/224s.25.lec15.shared.pdf",
+    "name": "lecture15_low_resource_language_varieties_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 Low-resource language varieties"
+   }
+  ],
+  "expected_items": 15,
+  "completeness_note": "官方日程 18 讲中 15 讲发布了幻灯片（第 16–18 讲为嘉宾/前沿讲座，未发布幻灯片），全部下载",
+  "prereq": "官方页面：CS224N 或 CS229 等机器学习/NLP 基础，Python",
+  "coverage": "语音学、TTS 与神经语音合成、对话系统、ASR（HMM、CTC、Conformer、Whisper）、口语基础模型、多语种与低资源语音",
+  "stage": "进阶研究",
+  "reason": "斯坦福口语处理课，涵盖神经 TTS、端到端 ASR、Whisper 与口语基础模型，是语音大模型方向的系统课程讲义",
+  "priority": "高",
+  "cross_before_fix": [
+   "06"
+  ],
+  "top10_rank": 9,
+  "top10_reason": "斯坦福口语处理课程，覆盖 ASR、TTS 与语音大模型，补足语音方向。"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "10"
+  ],
+  "sid": "13-B08",
+  "university": "Stanford University",
+  "course_code": "CS224R",
+  "course_title": "Deep Reinforcement Learning",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Chelsea Finn"
+  ],
+  "official_url": "https://cs224r.stanford.edu/",
+  "schedule_url": "https://cs224r.stanford.edu/",
+  "verification_basis": "课程主页 https://cs224r.stanford.edu/ 标明 Spring 2026、教师 Prof. Chelsea Finn；日程 Apr 1–May 29",
+  "dir_name": "Stanford_CS224R_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://cs224r.stanford.edu/slides/01_cs224r_intro_2026.pdf",
+    "name": "lecture01_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Course Intro + MDPs & Imitation"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/02_cs224r_imitation_2026.pdf",
+    "name": "lecture02_imitation_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Imitation Learning"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/03_cs224r_policy_gradients_2026.pdf",
+    "name": "lecture03_policy_gradients_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Policy Gradients"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/04_cs224r_actor_critic_2026.pdf",
+    "name": "lecture04_actor_critic_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Actor-Critic Methods"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/05_cs224r_offpolicy_actor_critic_2026.pdf",
+    "name": "lecture05_offpolicy_actor_critic_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Off-Policy Actor Critic"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/06_cs224r_qlearning_2026.pdf",
+    "name": "lecture06_qlearning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 Q-learning"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/07_cs224r_offline_rl_2026.pdf",
+    "name": "lecture07_offline_rl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Offline RL"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/08_cs224r_reward_learning_2026.pdf",
+    "name": "lecture08_reward_learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Reward Learning"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/09_cs224r_rlhf_2026.pdf",
+    "name": "lecture09_rlhf_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 RL for LLMs: Preference Optimization (guest Archit Sharma)"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/10_cs224r_rl_for_llms_reasoning_2026.pdf",
+    "name": "lecture10_rl_for_llms_reasoning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 RL for LLMs: Reasoning (guest Noam Brown)"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/11_cs224r_mbrl_2026.pdf",
+    "name": "lecture11_mbrl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Model-Based RL"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/12_cs224r_mtrl_gcrl_2026.pdf",
+    "name": "lecture12_mtrl_gcrl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Multi-Task and Goal-Conditioned RL"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/13_cs224r_metarl_2026.pdf",
+    "name": "lecture13_metarl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Meta-RL"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/15_cs224r_hierarchy_2026.pdf",
+    "name": "lecture15_hierarchy_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 Hierarchical RL and IL"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/16_cs224r_sim2real_robot_learning_2026.pdf",
+    "name": "lecture16_sim2real_robot_learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 RL for Robots: Sim-to-Real (guest Guanya Shi)"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/17_cs224r_rl_vlas_2026.pdf",
+    "name": "lecture17_rl_vlas_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 RL for Robots: RL for VLAs"
+   },
+   {
+    "url": "https://cs224r.stanford.edu/slides/18_cs224r_frontiers_how_to_research_2026.pdf",
+    "name": "lecture18_frontiers_how_to_research_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 Frontiers"
+   }
+  ],
+  "expected_items": 17,
+  "completeness_note": "官方日程 18 次课中 17 次讲课均有幻灯片（第 14 次为课堂考试，无讲义），全部下载",
+  "prereq": "官方页面：CS229 等机器学习基础、概率、Python/PyTorch",
+  "coverage": "模仿学习、策略梯度、Actor-Critic、Q 学习、离线 RL、奖励学习、LLM 的 RL（偏好优化/推理）、多任务与元 RL、Sim-to-Real、VLA 的强化学习",
+  "stage": "进阶研究",
+  "reason": "具身智能相关：Chelsea Finn 的深度强化学习课，2026 版含机器人 Sim-to-Real 与视觉-语言-动作模型（VLA）强化学习，衔接机器人学习与大模型后训练",
+  "priority": "中"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "10"
+  ],
+  "sid": "13-B09",
+  "university": "University of California, Berkeley",
+  "course_code": "CS 185/285",
+  "course_title": "Deep Reinforcement Learning",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Sergey Levine"
+  ],
+  "official_url": "https://rail.eecs.berkeley.edu/deeprlcourse/",
+  "schedule_url": "https://rail.eecs.berkeley.edu/deeprlcourse/",
+  "verification_basis": "课程主页 https://rail.eecs.berkeley.edu/deeprlcourse/ 列 Instructor Sergey Levine，staff 邮箱 cs285-staff-sp2026，日程 2026-01-19 起",
+  "dir_name": "Berkeley_CS285_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-1.pdf",
+    "name": "lec01_introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Introduction"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-2.pdf",
+    "name": "lec02_behavioral_cloning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Behavioral Cloning"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-3.pdf",
+    "name": "lec03_behavioral_cloning_part_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Behavioral Cloning Part 2"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-4.pdf",
+    "name": "lec04_rl_basics_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 RL Basics"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-5.pdf",
+    "name": "lec05_policy_gradients_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Policy Gradients"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-6.pdf",
+    "name": "lec06_actor_critic_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 Actor Critic"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-7.pdf",
+    "name": "lec07_value_based_rl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Value-Based RL"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-8.pdf",
+    "name": "lec08_q_learning_in_practice_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Q-learning in Practice"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-9.pdf",
+    "name": "lec09_advanced_policy_gradients_part_1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Advanced Policy Gradients Part 1"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-10.pdf",
+    "name": "lec10_advanced_policy_gradients_part_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 Advanced Policy Gradients Part 2"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-11.pdf",
+    "name": "lec11_variational_inference_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Variational Inference"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-12.pdf",
+    "name": "lec12_vi_in_rl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 VI in RL"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-13.pdf",
+    "name": "lec13_control_as_inference_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Control as Inference"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-14.pdf",
+    "name": "lec14_llm_rl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 LLM RL"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-15.pdf",
+    "name": "lec15_model_based_rl_part_1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 Model-Based RL Part 1"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-16.pdf",
+    "name": "lec16_model_based_rl_part_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 Model-Based RL Part 2"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-17.pdf",
+    "name": "lec17_offline_rl_part_1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 Offline RL Part 1"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-18.pdf",
+    "name": "lec18_offline_rl_part_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 Offline RL Part 2"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-19.pdf",
+    "name": "lec19_exploration_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 Exploration"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-20.pdf",
+    "name": "lec20_rl_theory_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 20 RL Theory"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-21.pdf",
+    "name": "lec21_midterm_review_part_1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 21 Midterm Review Part 1"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-22.pdf",
+    "name": "lec22_midterm_review_part_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 22 Midterm Review Part 2"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-23.pdf",
+    "name": "lec23_advanced_exploration_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 23 Advanced Exploration"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-24.pdf",
+    "name": "lec24_multi_task_rl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 24 Multi-task RL"
+   },
+   {
+    "url": "https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-25.pdf",
+    "name": "lec25_challenges_and_open_problems_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 25 Challenges and Open Problems"
+   }
+  ],
+  "expected_items": 25,
+  "completeness_note": "官方日程 25 个编号讲次均有幻灯片，全部下载；第 14 周“Final Guest Lecture”未列题目与幻灯片",
+  "prereq": "官方页面：CS 189 或同等机器学习课程，Python",
+  "coverage": "模仿学习、策略梯度、Actor-Critic、值函数方法、变分推断与控制即推断、LLM 强化学习、基于模型 RL、离线 RL、探索、RL 理论、多任务 RL",
+  "stage": "进阶研究",
+  "reason": "具身智能相关：Sergey Levine 的深度强化学习课，是机器人学习/具身智能的方法论基础，2026 版新增 LLM RL 讲次",
+  "priority": "中"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [],
+  "sid": "13-B10",
+  "university": "Massachusetts Institute of Technology",
+  "course_code": "6.S191",
+  "course_title": "Introduction to Deep Learning",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Alexander Amini",
+   "Ava Amini"
+  ],
+  "official_url": "https://introtodeeplearning.com/",
+  "schedule_url": "https://introtodeeplearning.com/2026/index.html",
+  "verification_basis": "官方 2026 页 https://introtodeeplearning.com/2026/index.html 标明 6.S191 Introduction to Deep Learning，2026-03-30 至 05-25，Lead Instructors Alexander Amini、Ava Amini",
+  "dir_name": "MIT_6S191_2026_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://introtodeeplearning.com/2026/slides/6S191_MIT_DeepLearning_L1.pdf",
+    "name": "L1_intro_to_deep_learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Intro to Deep Learning"
+   },
+   {
+    "url": "https://introtodeeplearning.com/2026/slides/6S191_MIT_DeepLearning_L2.pdf",
+    "name": "L2_deep_sequence_modeling_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Deep Sequence Modeling"
+   },
+   {
+    "url": "https://introtodeeplearning.com/2026/slides/6S191_MIT_DeepLearning_L3.pdf",
+    "name": "L3_deep_computer_vision_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Deep Computer Vision"
+   },
+   {
+    "url": "https://introtodeeplearning.com/2026/slides/6S191_MIT_DeepLearning_L4.pdf",
+    "name": "L4_deep_generative_modeling_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Deep Generative Modeling"
+   },
+   {
+    "url": "https://introtodeeplearning.com/2026/slides/6S191_MIT_DeepLearning_L5.pdf",
+    "name": "L5_deep_reinforcement_learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Deep Reinforcement Learning"
+   },
+   {
+    "url": "https://introtodeeplearning.com/2026/slides/6S191_MIT_DeepLearning_L6.pdf",
+    "name": "L6_new_frontiers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 New Frontiers"
+   },
+   {
+    "url": "https://introtodeeplearning.com/2026/slides/6S191_MIT_DeepLearning_L7.pdf",
+    "name": "L7_the_three_laws_of_ai_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 The Three Laws of AI (guest Douglas Blank)"
+   },
+   {
+    "url": "https://introtodeeplearning.com/2026/slides/6S191_MIT_DeepLearning_L8.pdf",
+    "name": "L8_ai_for_science_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 AI for Science (guest Chris Bishop)"
+   },
+   {
+    "url": "https://introtodeeplearning.com/2026/slides/6S191_MIT_DeepLearning_L9.pdf",
+    "name": "L9_secrets_to_massively_parallel_training_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Secrets to Massively Parallel Training (guest Mathias Lechner)"
+   }
+  ],
+  "expected_items": 9,
+  "completeness_note": "官方日程 9 讲（含 3 次嘉宾讲座）均有幻灯片，全部下载；软件实验与项目展示无讲义",
+  "prereq": "官方页面：微积分与线性代数基础，Python 经验有帮助",
+  "coverage": "深度学习入门：序列建模、计算机视觉、深度生成模型、深度强化学习、前沿（LLM/多模态）、大规模并行训练",
+  "stage": "初学",
+  "reason": "必要基础课：MIT 深度学习入门短课，讲义简明，覆盖生成模型与强化学习等后续多模态/具身课程所需最小基础",
+  "priority": "中"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "08"
+  ],
+  "sid": "13-B11",
+  "university": "Koç University",
+  "course_code": "COMP547",
+  "course_title": "Deep Unsupervised Learning",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Aykut Erdem"
+  ],
+  "official_url": "https://aykuterdem.github.io/classes/comp547.s26/",
+  "schedule_url": "https://aykuterdem.github.io/classes/comp547.s26/lectures.html",
+  "verification_basis": "课程主页 https://aykuterdem.github.io/classes/comp547.s26/index.html 标题 COMP547 Deep Unsupervised Learning Spring 2026，教师 Aykut Erdem，TA 邮箱 @ku.edu.tr，LMS 链接 learn.hub.ku.edu.tr（Koç University）",
+  "dir_name": "Koc_COMP547_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect1-introduction.pdf",
+    "name": "lect01_introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Introduction to the course"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect2-spatial-processing.pdf",
+    "name": "lect02_spatial_processing_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Neural Building Blocks I: CNNs"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect3-sequential-processing.pdf",
+    "name": "lect03_sequential_processing_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Neural Building Blocks II: RNNs"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect4-attention-and-transformers.pdf",
+    "name": "lect04_attention_and_transformers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Neural Building Blocks III: Attention and Transformers"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect5-autoregressive-models.pdf",
+    "name": "lect05_autoregressive_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Autoregressive Models"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect6-normalizing-flow-models.pdf",
+    "name": "lect06_normalizing_flow_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 Normalizing Flow Models"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect7-latent-variable-models.pdf",
+    "name": "lect07_latent_variable_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Latent Variable Models"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect8-generative-adversarial-networks.pdf",
+    "name": "lect08_generative_adversarial_networks_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Generative Adversarial Networks"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect9-energy-and-score-based-models.pdf",
+    "name": "lect09_energy_and_score_based_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Energy and Score Based Models"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect10-diffusion-models.pdf",
+    "name": "lect10_diffusion_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 Diffusion Models"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect11-flow-matching.pdf",
+    "name": "lect11_flow_matching_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Flow Matching"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect12-video-generation.pdf",
+    "name": "lect12_video_generation_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Video Generation"
+   },
+   {
+    "url": "https://aykuterdem.github.io/classes/comp547.s26/slides/lect13-self-supervised-learning.pdf",
+    "name": "lect13_self_supervised_learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Self-Supervised Learning"
+   }
+  ],
+  "expected_items": 13,
+  "completeness_note": "官方 lectures 页 13 讲均有幻灯片（GAN I/II、SSL I/II 各合为一份），全部下载；页面中一个 lect###.pdf 为模板占位链接，非讲次",
+  "prereq": "官方页面：编程、微积分与线性代数、概率统计，建议修过机器学习/深度学习，最优化",
+  "coverage": "自回归、归一化流、潜变量模型、GAN、能量/得分模型、扩散、流匹配、视频生成、自监督学习",
+  "stage": "进阶研究",
+  "reason": "2026 年最新的深度无监督/生成模型课，含流匹配与视频生成专讲，补充美国以外高校视角",
+  "priority": "中"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "09"
+  ],
+  "sid": "13-B12",
+  "university": "University of Edinburgh",
+  "course_code": "ASR",
+  "course_title": "Automatic Speech Recognition",
+  "term": "2024-25 Semester 2 (Jan–Mar 2025)",
+  "term_year": 2025,
+  "instructors": [
+   "Peter Bell"
+  ],
+  "official_url": "https://www.inf.ed.ac.uk/teaching/courses/asr/",
+  "schedule_url": "https://www.inf.ed.ac.uk/teaching/courses/asr/lectures-2025.html",
+  "verification_basis": "官方讲次页 https://www.inf.ed.ac.uk/teaching/courses/asr/lectures-2025.html 标题 ASR 2024-25: Lectures，日期 2025-01-13 至 03-20，页面由 Peter Bell 维护（课程负责人）",
+  "dir_name": "Edinburgh_ASR_2024-25_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr01-intro.pdf",
+    "name": "asr01_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Introduction to Speech Recognition"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr02-signal.pdf",
+    "name": "asr02_signal_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Speech Signal Analysis 1"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr03-mfcc.pdf",
+    "name": "asr03_mfcc_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Speech Signal Analysis 2"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr04-hmm-intro.pdf",
+    "name": "asr04_hmm_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Introduction to HMMs"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr05-hmm-algorithms.pdf",
+    "name": "asr05_hmm_algorithms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 HMM algorithms"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr06-gmms.pdf",
+    "name": "asr06_gmms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 Gaussian mixture models"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr07-cdhmm.pdf",
+    "name": "asr07_cdhmm_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Context-dependent phone modelling"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr08-lvcsr.pdf",
+    "name": "asr08_lvcsr_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Large vocabulary ASR"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr09-wfst.pdf",
+    "name": "asr09_wfst_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 ASR with WFSTs"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr10-hybrid_hmm_nn.pdf",
+    "name": "asr10_hybrid_hmm_nn_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 Hybrid acoustic modelling with NNs"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr11-dnn-arch.pdf",
+    "name": "asr11_dnn_arch_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 NN architectures for ASR"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr12-adapt.pdf",
+    "name": "asr12_adapt_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Speaker adaptation"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr13-ctc.pdf",
+    "name": "asr13_ctc_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Connectionist temporal classification"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr14-rnnt.pdf",
+    "name": "asr14_rnnt_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 RNN transducer"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr15-multiling.pdf",
+    "name": "asr15_multiling_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 Multilingual and low-resource ASR (guest)"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr16-aed.pdf",
+    "name": "asr16_aed_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 Attention-based encoder-decoder"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr17-ssl.pdf",
+    "name": "asr17_ssl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 Self-supervised learning for speech"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr18-llm.pdf",
+    "name": "asr18_llm_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 ASR with Large Language Models"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr19-revision.pdf",
+    "name": "asr19_revision_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 Revision tutorials"
+   },
+   {
+    "url": "https://www.inf.ed.ac.uk/teaching/courses/asr/2024-25/asr05-labs.pdf",
+    "name": "asr05_labs_en.pdf",
+    "kind": "pdf",
+    "label": "Introduction to the labs",
+    "aux": true
+   }
+  ],
+  "expected_items": 19,
+  "completeness_note": "官方 2024-25 讲次页 18 讲 + 复习课共 19 项均有幻灯片，全部下载；另附实验介绍幻灯片（aux）；页面另列的 2 份补充幻灯片（asr10-nnintro、asr15-disc）官方链接 404，未收录。2025-26 版迁至 opencourse 站点且混用往年链接，故选 2024-25",
+  "prereq": "官方页面未在讲次页列出（需机器学习与概率基础）",
+  "coverage": "语音信号分析、HMM/GMM、WFST 解码、混合 NN-HMM、CTC、RNN-T、注意力编码器-解码器、自监督语音表示、多语种 ASR、结合 LLM 的 ASR",
+  "stage": "进阶研究",
+  "reason": "爱丁堡语音识别课，从经典 HMM 到 CTC/RNN-T/AED、自监督与 LLM-ASR，是语音大模型的完整技术前史与现状",
+  "priority": "中",
+  "cross_before_fix": [
+   "06"
+  ]
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "08"
+  ],
+  "sid": "13-B13",
+  "university": "Carnegie Mellon University",
+  "course_code": "16-726",
+  "course_title": "Learning-Based Image Synthesis",
+  "term": "Spring 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Jun-Yan Zhu"
+  ],
+  "official_url": "https://learning-image-synthesis.github.io/sp25/",
+  "schedule_url": "https://learning-image-synthesis.github.io/sp25/lectures/",
+  "verification_basis": "课程主页 https://learning-image-synthesis.github.io/sp25/ 标题 16-726 Learning-Based Image Synthesis，教师 Jun-Yan Zhu（TA Zhixuan Liu 等）；lectures 页日期 01/13/2025–04/21/2025",
+  "dir_name": "CMU_16-726_2025Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/lecture1_introduction.pdf",
+    "name": "lecture01_introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 lecture1_introduction"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/Lecture2_point_processing_image_filtering.pdf",
+    "name": "lecture02_point_processing_image_filtering_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Lecture2_point_processing_image_filtering"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/Lecture3_global_and_local_warping.pdf",
+    "name": "lecture03_global_and_local_warping_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Lecture3_global_and_local_warping"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/Lecture4_data_driven_graphics.pdf",
+    "name": "lecture04_data_driven_graphics_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Lecture4_data_driven_graphics"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/lecture5_CNN_image_synthesis.pdf",
+    "name": "lecture05_cnn_image_synthesis_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 lecture5_CNN_image_synthesis"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/lecture6_Perceptual_Loss_and_GANs.pdf",
+    "name": "lecture06_perceptual_loss_and_gans_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 lecture6_Perceptual_Loss_and_GANs"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/Lecture7_GANs%20%28part%20II%29.pdf",
+    "name": "lecture07_gans_part_ii_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Lecture7_GANs (part II)"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/Lecture8_generative_models%20%28part%20I%29.pdf",
+    "name": "lecture08_generative_models_part_i_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Lecture8_generative_models (part I)"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/Lecture9_generative_models%20%28part%20II%29.pdf",
+    "name": "lecture09_generative_models_part_ii_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Lecture9_generative_models (part II)"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/Lecture10_generative_models%20%28part%20III%29.pdf",
+    "name": "lecture10_generative_models_part_iii_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 Lecture10_generative_models (part III)"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/lecture11_img2img_part1.pdf",
+    "name": "lecture11_img2img_part1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 lecture11_img2img_part1"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/lecture12_img2img_partII.pdf",
+    "name": "lecture12_img2img_partii_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 lecture12_img2img_partII"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/lecture13_style_and_content_texture_synthesis.pdf",
+    "name": "lecture13_style_and_content_texture_synthesis_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 lecture13_style_and_content_texture_synthesis"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/lecture14_text2image.pdf",
+    "name": "lecture14_text2image_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 lecture14_text2image"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/lecture15_image_editing_optimization_partI.pdf",
+    "name": "lecture15_image_editing_optimization_parti_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 lecture15_image_editing_optimization_partI"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/Lecture16_image_editing_optimization_part2.pdf",
+    "name": "lecture16_image_editing_optimization_part2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 Lecture16_image_editing_optimization_part2"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/lecture17_3D_synthesis_part1.pdf",
+    "name": "lecture17_3d_synthesis_part1_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 lecture17_3D_synthesis_part1"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/Lecture18_3D_synthesis_partII.pdf",
+    "name": "lecture18_3d_synthesis_partii_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 Lecture18_3D_synthesis_partII"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/Lecture19_video_synthesis.pdf",
+    "name": "lecture19_video_synthesis_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 Lecture19_video_synthesis"
+   },
+   {
+    "url": "https://learning-image-synthesis.github.io/sp25/static_files/lectures/Lecture20_evaluating_generative_models.pdf",
+    "name": "lecture20_evaluating_generative_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 20 Lecture20_evaluating_generative_models"
+   }
+  ],
+  "expected_items": 20,
+  "completeness_note": "官方日程 26 次课中 20 次教师讲课均有 PDF 幻灯片，全部下载；4 次学生论文展示与 2 次嘉宾讲座（Sheng-Yu Wang）未发布讲义；同讲 PPTX 版放在需登录的 Canvas 上，未收录",
+  "prereq": "官方页面：计算机视觉/图形学或机器学习基础（研究生/高年级本科）",
+  "coverage": "图像处理与数据驱动图形学、CNN 图像合成、GAN、生成模型族（VAE/流/扩散）、条件生成与图像翻译、文生图、基于优化的图像编辑、3D 感知合成、视频合成、生成模型评估",
+  "stage": "进阶研究",
+  "reason": "Jun-Yan Zhu（CycleGAN/pix2pix 作者）的图像合成课，覆盖从 GAN 到扩散、文生图、3D 与视频合成的视觉生成全链条",
+  "priority": "高"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "10"
+  ],
+  "sid": "13-B14",
+  "university": "The University of Hong Kong",
+  "course_code": "DATA8010 / ELEC8111",
+  "course_title": "Embodied AI: Perception, Representation, and Action",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Yanchao Yang"
+  ],
+  "official_url": "https://embodied-ai-hku.github.io/DATA8010/",
+  "schedule_url": "https://embodied-ai-hku.github.io/DATA8010/",
+  "verification_basis": "课程主页 https://embodied-ai-hku.github.io/DATA8010/ 标题 DATA8010 & ELEC8111 Embodied AI: Perception, Representation, and Action，Spring 2026，教师 Prof. Yanchao Yang（香港大学）；日程 Jan 20–Apr 28",
+  "dir_name": "HKU_DATA8010_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://embodied-ai-hku.github.io/DATA8010/slides/Lecture1.pdf",
+    "name": "lecture01_introduction_to_embodied_ai_setup_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Introduction to Embodied AI & Setup"
+   },
+   {
+    "url": "https://embodied-ai-hku.github.io/DATA8010/slides/Lecture2.pdf",
+    "name": "lecture02_kinematics_dynamics_and_simulation_environment_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Kinematics, Dynamics, and Simulation Environment"
+   },
+   {
+    "url": "https://embodied-ai-hku.github.io/DATA8010/slides/Lecture3.pdf",
+    "name": "lecture03_control_for_manipulation_and_locomotion_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 Control for Manipulation and Locomotion"
+   },
+   {
+    "url": "https://embodied-ai-hku.github.io/DATA8010/slides/Lecture4.pdf",
+    "name": "lecture04_motion_planning_and_task_planning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Motion Planning and Task Planning"
+   },
+   {
+    "url": "https://embodied-ai-hku.github.io/DATA8010/slides/Lecture5.pdf",
+    "name": "lecture05_perception_for_embodied_ai_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 Perception for Embodied AI"
+   },
+   {
+    "url": "https://embodied-ai-hku.github.io/DATA8010/slides/Lecture6.pdf",
+    "name": "lecture06_tactile_sensing_and_multimodal_perception_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 Tactile Sensing and Multimodal Perception"
+   },
+   {
+    "url": "https://embodied-ai-hku.github.io/DATA8010/slides/Lecture7.pdf",
+    "name": "lecture07_reinforcement_learning_for_robotics_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 Reinforcement Learning for Robotics"
+   },
+   {
+    "url": "https://embodied-ai-hku.github.io/DATA8010/slides/Lecture8.pdf",
+    "name": "lecture08_imitation_learning_and_behavior_cloning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Imitation Learning and Behavior Cloning"
+   },
+   {
+    "url": "https://embodied-ai-hku.github.io/DATA8010/slides/Issac%20Sim%20Tutorial.pdf",
+    "name": "tutorial_isaac_sim_en.pdf",
+    "kind": "pdf",
+    "label": "Tutorial: Isaac Sim",
+    "aux": true
+   },
+   {
+    "url": "https://embodied-ai-hku.github.io/DATA8010/slides/PyBullet%20Tutorial.pdf",
+    "name": "tutorial_pybullet_en.pdf",
+    "kind": "pdf",
+    "label": "Tutorial: PyBullet",
+    "aux": true
+   },
+   {
+    "url": "https://embodied-ai-hku.github.io/DATA8010/slides/Tutorial_mujocometaworld.pdf",
+    "name": "tutorial_mujoco_meta_world_en.pdf",
+    "kind": "pdf",
+    "label": "Tutorial: MuJoCo / Meta-World",
+    "aux": true
+   }
+  ],
+  "expected_items": 8,
+  "completeness_note": "官方日程 12 次课对应 8 个讲题（部分讲题跨两次课共用一份幻灯片），8 份讲义全部下载；另附 Isaac Sim/PyBullet/MuJoCo 3 份实验教程（aux）；LIBERO 教程与小组展示未发布材料",
+  "prereq": "官方页面：线性代数、概率与随机过程、最优化、信号处理与机器学习基础",
+  "coverage": "具身智能导论、运动学/动力学与仿真、操作与运动控制、运动/任务规划、具身感知、触觉与多模态感知、机器人强化学习、模仿学习与行为克隆",
+  "stage": "进阶研究",
+  "reason": "中国高校（港大）2026 年具身智能研究生课，从仿真、控制、感知到 RL/模仿学习系统讲授具身智能，补充中国高校视角",
+  "priority": "中",
+  "top10_rank": 10,
+  "top10_reason": "港大具身智能课程（2026），从感知、表示到 VLA 与机器人策略学习。"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "08"
+  ],
+  "sid": "13-B15",
+  "university": "Carnegie Mellon University",
+  "course_code": "10-799",
+  "course_title": "Diffusion & Flow Matching",
+  "term": "Spring 2026 (Mini 3)",
+  "term_year": 2026,
+  "instructors": [
+   "Yutong (Kelly) He"
+  ],
+  "official_url": "https://kellyyutonghe.github.io/10799S26/",
+  "schedule_url": "https://kellyyutonghe.github.io/10799S26/schedule/",
+  "verification_basis": "课程主页 https://kellyyutonghe.github.io/10799S26/ 标题 CMU 10-799 Diffusion & Flow Matching，Spring 2026 Mini 3（2026-01-13 至 02-27），Instructor Yutong (Kelly) He，Course Advisors Ruslan Salakhutdinov、Zico Kolter",
+  "dir_name": "CMU_10-799_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/Lecture0_Overview.pdf",
+    "name": "lecture00_overview_en.pdf",
+    "kind": "pdf",
+    "label": "Class overview"
+   },
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/Lecture1_Basics.pdf",
+    "name": "lecture01_basics_en.pdf",
+    "kind": "pdf",
+    "label": "Basics of Probabilistic & Generative Modeling"
+   },
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/Lecture2_Diffusion.pdf",
+    "name": "lecture02_diffusion_en.pdf",
+    "kind": "pdf",
+    "label": "Denoising Diffusion Models"
+   },
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/Lecture4_Score.pdf",
+    "name": "lecture04_score_en.pdf",
+    "kind": "pdf",
+    "label": "Score-Based Models"
+   },
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/Lecture5_Flow.pdf",
+    "name": "lecture05_flow_matching_en.pdf",
+    "kind": "pdf",
+    "label": "Flow Matching"
+   },
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/Lecture6_Fast.pdf",
+    "name": "lecture06_fast_sampling_en.pdf",
+    "kind": "pdf",
+    "label": "Design Space of Diffusion Models & Fast Sampling"
+   },
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/Lecture7_Guidance.pdf",
+    "name": "lecture07_guidance_en.pdf",
+    "kind": "pdf",
+    "label": "Guidance & Controllable Generation"
+   },
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/Lecture9_SOTA.pdf",
+    "name": "lecture09_sota_text_to_image_en.pdf",
+    "kind": "pdf",
+    "label": "SOTA Diffusion/Flow Models for Text-to-Image"
+   },
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/Lecture10_Distillation.pdf",
+    "name": "lecture10_distillation_en.pdf",
+    "kind": "pdf",
+    "label": "Distillation, Consistency Models & Flow Maps"
+   },
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/luma.pdf",
+    "name": "lecture11_guest_luma_en.pdf",
+    "kind": "pdf",
+    "label": "Guest lecture: Linqi (Alex) Zhou, Luma AI"
+   },
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/Lecture12_Discrete_Diffusion.pdf",
+    "name": "lecture12_discrete_diffusion_en.pdf",
+    "kind": "pdf",
+    "label": "Discrete Diffusion & Masked Diffusion"
+   },
+   {
+    "url": "https://kellyyutonghe.github.io/10799S26/assets/slides/Lecture13_Discrete_Flow.pdf",
+    "name": "lecture13_discrete_flow_en.pdf",
+    "kind": "pdf",
+    "label": "Discrete Flow Matching & Edit Flow"
+   }
+  ],
+  "expected_items": 11,
+  "completeness_note": "官方日程 13 次讲课中 11 次发布了幻灯片（含 1 次 Luma AI 嘉宾讲座），另有课程概览幻灯片共 12 个文件，全部下载；2 次嘉宾讲座（Modal、Max Simchowitz 问答）未发布幻灯片",
+  "prereq": "官方页面：编程基础、多元微积分、线性代数、微分方程、概率，以及至少一门机器学习/深度学习课",
+  "coverage": "DDPM、得分模型、流匹配、扩散设计空间与快速采样、引导与可控生成、文生图 SOTA、蒸馏/一致性模型/流映射、离散扩散与离散流匹配",
+  "stage": "进阶研究",
+  "reason": "2026 年专讲扩散与流匹配的研究型短课，覆盖一致性模型、流映射与离散流匹配等最新进展，是图像/视频生成方向的前沿讲义",
+  "priority": "中"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "07"
+  ],
+  "sid": "13-B16",
+  "university": "Massachusetts Institute of Technology",
+  "course_code": "MAS.S60",
+  "course_title": "How to AI (Almost) Anything",
+  "term": "Spring 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Paul Liang"
+  ],
+  "official_url": "https://mit-mi.github.io/how2ai-course/spring2025/",
+  "schedule_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/",
+  "verification_basis": "课程主页 https://mit-mi.github.io/how2ai-course/spring2025/ 标题 MAS.S60 How to AI (Almost) Anything，Spring 2025，教师 Paul Liang（TA Chanakya Ekbote、David Dai）；日程 2/4–5/13",
+  "dir_name": "MIT_MAS.S60_2025Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec1%20-%20introduction.pdf",
+    "name": "01_lec1_introduction_en.pdf",
+    "kind": "pdf",
+    "label": "lec1 - introduction"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec1.2%20-%20AI%20research.pdf",
+    "name": "02_lec1_2_ai_research_en.pdf",
+    "kind": "pdf",
+    "label": "lec1.2 - AI research"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec2%20-%20data.pdf",
+    "name": "03_lec2_data_en.pdf",
+    "kind": "pdf",
+    "label": "lec2 - data"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/Debugging%20Tips.pdf",
+    "name": "04_debugging_tips_en.pdf",
+    "kind": "pdf",
+    "label": "Debugging Tips"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec3%20-%20models.pdf",
+    "name": "05_lec3_models_en.pdf",
+    "kind": "pdf",
+    "label": "lec3 - models"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec4%20-%20multimodal.pdf",
+    "name": "06_lec4_multimodal_en.pdf",
+    "kind": "pdf",
+    "label": "lec4 - multimodal"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec5%20-%20fusion.pdf",
+    "name": "07_lec5_fusion_en.pdf",
+    "kind": "pdf",
+    "label": "lec5 - fusion"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec6%20-%20crossmodal.pdf",
+    "name": "08_lec6_crossmodal_en.pdf",
+    "kind": "pdf",
+    "label": "lec6 - crossmodal"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec7%20-%20large%20models.pdf",
+    "name": "09_lec7_large_models_en.pdf",
+    "kind": "pdf",
+    "label": "lec7 - large models"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec8%20-%20large%20multimodal%20models.pdf",
+    "name": "10_lec8_large_multimodal_models_en.pdf",
+    "kind": "pdf",
+    "label": "lec8 - large multimodal models"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec9%20-%20generative%20AI.pdf",
+    "name": "11_lec9_generative_ai_en.pdf",
+    "kind": "pdf",
+    "label": "lec9 - generative AI"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec10%20-%20interaction.pdf",
+    "name": "12_lec10_interaction_en.pdf",
+    "kind": "pdf",
+    "label": "lec10 - interaction"
+   },
+   {
+    "url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec11%20-%20human.pdf",
+    "name": "13_lec11_human_en.pdf",
+    "kind": "pdf",
+    "label": "lec11 - human"
+   }
+  ],
+  "expected_items": 13,
+  "completeness_note": "官方日程 13 次讲课均有幻灯片，全部下载；7 次论文讨论课、3 次项目展示无讲义。Spring 2026 新版（MAS.S60/6.S985 Modeling: MultiModal AI）日程中 3 份幻灯片（11.1、11.2、12.2）官方链接 404，无法完整核验，故收录完整的 2025 版",
+  "prereq": "官方页面未列（面向研究生，需机器学习/深度学习基础）",
+  "coverage": "AI 研究方法、数据与结构、模型架构、多模态连接与对齐、交互与融合、跨模态迁移、大型基础模型、大型多模态模型、现代生成模型、交互式智能体与推理、人机交互",
+  "stage": "进阶研究",
+  "reason": "Paul Liang（CMU 11-777 共同讲者）在 MIT 开设的多模态 AI 课程，将多模态学习框架延伸到大型多模态模型、生成与智能体，与 11-777 互补",
+  "priority": "高"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "10"
+  ],
+  "sid": "13-B17",
+  "university": "University of Illinois Urbana-Champaign",
+  "course_code": "ECE/CS 598 SG1",
+  "course_title": "Robot Learning",
+  "term": "Spring 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Saurabh Gupta"
+  ],
+  "official_url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/",
+  "schedule_url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/schedule.html",
+  "verification_basis": "课程主页 https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/ 标题 ECE / CS 598 SG1: Robot Learning (Spring 2025)，教师 Saurabh Gupta（TA Arjun Gupta）；日程 Jan 21–May 6",
+  "dir_name": "UIUC_ECE598SG1_2025Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/01-intro.pdf",
+    "name": "01_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Introduction"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/02-geometry.pdf",
+    "name": "02_geometry_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 CV: Single and Multi-view Geometry"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/03-ml-in-cv.pdf",
+    "name": "03_ml_in_cv_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 CV: Recognition"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/04-gen-ml.pdf",
+    "name": "04_gen_ml_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 CV: Generative Models"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/05-robo.pdf",
+    "name": "05_robo_en.pdf",
+    "kind": "pdf",
+    "label": "Lectures 5-6 Robotics: Kinematics, Motion Planning, Feedback Control"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/07-mdp-intro.pdf",
+    "name": "07_mdp_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 MDPs intro (slides)"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/07-mdp-known.pdf",
+    "name": "07_mdp_known_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 MDPs with known model (slides)"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/07-mdp-notes.pdf",
+    "name": "07_mdp_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 MDPs (notes)"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/08-model-free-notes.pdf",
+    "name": "08_model_free_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Model-free policy evaluation and control (notes)"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/09-pg-notes.pdf",
+    "name": "09_pg_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 Policy gradients (notes)"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/10-deep-rl.pdf",
+    "name": "10_deep_rl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 Deep RL (slides)"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/11-trpo-notes.pdf",
+    "name": "11_trpo_notes_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 TRPO (notes)"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/12-imitation-learning.pdf",
+    "name": "12_imitation_learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Imitation Learning"
+   },
+   {
+    "url": "https://saurabhg.web.illinois.edu/teaching/ece598sg1/sp2025/slides/13-irl.pdf",
+    "name": "13_irl_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Inverse RL"
+   }
+  ],
+  "expected_items": 12,
+  "completeness_note": "官方日程前半学期 12 次教师讲课均发布 PDF 材料（10 次为幻灯片，2 次仅讲稿 notes；共 14 个 PDF），全部下载；后半学期为论文研讨/辩论/项目展示（Diffusion Policy、UMI、RDT-1B、VLM 与机器人等），无讲义；同讲 PPTX/Keynote 原件未重复收录",
+  "prereq": "官方页面：机器学习/深度学习基础，熟悉 Python；面向研究生",
+  "coverage": "机器人所需视觉（几何、识别、生成模型）、运动学与规划控制、MDP 与无模型 RL、策略梯度与深度 RL、TRPO、模仿学习、逆强化学习",
+  "stage": "进阶研究",
+  "reason": "具身智能：UIUC 机器人学习研究生课，讲义打通视觉-生成模型-RL-模仿学习，研讨部分覆盖扩散策略与机器人基础模型",
+  "priority": "中"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "08"
+  ],
+  "sid": "13-B18",
+  "university": "Cornell University (Cornell Tech)",
+  "course_code": "CS 5788",
+  "course_title": "Introduction to Generative Models",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Andrew Owens"
+  ],
+  "official_url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/",
+  "schedule_url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/",
+  "verification_basis": "课程主页 https://www.cs.cornell.edu/courses/cs5788/2026sp/ 标题 CS 5788: Introduction to Generative Models，Spring 2026，Cornell Tech，教师 Andrew Owens；日程 Jan 20–Apr 28",
+  "dir_name": "Cornell_CS5788_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec1-intro.pdf",
+    "name": "lec01_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 intro"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec2-mle.pdf",
+    "name": "lec02_mle_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 mle"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec3-gmm.pdf",
+    "name": "lec03_gmm_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 gmm"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec4-nn.pdf",
+    "name": "lec04_nn_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 nn"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec5-vae.pdf",
+    "name": "lec05_vae_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 vae"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec6-normalizing.pdf",
+    "name": "lec06_normalizing_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 normalizing"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec7-gans.pdf",
+    "name": "lec07_gans_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 gans"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec8-gan-imsynth.pdf",
+    "name": "lec08_gan_imsynth_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 gan-imsynth"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec9-ebms.pdf",
+    "name": "lec09_ebms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 ebms"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec10-diffusion.pdf",
+    "name": "lec10_diffusion_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 diffusion"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec11-vondrick-generative-models-for-vision.pdf",
+    "name": "lec11_vondrick_generative_models_for_vision_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 vondrick-generative-models-for-vision"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec12-kuleshov-autoregressive.pdf",
+    "name": "lec12_kuleshov_autoregressive_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 kuleshov-autoregressive"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec13-kuleshov-discrete-diffusion.pdf",
+    "name": "lec13_kuleshov_discrete_diffusion_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 kuleshov-discrete-diffusion"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec14-gao-llms.pdf",
+    "name": "lec14_gao_llms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 gao-llms"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec15-more-diffusion.pdf",
+    "name": "lec15_more_diffusion_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 more-diffusion"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec16-flowmatching.pdf",
+    "name": "lec16_flowmatching_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 flowmatching"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec17-adapting.pdf",
+    "name": "lec17_adapting_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 adapting"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec18-diffusion-for-images.pdf",
+    "name": "lec18_diffusion_for_images_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 diffusion-for-images"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec19-post-training.pdf",
+    "name": "lec19_post_training_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 post-training"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec20-midterm-review.pdf",
+    "name": "lec20_midterm_review_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 20 midterm-review"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec21-post-training-part-2.pdf",
+    "name": "lec21_post_training_part_2_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 21 post-training-part-2"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec22-scaling.pdf",
+    "name": "lec22_scaling_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 22 scaling"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec23-provenance.pdf",
+    "name": "lec23_provenance_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 23 provenance"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec24-audio.pdf",
+    "name": "lec24_audio_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 24 audio"
+   },
+   {
+    "url": "https://www.cs.cornell.edu/courses/cs5788/2026sp/slides/lec25-evaluation.pdf",
+    "name": "lec25_evaluation_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 25 evaluation"
+   }
+  ],
+  "expected_items": 25,
+  "completeness_note": "官方日程 25 讲（含 Vondrick、Kuleshov、Gao 嘉宾讲座）均有幻灯片，全部下载；第 26–27 次为期末项目展示无讲义",
+  "prereq": "官方页面：机器学习与深度学习基础、概率与线性代数、Python",
+  "coverage": "极大似然与 GMM、VAE、归一化流、GAN 与图像合成、能量模型、扩散与流匹配、自回归与离散扩散、LLM、模型适配、图像扩散、后训练、扩展律、来源追溯、音频生成、评估",
+  "stage": "初学/进阶研究",
+  "reason": "Andrew Owens（视听多模态研究者）的生成模型课，兼顾图像/音频生成与后训练、来源追溯，2026 年最新完整讲义",
+  "priority": "中"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "10"
+  ],
+  "sid": "13-B19",
+  "university": "University of Pennsylvania",
+  "course_code": "ESE 6510",
+  "course_title": "Physical Intelligence",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Antonio Loquercio"
+  ],
+  "official_url": "https://antonilo.github.io/physical_intelligence_fl25/",
+  "schedule_url": "https://antonilo.github.io/physical_intelligence_fl25/",
+  "verification_basis": "课程主页 https://antonilo.github.io/physical_intelligence_fl25/ 标题 ESE 6510 Physical Intelligence，Fall 2025，教师 Antonio Loquercio，上课地点 Fagin Hall（宾大），先修 ESE 650/CIS 5190/MEAM-520",
+  "dir_name": "UPenn_ESE6510_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/ESE6510_Fall25_Intro.pdf",
+    "name": "01_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Intro"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/ESE6510_Fall25_Robot.pdf",
+    "name": "02_robot_en.pdf",
+    "kind": "pdf",
+    "label": "What is a Robot? Actuation"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/ESE6510_Fall25_Robot_Sensing.pdf",
+    "name": "03_robot_sensing_en.pdf",
+    "kind": "pdf",
+    "label": "What is a Robot? Perception"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/ESE6510_Fall25_Intro_RL.pdf",
+    "name": "04_intro_rl_en.pdf",
+    "kind": "pdf",
+    "label": "Intro to Reinforcement Learning"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/tutorial_rl_slides.pdf",
+    "name": "05_tutorial_rl_slides_en.pdf",
+    "kind": "pdf",
+    "label": "Tutorial on RL"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/ESE6510_Fall25_Beyond_Policy_Gradients.pdf",
+    "name": "06_beyond_policy_gradients_en.pdf",
+    "kind": "pdf",
+    "label": "Policy Gradients and World Models"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/ESE6510_Fall25_Building_Sim.pdf",
+    "name": "07_building_sim_en.pdf",
+    "kind": "pdf",
+    "label": "Building a Simulator"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/ESE6510_Fall25_Intro_sim2real.pdf",
+    "name": "08_intro_sim2real_en.pdf",
+    "kind": "pdf",
+    "label": "Sim2Real: Intro, Basics, Tips & Tricks"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/GenAI_tutorial.pdf",
+    "name": "09_genai_tutorial_en.pdf",
+    "kind": "pdf",
+    "label": "Imitation Learning as Generative Modeling: Flow-matching, Diffusion"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/ESE6510_Fall25_Intro_BC.pdf",
+    "name": "10_intro_bc_en.pdf",
+    "kind": "pdf",
+    "label": "Introduction to Behavioral Cloning"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/ESE6510_Fall25_BC_algorithms.pdf",
+    "name": "11_bc_algorithms_en.pdf",
+    "kind": "pdf",
+    "label": "Behavioral Cloning Algorithms"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/ESE6510_Fall25_Foundation_Models_BC.pdf",
+    "name": "12_foundation_models_bc_en.pdf",
+    "kind": "pdf",
+    "label": "Behavioral Cloning and Foundation Models"
+   },
+   {
+    "url": "https://antonilo.github.io/physical_intelligence_fl25/assets/pdfs/simulator_tutorial.pdf",
+    "name": "tutorial_simulator_en.pdf",
+    "kind": "pdf",
+    "label": "Simulator tutorial",
+    "aux": true
+   }
+  ],
+  "expected_items": 12,
+  "completeness_note": "官方日程约 20 次教师讲课中 12 个讲题发布了幻灯片（部分讲题跨两次课共用），全部下载；概率、策略梯度、TRPO/PPO、值函数等 5 次课仅列阅读材料未发布幻灯片，4 次嘉宾讲座未发布，“Challenges Ahead” 一讲链接为空；另附仿真教程（aux）",
+  "prereq": "官方页面：研究生水平，需深度学习与机器人基础（ESE 650、CIS 5190 或 MEAM-520）",
+  "coverage": "机器人执行与感知、强化学习与世界模型、仿真构建与 Sim2Real、以扩散/流匹配做模仿学习、行为克隆与机器人基础模型",
+  "stage": "进阶研究",
+  "reason": "具身智能：以“物理智能”为主线，覆盖 Sim2Real、扩散/流匹配策略与机器人基础模型（VLA）的最新研究生课；讲义并非每讲齐全，按官方实际发布收录",
+  "priority": "低"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "06"
+  ],
+  "sid": "13-B20",
+  "university": "Columbia University",
+  "course_code": "COMS 6706",
+  "course_title": "Advanced Spoken Language Processing",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Julia Hirschberg"
+  ],
+  "official_url": "https://www.cs.columbia.edu/~julia/courses/CS6706-26/syllabus26.html",
+  "schedule_url": "https://www.cs.columbia.edu/~julia/courses/CS6706-26/syllabus26.html",
+  "verification_basis": "官方大纲页 https://www.cs.columbia.edu/~julia/courses/CS6706-26/syllabus26.html 标题 COMS 6706: Advanced Spoken Language Processing，Spring 2026，教师 Julia Hirschberg；日程 1/20–4/28",
+  "dir_name": "Columbia_COMS6706_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week1-intro.pptx",
+    "name": "w01_01_introduction_to_speech_processing_en.pptx",
+    "kind": "zip",
+    "label": "Week 1 Introduction to Speech Processing"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week2-speechProduction.pptx",
+    "name": "w02_02_from_sounds_to_language_en.pptx",
+    "kind": "zip",
+    "label": "Week 2 From Sounds to Language"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week3-acoustics.pptx",
+    "name": "w03_03_acoustics_of_speech_en.pptx",
+    "kind": "zip",
+    "label": "Week 3 Acoustics of Speech"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week4-speech_analysis_tools-newest.pptx",
+    "name": "w04_04_tools_for_speech_analysis_en.pptx",
+    "kind": "zip",
+    "label": "Week 4 Tools for Speech Analysis"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week5-speechProsody.pptx",
+    "name": "w05_05_analyzing_speech_prosody_en.pptx",
+    "kind": "zip",
+    "label": "Week 5 Analyzing Speech Prosody"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6998-24/Slides/SpeechSynthesisforCS-Fall2024.pptx",
+    "name": "w06_06_text_to_speech_synthesis_en.pptx",
+    "kind": "zip",
+    "label": "Week 6 Text-to-Speech Synthesis (Andrew Rosenberg)"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6998-24/Slides/week7-MultilingualRepresentations24.pdf",
+    "name": "w07_07_speech_recognition_multilingual_representations_en.pdf",
+    "kind": "pdf",
+    "label": "Week 7 Speech Recognition / Multilingual Representations (Bhuvana Ramabhadran)"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/DiscreteRepresentationsMar2026.pdf",
+    "name": "w07_08_discrete_representations_en.pdf",
+    "kind": "pdf",
+    "label": "Week 7 Discrete Representations"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week8-yuwen26_dialogue_healthcare.pptx",
+    "name": "w08_09_dialogue_systems_for_healthcare_en.pptx",
+    "kind": "zip",
+    "label": "Week 8 Dialogue Systems for Healthcare (Yu-Wen Chen)"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week8-AudioLanguageModelOverview.pptx",
+    "name": "w08_10_audio_language_models_en.pptx",
+    "kind": "zip",
+    "label": "Week 8 Audio Language Models (William Ho)"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week13-humor.pptx",
+    "name": "w09_11_sarcasm_and_humor_en.pptx",
+    "kind": "zip",
+    "label": "Week 9 Sarcasm and Humor"
+   },
+   {
+    "url": "https://www.cs.columbia.edu/~julia/courses/CS6706-25/Slides/week9-emotion_sentiment_Fall2025_final.pptx",
+    "name": "w09_12_emotion_and_sentiment_detection_en.pptx",
+    "kind": "zip",
+    "label": "Week 9 Emotion and Sentiment Detection (Zixiaofan Yang)"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week10-DialogueSystemsTalk.pdf",
+    "name": "w10_13_empathetic_dialogues_en.pdf",
+    "kind": "pdf",
+    "label": "Week 10 Empathetic Dialogues (Siyan Li)"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week10-Empathy.pptx",
+    "name": "w10_14_empathetic_speech_en.pptx",
+    "kind": "zip",
+    "label": "Week 10 Empathetic Speech"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week11-emotion.pdf",
+    "name": "w11_15_emotion_and_mental_health_en.pdf",
+    "kind": "pdf",
+    "label": "Week 11 Emotion and Mental Health (Sara Gong)"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week11-mentalstate.pptx",
+    "name": "w11_16_mental_state_en.pptx",
+    "kind": "zip",
+    "label": "Week 11 Mental State"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week12-CSW26.pdf",
+    "name": "w12_17_code_switching_en.pdf",
+    "kind": "pdf",
+    "label": "Week 12 Code-Switching (Debasmita Bhattacharya)"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week12-adv_slp.pdf",
+    "name": "w12_18_information_disorder_en.pdf",
+    "kind": "pdf",
+    "label": "Week 12 Information Disorder (Lin Ai)"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week13-charisma.pptx",
+    "name": "w13_19_charismatic_speech_en.pptx",
+    "kind": "zip",
+    "label": "Week 13 Charismatic Speech"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706/Slides/week13-Entrainment.pdf",
+    "name": "w13_20_entrainment_en.pdf",
+    "kind": "pdf",
+    "label": "Week 13 Entrainment (Rivka Levitan)"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week14-personality.pdf",
+    "name": "w14_21_personality_en.pdf",
+    "kind": "pdf",
+    "label": "Week 14 Personality (Michelle Levine)"
+   },
+   {
+    "url": "http://www.cs.columbia.edu/~julia/courses/CS6706-26/Slides/week14-deceptionNtrust.pdf",
+    "name": "w14_22_deception_and_trust_en.pdf",
+    "kind": "pdf",
+    "label": "Week 14 Deception and Trust (Sarah Ita Levitan)"
+   }
+  ],
+  "expected_items": 22,
+  "completeness_note": "官方大纲 14 周（每周 1–2 个讲题，多为嘉宾讲者）共 22 份幻灯片（PDF/PPTX），全部下载；部分幻灯片由大纲直接链接到往年目录（CS6998-24、CS6706-25），按官方链接原样收录",
+  "prereq": "官方页面：COMS 4705 或其他语音/NLP 课程，以及机器学习经验",
+  "coverage": "语音产生与声学、语音分析工具与韵律、TTS、ASR 与离散语音表示、音频语言模型、对话系统、情感/讽刺/心理状态/人格/欺骗等副语言分析、语码转换",
+  "stage": "进阶研究",
+  "reason": "口语处理补充：哥大口语处理高级课，含离散语音表示与音频语言模型专讲，并覆盖情感与副语言等语音理解任务",
+  "priority": "低"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "08",
+   "10"
+  ],
+  "sid": "13-B21",
+  "university": "Stanford University",
+  "course_code": "CS348K",
+  "course_title": "Visual Computing Systems",
+  "term": "Spring 2026",
+  "term_year": 2026,
+  "instructors": [
+   "Kayvon Fatahalian"
+  ],
+  "official_url": "https://gfxcourses.stanford.edu/cs348k/spring26/",
+  "schedule_url": "https://gfxcourses.stanford.edu/cs348k/spring26/",
+  "verification_basis": "课程主页 https://gfxcourses.stanford.edu/cs348k/spring26/ 标题 CS348K: Visual Computing Systems，Spring 2026，教师 Kayvon Fatahalian；日程 Mar 31–Jun 02；各讲页面提供“Download slides as PDF”",
+  "dir_name": "Stanford_CS348K_2026Spring_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/intro/01_intro.pdf",
+    "name": "01_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Introduction: Goals and Constraints in System Design"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/camera1/02_camerapipeline.pdf",
+    "name": "02_camerapipeline_en.pdf",
+    "kind": "pdf",
+    "label": "Digital Camera Pipeline (Part I) - Algorithms"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/camera2/03_camera2.pdf",
+    "name": "03_camera2_en.pdf",
+    "kind": "pdf",
+    "label": "Digital Camera Pipeline (Part II) - Programming Abstractions"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/halide/04_imagescheduling_halide.pdf",
+    "name": "04_imagescheduling_halide_en.pdf",
+    "kind": "pdf",
+    "label": "Scheduling Image Processing Algorithms in Halide"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/kernels/05_kernels.pdf",
+    "name": "05_kernels_en.pdf",
+    "kind": "pdf",
+    "label": "Generating ML Kernels using LLMs + DSLs for Tensor Cores"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/diffapplications/07_descent_genai.pdf",
+    "name": "07_descent_genai_en.pdf",
+    "kind": "pdf",
+    "label": "Designing 2D/3D Procedural Models for AutoDiff"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/controlgenai/08_controlgenai.pdf",
+    "name": "08_controlgenai_en.pdf",
+    "kind": "pdf",
+    "label": "Making Useful Controls for Visual Generative AI"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/genaicontrol2/09_controlgenai2.pdf",
+    "name": "09_controlgenai2_en.pdf",
+    "kind": "pdf",
+    "label": "Controlling Generative AI (Part II)"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/scenegen/11_3dscenegen.pdf",
+    "name": "11_3dscenegen_en.pdf",
+    "kind": "pdf",
+    "label": "Generating 3D Objects and 3D Scenes"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/worldmodels/12_worldmodel_intro.pdf",
+    "name": "12_worldmodel_intro_en.pdf",
+    "kind": "pdf",
+    "label": "Introduction to World Models"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/simeval/14_gameeval.pdf",
+    "name": "14_gameeval_en.pdf",
+    "kind": "pdf",
+    "label": "Automating Design Feedback Using Agents"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/batchsim/17_fastsim.pdf",
+    "name": "17_fastsim_en.pdf",
+    "kind": "pdf",
+    "label": "High-Performance Simulators for Training AI Agents"
+   },
+   {
+    "url": "https://gfxcourses.stanford.edu/cs348k/spring26content/media/fastvideomodel/18_videomodelperf.pdf",
+    "name": "18_videomodelperf_en.pdf",
+    "kind": "pdf",
+    "label": "Performance Optimizations for Autoregressive Video Models"
+   }
+  ],
+  "expected_items": 13,
+  "completeness_note": "官方日程 18 讲中 13 讲（教师讲授）发布了 PDF 幻灯片，全部下载；5 次嘉宾讲座（Slang 自动微分、神经后处理、动作条件视频模型 II、WorldLabs 3D 世界生成、Roblox 交互世界）无幻灯片页面",
+  "prereq": "官方页面：CS149 并行计算或同等系统基础，计算机图形/视觉基础",
+  "coverage": "相机成像管线与 Halide、LLM 生成 ML kernel、可微程序化建模、视觉生成 AI 的可控性、3D 物体与场景生成、世界模型导论、智能体自动评估、训练智能体的高性能模拟器、自回归视频模型性能优化",
+  "stage": "进阶研究",
+  "reason": "世界模型/视频生成补充：2026 版以视觉生成 AI、世界模型、自回归视频模型与智能体模拟器为主线，是少有的系统讲授世界模型与视频模型工程的大学课程",
+  "priority": "低"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "07",
+   "10"
+  ],
+  "sid": "13-B22",
+  "university": "Georgia Institute of Technology",
+  "course_code": "CS 8803-VLM",
+  "course_title": "Vision-Language Foundation Models",
+  "term": "Fall 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Zsolt Kira"
+  ],
+  "official_url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/index.html",
+  "schedule_url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/index.html",
+  "verification_basis": "教师教学页 https://faculty.cc.gatech.edu/~zk15/teaching/ 列 Fall 2025 CS 8803-VLM — Vision Language Foundation Models；课程页列教师 Zsolt Kira（TA Xijia Zhang），日程 2025-09 至 2025-11",
+  "dir_name": "GaTech_CS8803VLM_2025Fall_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L1_IntroAndLogistics.pdf",
+    "name": "L01_introandlogistics_en.pdf",
+    "kind": "pdf",
+    "label": "L1 IntroAndLogistics (instructor lecture)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L2_Transformers.pdf",
+    "name": "L02_transformers_en.pdf",
+    "kind": "pdf",
+    "label": "L2 Transformers (instructor lecture)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L3_VisionTransformers_VLMs.pdf",
+    "name": "L03_visiontransformers_vlms_en.pdf",
+    "kind": "pdf",
+    "label": "L3 VisionTransformers_VLMs (instructor lecture)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L4_EarlyVLMs.pdf",
+    "name": "L04_earlyvlms_en.pdf",
+    "kind": "pdf",
+    "label": "L4 EarlyVLMs (instructor lecture)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L5_OpenVocabulary.pdf",
+    "name": "L05_openvocabulary_en.pdf",
+    "kind": "pdf",
+    "label": "L5 OpenVocabulary (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L6_ViLT.pdf",
+    "name": "L06_vilt_en.pdf",
+    "kind": "pdf",
+    "label": "L6 ViLT (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L7_FLAVA.pdf",
+    "name": "L07_flava_en.pdf",
+    "kind": "pdf",
+    "label": "L7 FLAVA (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L8_LLaVA.pdf",
+    "name": "L08_llava_en.pdf",
+    "kind": "pdf",
+    "label": "L8 LLaVA (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L9_InternVL.pdf",
+    "name": "L09_internvl_en.pdf",
+    "kind": "pdf",
+    "label": "L9 InternVL (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L10_Qwen.pdf",
+    "name": "L10_qwen_en.pdf",
+    "kind": "pdf",
+    "label": "L10 Qwen (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L11_KosmosUnifiedIO.pdf",
+    "name": "L11_kosmosunifiedio_en.pdf",
+    "kind": "pdf",
+    "label": "L11 KosmosUnifiedIO (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L12_Chameleon_Janus.pdf",
+    "name": "L12_chameleon_janus_en.pdf",
+    "kind": "pdf",
+    "label": "L12 Chameleon_Janus (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L13_GLIGEN_ControlNet.pdf",
+    "name": "L13_gligen_controlnet_en.pdf",
+    "kind": "pdf",
+    "label": "L13 GLIGEN_ControlNet (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L14_Yan.pdf",
+    "name": "L14_yan_en.pdf",
+    "kind": "pdf",
+    "label": "L14 Yan (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L15_Molmo_Pixmo.pdf",
+    "name": "L15_molmo_pixmo_en.pdf",
+    "kind": "pdf",
+    "label": "L15 Molmo_Pixmo (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L16_Hallucinations.pdf",
+    "name": "L16_hallucinations_en.pdf",
+    "kind": "pdf",
+    "label": "L16 Hallucinations (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L17_Multimodal_Reasoning.pdf",
+    "name": "L17_multimodal_reasoning_en.pdf",
+    "kind": "pdf",
+    "label": "L17 Multimodal_Reasoning (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L18_ViperGPT_HuggingGPT.pdf",
+    "name": "L18_vipergpt_hugginggpt_en.pdf",
+    "kind": "pdf",
+    "label": "L18 ViperGPT_HuggingGPT (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L19_VITA.pdf",
+    "name": "L19_vita_en.pdf",
+    "kind": "pdf",
+    "label": "L19 VITA (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L20_EMMA.pdf",
+    "name": "L20_emma_en.pdf",
+    "kind": "pdf",
+    "label": "L20 EMMA (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L21_RT_PALME.pdf",
+    "name": "L21_rt_palme_en.pdf",
+    "kind": "pdf",
+    "label": "L21 RT_PALME (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L22_GR00t_HumanoidVLA.pdf",
+    "name": "L22_gr00t_humanoidvla_en.pdf",
+    "kind": "pdf",
+    "label": "L22 GR00t_HumanoidVLA (student paper presentation)"
+   },
+   {
+    "url": "https://faculty.cc.gatech.edu/~zk15/teaching/AY2025_cs8803vlm_fall/L23_MolmoAct.pdf",
+    "name": "L23_molmoact_en.pdf",
+    "kind": "pdf",
+    "label": "L23 MolmoAct (student paper presentation)"
+   }
+  ],
+  "expected_items": 23,
+  "completeness_note": "官方日程 25 次课中 23 次有幻灯片，全部下载（2 次项目展示无讲义）；注意：L1–L4 为教师讲授，L5–L23 为课程页正式发布的学生论文报告幻灯片（研讨课形式）",
+  "prereq": "官方页面：建议具备机器学习、深度学习与 Transformer 基础",
+  "coverage": "Transformer 与 ViT、早期 VLM（Frozen/BLIP-2/Flamingo）、开放词汇识别、ViLT/FLAVA、LLaVA/InternVL/Qwen-VL/Molmo、统一多模态（Kosmos/Unified-IO/Chameleon/Janus）、可控生成、幻觉、多模态推理与工具使用、VITA/EMMA、RT-2/PaLM-E/GR00T/MolmoAct 等 VLA",
+  "stage": "进阶研究",
+  "reason": "视觉-语言基础模型专题课，按论文脉络覆盖从 CLIP 系到 LLaVA/Qwen-VL/InternVL 再到 VLA 的完整谱系；研讨课形式，讲义多为学生报告，作为 VLM 方向的补充",
+  "priority": "低",
+  "exclude": true,
+  "exclude_reason": "2026-10-29 主会话复核：25 讲中仅 L1–L4 为教师讲授，L5–L23 为学生论文报告幻灯片，属研讨课性质，不符合“系统讲授的官方讲义包”口径（与已放弃的 CS391R、11-877 处理一致）；文件移至 /root/.cache/lmm_lit/excluded/，不计数。"
+ },
+ {
+  "kind": "course",
+  "language": "en",
+  "old_reason": "",
+  "cross": [
+   "07",
+   "10"
+  ],
+  "sid": "13-B23",
+  "university": "University of Oxford",
+  "course_code": "Computer Vision (CS Schedule C1)",
+  "course_title": "Computer Vision",
+  "term": "Hilary Term 2025",
+  "term_year": 2025,
+  "instructors": [
+   "Christian Rupprecht"
+  ],
+  "official_url": "https://www.cs.ox.ac.uk/teaching/courses/2024-2025/vision/",
+  "schedule_url": "https://chrirupp.github.io/teaching",
+  "verification_basis": "牛津计算机系官方课程页 https://www.cs.ox.ac.uk/teaching/courses/2024-2025/vision/ 标明 Computer Vision 2024-2025，Hilary Term 2025，讲师 Christian Rupprecht，20 讲，并链接到讲师教学页上的课程材料",
+  "dir_name": "Oxford_ComputerVision_2025HT_LectureMaterials_en",
+  "files": [
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/01-Introduction.pdf",
+    "name": "lecture01_introduction_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 1 Introduction"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/02-Filtering.pdf",
+    "name": "lecture02_filtering_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 2 Filtering"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/03-FourierTransforms.pdf",
+    "name": "lecture03_fourier_transforms_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 3 FourierTransforms"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/04-Restoration.pdf",
+    "name": "lecture04_restoration_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 4 Restoration"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/05-MatchingIndexingSearch.pdf",
+    "name": "lecture05_matching_indexing_search_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 5 MatchingIndexingSearch"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/06-Classification.pdf",
+    "name": "lecture06_classification_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 6 Classification"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/07-CNNs.pdf",
+    "name": "lecture07_c_n_ns_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 7 CNNs"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/08-Transformers.pdf",
+    "name": "lecture08_transformers_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 8 Transformers"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/09-VisualizationUnderstanding.pdf",
+    "name": "lecture09_visualization_understanding_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 9 VisualizationUnderstanding"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/10-ObjectDetection.pdf",
+    "name": "lecture10_object_detection_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 10 ObjectDetection"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/11-Segmentation.pdf",
+    "name": "lecture11_segmentation_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 11 Segmentation"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/12-Videos.pdf",
+    "name": "lecture12_videos_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 12 Videos"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/13-Tracking.pdf",
+    "name": "lecture13_tracking_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 13 Tracking"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/14-CameraModels.pdf",
+    "name": "lecture14_camera_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 14 CameraModels"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/15-MVG.pdf",
+    "name": "lecture15_m_v_g_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 15 MVG"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/16-GenerativeModels.pdf",
+    "name": "lecture16_generative_models_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 16 GenerativeModels"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/17-RepresentationLearning.pdf",
+    "name": "lecture17_representation_learning_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 17 RepresentationLearning"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/18-Unsupervised.pdf",
+    "name": "lecture18_unsupervised_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 18 Unsupervised"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/19-VisionLanguage.pdf",
+    "name": "lecture19_vision_language_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 19 VisionLanguage"
+   },
+   {
+    "url": "https://chrirupp.github.io/teaching/2025/20-EthicsPrivacy.pdf",
+    "name": "lecture20_ethics_privacy_en.pdf",
+    "kind": "pdf",
+    "label": "Lecture 20 EthicsPrivacy"
+   }
+  ],
+  "expected_items": 20,
+  "completeness_note": "官方课程页列 20 讲，讲师教学页 20 讲幻灯片全部下载",
+  "prereq": "官方页面：本科需修过 Machine Learning 课程，线性代数、连续数学、多元微积分与 Python 编程",
+  "coverage": "滤波与傅里叶、图像复原、匹配检索、分类、CNN、Transformer、可视化与理解、检测、分割、视频、跟踪、相机模型与多视几何、生成模型、表示学习、无监督学习、视觉-语言、伦理与隐私",
+  "stage": "初学",
+  "reason": "必要基础课（第 3 门，视觉方向）：现代计算机视觉课程，含视频、跟踪、生成模型、表示学习与视觉-语言专讲，为视频理解等方向提供 CS231n 之外的欧洲高校视角（本方向未找到讲义完整公开的视频理解专门课程）",
+  "priority": "低",
+  "cross_before_fix": [
+   "05"
+  ]
+ }
+]

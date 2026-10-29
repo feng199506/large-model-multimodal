@@ -164,6 +164,14 @@ def verify_mirror(spec, outdir):
         t = p.read_text("utf-8", "replace")
         host = urllib.parse.urlparse(spec["start"][0]).netloc
         remote_refs += len(re.findall(rf'(?:src)="https?://{re.escape(host)}', t))
+    if spec.get("check_index"):
+        # every chapter linked from the book's own table of contents must exist locally
+        idx = outdir / spec["check_index"]
+        links = sorted(set(re.findall(r'href="(?:\./)?([A-Za-z0-9_\-]+\.html)', idx.read_text("utf-8", "replace")))) if idx.exists() else []
+        absent = [l for l in links if not (idx.parent / l).exists()]
+        missing += [f"toc link missing locally: {l}" for l in absent]
+        if not links:
+            missing.append("no chapter links found in index")
     return {"html_pages": len(pages), "missing": missing, "remote_src_refs_same_host": remote_refs,
             "ok": len(pages) >= spec.get("min_pages", 1) and not missing}
 
@@ -218,7 +226,7 @@ def cmd_fetch(args):
                 continue
             chk = check_file(dest, f.get("kind", "pdf"))
             entry = {"path": name, "url": f["url"], "final_url": final, "http_status": st, "content_type": ctype,
-                     "bytes": nbytes, "label": f.get("label", ""), "check": chk, "ok": chk["ok"],
+                     "bytes": nbytes, "label": f.get("label", ""), "check": chk, "ok": chk["ok"], "aux": bool(f.get("aux")),
                      "sha256": C.sha256_file(dest)}
             rec["files"].append(entry)
             if not chk["ok"]:
@@ -227,7 +235,14 @@ def cmd_fetch(args):
             print(f"[{sid}] {'ok ' if chk['ok'] else 'BAD'} {name} {chk}")
         if s.get("mirror"):
             mdir = stage / s["mirror"]["name"]
-            rc = run_mirror(s["mirror"], mdir)
+            pre = s["mirror"].get("prefetched_dir")
+            if pre and Path(pre).is_dir():
+                # offline copy produced earlier by the same wget command (see seed note); reuse it
+                shutil.copytree(pre, mdir)
+                rc = "prefetched"
+                rec["notes_info"] = f"mirror copied from prefetched wget output {pre}"
+            else:
+                rc = run_mirror(s["mirror"], mdir)
             mv = verify_mirror(s["mirror"], mdir)
             rec["mirror"] = {"wget_rc": rc, **mv}
             if not mv["ok"]:
@@ -252,7 +267,7 @@ def cmd_fetch(args):
                     tm = 1.0 if compact(s["title"]) in compact(front) else 0.0
                 else:
                     tm = C.title_in_text(s["title"], front[:20000])
-                has_toc = bool(re.search(r"\b(Contents|CONTENTS|Table of Contents)\b|目\s*录", front))
+                has_toc = bool(re.search(r"(?i)table\s*of\s*contents|\bcontents\b|目\s*录", front))
                 au = s.get("authors", [""])[0]
                 au_ok = (not au) or C.fold(C.surname(au)).lower() in C.fold(front).lower() or au in front
                 rec["book_check"] = {"pages": chk.get("pages"), "title_match": round(tm, 2), "toc_found": has_toc,

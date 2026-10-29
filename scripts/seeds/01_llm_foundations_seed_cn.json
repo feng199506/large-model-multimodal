@@ -57,7 +57,8 @@
   "cross": [
    "11"
   ],
-  "cross_reason": "模型中使用 MoE 层，涉及高效部署与显存占用。"
+  "cross_reason": "模型中使用 MoE 层，涉及高效部署与显存占用。",
+  "reserve": true
  },
  {
   "sid": "01-007",
@@ -106,8 +107,7 @@
   "cross": [
    "11"
   ],
-  "cross_reason": "主分类由 11 类（高效训练与部署，11-049）认领；本文的可训练稀疏注意力设计属于 01 注意力子方向，故在此作交叉标签。",
-  "cross_only": true
+  "cross_reason": "核心贡献之一是面向 GPU 的高效稀疏注意力内核，11 类（11-049）已将其作为交叉标签并约定主分类归 01。"
  },
  {
   "sid": "01-012",
@@ -125,7 +125,8 @@
   "subtopic": "注意力",
   "type": "原始研究",
   "priority": "中",
-  "reason": "把遗忘门引入 softmax 注意力，连接循环模型的门控思想与标准注意力。"
+  "reason": "把遗忘门引入 softmax 注意力，连接循环模型的门控思想与标准注意力。",
+  "reserve": true
  },
  {
   "sid": "01-014",
@@ -143,7 +144,8 @@
   "subtopic": "注意力",
   "type": "原始研究",
   "priority": "中",
-  "reason": "以关联召回任务诊断门控卷积等高效架构与注意力的质量差距来源。"
+  "reason": "以关联召回任务诊断门控卷积等高效架构与注意力的质量差距来源。",
+  "reserve": true
  },
  {
   "sid": "01-016",
@@ -201,7 +203,8 @@
   "subtopic": "位置编码",
   "type": "原始研究",
   "priority": "中",
-  "reason": "研究无显式位置编码（NoPE）Transformer 的长度泛化及其失效原因。"
+  "reason": "研究无显式位置编码（NoPE）Transformer 的长度泛化及其失效原因。",
+  "reserve": true
  },
  {
   "sid": "01-022",
@@ -267,15 +270,6 @@
   "reason": "提出 H-Net，以可学习的动态分块在端到端层次模型中取代分词器。"
  },
  {
-  "sid": "01-029",
-  "arxiv": "2405.05417",
-  "title": "Fishing for Magikarp: Automatically Detecting Under-trained Tokens in Large Language Models",
-  "subtopic": "分词",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "系统检测大模型词表中训练不足的“故障词元”，揭示分词器与模型训练数据不匹配问题。"
- },
- {
   "sid": "01-030",
   "arxiv": "2404.19737",
   "title": "Better & Faster Large Language Models via Multi-token Prediction",
@@ -331,7 +325,8 @@
   "subtopic": "训练目标",
   "type": "原始研究",
   "priority": "中",
-  "reason": "在句子级嵌入空间而非 token 空间做自回归预测，代表超越 next-token 的建模单位探索。"
+  "reason": "在句子级嵌入空间而非 token 空间做自回归预测，代表超越 next-token 的建模单位探索。",
+  "reserve": true
  },
  {
   "sid": "01-036",
@@ -380,7 +375,8 @@
   "subtopic": "规模规律",
   "type": "原始研究",
   "priority": "中",
-  "reason": "分析 Kaplan 与 Chinchilla 计算最优结论差异的来源（最后一层计算、预热、超参数）。"
+  "reason": "分析 Kaplan 与 Chinchilla 计算最优结论差异的来源（最后一层计算、预热、超参数）。",
+  "reserve": true
  },
  {
   "sid": "01-041",
@@ -411,7 +407,8 @@
   "subtopic": "规模规律",
   "type": "原始研究",
   "priority": "中",
-  "reason": "以合成数据受控实验测量语言模型每参数可存储的知识比特数。"
+  "reason": "以合成数据受控实验测量语言模型每参数可存储的知识比特数。",
+  "reserve": true
  },
  {
   "sid": "01-044",
@@ -442,7 +439,8 @@
   "subtopic": "注意力",
   "type": "原始研究",
   "priority": "中",
-  "reason": "把点积注意力推广为三线性的 2-单纯形注意力，并研究其对 token 效率与规模指数的影响。"
+  "reason": "把点积注意力推广为三线性的 2-单纯形注意力，并研究其对 token 效率与规模指数的影响。",
+  "reserve": true
  },
  {
   "sid": "01-047",
@@ -464,7 +462,8 @@
   "cross": [
    "11"
   ],
-  "cross_reason": "关注推理速度与压缩。"
+  "cross_reason": "关注推理速度与压缩。",
+  "reserve": true
  },
  {
   "sid": "01-049",
@@ -528,7 +527,8 @@
   "subtopic": "模型设计与技术报告",
   "type": "技术报告",
   "priority": "中",
-  "reason": "提出用于小模型的“模型风洞”实验与 WSD 学习率调度，代表小模型设计方法。"
+  "reason": "提出用于小模型的“模型风洞”实验与 WSD 学习率调度，代表小模型设计方法。",
+  "reserve": true
  },
  {
   "sid": "01-055",
@@ -603,106 +603,6 @@
   "reserve": true
  },
  {
-  "sid": "01-062",
-  "arxiv": "2407.04620",
-  "title": "Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
-  "subtopic": "架构",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "把隐藏状态本身设为一个在测试时以自监督更新的模型（TTT 层），代表表达性更强的循环层设计。",
-  "reserve": true
- },
- {
-  "sid": "01-063",
-  "arxiv": "2410.01131",
-  "title": "nGPT: Normalized Transformer with Representation Learning on the Hypersphere",
-  "subtopic": "架构",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "将所有表示归一化到超球面上的 Transformer 变体，代表归一化与参数化层面的架构改造。",
-  "reserve": true
- },
- {
-  "sid": "01-064",
-  "arxiv": "2406.07887",
-  "title": "An Empirical Study of Mamba-based Language Models",
-  "subtopic": "架构",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "在相同数据与规模下系统比较 Mamba、Mamba-2、混合模型与 Transformer，是架构对比的受控实验。",
-  "reserve": true
- },
- {
-  "sid": "01-065",
-  "arxiv": "2402.01032",
-  "title": "Repeat After Me: Transformers are Better than State Space Models at Copying",
-  "subtopic": "注意力",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "从理论与实验比较 Transformer 与状态空间模型的复制能力，揭示固定大小状态的局限。",
-  "reserve": true
- },
- {
-  "sid": "01-066",
-  "arxiv": "2504.00927",
-  "title": "Multi-Token Attention",
-  "subtopic": "注意力",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "让注意力权重同时依赖多个查询/键向量（卷积式），突破单 token 相似度的注意力限制。",
-  "reserve": true
- },
- {
-  "sid": "01-067",
-  "arxiv": "2501.18795",
-  "title": "Rope to Nope and Back Again: A New Hybrid Attention Strategy",
-  "subtopic": "位置编码",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "分析 RoPE 与 NoPE 注意力的长上下文特性并提出混合层设计。",
-  "reserve": true
- },
- {
-  "sid": "01-068",
-  "arxiv": "2403.15796",
-  "title": "Understanding Emergent Abilities of Language Models from the Loss Perspective",
-  "subtopic": "规模规律",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "从预训练损失而非参数量角度解释涌现能力。",
-  "reserve": true
- },
- {
-  "sid": "01-069",
-  "arxiv": "2410.11840",
-  "title": "A Hitchhiker's Guide to Scaling Law Estimation",
-  "subtopic": "规模规律",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "基于大量公开训练曲线给出规模规律拟合与外推的实践建议。",
-  "reserve": true
- },
- {
-  "sid": "01-070",
-  "arxiv": "2409.19606",
-  "title": "Hyper-Connections",
-  "subtopic": "架构",
-  "type": "原始研究",
-  "priority": "中",
-  "reason": "以可学习的多路超连接替代残差连接，研究残差结构对深层模型训练的影响。",
-  "reserve": true
- },
- {
-  "sid": "01-071",
-  "arxiv": "2404.14408",
-  "title": "SpaceByte: Towards Deleting Tokenization from Large Language Modeling",
-  "subtopic": "分词",
-  "type": "原始研究",
-  "priority": "低",
-  "reason": "以空格等边界动态插入大块的字节级模型，代表另一种无分词器方案。",
-  "reserve": true
- },
- {
   "sid": "01-072",
   "arxiv": "2410.17891",
   "title": "Scaling Diffusion Language Models via Adaptation from Autoregressive Models",
@@ -723,14 +623,71 @@
   "reserve": true
  },
  {
-  "sid": "01-074",
-  "arxiv": "2408.00118",
-  "title": "Gemma 2: Improving Open Language Models at a Practical Size",
-  "subtopic": "模型设计与技术报告",
-  "type": "技术报告",
+  "sid": "01-075",
+  "arxiv": "2603.03583",
+  "title": "ByteFlow: Language Modeling through Adaptive Byte Compression without a Tokenizer",
+  "subtopic": "分词",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以自适应字节压缩学习分段的分层字节级模型，代表 2026 年无分词器语言建模进展。"
+ },
+ {
+  "sid": "01-076",
+  "arxiv": "2610.17590",
+  "title": "Revisiting the 16x Pretraining Compute Gap between Diffusion and Autoregressive Language Models",
+  "subtopic": "训练目标",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "重新审视扩散语言模型与自回归模型之间的预训练计算效率差距，属于文本扩散 LM 的规模比较研究。"
+ },
+ {
+  "sid": "01-077",
+  "arxiv": "2601.22156",
+  "title": "Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts",
+  "subtopic": "注意力",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "研究混合线性注意力架构的设计与构建方式，面向超长上下文。"
+ },
+ {
+  "sid": "01-078",
+  "arxiv": "2603.15953",
+  "title": "A Family of LLMs Liberated from Static Vocabularies",
+  "subtopic": "分词",
+  "type": "原始研究",
   "priority": "低",
-  "reason": "记录局部-全局注意力交替、logit 软上限与知识蒸馏预训练等设计。",
-  "team": "Gemma Team",
+  "reason": "以分层自回归 Transformer 替换预训练模型的静态词表，研究已训练模型去分词器化。",
   "reserve": true
+ },
+ {
+  "sid": "01-079",
+  "arxiv": "2610.10114",
+  "title": "Mechanics of Long-Context Hybrid Models Part 1.1: From Hybrid Attention to Hybrid Position",
+  "subtopic": "位置编码",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分析混合注意力长上下文模型中位置编码的作用机制，连接混合架构与位置编码设计。"
+ },
+ {
+  "sid": "01-080",
+  "arxiv": "2609.34556",
+  "title": "RoPE is Dead, Long Live RoPE: Towards Scalable Data-aware Positional Encodings",
+  "subtopic": "位置编码",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "探讨依赖数据内容的可扩展位置编码作为 RoPE 的替代或推广。"
+ },
+ {
+  "sid": "01-081",
+  "arxiv": "2608.28444",
+  "title": "Sliding-window beats linear attention",
+  "subtopic": "注意力",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "在受控条件下比较滑动窗口注意力与线性注意力作为高效注意力组件的表现。",
+  "cross": [
+   "11"
+  ],
+  "cross_reason": "与 KV 缓存驱逐/线性化改造（高效部署）直接相关。"
  }
 ]

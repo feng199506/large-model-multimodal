@@ -508,7 +508,8 @@
   "subtopic": "推理强化学习",
   "type": "原始研究",
   "priority": "中",
-  "reason": "分析验证、回溯等认知行为对 RL 自我改进的作用。"
+  "reason": "分析验证、回溯等认知行为对 RL 自我改进的作用。",
+  "reserve": true
  },
  {
   "sid": "04-055",
@@ -517,7 +518,8 @@
   "subtopic": "推理强化学习",
   "type": "原始研究",
   "priority": "中",
-  "reason": "系统研究长思维链在 SFT 与 RL 中的产生条件与奖励设计。"
+  "reason": "系统研究长思维链在 SFT 与 RL 中的产生条件与奖励设计。",
+  "reserve": true
  },
  {
   "sid": "04-056",
@@ -526,7 +528,8 @@
   "subtopic": "推理强化学习",
   "type": "原始研究",
   "priority": "中",
-  "reason": "多轮在线 RL 训练模型内在自我纠错（SCoRe）。"
+  "reason": "多轮在线 RL 训练模型内在自我纠错（SCoRe）。",
+  "reserve": true
  },
  {
   "sid": "04-057",
@@ -535,7 +538,8 @@
   "subtopic": "推理强化学习",
   "type": "综述",
   "priority": "中",
-  "reason": "大推理模型的综述：数据构造、RL 与测试时扩展。"
+  "reason": "大推理模型的综述：数据构造、RL 与测试时扩展。",
+  "reserve": true
  },
  {
   "sid": "04-058",
@@ -786,5 +790,97 @@
   "priority": "低",
   "reason": "用模型选择最一致答案扩展自一致性到自由文本。",
   "reserve": true
+ },
+ {
+  "sid": "04-083",
+  "arxiv": "2510.13786",
+  "title": "The Art of Scaling Reinforcement Learning Compute for LLMs",
+  "subtopic": "推理强化学习",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "系统研究推理 RL 计算规模扩展规律与可预测的训练配方。"
+ },
+ {
+  "sid": "04-084",
+  "arxiv": "2511.22570",
+  "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning",
+  "subtopic": "验证器",
+  "type": "原始研究",
+  "priority": "高",
+  "reason": "训练证明验证器并以其奖励生成器，实现可自我验证的定理证明式数学推理。"
+ },
+ {
+  "sid": "04-085",
+  "arxiv": "2508.15260",
+  "title": "Deep Think with Confidence",
+  "subtopic": "测试时计算分配",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "利用模型内部置信度过滤低质量推理路径以提高并行推理效率。"
+ },
+ {
+  "sid": "04-086",
+  "arxiv": "2510.04871",
+  "title": "Less is More: Recursive Reasoning with Tiny Networks",
+  "subtopic": "逻辑推理",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以极小网络递归迭代改进答案，在数独、迷宫与 ARC 上研究推理。"
+ },
+ {
+  "sid": "04-087",
+  "arxiv": "2506.14245",
+  "title": "Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs",
+  "subtopic": "推理强化学习",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以 CoT-pass@k 重新检验 RLVR 是否提升推理正确性，与“RL 不扩展边界”观点对照。"
+ },
+ {
+  "sid": "04-088",
+  "arxiv": "2601.17223",
+  "title": "Beyond Outcome Verification: Verifiable Process Reward Models for Structured Reasoning",
+  "subtopic": "过程监督",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "以规则验证器检查中间步骤的可验证过程奖励（2026）。"
+ },
+ {
+  "sid": "04-089",
+  "arxiv": "2509.04475",
+  "title": "ParaThinker: Native Parallel Thinking as a New Paradigm to Scale LLM Test-time Compute",
+  "subtopic": "测试时计算分配",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "原生并行多路思考以扩展测试时计算。",
+  "reserve": true
+ },
+ {
+  "sid": "04-090",
+  "arxiv": "2509.06870",
+  "title": "The Majority is not always right: RL training for solution aggregation",
+  "subtopic": "验证器",
+  "type": "原始研究",
+  "priority": "低",
+  "reason": "用 RL 训练模型聚合多个候选解而非多数投票。",
+  "reserve": true
+ },
+ {
+  "sid": "04-091",
+  "arxiv": "2603.22117",
+  "title": "On the Direction of RLVR Updates for LLM Reasoning: Identification and Exploitation",
+  "subtopic": "推理强化学习",
+  "type": "原始研究",
+  "priority": "中",
+  "reason": "分析 RLVR 参数更新方向的特性并加以利用（2026 新工作）。"
+ },
+ {
+  "sid": "04-092",
+  "arxiv": "2605.13301",
+  "title": "Achieving Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling",
+  "subtopic": "数学推理",
+  "type": "技术报告",
+  "priority": "中",
+  "reason": "以简单统一的扩展方案达到奥赛金牌级推理（2026 新工作）。"
  }
 ]

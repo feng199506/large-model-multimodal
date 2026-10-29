@@ -413,6 +413,16 @@ def file_name(m, s):
     return f"{year}_{sur}_{C.safe_name(st)}_en.pdf"
 
 
+def save_one(code, sid, rec, results):
+    """Merge one record into the results file under the per-category lock (never clobbers
+    records written meanwhile by `manual` or another process)."""
+    with C.locked(f"results_{code}"):
+        cur = C.load_json(results_path(code), {})
+        cur[sid] = rec
+        C.save_json(results_path(code), cur)
+    results[sid] = rec
+
+
 def cmd_download(args):
     code = args.code
     seeds = load_seeds(code)
@@ -439,13 +449,14 @@ def cmd_download(args):
             continue
         if s.get("exclude") or s.get("cross_only"):
             continue
+        if args.all and s.get("reserve"):
+            continue  # --all means the whole main list; reserves only fill a shortfall below --target
         if not args.all and n_verified() >= args.target:
             break
         m = seed_meta(s, meta)
         if not m:
-            results[sid] = {"status": "failed", "stage": "metadata", "key": paper_key(s),
-                            "notes": ["metadata not resolved (run resolve) or no pdf_url"], "time": time.strftime("%F %T")}
-            C.save_json(rpath, results)
+            save_one(code, sid, {"status": "failed", "stage": "metadata", "key": paper_key(s),
+                            "notes": ["metadata not resolved (run resolve) or no pdf_url"], "time": time.strftime("%F %T")}, results)
             print(f"[{sid}] no metadata")
             continue
         key = paper_key(s)
@@ -453,10 +464,9 @@ def cmd_download(args):
             claims = C.load_json(CLAIMS_PATH, {})
             cl = claims.get(key)
             if cl and (cl["cat"], cl["sid"]) != (code, sid):
-                results[sid] = {"status": "duplicate_elsewhere", "key": key, "claimed_by": cl,
+                save_one(code, sid, {"status": "duplicate_elsewhere", "key": key, "claimed_by": cl,
                                 "notes": [f"already primary in category {cl['cat']} ({cl['sid']}); add as cross tag there"],
-                                "time": time.strftime("%F %T")}
-                C.save_json(rpath, results)
+                                "time": time.strftime("%F %T")}, results)
                 print(f"[{sid}] duplicate of {cl}")
                 continue
             claims[key] = {"cat": code, "sid": sid, "state": "downloading"}
@@ -479,8 +489,7 @@ def cmd_download(args):
                             "content_type": ctype, "bytes": nbytes})
         except C.HttpError as e:
             rec.update({"status": "failed", "stage": "download", "notes": [str(e)]})
-            results[sid] = rec
-            C.save_json(rpath, results)
+            save_one(code, sid, rec, results)
             with C.locked("claims"):
                 claims = C.load_json(CLAIMS_PATH, {})
                 if claims.get(key, {}).get("sid") == sid:
@@ -502,8 +511,7 @@ def cmd_download(args):
             if not dest.exists():
                 shutil.move(str(tmp), dest)
             rec["local_path"] = str(dest.relative_to(C.ROOT))
-        results[sid] = rec
-        C.save_json(rpath, results)
+        save_one(code, sid, rec, results)
         with C.locked("claims"):
             claims = C.load_json(CLAIMS_PATH, {})
             if rec["status"] in ("verified", "pending"):
